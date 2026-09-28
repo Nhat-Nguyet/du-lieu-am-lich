@@ -1,0 +1,109 @@
+{
+  "slug": "22-an-chinh-tarot",
+  "ten": "22 lá Ẩn Chính Tarot",
+  "ten_en": "The 22 Major Arcana of the Tarot",
+  "ten_zh": "塔罗大阿尔克那 22 张",
+  "mo_ta": "Bộ Major Arcana kèm tên Việt và Anh, từ khoá, nghĩa xuôi và nghĩa ngược.",
+  "mo_ta_en": "The Major Arcana with Vietnamese and English names, keywords, and upright and reversed meanings.",
+  "mo_ta_zh": "大阿尔克那全套，附越南语与英语牌名、关键词、正位与逆位含义。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 22,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "so",
+      "kieu": "int",
+      "moTa": "Số thứ tự của lá, từ 0 tới 21",
+      "moTaEn": "Card index, from 0 to 21",
+      "moTaZh": "牌序号，从0到21"
+    },
+    {
+      "ten": "ten_vi",
+      "kieu": "string",
+      "moTa": "Tên tiếng Việt",
+      "moTaEn": "Vietnamese name",
+      "moTaZh": "越南语名称"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên tiếng Anh",
+      "moTaEn": "English name",
+      "moTaZh": "英语名称"
+    },
+    {
+      "ten": "tu_khoa_vi",
+      "kieu": "string",
+      "moTa": "Từ khoá tiếng Việt, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Vietnamese keywords, separated by semicolons",
+      "moTaZh": "越南语关键词，以分号分隔"
+    },
+    {
+      "ten": "tu_khoa_en",
+      "kieu": "string",
+      "moTa": "Từ khoá tiếng Anh, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "English keywords, separated by semicolons",
+      "moTaZh": "英语关键词，以分号分隔"
+    },
+    {
+      "ten": "nghia_xuoi",
+      "kieu": "string",
+      "moTa": "Nghĩa khi lá ngửa xuôi",
+      "moTaEn": "Upright meaning",
+      "moTaZh": "正位含义"
+    },
+    {
+      "ten": "nghia_nguoc",
+      "kieu": "string",
+      "moTa": "Nghĩa khi lá ngược",
+      "moTaEn": "Reversed meaning",
+      "moTaZh": "逆位含义"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Rider-Waite-Smith"
+  ],
+  "ghi_chu_chung": "Nghĩa lá theo hệ Rider-Waite-Smith, hệ phổ biến nhất ở Việt Nam. Các bộ bài khác (Thoth, Marseille) đánh số và diễn giải một số lá khác đi, rõ nhất là Sức Mạnh và Công Lý đổi chỗ cho nhau giữa Rider-Waite và Marseille.",
+  "ghi_chu_chung_en": "Card meanings follow the Rider-Waite-Smith system, the most widespread in Vietnam. Other decks such as Thoth and Marseille number and read some cards differently; most visibly, Strength and Justice swap places between Rider-Waite and Marseille.",
+  "ghi_chu_chung_zh": "牌义依据韦特体系，这是越南最通行的体系。其他牌组（托特、马赛）对部分牌的编号与解读并不相同，最明显的是力量与正义两张在韦特与马赛之间互换位置。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/22-an-chinh-tarot",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 22 lá Ẩn Chính Tarot. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/22-an-chinh-tarot.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The 22 Major Arcana of the Tarot. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/22-an-chinh-tarot.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "tarot-thu-tu-rider-waite-smith"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "lich-am-duong-1900-2100",
+  "ten": "Lịch âm dương 1900 tới 2100",
+  "ten_en": "Vietnamese lunisolar calendar, 1900 to 2100",
+  "ten_zh": "越南阴阳历 1900 至 2100",
+  "mo_ta": "Mỗi ngày dương lịch từ 1900 tới 2100 kèm ngày âm lịch, tháng nhuận, can chi ngày và năm, tiết khí đang trong và trực của ngày.",
+  "mo_ta_en": "Every solar day from 1900 to 2100 with its lunar date, leap month flag, day and year stem-branch, the solar term in force and the day officer.",
+  "mo_ta_zh": "1900 至 2100 年每一个公历日，附农历日期、闰月标记、日干支与年干支、当时所处节气，以及当日建除十二值。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.1.0",
+  "cap_nhat": "2026-09-28",
+  "so_dong": 73414,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "ngay_duong",
+      "kieu": "string",
+      "moTa": "Ngày dương lịch, dạng YYYY-MM-DD",
+      "moTaEn": "Solar date in YYYY-MM-DD format",
+      "moTaZh": "公历日期，格式为 YYYY-MM-DD"
+    },
+    {
+      "ten": "ngay_am",
+      "kieu": "int",
+      "moTa": "Ngày trong tháng âm lịch",
+      "moTaEn": "Day in the lunar month",
+      "moTaZh": "农历月中的日"
+    },
+    {
+      "ten": "thang_am",
+      "kieu": "int",
+      "moTa": "Tháng âm lịch",
+      "moTaEn": "Lunar month",
+      "moTaZh": "农历月"
+    },
+    {
+      "ten": "nam_am",
+      "kieu": "int",
+      "moTa": "Năm âm lịch",
+      "moTaEn": "Lunar year",
+      "moTaZh": "农历年"
+    },
+    {
+      "ten": "thang_nhuan",
+      "kieu": "string",
+      "moTa": "co khi tháng âm này là tháng nhuận, khong khi không",
+      "moTaEn": "co when this lunar month is a leap month, khong when not",
+      "moTaZh": "co 表示此农历月为闰月，khong 表示不是"
+    },
+    {
+      "ten": "can_chi_ngay",
+      "kieu": "string",
+      "moTa": "Can chi của ngày",
+      "moTaEn": "Sexagenary cycle of the day",
+      "moTaZh": "日的干支"
+    },
+    {
+      "ten": "can_chi_nam",
+      "kieu": "string",
+      "moTa": "Can chi của năm âm lịch",
+      "moTaEn": "Sexagenary cycle of the lunar year",
+      "moTaZh": "农历年的干支"
+    },
+    {
+      "ten": "tiet_khi",
+      "kieu": "string",
+      "moTa": "Tiết khí đang có hiệu lực lúc 12 giờ trưa ngày đó, giờ Việt Nam (không phải lúc 0 giờ): ngày giao tiết sau 12 giờ trưa vẫn ghi tiết cũ; xem tiet_khi_giao_trong_ngay",
+      "moTaEn": "Solar term in effect at 12:00 noon on that day, Vietnam time (not at 00:00): a day whose term begins after noon still shows the previous term; see tiet_khi_giao_trong_ngay",
+      "moTaZh": "当日越南时间正午12时所处的节气（并非0时）：正午之后才交节的那一天仍记前一节气；见 tiet_khi_giao_trong_ngay"
+    },
+    {
+      "ten": "truc",
+      "kieu": "string",
+      "moTa": "Trực của ngày trong vòng thập nhị trực",
+      "moTaEn": "Day officer within the twelve day officers cycle",
+      "moTaZh": "日建于十二建除中的值日"
+    },
+    {
+      "ten": "ngay_hoang_dao",
+      "kieu": "string",
+      "moTa": "co khi vị thần trực nhật thuộc sáu vị hoàng đạo",
+      "moTaEn": "co when the day deity belongs to the six hoang dao deities, khong otherwise",
+      "moTaZh": "co 表示值日神属于六位黄道神，khong 表示不属于"
+    },
+    {
+      "ten": "nhi_thap_bat_tu",
+      "kieu": "string",
+      "moTa": "Sao trong vòng hai mươi tám sao của ngày",
+      "moTaEn": "Star within the twenty eight mansions for the day",
+      "moTaZh": "当日二十八宿中的星宿"
+    },
+    {
+      "ten": "tiet_khi_giao_trong_ngay",
+      "kieu": "string",
+      "moTa": "Tên tiết khí bắt đầu trong ngày ấy, từ 0 giờ tới trước 24 giờ giờ Việt Nam; rỗng nếu không có tiết nào bắt đầu",
+      "moTaEn": "Name of the solar term that begins on that day, from 00:00 up to 24:00 Vietnam time; empty when no term begins",
+      "moTaZh": "当日（越南时间0时至24时前）开始的节气名称；当日无交节则留空"
+    },
+    {
+      "ten": "gio_giao_tiet",
+      "kieu": "string",
+      "moTa": "Giờ tiết khí ấy bắt đầu, dạng HH:MM giờ Việt Nam; rỗng nếu không có tiết nào bắt đầu. Sai số tới 14 phút, xem bộ moc-tiet-khi-1900-2100",
+      "moTaEn": "Time that term begins, HH:MM Vietnam time; empty when no term begins. Error up to 14 minutes, see the moc-tiet-khi-1900-2100 dataset",
+      "moTaZh": "该节气开始的时刻，格式 HH:MM，越南时间；当日无交节则留空。误差最多 14 分钟，见 moc-tiet-khi-1900-2100 数据集"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Toàn bộ bảng là giá trị lõi tính sinh ra, không chép từ cuốn lịch nào. Âm lịch tính theo múi giờ UTC+7, tức quy ước lịch Việt Nam; cùng một ngày dương có thể rơi vào ngày âm khác nếu tính theo UTC+8 của lịch Trung Quốc, và chênh lệch ấy có thật ở những ngày sát điểm sóc. Can chi ngày đếm liên tục theo số ngày Julius nên không phụ thuộc múi giờ. Tiết khí tính theo kinh độ mặt trời, lấy tiết đang có hiệu lực lúc 12 giờ trưa ngày đó, giờ Việt Nam: ngày giao tiết mà giờ giao sau 12 giờ trưa thì cột tiet_khi của chính ngày ấy vẫn là tiết cũ. Muốn biết ngày nào có tiết bắt đầu và bắt đầu lúc mấy giờ thì đọc hai cột tiet_khi_giao_trong_ngay và gio_giao_tiet, lấy từ cùng lõi tính với bộ moc-tiet-khi-1900-2100 (sai số tới 14 phút, xem bộ ấy). Cột nhị thập bát tú dùng mốc 21/09/2026 là sao Tâm, tra từ lịch vạn niên. Mốc ấy tự kiểm được: vòng hai mươi tám sao khoá cứng với tuần bảy ngày vì 28 chia hết cho 7, mỗi sao ứng một diệu và diệu ấy ứng một thứ cố định, nên sai mốc một ngày là lệch luôn cả bảng thất diệu. Đã kiểm suốt mười một năm không lệch dòng nào. Cố ý KHÔNG khai tốt xấu và con vật của từng sao: các nguồn bất đồng nhiều ở hai mục ấy, và một bảng tốt xấu chép nhầm thì người đọc đem đi chọn ngày cưới.",
+  "ghi_chu_chung_en": "The whole table is generated by the engine, not copied from any almanac. The lunar date follows UTC+7, the Vietnamese convention; the same solar day can fall on a different lunar day under the UTC+8 Chinese convention, and that difference is real around new moon. The day stem-branch counts continuously from the Julian day number, so it does not depend on the time zone. The solar term is the one in force at 12:00 noon Vietnam time on that day: on a day whose term begins after noon, that day's tiet_khi column still shows the previous term. To see which days a term begins on and at what time, read the tiet_khi_giao_trong_ngay and gio_giao_tiet columns, taken from the same engine as the moc-tiet-khi-1900-2100 dataset (error up to 14 minutes, see that dataset). The lunar mansion column uses the anchor of 21 September 2026 being the mansion Tam, taken from an almanac. That anchor checks itself: the twenty-eight mansion cycle is locked to the seven-day week because 28 divides by 7, each mansion belongs to one of the seven luminaries and each luminary to a fixed weekday, so an anchor off by one day shifts the whole luminary table. Verified across eleven years with no drift. The auspicious or inauspicious rating and the animal of each mansion are deliberately NOT included: sources disagree widely on both, and a mis-copied rating is something a reader takes away to choose a wedding date.",
+  "ghi_chu_chung_zh": "整张表由推算引擎生成，不抄自任何历书。农历按 UTC+7 计算，即越南的惯例；同一个公历日在中国 UTC+8 的算法下可能落在不同的农历日，朔日前后这种差异确实存在。日干支按儒略日连续计数，与时区无关。节气取该日越南时间正午12时所处的那一个：交节时刻在正午之后的那一天，其 tiet_khi 一列仍是前一节气。要知道哪一天交节、几点交节，请看 tiet_khi_giao_trong_ngay 与 gio_giao_tiet 两列，与 moc-tiet-khi-1900-2100 数据集同一推算引擎（误差最多 14 分钟，见该数据集）。二十八宿一列以 2026 年 9 月 21 日为心宿作为起算点，取自历书。这个起算点可以自我校验：二十八宿与七日周严格锁定，因为 28 能被 7 整除，每宿配一曜，每曜又配固定的星期，起算点错一天，整张七曜表就会错位。已连续核对十一年未见偏差。各宿的吉凶与配兽有意未收：各家来源在这两项上分歧很大，而一张抄错的吉凶表，读者是要拿去择婚期的。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/lich-am",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Lịch âm dương 1900 tới 2100. Phiên bản 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/lich-am-duong-1900-2100.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese lunisolar calendar, 1900 to 2100. Version 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/lich-am-duong-1900-2100.csv",
+  "co_parquet": true,
+  "nguon_goc_du_lieu": "tinh-toan",
+  "nguon_goc_du_lieu_mo_ta": "Giá trị do lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hoặc số học; không chép từ bảng in sẵn nào.",
+  "nguon_goc_du_lieu_mo_ta_en": "Values computed by the site's engine with astronomical, calendrical or arithmetic algorithms; not copied from any printed table.",
+  "nguon_goc_du_lieu_mo_ta_zh": "数值由本站推算引擎以天文、历法或算术算法算出，未抄自任何印刷表格。",
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "mo_hinh": [
+    "lich-am-ho-ngoc-duc-utc7-v1",
+    "tiet-khi-meeus-c25-bieu-kien-v2"
+  ],
+  "quy_uoc": [
+    "doi-nam",
+    "doi-thang",
+    "mui-gio",
+    "ranh-gioi-ngay",
+    "thang-nhuan",
+    "tiet-khi"
+  ]
+}

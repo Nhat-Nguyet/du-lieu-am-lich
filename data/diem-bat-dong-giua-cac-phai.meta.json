@@ -1,0 +1,119 @@
+{
+  "slug": "diem-bat-dong-giua-cac-phai",
+  "ten": "Điểm bất đồng giữa các trường phái",
+  "ten_en": "Where the schools disagree",
+  "ten_zh": "各流派分歧之处",
+  "mo_ta": "Từng chỗ mà các nguồn lịch pháp, phong thuỷ và bói toán Việt Nam không thống nhất, kèm cách bộ dữ liệu này chọn, cách khác đang lưu hành, và hệ quả khi đối chiếu hai nguồn. Mọi bảng tra đều phải chọn một cách ở những chỗ ấy; phần lớn chọn rồi im lặng.",
+  "mo_ta_en": "Each point where Vietnamese calendrical, feng shui and divination sources disagree, with the reading taken here, the competing reading still in circulation, and what changes when you compare two sources. Every reference table has to pick one; most pick and say nothing.",
+  "mo_ta_zh": "越南历法、风水与占卜各类来源意见不一致的每一处，附本数据集所采用的读法、仍在流通的另一种读法，以及比对两个来源时会出现的差异。每一份速查表都必须在这些地方做出选择，而大多数选了却不说。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.1.0",
+  "cap_nhat": "2026-09-28",
+  "so_dong": 20,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "bo",
+      "kieu": "string",
+      "moTa": "Slug của bộ dữ liệu có điểm bất đồng này",
+      "moTaEn": "Slug of the dataset this disagreement belongs to",
+      "moTaZh": "存在该分歧的数据集 slug"
+    },
+    {
+      "ten": "chu_de",
+      "kieu": "string",
+      "moTa": "Lĩnh vực của điểm bất đồng",
+      "moTaEn": "Field the disagreement belongs to",
+      "moTaZh": "该分歧所属的领域"
+    },
+    {
+      "ten": "muc_do",
+      "kieu": "string",
+      "moTa": "Loại bất đồng: tên gọi, quy ước, trường phái, múi giờ hoặc sai số",
+      "moTaEn": "Kind of disagreement: naming, convention, school, time zone or margin of error",
+      "moTaZh": "分歧类型：名称、约定、流派、时区或误差"
+    },
+    {
+      "ten": "diem",
+      "kieu": "string",
+      "moTa": "Chỗ các nguồn không thống nhất",
+      "moTaEn": "The point on which sources differ",
+      "moTaZh": "各来源不一致的具体之处"
+    },
+    {
+      "ten": "o_day",
+      "kieu": "string",
+      "moTa": "Cách bộ dữ liệu này chọn",
+      "moTaEn": "The reading taken in this dataset",
+      "moTaZh": "本数据集采用的读法"
+    },
+    {
+      "ten": "cach_khac",
+      "kieu": "string",
+      "moTa": "Cách khác đang lưu hành, rỗng khi không có cách nào cạnh tranh",
+      "moTaEn": "The competing reading still in circulation, empty when there is none",
+      "moTaZh": "仍在流通的另一种读法；没有则留空"
+    },
+    {
+      "ten": "pho_bien_o",
+      "kieu": "string",
+      "moTa": "Nơi cách kia đang được dùng. KHÔNG nói cách nào đúng hơn",
+      "moTaEn": "Where the other reading is used. It does not say which is more correct",
+      "moTaZh": "另一种读法的使用地区。不表示哪一种更正确"
+    },
+    {
+      "ten": "he_qua",
+      "kieu": "string",
+      "moTa": "Cái đổi khi đối chiếu hai nguồn khác cách",
+      "moTaEn": "What changes when two sources using different readings are compared",
+      "moTaZh": "比对采用不同读法的两个来源时会出现的差异"
+    },
+    {
+      "ten": "ma_quy_uoc",
+      "kieu": "string",
+      "moTa": "Mã ổn định của quy ước bộ dữ liệu chọn ở điểm này; cùng mã xuất hiện trong trường quy_uoc của meta mọi bộ phụ thuộc quy ước ấy, và mã lịch pháp trùng mã quy ước của API lịch (ví dụ mui-gio cho UTC+7)",
+      "moTaEn": "Stable code of the convention the dataset adopts at this point; the same code appears in the quy_uoc field of the meta of every dataset that depends on it, and calendrical codes match the calendar API's convention codes (e.g. mui-gio for UTC+7)",
+      "moTaZh": "本数据集在此处所采用约定的稳定代码；依赖该约定的每个数据集，其 meta 的 quy_uoc 字段都列出同一代码；历法类代码与历法 API 的约定代码一致（如 mui-gio 表示 UTC+7）"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Từng dòng rút từ trường ghi_chu_chung của chính bộ dữ liệu được nhắc ở cột bo, không diễn giải thêm. Bộ nào chưa khảo ra điểm bất đồng nào thì KHÔNG có dòng ở đây, chứ không dựng một dòng cho đủ: một điểm bất đồng bịa ra còn tệ hơn không có bộ này, vì nó mời người ta đi sửa một thứ vốn không sai. Cột pho_bien_o nói nơi cách kia đang được dùng, KHÔNG nói cách nào đúng hơn.",
+  "ghi_chu_chung_en": "Every row is taken from the ghi_chu_chung field of the dataset named in the bo column, with nothing added. A dataset with no surveyed disagreement has NO row here rather than a row for the sake of completeness: an invented disagreement is worse than not having this set at all, because it invites someone to go fix something that was never wrong. The pho_bien_o column says where the other reading is used; it does not say which reading is more correct.",
+  "ghi_chu_chung_zh": "每一行都取自 bo 列所指数据集的 ghi_chu_chung 字段，未作任何添加。尚未考察出分歧的数据集在此没有行，而不是为凑数而写一行：凭空捏造的分歧比没有这份数据集更糟，因为它会让人去修改本来没错的东西。pho_bien_o 列说明另一种读法在何处使用，并不说明哪一种更正确。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/du-lieu",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Điểm bất đồng giữa các trường phái. Phiên bản 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/diem-bat-dong-giua-cac-phai.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Where the schools disagree. Version 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/diem-bat-dong-giua-cac-phai.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "bien-tap",
+  "nguon_goc_du_lieu_mo_ta": "Nội dung do Nhật Nguyệt tuyển chọn và biên tập; nguồn của từng dòng ghi ở cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "Content selected and edited by Nhật Nguyệt; each row's source is in the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "内容由 Nhật Nguyệt 选编；各行来源见 nguon 列。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

@@ -1,0 +1,1442 @@
+[
+  {
+    "chi_1": "Tý",
+    "chi_2": "Tý",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "1-1",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Sửu",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "1-2",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Dần",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "1-3",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Mão",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "1-4",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Thìn",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "1-5",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "1-6",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "1-7",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Mùi",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "1-8",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Thân",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "1-9",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Dậu",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "1-10",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Tuất",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "1-11",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tý",
+    "chi_2": "Hợi",
+    "con_giap_1": "Chuột",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "1-12",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Tý",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "2-1",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Sửu",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "2-2",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Dần",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "2-3",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Mão",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "2-4",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Thìn",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "2-5",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "2-6",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "2-7",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Mùi",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "2-8",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Thân",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "2-9",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Dậu",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "2-10",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Tuất",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "2-11",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Sửu",
+    "chi_2": "Hợi",
+    "con_giap_1": "Trâu",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "2-12",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Tý",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "3-1",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Sửu",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "3-2",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Dần",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "3-3",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Mão",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "3-4",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Thìn",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "3-5",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "3-6",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "3-7",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Mùi",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "3-8",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Thân",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "3-9",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Dậu",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "3-10",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Tuất",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "3-11",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Dần",
+    "chi_2": "Hợi",
+    "con_giap_1": "Hổ",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "3-12",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Tý",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "4-1",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Sửu",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "4-2",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Dần",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "4-3",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Mão",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "4-4",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Thìn",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "4-5",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "4-6",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "4-7",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Mùi",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "4-8",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Thân",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "4-9",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Dậu",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "4-10",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Tuất",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "4-11",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mão",
+    "chi_2": "Hợi",
+    "con_giap_1": "Mèo",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "4-12",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Tý",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "5-1",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Sửu",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "5-2",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Dần",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "5-3",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Mão",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "5-4",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Thìn",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "5-5",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "5-6",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "5-7",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Mùi",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "5-8",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Thân",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "5-9",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Dậu",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "5-10",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Tuất",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "5-11",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Thìn",
+    "chi_2": "Hợi",
+    "con_giap_1": "Rồng",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "5-12",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Tý",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "6-1",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Sửu",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "6-2",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Dần",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "6-3",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Mão",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "6-4",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Thìn",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "6-5",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "6-6",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "6-7",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Mùi",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "6-8",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Thân",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "6-9",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Dậu",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "6-10",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Tuất",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "6-11",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tỵ",
+    "chi_2": "Hợi",
+    "con_giap_1": "Rắn",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "6-12",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Tý",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "7-1",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Sửu",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "7-2",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Dần",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "7-3",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Mão",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "7-4",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Thìn",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "7-5",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "7-6",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "7-7",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Mùi",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "7-8",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Thân",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "7-9",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Dậu",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "7-10",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Tuất",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "7-11",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Ngọ",
+    "chi_2": "Hợi",
+    "con_giap_1": "Ngựa",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "7-12",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Tý",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "8-1",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Sửu",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "8-2",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Dần",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "8-3",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Mão",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "8-4",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Thìn",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "8-5",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "8-6",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "8-7",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Mùi",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "8-8",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Thân",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "8-9",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Dậu",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "8-10",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Tuất",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "8-11",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Mùi",
+    "chi_2": "Hợi",
+    "con_giap_1": "Dê",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "8-12",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Tý",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "9-1",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Sửu",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "9-2",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Dần",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "9-3",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Mão",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "9-4",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Thìn",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "9-5",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "9-6",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "9-7",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Mùi",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "9-8",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Thân",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "9-9",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Dậu",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "9-10",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Tuất",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "9-11",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Thân",
+    "chi_2": "Hợi",
+    "con_giap_1": "Khỉ",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "9-12",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Tý",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "10-1",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Sửu",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "10-2",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Dần",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "10-3",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Mão",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "10-4",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Thìn",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "10-5",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "10-6",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "10-7",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Mùi",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "10-8",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Thân",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "10-9",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Dậu",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "10-10",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Tuất",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "10-11",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Dậu",
+    "chi_2": "Hợi",
+    "con_giap_1": "Gà",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "10-12",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Tý",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "11-1",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Sửu",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "11-2",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Dần",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "11-3",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Mão",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "11-4",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Thìn",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "11-5",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "11-6",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "11-7",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Mùi",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "11-8",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Thân",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "11-9",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Dậu",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "11-10",
+    "nguon": "tinh-toan",
+    "quan_he": "luc_hai"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Tuất",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "11-11",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  },
+  {
+    "chi_1": "Tuất",
+    "chi_2": "Hợi",
+    "con_giap_1": "Chó",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "11-12",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Tý",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Chuột",
+    "ghi_chu": "",
+    "id": "12-1",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Sửu",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Trâu",
+    "ghi_chu": "",
+    "id": "12-2",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Dần",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Hổ",
+    "ghi_chu": "",
+    "id": "12-3",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Mão",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Mèo",
+    "ghi_chu": "",
+    "id": "12-4",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Thìn",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Rồng",
+    "ghi_chu": "",
+    "id": "12-5",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Tỵ",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Rắn",
+    "ghi_chu": "",
+    "id": "12-6",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Ngọ",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Ngựa",
+    "ghi_chu": "",
+    "id": "12-7",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Mùi",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Dê",
+    "ghi_chu": "",
+    "id": "12-8",
+    "nguon": "tinh-toan",
+    "quan_he": "tam_hop"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Thân",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Khỉ",
+    "ghi_chu": "",
+    "id": "12-9",
+    "nguon": "tinh-toan",
+    "quan_he": "tu_hanh_xung"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Dậu",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Gà",
+    "ghi_chu": "",
+    "id": "12-10",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Tuất",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Chó",
+    "ghi_chu": "",
+    "id": "12-11",
+    "nguon": "tinh-toan",
+    "quan_he": "binh_thuong"
+  },
+  {
+    "chi_1": "Hợi",
+    "chi_2": "Hợi",
+    "con_giap_1": "Lợn",
+    "con_giap_2": "Lợn",
+    "ghi_chu": "",
+    "id": "12-12",
+    "nguon": "tinh-toan",
+    "quan_he": "cung_chi"
+  }
+]

@@ -1,0 +1,13 @@
+id,thu_tu,chi,con_giap,ngu_hanh,ngu_hanh_en,khung_gio,nguon,ghi_chu
+1,1,Tý,Chuột,Thủy,Water,23h-1h,tinh-toan,
+2,2,Sửu,Trâu,Thổ,Earth,1h-3h,tinh-toan,
+3,3,Dần,Hổ,Mộc,Wood,3h-5h,tinh-toan,
+4,4,Mão,Mèo,Mộc,Wood,5h-7h,tinh-toan,"Việt Nam dùng Mèo, Trung Quốc và phần lớn Đông Á dùng Thỏ cho chi này"
+5,5,Thìn,Rồng,Thổ,Earth,7h-9h,tinh-toan,
+6,6,Tỵ,Rắn,Hỏa,Fire,9h-11h,tinh-toan,
+7,7,Ngọ,Ngựa,Hỏa,Fire,11h-13h,tinh-toan,
+8,8,Mùi,Dê,Thổ,Earth,13h-15h,tinh-toan,
+9,9,Thân,Khỉ,Kim,Metal,15h-17h,tinh-toan,
+10,10,Dậu,Gà,Kim,Metal,17h-19h,tinh-toan,
+11,11,Tuất,Chó,Thổ,Earth,19h-21h,tinh-toan,
+12,12,Hợi,Lợn,Thủy,Water,21h-23h,tinh-toan,

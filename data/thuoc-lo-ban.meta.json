@@ -1,0 +1,145 @@
+{
+  "slug": "thuoc-lo-ban",
+  "ten": "Cung trên ba thước Lỗ Ban",
+  "ten_en": "Segments of the three Lo Ban rules",
+  "ten_zh": "鲁班尺",
+  "mo_ta": "Các cung tốt và xấu trên cả ba thước Lỗ Ban, kèm khoảng milimét của từng cung trong một chu kỳ.",
+  "mo_ta_en": "The favourable and unfavourable segments on all three Lo Ban rules, with the millimetre range each segment covers in one cycle.",
+  "mo_ta_zh": "三种鲁班尺的分宫与吉凶，附每一宫对应的毫米区间。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 26,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "loai_thuoc",
+      "kieu": "string",
+      "moTa": "Mã loại thước",
+      "moTaEn": "Ruler type code",
+      "moTaZh": "尺类型代码"
+    },
+    {
+      "ten": "ten_thuoc",
+      "kieu": "string",
+      "moTa": "Tên thước kèm chiều dài chu kỳ",
+      "moTaEn": "Ruler name with cycle length",
+      "moTaZh": "尺名及周期长度"
+    },
+    {
+      "ten": "chu_ky_mm",
+      "kieu": "float",
+      "moTa": "Chiều dài một chu kỳ của thước, milimét",
+      "moTaEn": "Length of one ruler cycle, in millimeters",
+      "moTaZh": "尺一个周期的长度，单位毫米"
+    },
+    {
+      "ten": "dung_de",
+      "kieu": "string",
+      "moTa": "Loại kích thước mà thước này dùng để đo",
+      "moTaEn": "Type of dimension this ruler is used to measure",
+      "moTaZh": "该尺用于测量的尺寸类型"
+    },
+    {
+      "ten": "thu_tu_cung",
+      "kieu": "int",
+      "moTa": "Vị trí cung trong chu kỳ, tính từ 1",
+      "moTaEn": "Position of the palace in the cycle, starting from 1",
+      "moTaZh": "宫在周期中的位置，从1开始"
+    },
+    {
+      "ten": "cung",
+      "kieu": "string",
+      "moTa": "Tên cung lớn",
+      "moTaEn": "Major palace name",
+      "moTaZh": "大宫名称"
+    },
+    {
+      "ten": "cung_han",
+      "kieu": "string",
+      "moTa": "Tên cung lớn bằng chữ Hán",
+      "moTaEn": "Major palace name in Han characters",
+      "moTaZh": "大宫的汉字名称"
+    },
+    {
+      "ten": "tot_xau",
+      "kieu": "string",
+      "moTa": "tot hoặc xau",
+      "moTaEn": "tot or xau",
+      "moTaZh": "tot 或 xau"
+    },
+    {
+      "ten": "tu_mm",
+      "kieu": "float",
+      "moTa": "Đầu khoảng của cung trong một chu kỳ, milimét",
+      "moTaEn": "Start of the palace interval within a cycle, in millimeters",
+      "moTaZh": "一个周期内该宫区间的起点，单位毫米"
+    },
+    {
+      "ten": "den_mm",
+      "kieu": "float",
+      "moTa": "Cuối khoảng của cung trong một chu kỳ, milimét",
+      "moTaEn": "End of the palace interval within a cycle, in millimeters",
+      "moTaZh": "一个周期内该宫区间的终点，单位毫米"
+    },
+    {
+      "ten": "y_nghia",
+      "kieu": "string",
+      "moTa": "Ý nghĩa dân gian gắn với cung",
+      "moTaEn": "Folk meaning associated with the palace",
+      "moTaZh": "与该宫相关的民间含义"
+    },
+    {
+      "ten": "cung_nho",
+      "kieu": "string",
+      "moTa": "Các cung nhỏ bên trong, ngăn bằng dấu chấm phẩy; rỗng khi nguồn chưa chốt",
+      "moTaEn": "Small palaces inside, separated by semicolons; empty when the source has not been finalized",
+      "moTaZh": "内部小宫，以分号分隔；来源未确定时为空"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Lỗ Ban Kinh"
+  ],
+  "ghi_chu_chung": "Ba thước dùng cho ba loại kích thước khác nhau và chia cung khác nhau, nên MỘT kích thước có thể rơi vào cung đẹp trên thước này mà cung xấu trên thước kia. Khoảng milimét tính bằng cách chia đều chu kỳ cho số cung, đúng cách các thước bán trên thị trường vạch; một số bản sách chia cung nhỏ không đều nhau, nên tên cung nhỏ chỉ để tham khảo.",
+  "ghi_chu_chung_en": "The three rules measure three different kinds of dimension and divide their cycles differently, so ONE size can fall on a favourable segment of one rule and an unfavourable segment of another. The millimetre ranges come from dividing the cycle evenly by the number of segments, which is how the rules sold in shops are marked; some printed sources divide the minor segments unevenly, so the minor-segment names are for reference only.",
+  "ghi_chu_chung_zh": "三种尺用于三类不同的尺寸，分宫方式也不同，因此同一个尺寸可能在这把尺上落入吉宫，在另一把尺上却落入凶宫。毫米区间按周期均分到各宫，与市面所售尺的刻法一致；有些书上小宫分得并不均匀，因此小宫名称仅供参考。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/thuoc-lo-ban",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Cung trên ba thước Lỗ Ban. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/thuoc-lo-ban.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Segments of the three Lo Ban rules. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/thuoc-lo-ban.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "lo-ban-ba-thuoc-ba-loai-kich-thuoc",
+    "lo-ban-chia-cung-deu"
+  ]
+}

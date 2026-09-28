@@ -1,0 +1,91 @@
+{
+  "slug": "9-sao-chieu-menh",
+  "ten": "9 sao chiếu mệnh (Cửu Diệu)",
+  "ten_en": "The nine presiding stars (Cuu Dieu)",
+  "ten_zh": "九曜值年星",
+  "mo_ta": "Chín sao kèm phân loại, diễn giải và các tuổi mụ tương ứng, tách riêng nam và nữ.",
+  "mo_ta_en": "The nine stars with their classification, reading, and the lunar ages they fall on, listed separately for men and women.",
+  "mo_ta_zh": "九颗星及其分类、解读，以及对应的虚岁，男女分列。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 9,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "ten_sao",
+      "kieu": "string",
+      "moTa": "Tên sao",
+      "moTaEn": "Star name",
+      "moTaZh": "星名"
+    },
+    {
+      "ten": "phan_loai",
+      "kieu": "string",
+      "moTa": "Phân loại sao theo mức tốt, xấu hay trung bình",
+      "moTaEn": "Star classification by auspicious, inauspicious or neutral level",
+      "moTaZh": "星曜按吉、凶或中的分类"
+    },
+    {
+      "ten": "dien_giai",
+      "kieu": "string",
+      "moTa": "Diễn giải ý nghĩa của sao",
+      "moTaEn": "Interpretation of the star's meaning",
+      "moTaZh": "星曜含义的解释"
+    },
+    {
+      "ten": "tuoi_mu_nam",
+      "kieu": "string",
+      "moTa": "Các tuổi mụ của nam gặp sao này, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Mụ ages of males encountering this star, separated by semicolons",
+      "moTaZh": "男性逢此星的虚岁，以分号分隔"
+    },
+    {
+      "ten": "tuoi_mu_nu",
+      "kieu": "string",
+      "moTa": "Các tuổi mụ của nữ gặp sao này, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Mụ ages of females encountering this star, separated by semicolons",
+      "moTaZh": "女性逢此星的虚岁，以分号分隔"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Nam và nữ dùng hai thứ tự sao khác nhau, nên cùng một tuổi mụ cho ra hai sao khác nhau; đó là lý do có hai cột tuổi riêng chứ không phải một. Tuổi ở đây là TUỔI MỤ (tuổi ta), không phải tuổi dương.",
+  "ghi_chu_chung_en": "Men and women run two different star orders, so the same lunar age yields a different star for each; that is why there are two age columns rather than one. The ages here are LUNAR ages, not solar ages.",
+  "ghi_chu_chung_zh": "男女采用两种不同的星序，因此同一个虚岁对男女给出不同的星；这正是设两列年龄而非一列的原因。此处年龄为虚岁，不是周岁。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/9-sao-chieu-menh",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 9 sao chiếu mệnh (Cửu Diệu). Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/9-sao-chieu-menh.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The nine presiding stars (Cuu Dieu). Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/9-sao-chieu-menh.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

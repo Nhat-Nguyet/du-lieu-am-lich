@@ -1,0 +1,299 @@
+[
+  {
+    "chaldean": "1",
+    "chu": "A",
+    "ghi_chu": "",
+    "id": "A",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "1"
+  },
+  {
+    "chaldean": "2",
+    "chu": "B",
+    "ghi_chu": "",
+    "id": "B",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "2"
+  },
+  {
+    "chaldean": "3",
+    "chu": "C",
+    "ghi_chu": "",
+    "id": "C",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "3"
+  },
+  {
+    "chaldean": "4",
+    "chu": "D",
+    "ghi_chu": "",
+    "id": "D",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "4"
+  },
+  {
+    "chaldean": "5",
+    "chu": "E",
+    "ghi_chu": "",
+    "id": "E",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "5"
+  },
+  {
+    "chaldean": "8",
+    "chu": "F",
+    "ghi_chu": "",
+    "id": "F",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "6"
+  },
+  {
+    "chaldean": "3",
+    "chu": "G",
+    "ghi_chu": "",
+    "id": "G",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "7"
+  },
+  {
+    "chaldean": "5",
+    "chu": "H",
+    "ghi_chu": "",
+    "id": "H",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "8"
+  },
+  {
+    "chaldean": "1",
+    "chu": "I",
+    "ghi_chu": "",
+    "id": "I",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "9"
+  },
+  {
+    "chaldean": "1",
+    "chu": "J",
+    "ghi_chu": "",
+    "id": "J",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "1"
+  },
+  {
+    "chaldean": "2",
+    "chu": "K",
+    "ghi_chu": "",
+    "id": "K",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "2"
+  },
+  {
+    "chaldean": "3",
+    "chu": "L",
+    "ghi_chu": "",
+    "id": "L",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "3"
+  },
+  {
+    "chaldean": "4",
+    "chu": "M",
+    "ghi_chu": "",
+    "id": "M",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "4"
+  },
+  {
+    "chaldean": "5",
+    "chu": "N",
+    "ghi_chu": "",
+    "id": "N",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "5"
+  },
+  {
+    "chaldean": "7",
+    "chu": "O",
+    "ghi_chu": "",
+    "id": "O",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "6"
+  },
+  {
+    "chaldean": "8",
+    "chu": "P",
+    "ghi_chu": "",
+    "id": "P",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "7"
+  },
+  {
+    "chaldean": "1",
+    "chu": "Q",
+    "ghi_chu": "",
+    "id": "Q",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "8"
+  },
+  {
+    "chaldean": "2",
+    "chu": "R",
+    "ghi_chu": "",
+    "id": "R",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "9"
+  },
+  {
+    "chaldean": "3",
+    "chu": "S",
+    "ghi_chu": "",
+    "id": "S",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "1"
+  },
+  {
+    "chaldean": "4",
+    "chu": "T",
+    "ghi_chu": "",
+    "id": "T",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "2"
+  },
+  {
+    "chaldean": "6",
+    "chu": "U",
+    "ghi_chu": "",
+    "id": "U",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "3"
+  },
+  {
+    "chaldean": "6",
+    "chu": "V",
+    "ghi_chu": "",
+    "id": "V",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "4"
+  },
+  {
+    "chaldean": "6",
+    "chu": "W",
+    "ghi_chu": "",
+    "id": "W",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "5"
+  },
+  {
+    "chaldean": "5",
+    "chu": "X",
+    "ghi_chu": "",
+    "id": "X",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "6"
+  },
+  {
+    "chaldean": "1",
+    "chu": "Y",
+    "ghi_chu": "Vài phái coi Y là nguyên âm khi nó đứng giữa hai phụ âm; bảng này xếp Y là phụ âm",
+    "id": "Y",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "7"
+  },
+  {
+    "chaldean": "7",
+    "chu": "Z",
+    "ghi_chu": "",
+    "id": "Z",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "8"
+  },
+  {
+    "chaldean": "4",
+    "chu": "Đ",
+    "ghi_chu": "Quy về D. Vài công cụ Việt quy Đ về DD và khi ấy con số lệch hẳn",
+    "id": "Đ",
+    "nguon": "tinh-toan",
+    "nguyen_am": "khong",
+    "pythagoras": "4"
+  },
+  {
+    "chaldean": "1",
+    "chu": "Ă",
+    "ghi_chu": "Quy về A, bỏ dấu",
+    "id": "Ă",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "1"
+  },
+  {
+    "chaldean": "1",
+    "chu": "Â",
+    "ghi_chu": "Quy về A, bỏ dấu",
+    "id": "Â",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "1"
+  },
+  {
+    "chaldean": "5",
+    "chu": "Ê",
+    "ghi_chu": "Quy về E, bỏ dấu",
+    "id": "Ê",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "5"
+  },
+  {
+    "chaldean": "7",
+    "chu": "Ô",
+    "ghi_chu": "Quy về O, bỏ dấu",
+    "id": "Ô",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "6"
+  },
+  {
+    "chaldean": "7",
+    "chu": "Ơ",
+    "ghi_chu": "Quy về O, bỏ dấu",
+    "id": "Ơ",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "6"
+  },
+  {
+    "chaldean": "6",
+    "chu": "Ư",
+    "ghi_chu": "Quy về U, bỏ dấu",
+    "id": "Ư",
+    "nguon": "tinh-toan",
+    "nguyen_am": "co",
+    "pythagoras": "3"
+  }
+]

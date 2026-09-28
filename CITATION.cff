@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "Dữ liệu lịch pháp và tra cứu văn hoá Việt Nam"
+message: "Nếu dùng lại bộ dữ liệu này, xin ghi nguồn theo thông tin dưới đây."
+type: dataset
+authors:
+  - name: "Nhật Nguyệt"
+    website: "https://nhatnguyet.org"
+license: CC-BY-4.0
+url: "https://nhatnguyet.org/du-lieu"
+repository-artifact: "https://huggingface.co/datasets/nhatnguyet"
+version: "1.0.0"
+date-released: "2026-09-16"
+keywords:
+  - Vietnamese lunar calendar
+  - can chi
+  - sexagenary cycle
+  - Vietnamese cultural heritage
+  - reference dataset

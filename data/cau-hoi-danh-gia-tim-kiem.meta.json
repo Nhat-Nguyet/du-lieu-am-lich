@@ -1,0 +1,98 @@
+{
+  "slug": "cau-hoi-danh-gia-tim-kiem",
+  "ten": "Bộ câu hỏi đánh giá ô tìm kiếm",
+  "ten_en": "Retrieval evaluation set for Vietnamese folk belief and calendar",
+  "ten_zh": "越南民间信仰与历法检索评测题集",
+  "mo_ta": "1.194 câu hỏi bằng tiếng Việt, tiếng Anh và tiếng Trung, kèm slug bài trả lời đúng khi có. Dùng để đo thứ hạng của ô tìm kiếm, không phải để đọc. Ba nhóm: câu hỏi rút từ khối hỏi đáp trong bài (có đáp án đúng), nhu cầu tìm kiếm thật thu từ internet (không có đáp án), và tên tiện ích.",
+  "mo_ta_en": "1,194 questions in Vietnamese, English and Chinese, each with the slug of the article that answers it where one exists. Built to measure search ranking, not to be read. Three groups: questions taken from in-article FAQ blocks (with a gold answer), real search demand collected from the web (no gold answer), and tool names.",
+  "mo_ta_zh": "1194 道越南语、英语和中文问题，凡有正确答案者均附上对应文章的 slug。用于衡量站内搜索的排序质量，不是供阅读的内容。分三组：取自文章内问答块的问题（有标准答案）、从网络收集的真实搜索需求（无标准答案）、以及工具名称。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-21",
+  "so_dong": 1194,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "hoi",
+      "kieu": "string",
+      "moTa": "Câu hỏi, giữ nguyên văn kể cả lỗi chính tả và cách viết tắt của người tìm",
+      "moTaEn": "The question, kept verbatim including the searcher's typos and abbreviations",
+      "moTaZh": "问题原文，保留搜索者的错别字与缩写"
+    },
+    {
+      "ten": "ngon_ngu",
+      "kieu": "string",
+      "moTa": "Mã ngôn ngữ: vi, en hoặc zh",
+      "moTaEn": "Language code: vi, en or zh",
+      "moTaZh": "语言代码：vi、en 或 zh"
+    },
+    {
+      "ten": "nhom",
+      "kieu": "string",
+      "moTa": "Nguồn của câu: tri-thuc (rút từ khối hỏi đáp trong bài), nhu-cau-that (nhu cầu tìm kiếm thật), tien-ich (tên tiện ích)",
+      "moTaEn": "Where the question came from: tri-thuc (from in-article FAQ blocks), nhu-cau-that (real search demand), tien-ich (tool names)",
+      "moTaZh": "问题来源：tri-thuc（取自文章内问答块）、nhu-cau-that（真实搜索需求）、tien-ich（工具名称）"
+    },
+    {
+      "ten": "chu_de",
+      "kieu": "string",
+      "moTa": "Chủ đề của bài trả lời, rỗng khi câu không có đáp án đúng",
+      "moTaEn": "Topic of the answering article, empty when the question has no gold answer",
+      "moTaZh": "作答文章的主题；问题无标准答案时留空"
+    },
+    {
+      "ten": "bai_dung",
+      "kieu": "string",
+      "moTa": "Slug bài trả lời đúng, rỗng khi không có. Ghép với https://nhatnguyet.org/kien-thuc/bai-viet/ ra địa chỉ đầy đủ",
+      "moTaEn": "Slug of the article that answers the question, empty when there is none. Prefix with https://nhatnguyet.org/kien-thuc/bai-viet/ for the full URL",
+      "moTaZh": "作答文章的 slug，没有则留空。加上前缀 https://nhatnguyet.org/kien-thuc/bai-viet/ 即为完整网址"
+    },
+    {
+      "ten": "tien_ich",
+      "kieu": "string",
+      "moTa": "Đường dẫn tiện ích đúng, rỗng khi câu không nhắm vào tiện ích nào",
+      "moTaEn": "Path of the correct tool, empty when the question does not target a tool",
+      "moTaZh": "对应工具的路径；问题未指向任何工具时留空"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Bộ này KHÔNG chứa thân bài và KHÔNG chứa câu trả lời. Nó chứa câu hỏi, mã ngôn ngữ và slug bài đúng, tức một đường dẫn công khai. 517 câu nhóm tri-thuc là dòng câu hỏi lấy từ khối hỏi đáp trong bài, nên chữ ấy do bài viết sinh ra; phần mang giá trị của bài là câu trả lời, và nó không nằm ở đây. Đếm theo đáp án: 517 câu có slug bài đúng, 370 câu có đường dẫn tiện ích đúng, và 307 câu KHÔNG có đáp án nào. Nhóm ba trăm lẻ bảy ấy thu từ nhu cầu tìm kiếm thật nên không bài nào được gán sẵn; chúng dùng để đo tỉ lệ trả về rỗng chứ không đo thứ hạng.",
+  "ghi_chu_chung_en": "This set contains NO article bodies and NO answers. It holds the question, a language code, and the slug of the correct article, which is a public URL. The 517 questions in the tri-thuc group are question lines taken from in-article FAQ blocks, so that wording originates in the articles; what carries an article's value is the answer, and it is not here. By gold label: 517 questions carry an article slug, 370 carry a tool path, and 307 carry neither. Those 307 were collected from real search demand so no article is assigned; they measure the empty-result rate rather than ranking.",
+  "ghi_chu_chung_zh": "本数据集不含正文，也不含答案。它只包含问题、语言代码，以及正确文章的 slug，即一个公开网址。tri-thuc 组的 517 道问题取自文章内的问答块，因此这些文字源自文章；文章的价值在于答案，而答案不在这里。按标准答案统计：517 道带有文章 slug，370 道带有工具路径，307 道两者皆无。这 307 道收集自真实搜索需求，因此未指定文章；它们用于衡量空结果率，而非排序质量。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/du-lieu",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Bộ câu hỏi đánh giá ô tìm kiếm. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/cau-hoi-danh-gia-tim-kiem.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Retrieval evaluation set for Vietnamese folk belief and calendar. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/cau-hoi-danh-gia-tim-kiem.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "bien-tap",
+  "nguon_goc_du_lieu_mo_ta": "Nội dung do Nhật Nguyệt tuyển chọn và biên tập; nguồn của từng dòng ghi ở cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "Content selected and edited by Nhật Nguyệt; each row's source is in the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "内容由 Nhật Nguyệt 选编；各行来源见 nguon 列。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

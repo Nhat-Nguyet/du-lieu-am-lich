@@ -1,0 +1,145 @@
+{
+  "slug": "thu-tu-60-que-quai-khi",
+  "ten": "Thứ tự 60 quẻ Quái khí",
+  "ten_en": "Order of the sixty Gua Qi hexagrams",
+  "ten_zh": "卦气六十卦次序",
+  "mo_ta": "Sáu mươi quẻ luân phiên trị ngày theo phép Quái khí, theo thứ tự từ Trung Phu lúc Đông chí, kèm tháng khí, vai công, tích, hầu, đại phu, khanh và lúc mỗi quẻ vào trị tính từ Đông chí. Là bảng tra của bộ que-ngay-quai-khi-1900-2100.",
+  "mo_ta_en": "The sixty hexagrams that take turns ruling the days under the Gua Qi method, in order from Inner Truth at the winter solstice, with their solar month, their rank (duke, sovereign, marquis, grand master, minister) and when each takes over counted from the solstice. The lookup table for the que-ngay-quai-khi-1900-2100 dataset.",
+  "mo_ta_zh": "卦气法中轮流值日的六十卦，自冬至中孚起依次排列，附所属月气、公辟侯大夫卿之位，以及自冬至起算各卦开始值日的时刻。为 que-ngay-quai-khi-1900-2100 数据集的查表。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.1.0",
+  "cap_nhat": "2026-09-28",
+  "so_dong": 60,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "thu_tu",
+      "kieu": "int",
+      "moTa": "Vị trí trong vòng sáu mươi quẻ, Trung Phu là 1",
+      "moTaEn": "Position in the sixty-hexagram cycle, Inner Truth is 1",
+      "moTaZh": "六十卦循环中的位置，中孚为 1"
+    },
+    {
+      "ten": "so_van_vuong",
+      "kieu": "int",
+      "moTa": "Số quẻ theo thứ tự Chu Dịch (Văn Vương, King Wen), 1 tới 64",
+      "moTaEn": "Hexagram number in the King Wen order, 1 to 64",
+      "moTaZh": "按文王卦序的卦号，1 至 64"
+    },
+    {
+      "ten": "ten_que",
+      "kieu": "string",
+      "moTa": "Tên quẻ tiếng Việt",
+      "moTaEn": "Hexagram name in Vietnamese",
+      "moTaZh": "卦名越南语"
+    },
+    {
+      "ten": "ten_han",
+      "kieu": "string",
+      "moTa": "Tên quẻ chữ Hán",
+      "moTaEn": "Hexagram name in Han characters",
+      "moTaZh": "卦名汉字"
+    },
+    {
+      "ten": "hao",
+      "kieu": "string",
+      "moTa": "Sáu hào từ hào sơ lên hào thượng, 1 là dương và 0 là âm",
+      "moTaEn": "Six lines from the first line to the top line, 1 is yang and 0 is yin",
+      "moTaZh": "六爻自初爻至上爻，1 为阳，0 为阴"
+    },
+    {
+      "ten": "thang_khi",
+      "kieu": "string",
+      "moTa": "Trung khí mở đầu tháng khí chứa quẻ, năm quẻ mỗi tháng khí",
+      "moTaEn": "Mid-month solar term opening the solar month the hexagram belongs to, five hexagrams per solar month",
+      "moTaZh": "该卦所属月气起始的中气，每个月气五卦"
+    },
+    {
+      "ten": "vai_tro",
+      "kieu": "string",
+      "moTa": "Vai trong tháng khí: công, tích, hầu, đại phu hoặc khanh",
+      "moTaEn": "Rank within the solar month in Vietnamese: công (duke), tích (sovereign), hầu (marquis), đại phu (grand master) or khanh (minister)",
+      "moTaZh": "在月气中的位次，以越南语记：公、辟、侯、大夫、卿"
+    },
+    {
+      "ten": "vai_tro_han",
+      "kieu": "string",
+      "moTa": "Vai trong tháng khí, chữ Hán như bảng gốc: 公, 辟, 侯, 大夫, 卿",
+      "moTaEn": "Rank within the solar month in Han characters as in the source table: 公, 辟, 侯, 大夫, 卿",
+      "moTaZh": "在月气中的位次，汉字如原表：公、辟、侯、大夫、卿"
+    },
+    {
+      "ten": "phut_bat_dau",
+      "kieu": "int",
+      "moTa": "Số phút từ Đông chí tới lúc quẻ vào trị, bằng (thu_tu trừ 1) nhân 8.766",
+      "moTaEn": "Minutes from the winter solstice until the hexagram takes over, equal to (thu_tu minus 1) times 8,766",
+      "moTaZh": "自冬至至该卦开始值日的分钟数，等于（thu_tu 减 1）乘以 8766"
+    },
+    {
+      "ten": "ngay_bat_dau",
+      "kieu": "float",
+      "moTa": "Như phut_bat_dau nhưng tính bằng ngày, bốn chữ số thập phân là đủ chính xác",
+      "moTaEn": "Same as phut_bat_dau but in days; four decimal places are exact",
+      "moTaZh": "同 phut_bat_dau，但以日计；四位小数即为精确值"
+    },
+    {
+      "ten": "nguyen_van_nguon",
+      "kieu": "string",
+      "moTa": "Tên quẻ đúng như bản Wikisource của Tân Đường thư quyển 28 thượng chép, kể cả chỗ chép sai; khác ten_han thì xem hieu_dinh",
+      "moTaEn": "Hexagram name exactly as the Wikisource edition of the New Book of Tang juan 28A prints it, errors included; where it differs from ten_han, see hieu_dinh",
+      "moTaZh": "卦名照录《新唐书》卷二十八上维基文库本，误字亦照录；与 ten_han 不同者见 hieu_dinh"
+    },
+    {
+      "ten": "hieu_dinh",
+      "kieu": "string",
+      "moTa": "Mã hiệu đính khi site đọc khác nguồn chép, rỗng khi không hiệu đính. sua-loi-chep: nguồn chép nhầm chữ, site đọc theo chữ đúng ở ten_han, lý do ghi ở ghi_chu",
+      "moTaEn": "Emendation code where the site reads differently from the source text, empty when there is none. sua-loi-chep: the source has a copying error, the site reads the correct character given in ten_han, with the reason in ghi_chu",
+      "moTaZh": "本站读法与原书所录不同时的校订代码，无校订则留空。sua-loi-chep：原书抄误，本站依 ten_han 所列正字，理由见 ghi_chu"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Tân Đường thư, quyển 28 thượng (Lịch chí 4 thượng), phát liễm thuật của lịch Đại Diễn",
+    "Tân Đường thư, quyển 27 thượng (Lịch chí 3 thượng), Quái nghị của Nhất Hạnh"
+  ],
+  "ghi_chu_chung": "Thứ tự chép từ bảng phát liễm thuật của lịch Đại Diễn, Tân Đường thư quyển 28 thượng, bản Wikisource, đọc theo từng tiết khí từ Đông chí. Trong bảng gốc mỗi tiết khí có ba ô (thuỷ quái, trung quái, chung quái), nên quẻ hầu hiện hai lần, nửa trong ở trung khí và nửa ngoài ở tiết kế tiếp; ở đây mỗi quẻ ghi một lần theo thứ tự luân trị, nhóm năm quẻ theo tháng khí (trung khí tới trung khí kế). Bản Wikisource chép quẻ thứ 22 là 史, lỗi chép của 夬 (Quải): dãy mười hai quẻ tích (tiêu tức) Phục, Lâm, Thái, Đại Tráng, Quải, Càn, Cấu, Độn, Bĩ, Quán, Bác, Khôn đứng thứ hai mỗi tháng khí xác nhận điều ấy. Bốn quẻ tứ chính Khảm, Chấn, Ly, Đoài không có trong bảng vì chúng trị bốn mùa, mỗi hào một tiết khí, không trị ngày. Cột phut_bat_dau là số phút từ Đông chí tới lúc quẻ vào trị, bằng (thu_tu trừ 1) nhân 8.766, tức 6 ngày 7 phần mỗi quẻ theo lối Mạnh Hỷ; lối Kinh Phòng rút bốn quẻ Di, Tấn, Tỉnh, Đại Súc còn 5 ngày 14 phần nên mốc vào trị của các quẻ từ sau chúng khác đi.",
+  "ghi_chu_chung_en": "The order is taken from the table in the Dayan calendar's fa lian shu, New Book of Tang juan 28A, Wikisource edition, read solar term by solar term from the winter solstice. In the original table each solar term has three slots (opening, middle and closing hexagram), so each marquis hexagram appears twice, its inner half at a mid-month term and its outer half at the following term; here each hexagram appears once in ruling order, grouped five to a solar month (mid-month term to the next). The Wikisource text gives hexagram 22 as 史, a copying error for 夬 (Guai): the twelve sovereign (waxing and waning) hexagrams Fu, Lin, Tai, Da Zhuang, Guai, Qian, Gou, Dun, Pi, Guan, Bo, Kun standing second in each solar month confirm it. The four cardinal hexagrams Kan, Zhen, Li and Dui are not in the table because they rule the four seasons, one line per solar term, not days. The phut_bat_dau column is the number of minutes from the winter solstice until the hexagram takes over, equal to (thu_tu minus 1) times 8,766, i.e. 6 days 7 parts per hexagram following Meng Xi; Jing Fang shortens Nourishment, Progress, The Well and Great Taming to 5 days 14 parts, so the takeover moments of the hexagrams after them differ.",
+  "ghi_chu_chung_zh": "次序录自《新唐书》卷二十八上大衍历发敛术之表（维基文库本），自冬至起逐节气读取。原表每个节气有始卦、中卦、终卦三格，故侯卦出现两次，内卦在中气，外卦在其后的节气；此处每卦按轮值次序只列一次，每五卦按月气（中气至下一中气）分组。维基文库本第 22 卦作「史」，乃「夬」之误：每个月气第二位的十二辟卦（消息卦）复、临、泰、大壮、夬、乾、姤、遯、否、观、剥、坤可以为证。坎、震、离、兑四正卦不在表中，因其主四时，每爻主一节气，不值日。phut_bat_dau 一列为自冬至至该卦开始值日的分钟数，等于（thu_tu 减 1）乘以 8766，即依孟喜之说每卦六日七分；京房将颐、晋、井、大畜减为五日十四分，故其后各卦开始值日的时刻不同。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/hom-nay-the-nao",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Thứ tự 60 quẻ Quái khí. Phiên bản 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/thu-tu-60-que-quai-khi.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Order of the sixty Gua Qi hexagrams. Version 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/thu-tu-60-que-quai-khi.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [
+    "quai-khi-manh-hy-6-ngay-7-phan-v1"
+  ],
+  "quy_uoc": []
+}

@@ -1,0 +1,667 @@
+{
+  "ma_phat_hanh": "2026.09.28-9ccf935b",
+  "phien_ban_dong_co": "1.0.0",
+  "phien_ban_khuon": "1.0.0",
+  "sinh_luc": "2026-09-28T02:32:22Z",
+  "so_bo": 27,
+  "bo": [
+    {
+      "slug": "10-thien-can",
+      "phien_ban": "1.0.0",
+      "so_dong": 10,
+      "so_cot": 8,
+      "bam_khuon": "6c726102539a14d01ad35ab250553ef5e723260917de5f6d9d7ee5b07590559e",
+      "tep": [
+        {
+          "ten": "10-thien-can.csv",
+          "sha256": "c0dcbff361450e320d7f593dbd3130b2783a08ff5dccd33d9ff7c6719d53c497",
+          "kich_thuoc": 439
+        },
+        {
+          "ten": "10-thien-can.json",
+          "sha256": "5f1f5bc98e2cef7ad18499987d6800a8b6e388cc8c0913987890d3d47036516e",
+          "kich_thuoc": 1844
+        },
+        {
+          "ten": "10-thien-can.meta.json",
+          "sha256": "f662ea92ee69064fdc841601a722be2eb129b4edcb3725f409098e8a9af796a8",
+          "kich_thuoc": 4242
+        }
+      ]
+    },
+    {
+      "slug": "12-con-giap-hop-khac",
+      "phien_ban": "1.0.0",
+      "so_dong": 144,
+      "so_cot": 8,
+      "bam_khuon": "57b787d267916c6560a57fc55b261ef2c31f9472143ffb26c8d2699c5e6e8d86",
+      "tep": [
+        {
+          "ten": "12-con-giap-hop-khac.csv",
+          "sha256": "29b6c4520e2ec8bd86a770fc072e6762015c487f3f8fc5d59477547812343266",
+          "kich_thuoc": 7179
+        },
+        {
+          "ten": "12-con-giap-hop-khac.json",
+          "sha256": "9929f8c01d2161d589c6ad305188ea48d91768ffcb54cb7f9af5ada07fa529ee",
+          "kich_thuoc": 28291
+        },
+        {
+          "ten": "12-con-giap-hop-khac.meta.json",
+          "sha256": "1344bd99927c112a4445a8d8073ae9714d124fc838cde52e0561e219440de136",
+          "kich_thuoc": 5631
+        }
+      ]
+    },
+    {
+      "slug": "12-dia-chi",
+      "phien_ban": "1.0.0",
+      "so_dong": 12,
+      "so_cot": 9,
+      "bam_khuon": "a1cb39bcc7a2a82f26d96fa78543702afde33747e7f0d2b72d1896e13da39fd0",
+      "tep": [
+        {
+          "ten": "12-dia-chi.csv",
+          "sha256": "652852788de3d84b9a2fe6682d1ee2be53b9aac283ead2000be575e3407c26b8",
+          "kich_thuoc": 704
+        },
+        {
+          "ten": "12-dia-chi.json",
+          "sha256": "8eef17708845d337e285939e3c69c53ea7f166be3b9688b2a6436877ee7a3673",
+          "kich_thuoc": 2629
+        },
+        {
+          "ten": "12-dia-chi.meta.json",
+          "sha256": "92c77c68fed9600eba1fcec7cbbb5a8dddd83f9e11384aaca80393bf17f83752",
+          "kich_thuoc": 5651
+        }
+      ]
+    },
+    {
+      "slug": "12-truc",
+      "phien_ban": "1.0.0",
+      "so_dong": 12,
+      "so_cot": 9,
+      "bam_khuon": "c76001d0b5ada92ce54ee1aaf85acd557e7c5aa27c5cb5397ab5c31f95122862",
+      "tep": [
+        {
+          "ten": "12-truc.csv",
+          "sha256": "9dccaa01511c1dba007179d17093b9d05f395ce29cfeb40906dce3024484c31e",
+          "kich_thuoc": 3077
+        },
+        {
+          "ten": "12-truc.json",
+          "sha256": "91cadd9bc9ad1bec9fd532106d28e46f3ae01c0f4a2595a3df2a8fd7be95d9bc",
+          "kich_thuoc": 4841
+        },
+        {
+          "ten": "12-truc.meta.json",
+          "sha256": "1df7d5088fbe865a21be476834a4272d9d4d60fa4d471f7d2d248f1c9aa48f6b",
+          "kich_thuoc": 5859
+        }
+      ]
+    },
+    {
+      "slug": "22-an-chinh-tarot",
+      "phien_ban": "1.0.0",
+      "so_dong": 22,
+      "so_cot": 10,
+      "bam_khuon": "1f879925be9cf8e2869a10ae74e58dd2f861d943333e8efce818dda0c3559968",
+      "tep": [
+        {
+          "ten": "22-an-chinh-tarot.csv",
+          "sha256": "c9f9e18a5b2749cdcbecea3ede60462d7802f92732fc9849f15206ef24bd941d",
+          "kich_thuoc": 5298
+        },
+        {
+          "ten": "22-an-chinh-tarot.json",
+          "sha256": "ce6bdc67b9a636872c57bb4aab55072b0276cdd5f88dd16a4406160b4c84a4fd",
+          "kich_thuoc": 9250
+        },
+        {
+          "ten": "22-an-chinh-tarot.meta.json",
+          "sha256": "5b421897db6f18b9d6d8fd7f60d984b0ae2ccce1c7aa52bc24f3f49818a10c70",
+          "kich_thuoc": 5677
+        }
+      ]
+    },
+    {
+      "slug": "24-tiet-khi",
+      "phien_ban": "1.0.0",
+      "so_dong": 384,
+      "so_cot": 10,
+      "bam_khuon": "b6c6891fe4a2ddee0e57ef195f1675fd1a638e574d407f1e06c1acb9cd25a2aa",
+      "tep": [
+        {
+          "ten": "24-tiet-khi.csv",
+          "sha256": "d359dbfe4e1c49ec16a66d82fcd2da33a125579410a33cf26a91378c02635b53",
+          "kich_thuoc": 43005
+        },
+        {
+          "ten": "24-tiet-khi.json",
+          "sha256": "2f905e3bb1fd66f1ebd81455a520e9540432ca616004a4defc54d4c5c159b5c2",
+          "kich_thuoc": 113715
+        },
+        {
+          "ten": "24-tiet-khi.meta.json",
+          "sha256": "16f1ce8fd988e603792346d7493bdf37df624b611f68919f0dd7efb83c0a2adb",
+          "kich_thuoc": 7087
+        }
+      ]
+    },
+    {
+      "slug": "56-an-phu-tarot",
+      "phien_ban": "1.0.0",
+      "so_dong": 56,
+      "so_cot": 10,
+      "bam_khuon": "fbb9394fbfc195451224a6c4bb5ae8b04a4540c1445a2d741579a79f1067f3ef",
+      "tep": [
+        {
+          "ten": "56-an-phu-tarot.csv",
+          "sha256": "e70fa4bbdb18173d549c8ce05f95019f5e9e1567b0ed40ab14c885afdf9c17a6",
+          "kich_thuoc": 15016
+        },
+        {
+          "ten": "56-an-phu-tarot.json",
+          "sha256": "92fc956be0779e664004c8ab7b7a7be42d3e4b2744fe677ccf8912c45292434f",
+          "kich_thuoc": 24546
+        },
+        {
+          "ten": "56-an-phu-tarot.meta.json",
+          "sha256": "c5215e4aaef24ef294c6d593f6326e48ae30c2cd493a9eea27767cfd5ddc435e",
+          "kich_thuoc": 7041
+        }
+      ]
+    },
+    {
+      "slug": "60-hoa-giap",
+      "phien_ban": "1.0.0",
+      "so_dong": 60,
+      "so_cot": 11,
+      "bam_khuon": "ad809453427ba8fa0f3180f01980d678e3dd16781d2ab57c3e9ad178ba60a5e9",
+      "tep": [
+        {
+          "ten": "60-hoa-giap.csv",
+          "sha256": "c64132577c638a044c857cdf2b21e3bcaa50d3db62ff87b760a3423fc47d91eb",
+          "kich_thuoc": 4883
+        },
+        {
+          "ten": "60-hoa-giap.json",
+          "sha256": "d5a6162252b6f406f319d9f237a73b46a2890396a6c9769ae6734496d841bb5d",
+          "kich_thuoc": 16922
+        },
+        {
+          "ten": "60-hoa-giap.meta.json",
+          "sha256": "a6010c86a6e6c83ebbccbfe529a298cdbe9aad93f104ffa7d0f54a4d53976f40",
+          "kich_thuoc": 5956
+        }
+      ]
+    },
+    {
+      "slug": "64-que-kinh-dich",
+      "phien_ban": "1.0.1",
+      "so_dong": 64,
+      "so_cot": 11,
+      "bam_khuon": "bb49f8d72b419852918d397b3b6211b8f7600bf69cc9c932532ea038dfc29a71",
+      "tep": [
+        {
+          "ten": "64-que-kinh-dich.csv",
+          "sha256": "efdabdd6567249bf424b3e315fff38d68f4935bffb1d9cd6d82e0a2bcf2c893b",
+          "kich_thuoc": 8714
+        },
+        {
+          "ten": "64-que-kinh-dich.json",
+          "sha256": "ae9bd5075ce745a66f5c9fd576e1528dc5fda399a9e991bc1efd3b319e2e7c82",
+          "kich_thuoc": 20362
+        },
+        {
+          "ten": "64-que-kinh-dich.meta.json",
+          "sha256": "0f07fe29fc4bc8a49f06f42c547356b9fea66c05662b4019dbe398c977629607",
+          "kich_thuoc": 6763
+        }
+      ]
+    },
+    {
+      "slug": "9-sao-chieu-menh",
+      "phien_ban": "1.0.0",
+      "so_dong": 9,
+      "so_cot": 8,
+      "bam_khuon": "86420f19efc157fbb03e57e4ae04d1fa0781ca2d55c2e83e8e9c1d1cf290a191",
+      "tep": [
+        {
+          "ten": "9-sao-chieu-menh.csv",
+          "sha256": "928e57b312ce25e557b2fefb70d3d4071129caf6b7aebf6616d8d3859721fc8c",
+          "kich_thuoc": 3041
+        },
+        {
+          "ten": "9-sao-chieu-menh.json",
+          "sha256": "dfb53e7e5d17e060bd9ac1b549d27998aa8e47cea93e7156f6dbdf71568a2101",
+          "kich_thuoc": 4362
+        },
+        {
+          "ten": "9-sao-chieu-menh.meta.json",
+          "sha256": "b36053815f2013b5f5e30e7136dcc1a161a32f39a5130cb52ee64a9013ddebf8",
+          "kich_thuoc": 5558
+        }
+      ]
+    },
+    {
+      "slug": "bien-cung-hoang-dao-1950-2050",
+      "phien_ban": "1.1.1",
+      "so_dong": 1212,
+      "so_cot": 11,
+      "bam_khuon": "b5cdb112e1ff505b063fb5402040d5fa1ac2b501808b17e4664f8d60cfadfefd",
+      "tep": [
+        {
+          "ten": "bien-cung-hoang-dao-1950-2050.csv",
+          "sha256": "a82cfb6a7bf0cc7c0b9702708a8ceffd28bc92628cb8f20856f9b32a53060f3e",
+          "kich_thuoc": 88297
+        },
+        {
+          "ten": "bien-cung-hoang-dao-1950-2050.json",
+          "sha256": "ac5cbb465820185094a5a3b31e44a514b475413318fe8ac28236fc41da811826",
+          "kich_thuoc": 328196
+        },
+        {
+          "ten": "bien-cung-hoang-dao-1950-2050.meta.json",
+          "sha256": "8d41ee0f35b8acfb1d6b3636900d80c16f575460dc1a45942ed91ab06e09208b",
+          "kich_thuoc": 8965
+        }
+      ]
+    },
+    {
+      "slug": "cau-hoi-danh-gia-tim-kiem",
+      "phien_ban": "1.0.0",
+      "so_dong": 1194,
+      "so_cot": 9,
+      "bam_khuon": "c12b03ab3c515b8d793ef815606cb0f856c1ca47024a8464bbe086c4e3bd6407",
+      "tep": [
+        {
+          "ten": "cau-hoi-danh-gia-tim-kiem.csv",
+          "sha256": "a2970a87e3a4e496256b145de374b197f04e3ff6a5dd828642175bf8be9f5112",
+          "kich_thuoc": 246439
+        },
+        {
+          "ten": "cau-hoi-danh-gia-tim-kiem.json",
+          "sha256": "daad52a2d78f223b9e0f09d34fe4aa2fa6d90286ef21ce5bbada4df8fb53df75",
+          "kich_thuoc": 432001
+        },
+        {
+          "ten": "cau-hoi-danh-gia-tim-kiem.meta.json",
+          "sha256": "ddee9e69f2d3b1d360c4e17f05933d27ddd89d995133c63bd382fb28ff824321",
+          "kich_thuoc": 8383
+        }
+      ]
+    },
+    {
+      "slug": "chu-sang-so-than-so-hoc",
+      "phien_ban": "1.0.0",
+      "so_dong": 33,
+      "so_cot": 7,
+      "bam_khuon": "45d7af1239604b399dedd6db7d47bad4b1b98b837e6594e2b90604f6c26c7ca3",
+      "tep": [
+        {
+          "ten": "chu-sang-so-than-so-hoc.csv",
+          "sha256": "2d60dfe27b1dd50579e822e27dc3a3d2978d1fb08a06a6dce5d0f106ea8d19f6",
+          "kich_thuoc": 1189
+        },
+        {
+          "ten": "chu-sang-so-than-so-hoc.json",
+          "sha256": "301d9f253d6c418b6ed3fb894c7762723648b8b17f8961e8a68e02726b1adae5",
+          "kich_thuoc": 5386
+        },
+        {
+          "ten": "chu-sang-so-than-so-hoc.meta.json",
+          "sha256": "edb86b06e37126bcdc1a6c49f6f51211d7f8880e03a812991bd016a7e3b944fb",
+          "kich_thuoc": 7424
+        }
+      ]
+    },
+    {
+      "slug": "cung-phi-bat-trach",
+      "phien_ban": "1.1.0",
+      "so_dong": 400,
+      "so_cot": 10,
+      "bam_khuon": "81a2fd72acef43aecc884dd143a4e0bc09beede0b24c3de360cf6f13566cdeaf",
+      "tep": [
+        {
+          "ten": "cung-phi-bat-trach.csv",
+          "sha256": "ad9817bd02c935fd3c13df4d9cd3467bbed9614701590e02c2f8bfb5721a65f2",
+          "kich_thuoc": 97815
+        },
+        {
+          "ten": "cung-phi-bat-trach.json",
+          "sha256": "c10ddd01f1a28252f726c5f1645e8197a6a92766549204bc8cb6256adb70b1a7",
+          "kich_thuoc": 174534
+        },
+        {
+          "ten": "cung-phi-bat-trach.meta.json",
+          "sha256": "93cc99c3af336347ceec08c1d24eb5bc27df3b235a9bbda8338f74575337aa82",
+          "kich_thuoc": 6562
+        }
+      ]
+    },
+    {
+      "slug": "diem-bat-dong-giua-cac-phai",
+      "phien_ban": "1.1.0",
+      "so_dong": 20,
+      "so_cot": 12,
+      "bam_khuon": "12888c2e2629c8d5f6cceb6751db1e30d80b1d8b0fe9a075ebfd5b5dc7e7f2af",
+      "tep": [
+        {
+          "ten": "diem-bat-dong-giua-cac-phai.csv",
+          "sha256": "ef6459a939945d72760a03b029c4fee4408bfe4768e404df945b1054435b8a25",
+          "kich_thuoc": 9623
+        },
+        {
+          "ten": "diem-bat-dong-giua-cac-phai.json",
+          "sha256": "697c8ce176edb2312aba09952a4b591e79ca6cd4b1b8aaf8bdf45353c5016fa5",
+          "kich_thuoc": 13690
+        },
+        {
+          "ten": "diem-bat-dong-giua-cac-phai.meta.json",
+          "sha256": "f527bd5ac991bd167889891b5f477fa6cbb202a49680716faa36a9783951d404",
+          "kich_thuoc": 8464
+        }
+      ]
+    },
+    {
+      "slug": "gio-hoang-dao-60-ngay",
+      "phien_ban": "1.0.0",
+      "so_dong": 720,
+      "so_cot": 8,
+      "bam_khuon": "9224d1cf823be322585ca5204d5c70b5a1c44ba15c33d6098a0eafe0ff76abb5",
+      "tep": [
+        {
+          "ten": "gio-hoang-dao-60-ngay.csv",
+          "sha256": "02894ddbbf6c5df5760b0fbd2ade9cea6c9753cdad4a38482e99b7cb7ded68c4",
+          "kich_thuoc": 44707
+        },
+        {
+          "ten": "gio-hoang-dao-60-ngay.json",
+          "sha256": "2e2cbf79911122f1d13a73e82731854a7c4139856ce9d13c3dd770f32dbf9306",
+          "kich_thuoc": 156243
+        },
+        {
+          "ten": "gio-hoang-dao-60-ngay.meta.json",
+          "sha256": "44eebc3d02a9004cf5b163fe4e5cd85867dbcfe40d242b94e8a6022ec7d7aa05",
+          "kich_thuoc": 6496
+        }
+      ]
+    },
+    {
+      "slug": "hoa-giap-ghep-cheo",
+      "phien_ban": "1.0.0",
+      "so_dong": 3600,
+      "so_cot": 12,
+      "bam_khuon": "cf03d059dfa165b3d09386c96dc77131ed91e609e0f039d094215eea7a5dc957",
+      "tep": [
+        {
+          "ten": "hoa-giap-ghep-cheo.csv",
+          "sha256": "11f23db2a0719d91beb4ab466c796d03062f8da6ca1767790f89255f18767ab7",
+          "kich_thuoc": 473033
+        },
+        {
+          "ten": "hoa-giap-ghep-cheo.json",
+          "sha256": "657e432e9332e695a4fa378d76c7a8ff966c32b8e8c6e1db9a18289fe4e8f1d8",
+          "kich_thuoc": 1340523
+        },
+        {
+          "ten": "hoa-giap-ghep-cheo.meta.json",
+          "sha256": "3e25b8309776651aa8164f35c00d534160d8455463760c74aeba1c1099a70737",
+          "kich_thuoc": 8225
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-quy-doi-ngay-duong",
+      "phien_ban": "1.1.1",
+      "so_dong": 795,
+      "so_cot": 11,
+      "bam_khuon": "ea911b41624c96dbd3a1e9ebc3bc574c65a4c84c78d3e089f1d5375b6c6e713f",
+      "tep": [
+        {
+          "ten": "le-hoi-quy-doi-ngay-duong.csv",
+          "sha256": "14b9867de73389a48975a0902698f031905840bc602aa1c906f038d47a218caf",
+          "kich_thuoc": 128875
+        },
+        {
+          "ten": "le-hoi-quy-doi-ngay-duong.json",
+          "sha256": "361c0f38360cd6bda6784eb4c16f2b50f25cd01ecc2a1e02c3d3d596c652c20c",
+          "kich_thuoc": 286802
+        },
+        {
+          "ten": "le-hoi-quy-doi-ngay-duong.meta.json",
+          "sha256": "91c5a97aeac97555e0cf350e3546a98ef046110e082f910c9ed92946c8c9c434",
+          "kich_thuoc": 8208
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-tin-nguong-theo-dan-toc",
+      "phien_ban": "1.0.0",
+      "so_dong": 187,
+      "so_cot": 13,
+      "bam_khuon": "93f6a8f40a37871149b8694bdab9f8e8cde7aea1de716844e44ce55fcb3704e2",
+      "tep": [
+        {
+          "ten": "le-hoi-tin-nguong-theo-dan-toc.csv",
+          "sha256": "0dc9b80abbe4f546dfcbb9b5cc6d72bdc625ebeb3ab24d6acf564e9f9ee812fa",
+          "kich_thuoc": 108158
+        },
+        {
+          "ten": "le-hoi-tin-nguong-theo-dan-toc.json",
+          "sha256": "0661673436892738262114d19559c22e2d8ae637629ed800710ae45496deb5c6",
+          "kich_thuoc": 153575
+        },
+        {
+          "ten": "le-hoi-tin-nguong-theo-dan-toc.meta.json",
+          "sha256": "28605de45ccc59c3330e41164336240325e696acf2847769317c356a0dc44246",
+          "kich_thuoc": 9289
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-viet-nam",
+      "phien_ban": "1.2.1",
+      "so_dong": 197,
+      "so_cot": 15,
+      "bam_khuon": "93f8eae2e6b0f89147326d641d02f5f51f20fcad7329ab9fd461f2cdbd9fe761",
+      "tep": [
+        {
+          "ten": "le-hoi-viet-nam.csv",
+          "sha256": "c10d2179d317380795187e508fc4493e72d7dec73a9e4b8e7eba39c79d357007",
+          "kich_thuoc": 88270
+        },
+        {
+          "ten": "le-hoi-viet-nam.json",
+          "sha256": "2545ce89939bff6e5274b0dd7556fb253db42ed6bd989b3e57629853e72a92d8",
+          "kich_thuoc": 142553
+        },
+        {
+          "ten": "le-hoi-viet-nam.meta.json",
+          "sha256": "f443096b440d321444297ba09acb98b05cd680f2174e03c618aaf212bc0ffac4",
+          "kich_thuoc": 8654
+        }
+      ]
+    },
+    {
+      "slug": "lich-am-duong-1900-2100",
+      "phien_ban": "1.1.0",
+      "so_dong": 73414,
+      "so_cot": 16,
+      "bam_khuon": "380445a36b30bb7d471b92cc69a54d2c72265c73d7b74d24b66fd7f7cfccea61",
+      "tep": [
+        {
+          "ten": "lich-am-duong-1900-2100.csv",
+          "sha256": "4270717b4a3ac351f00300697448cd457f8cd9471178e844b90352d97350f7e4",
+          "kich_thuoc": 7509309
+        },
+        {
+          "ten": "lich-am-duong-1900-2100.json",
+          "sha256": "e631e42bf53c418fa0929c8e7c4f39124461d14f2e1fc40353a315fc6089f700",
+          "kich_thuoc": 32543313
+        },
+        {
+          "ten": "lich-am-duong-1900-2100.meta.json",
+          "sha256": "0eb1bcd34cffad8dfa3dbda5ffb087993dfe7c4e00e6cf43aa8a2f4acb9bd2f2",
+          "kich_thuoc": 12023
+        },
+        {
+          "ten": "lich-am-duong-1900-2100.parquet",
+          "sha256": "cc427ff10ef46281d600016491290966b21c2cb153e2dd4440519c8b50614c9d",
+          "kich_thuoc": 155326
+        }
+      ]
+    },
+    {
+      "slug": "moc-tiet-khi-1900-2100",
+      "phien_ban": "1.2.0",
+      "so_dong": 4824,
+      "so_cot": 15,
+      "bam_khuon": "63ca4e102d40cea0dee14f708f130e451633fb4da29f53b6f17bd61c83589dc1",
+      "tep": [
+        {
+          "ten": "moc-tiet-khi-1900-2100.csv",
+          "sha256": "29c7423dfcd6323bc2086759381860b5125356f32767c91169596936cf431256",
+          "kich_thuoc": 465880
+        },
+        {
+          "ten": "moc-tiet-khi-1900-2100.json",
+          "sha256": "3ff05a6ec9ce3bbcd7c9b5f43085036234dea4dc8b58e8f61705917a26d73061",
+          "kich_thuoc": 1912941
+        },
+        {
+          "ten": "moc-tiet-khi-1900-2100.meta.json",
+          "sha256": "24a133a7750361cfedf77bd67a11e55a179b7fccd37ae6521cd7e09d115f042a",
+          "kich_thuoc": 14151
+        }
+      ]
+    },
+    {
+      "slug": "ngay-ky-dan-gian-2026-2035",
+      "phien_ban": "1.0.0",
+      "so_dong": 3652,
+      "so_cot": 15,
+      "bam_khuon": "0f6e6b029e5280c87479a1842ace82dad96f7c3c797982c9135f6dac63ca32f5",
+      "tep": [
+        {
+          "ten": "ngay-ky-dan-gian-2026-2035.csv",
+          "sha256": "d0389bc2d40ad4bb79762e60e1f771fa752ccb0c797eceeb5b29a3d8f391932b",
+          "kich_thuoc": 342142
+        },
+        {
+          "ten": "ngay-ky-dan-gian-2026-2035.json",
+          "sha256": "9c242ae5744285a47121c64ceb3493a18cd2dcda8729f7ca3d0009a7eda6c1b8",
+          "kich_thuoc": 1470462
+        },
+        {
+          "ten": "ngay-ky-dan-gian-2026-2035.meta.json",
+          "sha256": "d25b7b134412d52dca2a67a0352be5d632fdb4858f638cec7296666f1dec8d92",
+          "kich_thuoc": 10476
+        }
+      ]
+    },
+    {
+      "slug": "que-ngay-quai-khi-1900-2100",
+      "phien_ban": "1.1.0",
+      "so_dong": 73414,
+      "so_cot": 19,
+      "bam_khuon": "a06e20587f75222b75ab13b6a416ca781f512a200d3b0740587df88bb96b59ba",
+      "tep": [
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.csv",
+          "sha256": "c4ca6e413203299f4a7ff87e49623dd6b2db7c35ddc34474f3fd1b7b5cb437de",
+          "kich_thuoc": 12568713
+        },
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.json",
+          "sha256": "3b188ffb71cd3164923c42b4240c333eb03525fd9b86dc95cbad58a88f8c1db0",
+          "kich_thuoc": 41785424
+        },
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.meta.json",
+          "sha256": "b3976265dfe759c2a3126fca21596d2c344f82ee4b02b8fd8c14df5ce9b42c4f",
+          "kich_thuoc": 21446
+        },
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.parquet",
+          "sha256": "e81fe3328c0a8976f12c2acbd49cef022ebd8503f0638b290b0d32b7e301e233",
+          "kich_thuoc": 338254
+        }
+      ]
+    },
+    {
+      "slug": "tam-tai-kim-lau-hoang-oc",
+      "phien_ban": "1.0.0",
+      "so_dong": 2201,
+      "so_cot": 13,
+      "bam_khuon": "3c1806415167e29f2da1d55761b6a2d092caf22b564bcc58b2cec7f51a608185",
+      "tep": [
+        {
+          "ten": "tam-tai-kim-lau-hoang-oc.csv",
+          "sha256": "649e8c2c0235901f04dddaf5ef657c2f1c21c5de6cb47f97be5483a1854ba68b",
+          "kich_thuoc": 558058
+        },
+        {
+          "ten": "tam-tai-kim-lau-hoang-oc.json",
+          "sha256": "e92593e58eb72e957ef35baa307580607dcb8907bbc635638bce534007620f59",
+          "kich_thuoc": 1160997
+        },
+        {
+          "ten": "tam-tai-kim-lau-hoang-oc.meta.json",
+          "sha256": "ee196a18694d810a2fcbac8c19522617ee59af953a7dbe9c1861e134ad0310cd",
+          "kich_thuoc": 8875
+        }
+      ]
+    },
+    {
+      "slug": "thu-tu-60-que-quai-khi",
+      "phien_ban": "1.1.0",
+      "so_dong": 60,
+      "so_cot": 15,
+      "bam_khuon": "c4268e3e940641409261ffde093716c8d1f9d84b0d9dbb4a885a553181491350",
+      "tep": [
+        {
+          "ten": "thu-tu-60-que-quai-khi.csv",
+          "sha256": "8bf6d358ad0d1a5154f7deaf487cc782f6f524d156b65294850281706fa91e87",
+          "kich_thuoc": 8044
+        },
+        {
+          "ten": "thu-tu-60-que-quai-khi.json",
+          "sha256": "c10bc8a3b9b9a8953ba9f678caa3f5e4d7a80a67f40b5d726aba0ca93062a034",
+          "kich_thuoc": 25665
+        },
+        {
+          "ten": "thu-tu-60-que-quai-khi.meta.json",
+          "sha256": "6e84649cf74be23ff355a1cc6d4a52fd8e5573ffd6f117b7f59c6640893c2984",
+          "kich_thuoc": 12035
+        }
+      ]
+    },
+    {
+      "slug": "thuoc-lo-ban",
+      "phien_ban": "1.0.0",
+      "so_dong": 26,
+      "so_cot": 15,
+      "bam_khuon": "e4924f5001a286bf249d450037d55c8dcb57896bbb953763b2ec1e87c35af0e3",
+      "tep": [
+        {
+          "ten": "thuoc-lo-ban.csv",
+          "sha256": "96b5aa2c9148318a6199de21abfcd7efd0e05615095979c5b4465fbcfc17e440",
+          "kich_thuoc": 6549
+        },
+        {
+          "ten": "thuoc-lo-ban.json",
+          "sha256": "13c1ca8be05adcb2f749e06a9ac6075e68535b55beb368bbba1616048eaffca5",
+          "kich_thuoc": 13512
+        },
+        {
+          "ten": "thuoc-lo-ban.meta.json",
+          "sha256": "91091edb63f114c5aa09bd5d0bdeba8a39d96981d7316de26526cf5fa5788806",
+          "kich_thuoc": 7596
+        }
+      ]
+    }
+  ]
+}

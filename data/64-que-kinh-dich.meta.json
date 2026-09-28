@@ -1,0 +1,116 @@
+{
+  "slug": "64-que-kinh-dich",
+  "ten": "64 quẻ Kinh Dịch",
+  "ten_en": "The 64 hexagrams of the I Ching",
+  "ten_zh": "易经六十四卦",
+  "mo_ta": "Đủ 64 quẻ theo thứ tự Chu Dịch, kèm tên Việt, tên Hán, quẻ thượng, quẻ hạ và tượng quẻ.",
+  "mo_ta_en": "All 64 hexagrams in King Wen order, with Vietnamese and Han names, upper and lower trigrams, and the image.",
+  "mo_ta_zh": "完整六十四卦，按周易次序排列，附越南语卦名、汉字卦名、上卦、下卦与卦象。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.1",
+  "cap_nhat": "2026-09-27",
+  "so_dong": 64,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "so",
+      "kieu": "int",
+      "moTa": "Số quẻ theo thứ tự Chu Dịch, từ 1 tới 64",
+      "moTaEn": "Hexagram number in Yijing order, from 1 to 64",
+      "moTaZh": "周易卦序编号，从1到64"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên quẻ tiếng Việt",
+      "moTaEn": "Hexagram name in Vietnamese",
+      "moTaZh": "卦名越南语"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên quẻ tiếng Anh",
+      "moTaEn": "Hexagram name in English",
+      "moTaZh": "卦名英文"
+    },
+    {
+      "ten": "ten_han",
+      "kieu": "string",
+      "moTa": "Tên quẻ chữ Hán",
+      "moTaEn": "Hexagram name in Han characters",
+      "moTaZh": "卦名汉字"
+    },
+    {
+      "ten": "que_thuong",
+      "kieu": "string",
+      "moTa": "Quẻ đơn ở trên",
+      "moTaEn": "Upper trigram",
+      "moTaZh": "上卦"
+    },
+    {
+      "ten": "que_ha",
+      "kieu": "string",
+      "moTa": "Quẻ đơn ở dưới",
+      "moTaEn": "Lower trigram",
+      "moTaZh": "下卦"
+    },
+    {
+      "ten": "hao",
+      "kieu": "string",
+      "moTa": "Sáu hào từ hào sơ lên hào thượng, 1 là dương và 0 là âm",
+      "moTaEn": "Six lines from the first line to the top line, 1 is yang and 0 is yin",
+      "moTaZh": "六爻自初爻至上爻，1为阳，0为阴"
+    },
+    {
+      "ten": "tuong",
+      "kieu": "string",
+      "moTa": "Tượng quẻ",
+      "moTaEn": "Image of the hexagram",
+      "moTaZh": "卦象"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Chu Dịch"
+  ],
+  "ghi_chu_chung": "Số quẻ theo thứ tự Chu Dịch (King Wen), thứ tự phổ biến nhất. Còn có thứ tự Phục Hy (Tiên Thiên) đánh số khác hẳn, nên khi đối chiếu với nguồn khác phải xem nguồn ấy dùng thứ tự nào. Cột hao ghi sáu hào từ dưới lên: 1 là hào dương, 0 là hào âm, hào sơ đứng đầu chuỗi. Quẻ trị từng ngày theo phép Quái khí (1900 tới 2100) có ở bộ que-ngay-quai-khi-1900-2100, thứ tự sáu mươi quẻ luân trị ở bộ thu-tu-60-que-quai-khi; cả hai nối với bộ này qua số quẻ.",
+  "ghi_chu_chung_en": "Hexagram numbers follow the King Wen sequence, the most widespread ordering. The Fu Xi sequence numbers them entirely differently, so when comparing against another source, check which sequence it uses. The hao column records the six lines from bottom to top: 1 is a yang line, 0 a yin line, with the first line at the start of the string. The hexagram ruling each day under the Gua Qi method (1900 to 2100) is in the que-ngay-quai-khi-1900-2100 dataset, and the order of the sixty rotating hexagrams in thu-tu-60-que-quai-khi; both join to this dataset on the hexagram number.",
+  "ghi_chu_chung_zh": "卦序按周易（文王）次序，这是最通行的次序。另有伏羲（先天）次序，编号完全不同，因此与其他来源比对时须先确认对方采用哪一种次序。hao 一列自下而上记六爻：1 为阳爻，0 为阴爻，初爻排在字符串最前。按卦气法逐日值日之卦（1900 至 2100）见 que-ngay-quai-khi-1900-2100 数据集，六十卦轮值次序见 thu-tu-60-que-quai-khi；两者均可凭卦号与本数据集关联。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/kinh-dich",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 64 quẻ Kinh Dịch. Phiên bản 1.0.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/64-que-kinh-dich.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The 64 hexagrams of the I Ching. Version 1.0.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/64-que-kinh-dich.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "que-thu-tu-van-vuong"
+  ]
+}

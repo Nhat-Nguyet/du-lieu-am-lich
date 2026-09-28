@@ -1,0 +1,118 @@
+{
+  "slug": "le-hoi-quy-doi-ngay-duong",
+  "ten": "Lễ hội Việt Nam quy đổi sang ngày dương, 2026 tới 2030",
+  "ten_en": "Vietnamese festivals mapped to solar dates, 2026 to 2030",
+  "ten_zh": "越南节庆对照公历日期，2026 至 2030",
+  "mo_ta": "Ngày dương lịch thật của từng lễ hội trong năm năm, kèm thứ trong tuần. Lễ hội âm lịch rơi vào ngày dương khác nhau mỗi năm, và bảng này tính sẵn phần ấy.",
+  "mo_ta_en": "The actual solar date of each festival across five years, with the weekday. Lunar festivals land on a different solar date every year, and this table works that out in advance.",
+  "mo_ta_zh": "五年间每个节庆的实际公历日期，附星期。农历节庆每年落在不同的公历日，本表已预先算好。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.1.1",
+  "cap_nhat": "2026-09-27",
+  "so_dong": 795,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "le_hoi",
+      "kieu": "string",
+      "moTa": "Tên lễ hội",
+      "moTaEn": "Festival name",
+      "moTaZh": "节庆名称"
+    },
+    {
+      "ten": "le_hoi_en",
+      "kieu": "string",
+      "moTa": "Tên lễ hội tiếng Anh",
+      "moTaEn": "Festival name in English",
+      "moTaZh": "节庆名称，英语"
+    },
+    {
+      "ten": "nam",
+      "kieu": "int",
+      "moTa": "Năm dương lịch",
+      "moTaEn": "Solar year",
+      "moTaZh": "公历年"
+    },
+    {
+      "ten": "ngay_duong",
+      "kieu": "string",
+      "moTa": "Ngày dương lịch của dịp ấy trong năm này, dạng YYYY-MM-DD",
+      "moTaEn": "Solar date of the occasion that year, YYYY-MM-DD",
+      "moTaZh": "该年此节庆的公历日期，YYYY-MM-DD"
+    },
+    {
+      "ten": "thu",
+      "kieu": "string",
+      "moTa": "Thứ trong tuần của ngày ấy",
+      "moTaEn": "Weekday of that date",
+      "moTaZh": "该日的星期"
+    },
+    {
+      "ten": "loai_ngay",
+      "kieu": "string",
+      "moTa": "lunar khi lễ ghi theo ngày âm, solar khi ghi theo ngày dương cố định",
+      "moTaEn": "lunar when the festival is dated by the lunar calendar, solar when fixed on a solar date",
+      "moTaZh": "按农历定日为 lunar，固定公历日为 solar"
+    },
+    {
+      "ten": "ngay_am",
+      "kieu": "string",
+      "moTa": "Ngày âm lịch cố định của dịp, dạng ngày/tháng; rỗng với lễ ghi ngày dương",
+      "moTaEn": "Fixed lunar date as day/month; empty for solar-dated festivals",
+      "moTaZh": "固定的农历日期，格式为日/月；公历定日的节庆此列为空"
+    },
+    {
+      "ten": "ngay_nghi",
+      "kieu": "string",
+      "moTa": "co khi đây là ngày nghỉ lễ chính thức",
+      "moTaEn": "co when this is an official public holiday",
+      "moTaZh": "co 表示此为法定节假日"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Phần DANH MỤC lễ hội là dữ liệu biên tập, phần NGÀY DƯƠNG là giá trị lõi tính quy đổi, nên hai nửa của bảng này có độ tin cậy khác nhau và cột nguon ghi rõ điều đó. Lễ hội ghi ngày dương cố định thì ngày ấy giữ nguyên mọi năm; lễ hội ghi ngày âm thì quy đổi theo múi giờ UTC+7. Tháng nhuận: lễ hội rơi vào một tháng âm có nhuận thì bảng lấy tháng CHÍNH, không lấy tháng nhuận, đúng cách phần lớn nơi tổ chức. BẢNG CHƯA CÓ TỈNH VÀ TOẠ ĐỘ: kho lễ hội hiện không lưu hai trường ấy, và bịa ra toạ độ cho một lễ hội là nói sai chỗ người ta sắp đi tới. Đó là việc nhập nội dung, không phải việc tính, nên nó chờ ban biên tập chứ không chờ mã.",
+  "ghi_chu_chung_en": "The festival LIST is editorial data while the SOLAR DATE is computed by the engine, so the two halves of this table carry different confidence and the nguon column says which is which. Festivals with a fixed solar date keep that date every year; festivals on a lunar date are converted at UTC+7. Leap months: a festival falling in a lunar month that has a leap twin is placed in the MAIN month, not the leap one, as most places observe it. THE TABLE HAS NO PROVINCE OR COORDINATES: the festival store does not hold those fields, and inventing a coordinate for a festival is telling someone the wrong place to travel to. That is content entry, not computation, so it waits on the editors rather than on code.",
+  "ghi_chu_chung_zh": "节庆名录属于编辑数据，公历日期则由推算引擎生成，因此本表两半的可信度并不相同，nguon 一列已注明各自属于哪一类。固定公历日的节庆每年日期不变；按农历定日的节庆按 UTC+7 换算。闰月：若节庆所在的农历月有闰月，本表取正月份而非闰月，这与多数地方的办法一致。本表没有省份与坐标：节庆库目前不存这两个字段，而为一个节庆编造坐标，等于把人指到错的地方去。那是内容录入而非计算，因此要等编辑部，不是等代码。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/lich-le-hoi",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Lễ hội Việt Nam quy đổi sang ngày dương, 2026 tới 2030. Phiên bản 1.1.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese festivals mapped to solar dates, 2026 to 2030. Version 1.1.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "mo_hinh": [
+    "lich-am-ho-ngoc-duc-utc7-v1"
+  ],
+  "quy_uoc": [
+    "mui-gio",
+    "thang-nhuan"
+  ]
+}
