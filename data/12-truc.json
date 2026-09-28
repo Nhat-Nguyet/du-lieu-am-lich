@@ -1,0 +1,134 @@
+[
+  {
+    "ghi_chu": "",
+    "id": "1",
+    "nen_lam": "Xuất hành, gặp gỡ, trình bày ý định; Bắt đầu một việc nhỏ",
+    "nen_tranh": "Động thổ, đào xới; Việc lớn cần dốc sức ngay",
+    "nghia": "Ngày mở đầu một vòng. Khí đang lên nhưng còn non, hợp việc bắt đầu nhẹ hơn là việc nặng.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Kiến",
+    "ten_en": "Establish",
+    "thu_tu": "1"
+  },
+  {
+    "ghi_chu": "",
+    "id": "2",
+    "nen_lam": "Dọn dẹp, bỏ thứ không dùng; Chữa bệnh, giải quyết việc tồn",
+    "nen_tranh": "Khai trương, mở hàng; Đi xa dài ngày",
+    "nghia": "Ngày quét dọn. Hợp với việc bỏ đi cái cũ hơn là dựng lên cái mới.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Trừ",
+    "ten_en": "Remove",
+    "thu_tu": "2"
+  },
+  {
+    "ghi_chu": "",
+    "id": "3",
+    "nen_lam": "Cầu tài, nhập kho, mua sắm; Nhận bàn giao",
+    "nen_tranh": "Uống thuốc, chữa bệnh; Kiện tụng, tranh chấp",
+    "nghia": "Ngày đầy. Cái gì đã đầy thì hợp nhận vào, không hợp đổ thêm.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Mãn",
+    "ten_en": "Full",
+    "thu_tu": "3"
+  },
+  {
+    "ghi_chu": "",
+    "id": "4",
+    "nen_lam": "Hoà giải, thương lượng; Ký kết, san lấp, sửa sang",
+    "nen_tranh": "Khởi sự lớn; Kiện tụng",
+    "nghia": "Ngày phẳng. Mọi thứ ở thế cân, hợp việc cần hai bên cùng gật đầu.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Bình",
+    "ten_en": "Balance",
+    "thu_tu": "4"
+  },
+  {
+    "ghi_chu": "",
+    "id": "5",
+    "nen_lam": "Ký hợp đồng, nhập trạch; Cưới hỏi, nhận việc",
+    "nen_tranh": "Kiện tụng; Đi xa, đổi chỗ",
+    "nghia": "Ngày yên vị. Cái gì chốt hôm nay thì khó lay, nên chốt thứ đáng chốt.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Định",
+    "ten_en": "Settle",
+    "thu_tu": "5"
+  },
+  {
+    "ghi_chu": "",
+    "id": "6",
+    "nen_lam": "Thu hồi công nợ, cất giữ; Tạo tác, làm cho chắc thêm",
+    "nen_tranh": "Xuất hành, chuyển nhà; Giao tiền ra ngoài",
+    "nghia": "Ngày nắm giữ. Hợp việc giữ lại và làm cho chắc, không hợp việc rời đi.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Chấp",
+    "ten_en": "Hold",
+    "thu_tu": "6"
+  },
+  {
+    "ghi_chu": "",
+    "id": "7",
+    "nen_lam": "Dỡ bỏ, phá cái hỏng; Chữa bệnh nặng, cắt bỏ dứt khoát",
+    "nen_tranh": "Cưới hỏi, khai trương; Mọi việc khởi sự",
+    "nghia": "Ngày phá. Trong mười hai trực đây là ngày bị kiêng nhiều nhất, chỉ hợp đúng việc dỡ bỏ.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Phá",
+    "ten_en": "Break",
+    "thu_tu": "7"
+  },
+  {
+    "ghi_chu": "",
+    "id": "8",
+    "nen_lam": "Việc quen thuộc, làm trong tầm kiểm soát; Cúng lễ, cầu an",
+    "nen_tranh": "Lên cao, đi xa, ra sông nước; Việc phải liều",
+    "nghia": "Ngày dè chừng. Không phải ngày xấu toàn phần, mà là ngày nên bớt mạo hiểm.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Nguy",
+    "ten_en": "Danger",
+    "thu_tu": "8"
+  },
+  {
+    "ghi_chu": "",
+    "id": "9",
+    "nen_lam": "Khai trương, nhập học, cưới hỏi; Hoàn tất việc đang dở",
+    "nen_tranh": "Kiện tụng, tranh chấp",
+    "nghia": "Ngày thành. Việc đã chuẩn bị đủ thì hôm nay hợp để chốt lại thành hình.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Thành",
+    "ten_en": "Complete",
+    "thu_tu": "9"
+  },
+  {
+    "ghi_chu": "",
+    "id": "10",
+    "nen_lam": "Thu nợ, nhập hàng, mua vào; Nhận người, nhận việc",
+    "nen_tranh": "Xuất tiền lớn; An táng",
+    "nghia": "Ngày gặt. Hợp chiều thu vào, không hợp chiều đưa ra.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Thu",
+    "ten_en": "Receive",
+    "thu_tu": "10"
+  },
+  {
+    "ghi_chu": "",
+    "id": "11",
+    "nen_lam": "Khai trương, nhập học, cầu phúc; Mở việc mới, xin việc",
+    "nen_tranh": "An táng; Động thổ, đào huyệt",
+    "nghia": "Ngày mở. Cửa mở ra thì hợp bắt đầu và hợp cầu, nhưng không hợp việc đóng lại.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Khai",
+    "ten_en": "Open",
+    "thu_tu": "11"
+  },
+  {
+    "ghi_chu": "",
+    "id": "12",
+    "nen_lam": "Lấp, đắp, bịt kín; Kết thúc một việc, cất giữ",
+    "nen_tranh": "Khai trương; Chữa bệnh, phẫu thuật",
+    "nghia": "Ngày đóng. Hợp việc bịt lại, kết lại, chấm dứt.",
+    "nguon": "Lịch vạn niên",
+    "ten": "Bế",
+    "ten_en": "Close",
+    "thu_tu": "12"
+  }
+]

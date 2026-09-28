@@ -1,0 +1,101 @@
+{
+  "slug": "12-dia-chi",
+  "ten": "12 Địa Chi",
+  "ten_en": "The twelve earthly branches",
+  "ten_zh": "十二地支",
+  "mo_ta": "Mười hai Địa Chi kèm con giáp, ngũ hành và khung giờ hai tiếng tương ứng.",
+  "mo_ta_en": "The twelve earthly branches with their zodiac animal, five-element attribution and two-hour window.",
+  "mo_ta_zh": "十二地支及对应的生肖、五行与两小时时辰。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 12,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "thu_tu",
+      "kieu": "int",
+      "moTa": "Vị trí trong vòng 12, Tý là 1 và Hợi là 12",
+      "moTaEn": "Position in the cycle of 12, Tý is 1 and Hợi is 12",
+      "moTaZh": "在十二支循环中的位置，子为1，亥为12"
+    },
+    {
+      "ten": "chi",
+      "kieu": "string",
+      "moTa": "Tên Địa Chi",
+      "moTaEn": "Earthly Branch name",
+      "moTaZh": "地支名称"
+    },
+    {
+      "ten": "con_giap",
+      "kieu": "string",
+      "moTa": "Con giáp ứng với chi, theo cách gọi Việt Nam",
+      "moTaEn": "Earthly branch animal, using Vietnamese naming",
+      "moTaZh": "对应地支的生肖，按越南称法"
+    },
+    {
+      "ten": "ngu_hanh",
+      "kieu": "string",
+      "moTa": "Ngũ hành của chi",
+      "moTaEn": "Five elements of the branch",
+      "moTaZh": "地支的五行"
+    },
+    {
+      "ten": "ngu_hanh_en",
+      "kieu": "string",
+      "moTa": "Ngũ hành của chi, tiếng Anh",
+      "moTaEn": "Five elements of the branch, in English",
+      "moTaZh": "地支的五行，英文"
+    },
+    {
+      "ten": "khung_gio",
+      "kieu": "string",
+      "moTa": "Khung hai tiếng trong ngày ứng với chi, giờ Việt Nam",
+      "moTaEn": "Two hour range in the day corresponding to the branch, Vietnam time",
+      "moTaZh": "对应地支的时辰，越南时间"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Con giáp thứ tư ở Việt Nam là MÈO, khác Trung Quốc và phần lớn các nước Đông Á vốn dùng Thỏ cho chi Mão. Bộ này giữ cách gọi Việt Nam. Khung giờ tính theo giờ Việt Nam, và giờ Tý bắc qua nửa đêm nên trải từ 23h hôm trước sang 1h hôm sau.",
+  "ghi_chu_chung_en": "The fourth zodiac animal in Vietnam is the CAT, unlike China and most of East Asia which assign the Rabbit to the branch Mao. This dataset keeps the Vietnamese naming. The hour windows are in Vietnam time, and the hour of Ty straddles midnight, running from 23:00 of the previous day to 01:00.",
+  "ghi_chu_chung_zh": "越南十二生肖的第四位是猫，与中国及多数东亚国家以兔配卯不同。本数据集保留越南的叫法。时辰按越南时间计，子时跨过午夜，因此从前一日 23 时延至次日 1 时。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/12-con-giap-hop-khac",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 12 Địa Chi. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/12-dia-chi.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The twelve earthly branches. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/12-dia-chi.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "con-giap-mao-la-meo",
+    "gio-ty-tu-23h"
+  ]
+}

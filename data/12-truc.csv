@@ -1,0 +1,13 @@
+id,thu_tu,ten,ten_en,nghia,nen_lam,nen_tranh,nguon,ghi_chu
+1,1,Kiến,Establish,"Ngày mở đầu một vòng. Khí đang lên nhưng còn non, hợp việc bắt đầu nhẹ hơn là việc nặng.","Xuất hành, gặp gỡ, trình bày ý định; Bắt đầu một việc nhỏ","Động thổ, đào xới; Việc lớn cần dốc sức ngay",Lịch vạn niên,
+2,2,Trừ,Remove,Ngày quét dọn. Hợp với việc bỏ đi cái cũ hơn là dựng lên cái mới.,"Dọn dẹp, bỏ thứ không dùng; Chữa bệnh, giải quyết việc tồn","Khai trương, mở hàng; Đi xa dài ngày",Lịch vạn niên,
+3,3,Mãn,Full,"Ngày đầy. Cái gì đã đầy thì hợp nhận vào, không hợp đổ thêm.","Cầu tài, nhập kho, mua sắm; Nhận bàn giao","Uống thuốc, chữa bệnh; Kiện tụng, tranh chấp",Lịch vạn niên,
+4,4,Bình,Balance,"Ngày phẳng. Mọi thứ ở thế cân, hợp việc cần hai bên cùng gật đầu.","Hoà giải, thương lượng; Ký kết, san lấp, sửa sang",Khởi sự lớn; Kiện tụng,Lịch vạn niên,
+5,5,Định,Settle,"Ngày yên vị. Cái gì chốt hôm nay thì khó lay, nên chốt thứ đáng chốt.","Ký hợp đồng, nhập trạch; Cưới hỏi, nhận việc","Kiện tụng; Đi xa, đổi chỗ",Lịch vạn niên,
+6,6,Chấp,Hold,"Ngày nắm giữ. Hợp việc giữ lại và làm cho chắc, không hợp việc rời đi.","Thu hồi công nợ, cất giữ; Tạo tác, làm cho chắc thêm","Xuất hành, chuyển nhà; Giao tiền ra ngoài",Lịch vạn niên,
+7,7,Phá,Break,"Ngày phá. Trong mười hai trực đây là ngày bị kiêng nhiều nhất, chỉ hợp đúng việc dỡ bỏ.","Dỡ bỏ, phá cái hỏng; Chữa bệnh nặng, cắt bỏ dứt khoát","Cưới hỏi, khai trương; Mọi việc khởi sự",Lịch vạn niên,
+8,8,Nguy,Danger,"Ngày dè chừng. Không phải ngày xấu toàn phần, mà là ngày nên bớt mạo hiểm.","Việc quen thuộc, làm trong tầm kiểm soát; Cúng lễ, cầu an","Lên cao, đi xa, ra sông nước; Việc phải liều",Lịch vạn niên,
+9,9,Thành,Complete,Ngày thành. Việc đã chuẩn bị đủ thì hôm nay hợp để chốt lại thành hình.,"Khai trương, nhập học, cưới hỏi; Hoàn tất việc đang dở","Kiện tụng, tranh chấp",Lịch vạn niên,
+10,10,Thu,Receive,"Ngày gặt. Hợp chiều thu vào, không hợp chiều đưa ra.","Thu nợ, nhập hàng, mua vào; Nhận người, nhận việc",Xuất tiền lớn; An táng,Lịch vạn niên,
+11,11,Khai,Open,"Ngày mở. Cửa mở ra thì hợp bắt đầu và hợp cầu, nhưng không hợp việc đóng lại.","Khai trương, nhập học, cầu phúc; Mở việc mới, xin việc","An táng; Động thổ, đào huyệt",Lịch vạn niên,
+12,12,Bế,Close,"Ngày đóng. Hợp việc bịt lại, kết lại, chấm dứt.","Lấp, đắp, bịt kín; Kết thúc một việc, cất giữ","Khai trương; Chữa bệnh, phẫu thuật",Lịch vạn niên,

@@ -1,0 +1,34 @@
+id,chu,pythagoras,chaldean,nguyen_am,nguon,ghi_chu
+A,A,1,1,co,tinh-toan,
+B,B,2,2,khong,tinh-toan,
+C,C,3,3,khong,tinh-toan,
+D,D,4,4,khong,tinh-toan,
+E,E,5,5,co,tinh-toan,
+F,F,6,8,khong,tinh-toan,
+G,G,7,3,khong,tinh-toan,
+H,H,8,5,khong,tinh-toan,
+I,I,9,1,co,tinh-toan,
+J,J,1,1,khong,tinh-toan,
+K,K,2,2,khong,tinh-toan,
+L,L,3,3,khong,tinh-toan,
+M,M,4,4,khong,tinh-toan,
+N,N,5,5,khong,tinh-toan,
+O,O,6,7,co,tinh-toan,
+P,P,7,8,khong,tinh-toan,
+Q,Q,8,1,khong,tinh-toan,
+R,R,9,2,khong,tinh-toan,
+S,S,1,3,khong,tinh-toan,
+T,T,2,4,khong,tinh-toan,
+U,U,3,6,co,tinh-toan,
+V,V,4,6,khong,tinh-toan,
+W,W,5,6,khong,tinh-toan,
+X,X,6,5,khong,tinh-toan,
+Y,Y,7,1,khong,tinh-toan,Vài phái coi Y là nguyên âm khi nó đứng giữa hai phụ âm; bảng này xếp Y là phụ âm
+Z,Z,8,7,khong,tinh-toan,
+Đ,Đ,4,4,khong,tinh-toan,Quy về D. Vài công cụ Việt quy Đ về DD và khi ấy con số lệch hẳn
+Ă,Ă,1,1,co,tinh-toan,"Quy về A, bỏ dấu"
+Â,Â,1,1,co,tinh-toan,"Quy về A, bỏ dấu"
+Ê,Ê,5,5,co,tinh-toan,"Quy về E, bỏ dấu"
+Ô,Ô,6,7,co,tinh-toan,"Quy về O, bỏ dấu"
+Ơ,Ơ,6,7,co,tinh-toan,"Quy về O, bỏ dấu"
+Ư,Ư,3,6,co,tinh-toan,"Quy về U, bỏ dấu"

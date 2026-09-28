@@ -1,0 +1,102 @@
+{
+  "slug": "12-truc",
+  "ten": "Thập nhị trực",
+  "ten_en": "The twelve day officers (Thap Nhi Truc)",
+  "ten_zh": "建除十二值",
+  "mo_ta": "Mười hai trực theo thứ tự vòng, kèm nghĩa và các việc nên làm hay nên tránh trong ngày mang trực đó.",
+  "mo_ta_en": "The twelve day officers in cycle order, with their meaning and the tasks each day suits or avoids.",
+  "mo_ta_zh": "十二值按循环顺序排列，附含义以及该值之日宜做与忌做的事。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 12,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "thu_tu",
+      "kieu": "int",
+      "moTa": "Vị trí trong vòng 12, Kiến là 1 và Bế là 12",
+      "moTaEn": "Position in the cycle of 12, Kien is 1 and Be is 12",
+      "moTaZh": "十二值序列中的位置，建为1，闭为12"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên trực",
+      "moTaEn": "Name of the truc",
+      "moTaZh": "值神名称"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên trực, tiếng Anh",
+      "moTaEn": "Name of the truc, in English",
+      "moTaZh": "值神名称，英文"
+    },
+    {
+      "ten": "nghia",
+      "kieu": "string",
+      "moTa": "Nghĩa của trực",
+      "moTaEn": "Meaning of the truc",
+      "moTaZh": "值神含义"
+    },
+    {
+      "ten": "nen_lam",
+      "kieu": "string",
+      "moTa": "Các việc hợp với ngày mang trực này, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Activities suited to a day with this truc, separated by semicolons",
+      "moTaZh": "适宜此值神日的事项，以分号分隔"
+    },
+    {
+      "ten": "nen_tranh",
+      "kieu": "string",
+      "moTa": "Các việc nên tránh trong ngày mang trực này, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Activities to avoid on days associated with this zhi, separated by semicolons",
+      "moTaZh": "该执日应避免的事项，以分号分隔"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Lịch vạn niên"
+  ],
+  "ghi_chu_chung": "Phần nghĩa và việc nên làm hay nên tránh là quy ước văn hoá truyền thống, không phải giá trị tính ra được, nên giữ đúng lối nói của lịch vạn niên và không diễn giải rộng thêm. Các bản lịch vạn niên khác nhau có thể xếp việc nên làm hơi khác, nhất là ở nhóm trực Phá, Nguy, Bế.",
+  "ghi_chu_chung_en": "The meanings and the suitable or unsuitable tasks are traditional cultural convention, not computed values, so they keep the phrasing of the almanacs and are not elaborated further. Different almanacs list the suitable tasks somewhat differently, most of all for the officers Pha, Nguy and Be.",
+  "ghi_chu_chung_zh": "含义以及宜忌事项属于传统文化约定，不是推算得出的数值，因此保留历书原有的说法，不另作发挥。各家历书对宜做事项的归类略有出入，尤以破、危、闭三值最为明显。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/xem-ngay-theo-viec",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Thập nhị trực. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/12-truc.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The twelve day officers (Thap Nhi Truc). Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/12-truc.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "truc-theo-loi-lich-van-nien"
+  ]
+}

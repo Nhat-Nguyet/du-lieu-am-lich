@@ -1,0 +1,133 @@
+name: Đồng bộ dữ liệu từ nhatnguyet.org
+
+# Một chiều: site -> kho này. KHÔNG BAO GIỜ ghi ngược.
+#
+# THEO BẢN KÊ PHÁT HÀNH (manifest.json), không theo từng tệp. Mỗi lượt tải
+# manifest của API; mã phát hành trùng bản đang có thì thôi, khác thì tải
+# ĐÚNG các tệp manifest kê, băm từng tệp và so. Lệch một tệp là dừng: API
+# đang phục vụ dữ liệu khác bản đã phát hành, tức một lượt phát hành dở, và
+# chép nó vào đây là nhân bản chỗ dở ấy.
+#
+# Tải từ API chứ không từ nhatnguyet.org/du-lieu: bản CSV của trang web có
+# BOM và CRLF cho Excel, còn bản phát hành thì không.
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  repository_dispatch:
+    types: [du-lieu-cap-nhat]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  dong-bo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Tải bản phát hành mới theo manifest
+        id: tai
+        run: |
+          python3 - <<'EOF'
+          import hashlib, json, os, sys, urllib.request
+          API = "https://api.nhatnguyet.org/api/v1/du-lieu"
+          def tai(url):
+              with urllib.request.urlopen(url, timeout=120) as r:
+                  return r.read()
+          raw = tai(API + "/manifest")
+          moi = json.loads(raw)
+          cu = {}
+          if os.path.exists("manifest.json"):
+              cu = json.load(open("manifest.json", encoding="utf-8"))
+          out = open(os.environ["GITHUB_OUTPUT"], "a")
+          if cu.get("ma_phat_hanh") == moi["ma_phat_hanh"]:
+              print("bản phát hành không đổi:", moi["ma_phat_hanh"])
+              out.write("doi=0\n"); sys.exit(0)
+          os.makedirs("moi", exist_ok=True)
+          lech = []
+          for bo in moi["bo"]:
+              for t in bo["tep"]:
+                  noi = tai(API + "/" + t["ten"])
+                  if hashlib.sha256(noi).hexdigest() != t["sha256"]:
+                      lech.append(t["ten"])
+                  open("moi/" + t["ten"], "wb").write(noi)
+          if lech:
+              print("::error::API phục vụ tệp khác bản phát hành " + moi["ma_phat_hanh"] + ": " + ", ".join(lech))
+              out.write("canh_bao=phát hành dở, lệch " + ", ".join(lech) + "\n")
+              sys.exit(1)
+          open("moi-manifest.json", "wb").write(raw)
+          out.write("doi=1\nma=" + moi["ma_phat_hanh"] + "\n")
+          EOF
+
+      - name: Chốt chặn giảm dòng quá 10%
+        id: chot
+        if: steps.tai.outputs.doi == '1'
+        run: |
+          python3 - <<'EOF'
+          import csv, glob, os, sys
+          canh = []
+          for cu in sorted(glob.glob("data/*.csv")):
+              slug = os.path.basename(cu)[:-4]
+              moi = f"moi/{slug}.csv"
+              if not os.path.exists(moi):
+                  canh.append(f"{slug}: bản mới không tồn tại"); continue
+              def dem(p):
+                  with open(p, encoding="utf-8-sig", newline="") as f:
+                      return sum(1 for _ in csv.reader(f)) - 1
+              a, b = dem(cu), dem(moi)
+              if a > 0 and b < a * 0.9:
+                  canh.append(f"{slug}: {a} -> {b} dòng, giảm {100*(a-b)/a:.1f}%")
+          if canh:
+              print("::error::" + "; ".join(canh))
+              open(os.environ["GITHUB_OUTPUT"], "a").write("canh_bao=" + " | ".join(canh) + "\n")
+              sys.exit(1)
+          print("không bộ nào giảm quá ngưỡng")
+          EOF
+
+      - name: Ghi đè, commit và gắn tag phát hành
+        if: steps.tai.outputs.doi == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          cp moi/* data/ && rm -rf moi
+          mv moi-manifest.json manifest.json
+          MA="${{ steps.tai.outputs.ma }}"
+          python3 - <<'EOF'
+          import datetime, pathlib
+          p = pathlib.Path("CHANGELOG.md")
+          t = p.read_text(encoding="utf-8")
+          moc = f"## {datetime.date.today().isoformat()}"
+          if moc not in t:
+              t = t.replace("## ", moc + "\n\nĐồng bộ dữ liệu từ nhatnguyet.org.\n\n## ", 1)
+              p.write_text(t, encoding="utf-8")
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "data: release $MA from nhatnguyet.org"
+          git push
+          if ! git ls-remote --exit-code --tags origin "release-$MA" >/dev/null; then
+            git tag "release-$MA" && git push origin "release-$MA"
+          fi
+          # Zenodo chỉ cấp DOI cho GitHub Release, không cho tag trần.
+          if ! gh release view "release-$MA" >/dev/null 2>&1; then
+            gh release create "release-$MA" --title "$MA" --notes "Đồng bộ dữ liệu từ nhatnguyet.org, bản phát hành $MA. See manifest.json." --latest
+          fi
+
+      - name: Mở issue khi đồng bộ dừng
+        if: failure() && (steps.chot.outputs.canh_bao != '' || steps.tai.outputs.canh_bao != '')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: "Đồng bộ dừng: bản phát hành lệch hoặc dữ liệu giảm bất thường",
+              body: "Lượt đồng bộ tự động đã DỪNG và không ghi đè gì.\n\n" +
+                    "${{ steps.tai.outputs.canh_bao }} ${{ steps.chot.outputs.canh_bao }}\n\n" +
+                    "Hoặc API phục vụ tệp khác manifest (phát hành dở), hoặc số dòng giảm quá 10%. " +
+                    "Chạy node scripts/kiem-phat-hanh.mjs ở kho mã của site trước khi ép chạy lại."
+            });

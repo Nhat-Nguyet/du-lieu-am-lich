@@ -1,0 +1,141 @@
+{
+  "slug": "le-hoi-viet-nam",
+  "ten": "Lễ hội, lễ tết và ngày nghỉ Việt Nam",
+  "ten_en": "Vietnamese festivals, seasonal feasts and public holidays",
+  "ten_zh": "越南节庆、岁时节日与法定假日",
+  "mo_ta": "Lễ hội dân gian, lễ tết và ngày nghỉ lễ ở Việt Nam, kèm ngày âm lịch hoặc dương lịch cố định của từng dịp.",
+  "mo_ta_en": "Vietnamese folk festivals, seasonal feasts and public holidays, each with its fixed lunar or solar date.",
+  "mo_ta_zh": "越南民间节庆、岁时节日与法定假日，并附每个节日固定的农历或公历日期。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.2.3",
+  "cap_nhat": "2026-09-28",
+  "so_dong": 197,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên lễ hội hoặc ngày lễ",
+      "moTaEn": "Name of the festival or holiday",
+      "moTaZh": "节日或纪念日名称"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên tiếng Anh",
+      "moTaEn": "Name in English",
+      "moTaZh": "英文名称"
+    },
+    {
+      "ten": "loai_ngay",
+      "kieu": "string",
+      "moTa": "lunar nếu ngày cố định theo âm lịch, solar nếu cố định theo dương lịch, theo-nam nếu chỉ có lịch công bố từng năm",
+      "moTaEn": "lunar if the date is fixed by the lunar calendar, solar if fixed by the Gregorian calendar, theo-nam if only yearly announced dates exist",
+      "moTaZh": "若日期按农历固定则为 lunar，若按公历固定则为 solar，若只有每年公布的日期则为 theo-nam"
+    },
+    {
+      "ten": "ngay_am",
+      "kieu": "string",
+      "moTa": "Ngày âm lịch dạng ngày/tháng, rỗng khi dịp này cố định theo dương lịch",
+      "moTaEn": "Lunar date in day/month format, empty when this occasion is fixed by the Gregorian calendar",
+      "moTaZh": "农历日期，格式为日/月；当该节日按公历固定时为空"
+    },
+    {
+      "ten": "ngay_duong",
+      "kieu": "string",
+      "moTa": "Ngày dương lịch dạng ngày/tháng, rỗng khi dịp này cố định theo âm lịch",
+      "moTaEn": "Solar date in day/month format, empty when this occasion is fixed by the lunar calendar",
+      "moTaZh": "公历日期，格式为日/月，当此节日按农历固定时为空"
+    },
+    {
+      "ten": "ngay_nghi_le",
+      "kieu": "string",
+      "moTa": "co nếu là ngày nghỉ lễ chính thức, khong nếu không",
+      "moTaEn": "co if it is an official public holiday, khong if not",
+      "moTaZh": "co 表示法定节假日，khong 表示不是"
+    },
+    {
+      "ten": "nhom",
+      "kieu": "string",
+      "moTa": "Nhóm dịp: le-tet, tin-nguong hoặc khac",
+      "moTaEn": "Occasion group: le-tet, tin-nguong or khac",
+      "moTaZh": "节日分组：le-tet、tin-nguong 或 khac"
+    },
+    {
+      "ten": "muc_do",
+      "kieu": "string",
+      "moTa": "major với dịp nhiều người biết, minor với dịp nhỏ hoặc mang tính vùng miền",
+      "moTaEn": "major for widely known occasions, minor for small or regional ones",
+      "moTaZh": "major 表示广为人知的节日，minor 表示小型或地域性节日"
+    },
+    {
+      "ten": "ngay_truoc",
+      "kieu": "int",
+      "moTa": "Số ngày hội mở trước ngày chính hội theo lệ, 0 với dịp một ngày",
+      "moTaEn": "Days the festival customarily opens before its main day, 0 for single-day occasions",
+      "moTaZh": "按惯例正会日之前开会的天数，单日节日为0"
+    },
+    {
+      "ten": "ngay_sau",
+      "kieu": "int",
+      "moTa": "Số ngày hội kéo dài sau ngày chính hội theo lệ",
+      "moTaEn": "Days the festival customarily continues after its main day",
+      "moTaZh": "按惯例正会日之后延续的天数"
+    },
+    {
+      "ten": "lich_cong_bo",
+      "kieu": "string",
+      "moTa": "Lịch ban tổ chức công bố cho từng năm, dạng năm: ngày bắt đầu đến ngày kết thúc, chính lễ, nguồn; các năm cách nhau bằng dấu chấm phẩy",
+      "moTaEn": "Dates announced by organisers for each year, as year: start to end, main day, source; years separated by semicolons",
+      "moTaZh": "主办方每年公布的日期，格式为 年份：开始至结束，正会日，来源；各年份以分号分隔"
+    },
+    {
+      "ten": "mo_ta",
+      "kieu": "string",
+      "moTa": "Mô tả ngắn về dịp này",
+      "moTaEn": "Short description of this occasion",
+      "moTaZh": "此节日的简短描述"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Bộ này KHÔNG phải giá trị tính ra mà là dữ liệu biên tập, nên nó đổi khi có người thêm hoặc sửa một lễ hội. Ngày ghi ở đây là ngày CỐ ĐỊNH theo âm lịch hoặc dương lịch, không phải ngày dương lịch của một năm cụ thể: muốn ngày dương của một năm thì đổi lịch từ cột ngay_am. Nhiều lễ hội vùng miền có ngày khác nhau giữa các địa phương, và bộ này ghi ngày phổ biến nhất. Lễ theo lịch Chăm, lịch Khmer hay do ban tổ chức đặt ngày thì không có ngày cố định: chúng mang loai_ngay theo-nam và chỉ có ngày trong cột lich_cong_bo.",
+  "ghi_chu_chung_en": "This dataset is NOT computed but editorial, so it changes when someone adds or edits a festival. The dates recorded here are the FIXED lunar or solar dates of each occasion, not the solar date of any particular year: to get the solar date for a given year, convert from the ngay_am column. Many regional festivals are held on different days in different localities, and this dataset records the most widely observed date. Occasions that follow the Cham or Khmer calendar, or whose dates are set by organisers, have no fixed date: they carry loai_ngay theo-nam and their dates appear only in the lich_cong_bo column.",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/lich-le-hoi",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Lễ hội, lễ tết và ngày nghỉ Việt Nam. Phiên bản 1.2.3. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-viet-nam.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese festivals, seasonal feasts and public holidays. Version 1.2.3. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-viet-nam.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "bien-tap",
+  "nguon_goc_du_lieu_mo_ta": "Nội dung do Nhật Nguyệt tuyển chọn và biên tập; nguồn của từng dòng ghi ở cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "Content selected and edited by Nhật Nguyệt; each row's source is in the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "内容由 Nhật Nguyệt 选编；各行来源见 nguon 列。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "le-hoi-ngay-pho-bien-nhat"
+  ]
+}
