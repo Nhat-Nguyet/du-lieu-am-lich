@@ -1,0 +1,102 @@
+[
+  {
+    "am_duong": "Dương",
+    "can": "Giáp",
+    "ghi_chu": "",
+    "id": "1",
+    "ngu_hanh": "Mộc",
+    "ngu_hanh_en": "Wood",
+    "nguon": "tinh-toan",
+    "thu_tu": "1"
+  },
+  {
+    "am_duong": "Âm",
+    "can": "Ất",
+    "ghi_chu": "",
+    "id": "2",
+    "ngu_hanh": "Mộc",
+    "ngu_hanh_en": "Wood",
+    "nguon": "tinh-toan",
+    "thu_tu": "2"
+  },
+  {
+    "am_duong": "Dương",
+    "can": "Bính",
+    "ghi_chu": "",
+    "id": "3",
+    "ngu_hanh": "Hỏa",
+    "ngu_hanh_en": "Fire",
+    "nguon": "tinh-toan",
+    "thu_tu": "3"
+  },
+  {
+    "am_duong": "Âm",
+    "can": "Đinh",
+    "ghi_chu": "",
+    "id": "4",
+    "ngu_hanh": "Hỏa",
+    "ngu_hanh_en": "Fire",
+    "nguon": "tinh-toan",
+    "thu_tu": "4"
+  },
+  {
+    "am_duong": "Dương",
+    "can": "Mậu",
+    "ghi_chu": "",
+    "id": "5",
+    "ngu_hanh": "Thổ",
+    "ngu_hanh_en": "Earth",
+    "nguon": "tinh-toan",
+    "thu_tu": "5"
+  },
+  {
+    "am_duong": "Âm",
+    "can": "Kỷ",
+    "ghi_chu": "",
+    "id": "6",
+    "ngu_hanh": "Thổ",
+    "ngu_hanh_en": "Earth",
+    "nguon": "tinh-toan",
+    "thu_tu": "6"
+  },
+  {
+    "am_duong": "Dương",
+    "can": "Canh",
+    "ghi_chu": "",
+    "id": "7",
+    "ngu_hanh": "Kim",
+    "ngu_hanh_en": "Metal",
+    "nguon": "tinh-toan",
+    "thu_tu": "7"
+  },
+  {
+    "am_duong": "Âm",
+    "can": "Tân",
+    "ghi_chu": "",
+    "id": "8",
+    "ngu_hanh": "Kim",
+    "ngu_hanh_en": "Metal",
+    "nguon": "tinh-toan",
+    "thu_tu": "8"
+  },
+  {
+    "am_duong": "Dương",
+    "can": "Nhâm",
+    "ghi_chu": "",
+    "id": "9",
+    "ngu_hanh": "Thủy",
+    "ngu_hanh_en": "Water",
+    "nguon": "tinh-toan",
+    "thu_tu": "9"
+  },
+  {
+    "am_duong": "Âm",
+    "can": "Quý",
+    "ghi_chu": "",
+    "id": "10",
+    "ngu_hanh": "Thủy",
+    "ngu_hanh_en": "Water",
+    "nguon": "tinh-toan",
+    "thu_tu": "10"
+  }
+]

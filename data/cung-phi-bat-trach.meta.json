@@ -1,0 +1,110 @@
+{
+  "slug": "cung-phi-bat-trach",
+  "ten": "Cung phi và hướng Bát Trạch",
+  "ten_en": "Kua number and Bat Trach directions",
+  "ten_zh": "八宅命卦与方位",
+  "mo_ta": "Cung phi theo năm sinh và giới tính cho khoảng 1900 tới 2099, kèm bốn hướng tốt và bốn hướng cần tránh.",
+  "mo_ta_en": "Kua number by birth year and sex for 1900 to 2099, with the four favourable and four unfavourable directions.",
+  "mo_ta_zh": "按出生年与性别推出的命卦，涵盖 1900 至 2099 年，附四个吉方与四个需避开的方位。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.1.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 400,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "nam_sinh",
+      "kieu": "int",
+      "moTa": "Năm sinh dương lịch",
+      "moTaEn": "Solar year of birth",
+      "moTaZh": "公历出生年份"
+    },
+    {
+      "ten": "gioi_tinh",
+      "kieu": "string",
+      "moTa": "Nam hoặc Nữ",
+      "moTaEn": "Male or Female",
+      "moTaZh": "男或女"
+    },
+    {
+      "ten": "cung_phi",
+      "kieu": "int",
+      "moTa": "Số cung phi, còn gọi là số Kua, từ 1 tới 9 và không có số 5",
+      "moTaEn": "Cung phi number, also called Kua number, from 1 to 9 and excluding 5",
+      "moTaZh": "宫飞数，又称卦数，从1到9且不含5"
+    },
+    {
+      "ten": "que_menh",
+      "kieu": "string",
+      "moTa": "Quẻ mệnh ứng với cung phi",
+      "moTaEn": "Menh que corresponding to the cung phi",
+      "moTaZh": "与宫飞对应的命卦"
+    },
+    {
+      "ten": "nhom_menh",
+      "kieu": "string",
+      "moTa": "Đông tứ mệnh hoặc Tây tứ mệnh",
+      "moTaEn": "East four menh or West four menh",
+      "moTaZh": "东四命或西四命"
+    },
+    {
+      "ten": "huong_tot",
+      "kieu": "string",
+      "moTa": "Bốn hướng tốt, xếp từ tốt nhất, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Four favorable directions, ordered from best, separated by semicolons",
+      "moTaZh": "四个吉方，从最佳开始排列，以分号分隔"
+    },
+    {
+      "ten": "huong_xau",
+      "kieu": "string",
+      "moTa": "Bốn hướng cần tránh, xếp từ nhẹ nhất, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Four directions to avoid, ordered from least unfavorable, separated by semicolons",
+      "moTaZh": "四个宜避之方，从最轻开始排列，以分号分隔"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Bát Trạch Minh Cảnh"
+  ],
+  "ghi_chu_chung": "Bát Trạch là MỘT trường phái phong thuỷ dựa trên cung phi cá nhân, không phải phương pháp duy nhất: Huyền Không Phi Tinh và loan đầu cho kết quả khác. Bảng dùng năm sinh DƯƠNG LỊCH làm xấp xỉ năm âm lịch, nên người sinh sát Tết có thể lệch một cung; muốn chắc thì đổi sang năm âm lịch trước khi tra.",
+  "ghi_chu_chung_en": "Bat Trach is ONE school of feng shui based on a personal Kua number, not the only method: Flying Star and landform schools reach different conclusions. The table uses the SOLAR birth year as an approximation of the lunar year, so someone born close to Tet may be off by one palace; convert to the lunar year first if it matters.",
+  "ghi_chu_chung_zh": "八宅是以个人命卦为依据的一个风水流派，并非唯一方法：玄空飞星与峦头给出的结论不同。本表以公历出生年近似农历年，因此临近春节出生者可能相差一个命卦；要确切就先换算成农历年再查。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/xem-nha-dat",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Cung phi và hướng Bát Trạch. Phiên bản 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/cung-phi-bat-trach.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Kua number and Bat Trach directions. Version 1.1.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/cung-phi-bat-trach.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "cung-phi-theo-nam-duong",
+    "phong-thuy-bat-trach"
+  ]
+}

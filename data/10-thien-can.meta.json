@@ -1,0 +1,88 @@
+{
+  "slug": "10-thien-can",
+  "ten": "10 Thiên Can",
+  "ten_en": "The ten heavenly stems",
+  "ten_zh": "十天干",
+  "mo_ta": "Mười Thiên Can kèm ngũ hành và âm dương của từng can.",
+  "mo_ta_en": "The ten heavenly stems with the five-element attribution and yin-yang polarity of each.",
+  "mo_ta_zh": "十天干及各干的五行与阴阳。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 10,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "thu_tu",
+      "kieu": "int",
+      "moTa": "Vị trí trong vòng 10, Giáp là 1 và Quý là 10",
+      "moTaEn": "Position in the cycle of 10, Giáp is 1 and Quý is 10",
+      "moTaZh": "在十干循环中的位置，甲为1，癸为10"
+    },
+    {
+      "ten": "can",
+      "kieu": "string",
+      "moTa": "Tên Thiên Can",
+      "moTaEn": "Heavenly Stem name",
+      "moTaZh": "天干名称"
+    },
+    {
+      "ten": "ngu_hanh",
+      "kieu": "string",
+      "moTa": "Ngũ hành của can",
+      "moTaEn": "Five Elements of the stem",
+      "moTaZh": "天干的五行"
+    },
+    {
+      "ten": "ngu_hanh_en",
+      "kieu": "string",
+      "moTa": "Ngũ hành của can, tiếng Anh",
+      "moTaEn": "Five Elements of the stem, in English",
+      "moTaZh": "天干的五行，英文"
+    },
+    {
+      "ten": "am_duong",
+      "kieu": "string",
+      "moTa": "Âm hoặc Dương",
+      "moTaEn": "Yin or Yang",
+      "moTaZh": "阴或阳"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/60-hoa-giap",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 10 Thiên Can. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/10-thien-can.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The ten heavenly stems. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/10-thien-can.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

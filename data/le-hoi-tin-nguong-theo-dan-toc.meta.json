@@ -1,0 +1,126 @@
+{
+  "slug": "le-hoi-tin-nguong-theo-dan-toc",
+  "ten": "Lễ hội và tín ngưỡng theo dân tộc",
+  "ten_en": "Festivals and folk beliefs of the 54 ethnic groups of Vietnam",
+  "ten_zh": "越南 54 个民族的节庆与信仰",
+  "mo_ta": "Lễ hội, nghi lễ và tập tục thờ cúng của 54 dân tộc Việt Nam, mỗi lễ một dòng, kèm nơi cư trú và nhóm ngôn ngữ của dân tộc ấy. Rút từ 54 bài viết của Nhật Nguyệt, mỗi dòng dẫn về bài nguồn.",
+  "mo_ta_en": "Festivals, rites and worship customs of the 54 ethnic groups of Vietnam, one row per festival, with each group's home region and language family. Extracted from 54 Nhật Nguyệt articles; every row cites the article it came from.",
+  "mo_ta_zh": "越南 54 个民族的节庆、仪礼与祭祀习俗，每个节庆一行，并附该民族的聚居地区与语族。取自日月的 54 篇文章，每一行都注明来源文章。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-21",
+  "so_dong": 187,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "dan_toc",
+      "kieu": "string",
+      "moTa": "Tên dân tộc theo danh mục chính thức 54 dân tộc",
+      "moTaEn": "Ethnic group name as it appears in the official list of 54",
+      "moTaZh": "按官方 54 民族名录列出的民族名称"
+    },
+    {
+      "ten": "ten_khac",
+      "kieu": "string",
+      "moTa": "Tên gọi khác đang dùng song song, rỗng khi bài không nhắc",
+      "moTaEn": "Alternative name in parallel use, empty when the article mentions none",
+      "moTaZh": "并用的其他称呼；文章未提及时留空"
+    },
+    {
+      "ten": "le_hoi",
+      "kieu": "string",
+      "moTa": "Tên lễ hội hoặc nghi lễ, chép nguyên văn từ bài. Rỗng khi bài không nhắc tên lễ nào",
+      "moTaEn": "Name of the festival or rite, copied verbatim from the article. Empty when the article names none",
+      "moTaZh": "节庆或仪礼名称，逐字取自文章；文章未提及任何名称时留空"
+    },
+    {
+      "ten": "thoi_gian",
+      "kieu": "string",
+      "moTa": "Thời gian tổ chức như bài mô tả, rỗng khi bài không nói",
+      "moTaEn": "When it is held, as the article describes; empty when the article does not say",
+      "moTaZh": "文章所述的举办时间；文章未说明时留空"
+    },
+    {
+      "ten": "dia_ban",
+      "kieu": "string",
+      "moTa": "Nơi tổ chức như bài mô tả, rỗng khi bài không nói",
+      "moTaEn": "Where it is held, as the article describes; empty when the article does not say",
+      "moTaZh": "文章所述的举办地点；文章未说明时留空"
+    },
+    {
+      "ten": "y_nghia",
+      "kieu": "string",
+      "moTa": "Mục đích của lễ, một câu rút từ bài",
+      "moTaEn": "Purpose of the rite, one sentence taken from the article",
+      "moTaZh": "该仪礼的目的，取自文章的一句话"
+    },
+    {
+      "ten": "noi_cu_tru",
+      "kieu": "string",
+      "moTa": "Vùng cư trú chính của dân tộc",
+      "moTaEn": "Main home region of the ethnic group",
+      "moTaZh": "该民族的主要聚居地区"
+    },
+    {
+      "ten": "nhom_ngon_ngu",
+      "kieu": "string",
+      "moTa": "Nhóm ngôn ngữ và ngữ hệ",
+      "moTaEn": "Language group and family",
+      "moTaZh": "语支与语系"
+    },
+    {
+      "ten": "tin_nguong",
+      "kieu": "string",
+      "moTa": "Tín ngưỡng và tập tục thờ cúng chính",
+      "moTaEn": "Main beliefs and worship customs",
+      "moTaZh": "主要信仰与祭祀习俗"
+    },
+    {
+      "ten": "bai_nguon",
+      "kieu": "string",
+      "moTa": "Slug bài đã rút ra dòng này. Ghép với https://nhatnguyet.org/kien-thuc/bai-viet/ ra địa chỉ đầy đủ",
+      "moTaEn": "Slug of the article this row was extracted from. Prefix with https://nhatnguyet.org/kien-thuc/bai-viet/ for the full URL",
+      "moTaZh": "该行所抽取自的文章 slug，加上前缀 https://nhatnguyet.org/kien-thuc/bai-viet/ 即为完整网址"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Bộ này KHÔNG phải giá trị lõi tính, nó là bản chụp rút từ bài viết bằng máy rồi qua hai cửa chặn: tên lễ hội phải xuất hiện NGUYÊN VĂN trong thân bài, và mọi con số phải có mặt trong thân bài. Lượt rút ngày 21/09/2026 loại 8 dòng vì tên lễ hội không khớp nguyên văn. Cột thoi_gian và dia_ban để TRỐNG khi bài không nói, chứ không đoán: 100 trên 187 dòng có thời gian, 14 dòng có địa bàn. Một dân tộc thường có nhiều tên gọi đang dùng song song; cột dan_toc lấy tên trong danh mục chính thức, cột ten_khac ghi tên gọi khác nếu bài có nhắc. Nhiều lễ hội có ngày và cách tổ chức khác nhau giữa các vùng, và bộ này ghi cách bài viết mô tả chứ không khảo từng làng.",
+  "ghi_chu_chung_en": "This set is NOT engine output. It is a snapshot extracted from articles by machine and passed through two gates: the festival name must appear VERBATIM in the article body, and every number must appear in the article body. The extraction run of 21 September 2026 dropped 8 rows whose festival names did not match verbatim. The thoi_gian and dia_ban columns are left EMPTY where the article does not say, rather than guessed: 100 of 187 rows carry a time, 14 carry a location. An ethnic group often has several names in parallel use; dan_toc takes the name from the official list and ten_khac records an alternative where the article mentions one. Many festivals differ in date and practice between regions; this set records what the article describes, it does not survey individual villages.",
+  "ghi_chu_chung_zh": "本数据集并非引擎计算结果，而是由程序从文章中抽取的快照，并通过两道校验：节庆名称必须逐字出现在正文中，所有数字必须出现在正文中。2026 年 9 月 21 日的抽取剔除了 8 行名称无法逐字对应的数据。文章未提及时，thoi_gian 与 dia_ban 两列留空而非猜测：187 行中 100 行有时间，14 行有地点。一个民族常有多个并用的名称；dan_toc 取官方名录中的名称，ten_khac 记录文章提到的其他称呼。许多节庆在不同地区的日期与做法各异；本数据集记录文章所述，并未逐村调查。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/kien-thuc/viet-nam",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Lễ hội và tín ngưỡng theo dân tộc. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-tin-nguong-theo-dan-toc.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Festivals and folk beliefs of the 54 ethnic groups of Vietnam. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-tin-nguong-theo-dan-toc.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "bien-tap",
+  "nguon_goc_du_lieu_mo_ta": "Nội dung do Nhật Nguyệt tuyển chọn và biên tập; nguồn của từng dòng ghi ở cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "Content selected and edited by Nhật Nguyệt; each row's source is in the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "内容由 Nhật Nguyệt 选编；各行来源见 nguon 列。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

@@ -1,0 +1,130 @@
+{
+  "slug": "tam-tai-kim-lau-hoang-oc",
+  "ten": "Tam Tai, Kim Lâu, Hoang Ốc theo tuổi và năm xem",
+  "ten_en": "Tam Tai, Kim Lau and Hoang Oc by birth year and year in question",
+  "ten_zh": "按出生年与所问年份查三灾、金楼、荒屋",
+  "mo_ta": "Ghép chéo mọi năm sinh từ 1940 tới 2010 với mọi năm xem từ 2020 tới 2050, cho biết cặp ấy có phạm Tam Tai, Kim Lâu hay Hoang Ốc không, kèm phép tính để đối chiếu.",
+  "mo_ta_en": "Every birth year from 1940 to 2010 crossed with every year in question from 2020 to 2050, showing whether the pair falls under Tam Tai, Kim Lau or Hoang Oc, with the arithmetic shown.",
+  "mo_ta_zh": "1940 至 2010 年的每个出生年，与 2020 至 2050 年的每个所问年份两两交叉，指出该组合是否犯三灾、金楼或荒屋，并附上推算过程。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-20",
+  "so_dong": 2201,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "nam_sinh",
+      "kieu": "int",
+      "moTa": "Năm sinh dương lịch",
+      "moTaEn": "Year of birth in the Gregorian calendar",
+      "moTaZh": "公历出生年份"
+    },
+    {
+      "ten": "nam_xem",
+      "kieu": "int",
+      "moTa": "Năm định làm việc, dương lịch",
+      "moTaEn": "Year of the undertaking, Gregorian calendar",
+      "moTaZh": "所办事项的年份，公历"
+    },
+    {
+      "ten": "tuoi_mu",
+      "kieu": "int",
+      "moTa": "Tuổi mụ dùng cho Kim Lâu và Hoang Ốc",
+      "moTaEn": "Nominal age used for Kim Lau and Hoang Oc",
+      "moTaZh": "用于金楼与荒屋的虚岁"
+    },
+    {
+      "ten": "pham_tam_tai",
+      "kieu": "string",
+      "moTa": "co khi năm xem rơi vào Tam Tai của tuổi ấy",
+      "moTaEn": "co when the year falls into Tam Tai of that age, khong otherwise",
+      "moTaZh": "co 表示该年落入该年龄的三灾，khong 表示不落入"
+    },
+    {
+      "ten": "chi_tam_tai",
+      "kieu": "string",
+      "moTa": "Ba chi Tam Tai của nhóm, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Three earthly branches of Tam Tai for the group, separated by semicolons",
+      "moTaZh": "该组三灾的三个地支，以分号分隔"
+    },
+    {
+      "ten": "pham_kim_lau",
+      "kieu": "string",
+      "moTa": "co khi tuổi mụ phạm Kim Lâu",
+      "moTaEn": "co when the nominal age offends Kim Lau, khong otherwise",
+      "moTaZh": "co 表示虚岁犯金楼，khong 表示不犯"
+    },
+    {
+      "ten": "ten_kim_lau",
+      "kieu": "string",
+      "moTa": "Tên Kim Lâu phạm phải, rỗng khi không phạm",
+      "moTaEn": "Name of the Kim Lau offended, empty when not offended",
+      "moTaZh": "所犯金楼名称，未犯时为空"
+    },
+    {
+      "ten": "pham_hoang_oc",
+      "kieu": "string",
+      "moTa": "co khi tuổi mụ rơi vào cung xấu của Hoang Ốc",
+      "moTaEn": "co when the nominal age falls into an inauspicious cung of Hoang Oc, khong otherwise",
+      "moTaZh": "co 表示虚岁落入 Hoang Oc 的凶宫，khong 表示不落入"
+    },
+    {
+      "ten": "cung_hoang_oc",
+      "kieu": "string",
+      "moTa": "Cung Hoang Ốc của tuổi mụ",
+      "moTaEn": "Hoang Oc palace of the nominal age",
+      "moTaZh": "虚岁的黄屋宫"
+    },
+    {
+      "ten": "phep_tinh_kim_lau",
+      "kieu": "string",
+      "moTa": "Phép tính Kim Lâu, in ra để đối chiếu lại",
+      "moTaEn": "Kim Lau calculation, printed for cross-checking",
+      "moTaZh": "金楼计算，输出以便核对"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Lịch vạn niên"
+  ],
+  "ghi_chu_chung": "Ba phép này là quy ước dân gian chứ không phải phép đo, và chúng bất đồng ở đúng hai chỗ. Thứ nhất là TUỔI MỤ: bảng này lấy tuổi mụ bằng năm xem trừ năm sinh cộng một, tức cách đếm phổ biến nhất ở Việt Nam, trong khi một số phái đếm theo năm âm lịch đã qua Tết. Ai sinh trong khoảng từ đầu tháng 1 dương tới trước Tết thì hai cách cho ra hai con số khác nhau. Thứ hai là NĂM SINH: cột nam_sinh ở đây là năm DƯƠNG lịch, còn Tam Tai xét theo chi của năm ÂM, nên với người sinh trước Tết thì phải lùi một năm âm. Cột ghi_chu đánh dấu những dòng ấy. Bảng này KHÔNG nói một năm là tốt hay xấu; nó chỉ nói cặp năm ấy có rơi vào ba nhóm kia không.",
+  "ghi_chu_chung_en": "These three are folk conventions, not measurements, and they disagree in exactly two places. First, LUNAR AGE: this table takes it as year in question minus birth year plus one, the most common Vietnamese reckoning, while some schools count lunar years elapsed since the new year. For anyone born between 1 January and the lunar new year the two give different numbers. Second, BIRTH YEAR: the nam_sinh column here is a solar year, while Tam Tai is judged by the branch of the lunar year, so anyone born before the lunar new year belongs to the previous lunar year. The ghi_chu column marks those rows. This table does not say a year is good or bad; it says only whether the pair falls into those three groupings.",
+  "ghi_chu_chung_zh": "这三种说法是民间约定而非测量，且恰在两处存在分歧。其一是虚岁：本表取所问年份减出生年再加一，这是越南最常见的算法，而有些流派按已过的农历年计算。出生在公历 1 月 1 日至春节之间的人，两种算法给出的数字不同。其二是出生年：本表 nam_sinh 一列是公历年，而三灾按农历年的地支判断，因此春节前出生者须退一个农历年，ghi_chu 一列已标出这些行。本表不判断年份吉凶，只说明这一组合是否落入上述三类。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/xem-tuoi-lam-nha",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Tam Tai, Kim Lâu, Hoang Ốc theo tuổi và năm xem. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/tam-tai-kim-lau-hoang-oc.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Tam Tai, Kim Lau and Hoang Oc by birth year and year in question. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/tam-tai-kim-lau-hoang-oc.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "tuoi-mu-nam-xem-tru-nam-sinh-cong-mot"
+  ]
+}

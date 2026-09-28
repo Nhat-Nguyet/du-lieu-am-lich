@@ -1,0 +1,88 @@
+{
+  "slug": "chu-sang-so-than-so-hoc",
+  "ten": "Bảng quy đổi chữ sang số, Pythagoras và Chaldean",
+  "ten_en": "Letter to number tables, Pythagorean and Chaldean",
+  "ten_zh": "字母转数字对照表：毕达哥拉斯与迦勒底",
+  "mo_ta": "Giá trị số của từng chữ cái trong hai hệ thần số học, kèm quy ước xử lý dấu tiếng Việt và chữ Đ.",
+  "mo_ta_en": "The numeric value of each letter in both numerology systems, with the convention for Vietnamese diacritics and the letter D with stroke.",
+  "mo_ta_zh": "两套生命灵数体系中每个字母的数值，附越南语声调符号与字母 Đ 的处理约定。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-21",
+  "so_dong": 33,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "chu",
+      "kieu": "string",
+      "moTa": "Chữ cái, viết hoa",
+      "moTaEn": "Letter, uppercase",
+      "moTaZh": "字母，大写"
+    },
+    {
+      "ten": "pythagoras",
+      "kieu": "int",
+      "moTa": "Giá trị theo hệ Pythagoras, 1 tới 9",
+      "moTaEn": "Value in the Pythagorean system, 1 to 9",
+      "moTaZh": "毕达哥拉斯体系数值，1 至 9"
+    },
+    {
+      "ten": "chaldean",
+      "kieu": "int",
+      "moTa": "Giá trị theo hệ Chaldean, 1 tới 8; hệ này không dùng số 9",
+      "moTaEn": "Value in the Chaldean system, 1 to 8; that system uses no 9",
+      "moTaZh": "迦勒底体系数值，1 至 8；该体系不用 9"
+    },
+    {
+      "ten": "nguyen_am",
+      "kieu": "string",
+      "moTa": "co khi chữ này là nguyên âm, dùng để tính số Linh Hồn",
+      "moTaEn": "co when this character is a vowel, used to calculate the Soul number",
+      "moTaZh": "co 表示该字符是元音，用于计算灵魂数"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "ĐÂY LÀ CHỖ MỌI CÔNG CỤ VIỆT LÀM KHÁC NHAU, nên công bố rõ là tạo ra một chuẩn để đối chiếu, không phải để áp đặt. Ba chỗ bất đồng: Thứ nhất, chữ Đ. Bảng này quy Đ về D; vài công cụ quy về DD và khi ấy con số lệch hẳn. Thứ hai, chữ Y. Bảng này xếp Y là phụ âm; vài phái coi nó là nguyên âm khi đứng giữa hai phụ âm, và điều ấy đổi cả số Linh Hồn lẫn số Nhân Cách chứ không đổi số Sứ Mệnh. Thứ ba, hai hệ cho hai con số khác nhau cho cùng một cái tên, và chênh lệch ấy là THẬT: Pythagoras gán 1 tới 9 theo đúng thứ tự bảng chữ cái, còn Chaldean gán theo giá trị cổ và KHÔNG dùng số 9 vì coi số ấy là thiêng. Thần số học Việt Nam gần như chỉ dùng Pythagoras; Chaldean có ở đây để người tra chéo hai nguồn hiểu vì sao hai nơi ra hai số.",
+  "ghi_chu_chung_en": "THIS IS THE POINT WHERE EVERY VIETNAMESE TOOL DIFFERS, so publishing it plainly creates a reference to check against, not a rule to impose. Three disagreements. First, the letter D with stroke: this table maps it to D, while some tools map it to DD and the number then differs entirely. Second, the letter Y: this table treats it as a consonant, while some schools treat it as a vowel between consonants, which changes the Soul Urge and Personality numbers but not the Expression number. Third, the two systems give different numbers for the same name, and that gap is REAL: Pythagorean assigns 1 to 9 in alphabetical order, while Chaldean assigns ancient values and uses no 9 at all, holding that number sacred. Vietnamese numerology uses almost only Pythagorean; Chaldean is here so anyone comparing two sources understands why they differ.",
+  "ghi_chu_chung_zh": "这正是越南各家工具彼此不同之处，因此明确公布是为了立一个可供比对的参照，而不是强加一套规则。三处分歧：其一，字母 Đ。本表将其归为 D；有些工具归为 DD，数字便完全不同。其二，字母 Y。本表视 Y 为辅音；有些流派在两个辅音之间把它当元音，这会改变灵魂数与人格数，但不改变表达数。其三，同一个名字在两套体系下得出不同的数字，而这个差异是真实的：毕达哥拉斯体系按字母顺序赋值 1 至 9，迦勒底体系按古代数值赋值且完全不用 9，因为视其为神圣之数。越南的生命灵数几乎只用毕达哥拉斯；此处收入迦勒底，是为了让比对两个来源的人明白差异从何而来。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/than-so-hoc",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Bảng quy đổi chữ sang số, Pythagoras và Chaldean. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/chu-sang-so-than-so-hoc.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Letter to number tables, Pythagorean and Chaldean. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/chu-sang-so-than-so-hoc.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "than-so-bang-pythagoras-va-chaldean",
+    "than-so-d-quy-ve-d",
+    "than-so-y-la-phu-am"
+  ]
+}
