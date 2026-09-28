@@ -1,0 +1,7202 @@
+[
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Ngọ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Ngọ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Ngọ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Ngọ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Ngọ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Ngọ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Ngọ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Ngọ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Ngọ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Ngọ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Ngọ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Ngọ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Ngọ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mùi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mùi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mùi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mùi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mùi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mùi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mùi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mùi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mùi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mùi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mùi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mùi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mùi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thân-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thân-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thân-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thân-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thân-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thân-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thân-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thân-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thân-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thân-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thân-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thân",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thân-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Dậu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Dậu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Dậu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Dậu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Dậu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Dậu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Dậu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Dậu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Dậu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Dậu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Dậu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Dậu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Dậu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tuất-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tuất-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tuất-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tuất-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tuất-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tuất-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tuất-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tuất-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tuất-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tuất-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tuất-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tuất",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tuất-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Hợi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Hợi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Hợi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Hợi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Hợi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Hợi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Hợi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Hợi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Hợi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Hợi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Hợi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Hợi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Hợi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tý-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tý-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tý-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tý-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tý-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tý-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tý-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tý-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tý-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tý-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tý-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tý",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tý-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Sửu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Sửu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Sửu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Sửu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Sửu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Sửu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Sửu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Sửu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Sửu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Sửu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Sửu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Sửu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Sửu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Dần-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Dần-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Dần-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Dần-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Dần-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Dần-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Dần-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Dần-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Dần-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Dần-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Dần-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Dần",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Dần-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mão-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mão-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mão-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mão-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mão-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mão-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mão-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mão-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mão-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mão-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mão-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mão",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mão-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thìn-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thìn-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thìn-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thìn-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thìn-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thìn-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thìn-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thìn-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thìn-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thìn-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thìn-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thìn",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thìn-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Tỵ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Tỵ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Tỵ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Tỵ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Tỵ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Tỵ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Tỵ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Tỵ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Tỵ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Tỵ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Tỵ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Tỵ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Tỵ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Ngọ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Ngọ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Ngọ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Ngọ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Ngọ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Ngọ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Ngọ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Ngọ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Ngọ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Ngọ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Ngọ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Ngọ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Ngọ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mùi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mùi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mùi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mùi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mùi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mùi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mùi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mùi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mùi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mùi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mùi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mùi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mùi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thân-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thân-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thân-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thân-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thân-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thân-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thân-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thân-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thân-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thân-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thân-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thân",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thân-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Dậu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Dậu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Dậu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Dậu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Dậu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Dậu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Dậu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Dậu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Dậu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Dậu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Dậu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Dậu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Dậu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tuất-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tuất-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tuất-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tuất-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tuất-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tuất-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tuất-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tuất-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tuất-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tuất-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Tuất-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Tuất",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Tuất-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Hợi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Hợi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Hợi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Hợi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Hợi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Hợi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Hợi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Hợi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Hợi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Hợi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Hợi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Hợi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Hợi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tý-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tý-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tý-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tý-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tý-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tý-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tý-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tý-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tý-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tý-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tý-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tý",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tý-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Sửu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Sửu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Sửu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Sửu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Sửu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Sửu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Sửu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Sửu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Sửu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Sửu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Sửu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Sửu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Sửu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Dần-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Dần-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Dần-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Dần-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Dần-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Dần-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Dần-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Dần-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Dần-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Dần-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Dần-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Dần",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Dần-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mão-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mão-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mão-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mão-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mão-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mão-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mão-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mão-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mão-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Mão-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mão-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Mão",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Mão-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thìn-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thìn-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thìn-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thìn-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thìn-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thìn-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thìn-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thìn-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thìn-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thìn-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Thìn-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Thìn",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Thìn-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Tỵ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Tỵ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Tỵ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Tỵ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Tỵ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Tỵ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Tỵ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Tỵ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Tỵ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Tỵ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Tỵ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Tỵ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Tỵ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Ngọ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Ngọ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Ngọ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Ngọ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Ngọ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Ngọ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Ngọ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Ngọ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Ngọ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Ngọ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Ngọ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Ngọ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Ngọ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mùi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mùi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mùi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mùi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mùi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mùi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mùi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mùi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mùi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mùi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mùi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mùi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mùi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thân-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thân-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thân-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thân-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thân-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thân-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thân-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thân-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thân-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thân-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thân-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thân",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thân-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Dậu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Dậu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Dậu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Dậu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Dậu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Dậu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Dậu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Dậu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Dậu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Dậu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Dậu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Dậu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Dậu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tuất-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tuất-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tuất-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tuất-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tuất-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tuất-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tuất-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tuất-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tuất-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tuất-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Tuất-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Tuất",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Tuất-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Hợi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Hợi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Hợi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Hợi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Hợi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Hợi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Hợi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Hợi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Hợi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Hợi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Hợi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Hợi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Hợi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tý-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tý-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tý-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tý-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tý-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tý-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tý-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tý-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tý-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tý-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tý-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tý",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tý-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Sửu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Sửu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Sửu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Sửu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Sửu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Sửu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Sửu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Sửu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Sửu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Sửu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Sửu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Sửu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Sửu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Dần-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Dần-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Dần-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Dần-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Dần-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Dần-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Dần-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Dần-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Dần-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Dần-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Dần-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Dần",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Dần-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mão-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mão-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mão-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mão-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mão-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mão-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mão-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mão-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mão-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Mão-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mão-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Mão",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Mão-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thìn-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thìn-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thìn-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thìn-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thìn-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thìn-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thìn-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thìn-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thìn-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thìn-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Thìn-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Thìn",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Thìn-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Tỵ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Tỵ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Tỵ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Tỵ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Tỵ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Tỵ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Tỵ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Tỵ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Tỵ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Tỵ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Tỵ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Tỵ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Tỵ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Ngọ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Ngọ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Ngọ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Ngọ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Ngọ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Ngọ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Ngọ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Ngọ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Ngọ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Ngọ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Ngọ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Ngọ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Ngọ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mùi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mùi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mùi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mùi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mùi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mùi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mùi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mùi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mùi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mùi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mùi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mùi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mùi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thân-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thân-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thân-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thân-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thân-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thân-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thân-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thân-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thân-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thân-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thân-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thân",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thân-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Dậu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Dậu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Dậu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Dậu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Dậu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Dậu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Dậu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Dậu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Dậu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Dậu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Dậu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Dậu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Dậu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tuất-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tuất-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tuất-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tuất-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tuất-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tuất-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tuất-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tuất-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tuất-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tuất-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Tuất-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Tuất",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Tuất-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Hợi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Hợi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Hợi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Hợi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Hợi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Hợi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Hợi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Hợi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Hợi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Hợi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Hợi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Hợi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Hợi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tý-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tý-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tý-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tý-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tý-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tý-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tý-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tý-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tý-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tý-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tý-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tý",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tý-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Sửu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Sửu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Sửu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Sửu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Sửu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Sửu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Sửu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Sửu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Sửu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Sửu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Sửu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Sửu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Sửu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Dần-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Dần-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Dần-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Dần-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Dần-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Dần-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Dần-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Dần-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Dần-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Dần-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Dần-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Dần",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Dần-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mão-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mão-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mão-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mão-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mão-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mão-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mão-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mão-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mão-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Mão-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mão-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Mão",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Mão-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thìn-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thìn-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thìn-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thìn-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thìn-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thìn-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thìn-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thìn-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thìn-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thìn-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Thìn-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Thìn",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Thìn-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Tỵ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Tỵ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Tỵ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Tỵ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Tỵ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Tỵ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Tỵ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Tỵ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Tỵ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Tỵ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Tỵ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Tỵ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Tỵ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Ngọ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Ngọ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Ngọ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Ngọ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Ngọ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Ngọ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Ngọ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Ngọ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Ngọ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Ngọ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Ngọ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Ngọ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Ngọ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Ngọ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mùi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mùi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mùi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mùi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mùi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mùi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mùi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mùi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mùi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Mùi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mùi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Mùi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mùi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Mùi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thân-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thân-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thân-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thân-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thân-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thân-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thân-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thân-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thân-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thân-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Mậu Thân-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Mậu Thân",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thân",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Mậu Thân-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Dậu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Dậu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Dậu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Dậu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Dậu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Dậu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Dậu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Dậu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Dậu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Kỷ Dậu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Dậu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Kỷ Dậu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dậu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Kỷ Dậu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tuất-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tuất-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tuất-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tuất-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tuất-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tuất-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tuất-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tuất-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tuất-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tuất-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Canh Tuất-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Canh Tuất",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tuất",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Canh Tuất-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Tý",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Hợi-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Hợi-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Dần",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Hợi-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Mão",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Hợi-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Hợi-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Hợi-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Hợi-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Hợi-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Thân",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Hợi-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Tân Hợi-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Hợi-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Tân Hợi",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Hợi",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Tân Hợi-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tý-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tý-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tý-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tý-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tý-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tý-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tý-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tý-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tý-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Nhâm Tý-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tý-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Nhâm Tý",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tý",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Nhâm Tý-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Tý",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Sửu-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Sửu-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Dần",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Sửu-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Mão",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Sửu-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Sửu-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Sửu-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Sửu-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Sửu-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Thân",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Sửu-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Quý Sửu-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Sửu-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Quý Sửu",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Sửu",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Quý Sửu-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Tý",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Dần-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Dần-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Dần",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Dần-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Mão",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Dần-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Dần-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Dần-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Dần-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Dần-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Thân",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Dần-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Dần-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Giáp Dần-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Giáp Dần",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Dần",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Giáp Dần-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Tý",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mão-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mão-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Dần",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mão-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Mão",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mão-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mão-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mão-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mão-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mão-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Thân",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mão-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Ất Mão-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mão-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Ất Mão",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Mão",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Ất Mão-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Tý",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thìn-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thìn-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Dần",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thìn-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Mão",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thìn-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thìn-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thìn-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thìn-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thìn-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Thân",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thìn-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thìn-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Bính Thìn-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Bính Thìn",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Thìn",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Bính Thìn-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Tý",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Tỵ-Tý",
+    "khung_gio": "23h-1h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Sửu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Tỵ-Sửu",
+    "khung_gio": "1h-3h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Dần",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Tỵ-Dần",
+    "khung_gio": "3h-5h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Mão",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Tỵ-Mão",
+    "khung_gio": "5h-7h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Thìn",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Tỵ-Thìn",
+    "khung_gio": "7h-9h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Tỵ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Tỵ-Tỵ",
+    "khung_gio": "9h-11h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Ngọ",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Tỵ-Ngọ",
+    "khung_gio": "11h-13h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Mùi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Tỵ-Mùi",
+    "khung_gio": "13h-15h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Thân",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Tỵ-Thân",
+    "khung_gio": "15h-17h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Dậu",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "khong",
+    "id": "Đinh Tỵ-Dậu",
+    "khung_gio": "17h-19h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Tuất",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Tỵ-Tuất",
+    "khung_gio": "19h-21h",
+    "nguon": "tinh-toan"
+  },
+  {
+    "can_chi_ngay": "Đinh Tỵ",
+    "chi_gio": "Hợi",
+    "chi_ngay": "Tỵ",
+    "ghi_chu": "",
+    "hoang_dao": "co",
+    "id": "Đinh Tỵ-Hợi",
+    "khung_gio": "21h-23h",
+    "nguon": "tinh-toan"
+  }
+]

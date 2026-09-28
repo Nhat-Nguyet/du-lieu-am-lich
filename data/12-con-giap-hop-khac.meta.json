@@ -1,0 +1,91 @@
+{
+  "slug": "12-con-giap-hop-khac",
+  "ten": "Quan hệ hợp khắc 12 con giáp",
+  "ten_en": "Compatibility matrix of the 12 earthly branches",
+  "ten_zh": "十二生肖合冲关系",
+  "mo_ta": "Quan hệ giữa mọi cặp trong 12 địa chi, đủ 144 dòng, xuất dạng dài nên mỗi cặp một dòng.",
+  "mo_ta_en": "The relation between every pair of the 12 earthly branches, 144 rows, in long form with one pair per row.",
+  "mo_ta_zh": "十二地支两两之间的关系，共 144 行，采用长表形式，每一对一行。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 144,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "chi_1",
+      "kieu": "string",
+      "moTa": "Địa Chi thứ nhất",
+      "moTaEn": "First Earthly Branch",
+      "moTaZh": "第一个地支"
+    },
+    {
+      "ten": "con_giap_1",
+      "kieu": "string",
+      "moTa": "Con giáp ứng với chi_1",
+      "moTaEn": "Zodiac animal corresponding to chi_1",
+      "moTaZh": "对应chi_1的生肖"
+    },
+    {
+      "ten": "chi_2",
+      "kieu": "string",
+      "moTa": "Địa Chi thứ hai",
+      "moTaEn": "Second Earthly Branch",
+      "moTaZh": "第二个地支"
+    },
+    {
+      "ten": "con_giap_2",
+      "kieu": "string",
+      "moTa": "Con giáp ứng với chi_2",
+      "moTaEn": "Zodiac animal corresponding to chi_2",
+      "moTaZh": "对应chi_2的生肖"
+    },
+    {
+      "ten": "quan_he",
+      "kieu": "string",
+      "moTa": "Loại quan hệ giữa hai chi",
+      "moTaEn": "Type of relationship between two branches",
+      "moTaZh": "两地支之间的关系类型"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Xuất dạng DÀI (mỗi cặp một dòng) thay vì ma trận 12x12: dạng dài lọc và ghép được bằng mọi công cụ, còn ma trận thì phải viết mã mới dùng được. Ma trận vuông vẫn có trên trang HTML cho người đọc. Quan hệ đối xứng nên cặp (A,B) và (B,A) cùng giá trị, và cả hai đều có mặt để bên tiêu thụ không phải tự suy.",
+  "ghi_chu_chung_en": "Published in LONG form, one pair per row, rather than as a 12x12 matrix: long form can be filtered and joined with any tool, while a matrix needs code before it is usable. The square matrix is still on the HTML page for human readers. The relation is symmetric, so (A,B) and (B,A) carry the same value, and both are present so consumers need not derive one from the other.",
+  "ghi_chu_chung_zh": "采用长表（每对一行）而非 12x12 矩阵：长表用任何工具都能筛选与连接，矩阵则要写代码才用得上。方阵形式仍保留在 HTML 页面上供人阅读。关系是对称的，(A,B) 与 (B,A) 取值相同，两者都列出，使用方不必自行推导。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/12-con-giap-hop-khac",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Quan hệ hợp khắc 12 con giáp. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/12-con-giap-hop-khac.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Compatibility matrix of the 12 earthly branches. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/12-con-giap-hop-khac.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

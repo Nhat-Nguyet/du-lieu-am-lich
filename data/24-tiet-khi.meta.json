@@ -1,0 +1,156 @@
+{
+  "slug": "24-tiet-khi",
+  "ten": "24 tiết khí",
+  "ten_en": "The 24 solar terms",
+  "ten_zh": "二十四节气",
+  "mo_ta": "Ngày dương lịch bắt đầu của 24 tiết khí, cho mỗi năm từ 2020 tới 2035, tính theo kinh độ mặt trời và giờ Việt Nam.",
+  "mo_ta_en": "The solar date each of the 24 terms begins, for every year from 2020 to 2035, computed from solar longitude in Vietnam time.",
+  "mo_ta_zh": "2020 至 2035 年每年二十四节气的公历起始日，按太阳黄经与越南时间推算。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.1",
+  "cap_nhat": "2026-09-28",
+  "so_dong": 384,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "nam",
+      "kieu": "int",
+      "moTa": "Năm dương lịch",
+      "moTaEn": "Gregorian year",
+      "moTaZh": "公历年"
+    },
+    {
+      "ten": "thu_tu",
+      "kieu": "int",
+      "moTa": "Thứ tự tiết khí trong năm dương lịch, tính từ tiết khí đầu tiên rơi vào tháng Một",
+      "moTaEn": "Ordinal of the solar term within the Gregorian year, counted from the first solar term falling in January",
+      "moTaZh": "节气在公历年中的次序，从落在1月的第一个节气算起"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên tiết khí",
+      "moTaEn": "Solar term name",
+      "moTaZh": "节气名称"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên tiết khí, tiếng Anh",
+      "moTaEn": "Solar term name in English",
+      "moTaZh": "节气英文名称"
+    },
+    {
+      "ten": "kinh_do_mat_troi",
+      "kieu": "int",
+      "moTa": "Kinh độ mặt trời tại thời điểm bắt đầu tiết khí, tính bằng độ",
+      "moTaEn": "Solar longitude at the start of the solar term, in degrees",
+      "moTaZh": "节气开始时刻的太阳黄经，以度为单位"
+    },
+    {
+      "ten": "ngay_bat_dau",
+      "kieu": "string",
+      "moTa": "Ngày dương lịch bắt đầu tiết khí, dạng YYYY-MM-DD",
+      "moTaEn": "Gregorian date when the solar term begins, in YYYY-MM-DD format",
+      "moTaZh": "节气开始的公历日期，格式为 YYYY-MM-DD"
+    },
+    {
+      "ten": "y_nghia",
+      "kieu": "string",
+      "moTa": "Hiện tượng thiên văn hoặc thời tiết mà tiết khí đánh dấu",
+      "moTaEn": "Astronomical or weather phenomenon marked by the solar term",
+      "moTaZh": "节气所标志的天文或天气现象"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Cột thu_tu đếm theo NĂM DƯƠNG LỊCH, nên mục 1 là tiết khí đầu tiên rơi vào tháng Một chứ không phải Lập Xuân; vòng tiết khí theo truyền thống mở đầu bằng Lập Xuân, và trong bộ này Lập Xuân thường nằm ở mục 3. Tiết khí là hiện tượng thiên văn tính được, không phải quy ước, nên mọi nguồn tính đúng đều ra cùng ngày. Khác biệt giữa các bản lịch thường đến từ MÚI GIỜ: mốc giao tiết rơi sát nửa đêm thì lịch Trung Quốc và lịch Việt Nam có thể ghi lệch nhau một ngày. Bộ này dùng giờ Việt Nam.",
+  "ghi_chu_chung_en": "The thu_tu column counts by the SOLAR year, so entry 1 is the first term falling in January rather than Lap Xuan; the traditional cycle opens with Lap Xuan, which sits at entry 3 here. Solar terms are a computable astronomical event, not a convention, so any correct implementation yields the same dates. Differences between almanacs usually come from the TIMEZONE: when a boundary falls near midnight, Chinese and Vietnamese calendars can record it one day apart. This dataset uses Vietnam time.",
+  "ghi_chu_chung_zh": "thu_tu 一列按公历年计数，因此第 1 项是落在一月的第一个节气而非立春；传统节气循环以立春开端，在本数据集中立春通常排在第 3 项。节气是可推算的天文现象而非约定，凡推算正确者所得日期相同。各版历书的差异多来自时区：交节时刻贴近午夜时，中国历与越南历可能相差一天。本数据集采用越南时间。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/24-tiet-khi",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 24 tiết khí. Phiên bản 1.0.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/24-tiet-khi.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The 24 solar terms. Version 1.0.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/24-tiet-khi.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "tinh-toan",
+  "nguon_goc_du_lieu_mo_ta": "Giá trị do lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hoặc số học; không chép từ bảng in sẵn nào.",
+  "nguon_goc_du_lieu_mo_ta_en": "Values computed by the site's engine with astronomical, calendrical or arithmetic algorithms; not copied from any printed table.",
+  "nguon_goc_du_lieu_mo_ta_zh": "数值由本站推算引擎以天文、历法或算术算法算出，未抄自任何印刷表格。",
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "mo_hinh": [
+    "tiet-khi-meeus-c25-bieu-kien-v2"
+  ],
+  "quy_uoc": [
+    "mui-gio",
+    "tiet-khi"
+  ],
+  "ho_so_mo_hinh": [
+    {
+      "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+      "phien_ban": "2.0.0",
+      "loai": "tiet-khi",
+      "ten": "Giờ giao 24 tiết khí",
+      "ten_en": "Solar term moments",
+      "ten_zh": "二十四节气交节时刻",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "lich_thien_van": "meeus-c25-rut-gon: Meeus, Astronomical Algorithms chương 25, kinh độ Mặt Trời theo phương trình tâm ba số hạng (chuỗi rút gọn, độ chính xác chừng 0,01 độ), không phải VSOP87 đầy đủ",
+      "quang_sai_do": -0.00569,
+      "chuong_dong": "chuong_dong_do = -0.00478 * sin(Ω), Ω = 125.04 - 1934.136 T (độ), T tính bằng thế kỷ Julius từ J2000 theo giờ TT",
+      "delta_t": "espenak-meeus-2006: đa thức ΔT = TT - UT theo từng khoảng năm của Espenak và Meeus (NASA, 2006), lấy ở giữa năm dương lịch",
+      "cach_giai": "chia-doi",
+      "nguong_dung_giai_phut": 1,
+      "dung_sai_phut": 15,
+      "doi_chieu": [
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        },
+        {
+          "nguon": "U.S. Naval Observatory, Astronomical Applications API (seasons)",
+          "url": "https://aa.usno.navy.mil/api/seasons",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/usno_phan_chi_1900_2100.tsv",
+          "sha256": "ef70a6694d2764f13f8409b2dade5fb87ade9161d0fdccc683b6993f472d8419",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 804,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "ghi_chu": "Mốc là lúc kinh độ biểu kiến của Mặt Trời chạm đúng bội số của 15 độ, tìm bằng phép chia đôi, làm tròn tới phút theo giờ Việt Nam. Đo 27/09/2026 trên 4.824 mốc: sớm trung bình 3,2 phút, sớm nhất 14 phút, muộn nhất 9 phút so với IMCCE.",
+      "ghi_chu_en": "A moment is when the Sun's apparent longitude reaches an exact multiple of 15 degrees, found by bisection and rounded to the minute in Vietnam time. Measured on 27 September 2026 over 4,824 moments: 3.2 minutes early on average, at most 14 minutes early and 9 minutes late relative to IMCCE.",
+      "ghi_chu_zh": "交节时刻指太阳视黄经正好到达 15 度整数倍的瞬间，以二分法求得，按越南时间取整到分钟。2026 年 9 月 27 日以 4,824 个时刻测得：与 IMCCE 相比平均偏早 3.2 分钟，最多偏早 14 分钟、偏晚 9 分钟。"
+    }
+  ]
+}

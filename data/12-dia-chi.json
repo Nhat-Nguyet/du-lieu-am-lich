@@ -1,0 +1,134 @@
+[
+  {
+    "chi": "Tý",
+    "con_giap": "Chuột",
+    "ghi_chu": "",
+    "id": "1",
+    "khung_gio": "23h-1h",
+    "ngu_hanh": "Thủy",
+    "ngu_hanh_en": "Water",
+    "nguon": "tinh-toan",
+    "thu_tu": "1"
+  },
+  {
+    "chi": "Sửu",
+    "con_giap": "Trâu",
+    "ghi_chu": "",
+    "id": "2",
+    "khung_gio": "1h-3h",
+    "ngu_hanh": "Thổ",
+    "ngu_hanh_en": "Earth",
+    "nguon": "tinh-toan",
+    "thu_tu": "2"
+  },
+  {
+    "chi": "Dần",
+    "con_giap": "Hổ",
+    "ghi_chu": "",
+    "id": "3",
+    "khung_gio": "3h-5h",
+    "ngu_hanh": "Mộc",
+    "ngu_hanh_en": "Wood",
+    "nguon": "tinh-toan",
+    "thu_tu": "3"
+  },
+  {
+    "chi": "Mão",
+    "con_giap": "Mèo",
+    "ghi_chu": "Việt Nam dùng Mèo, Trung Quốc và phần lớn Đông Á dùng Thỏ cho chi này",
+    "id": "4",
+    "khung_gio": "5h-7h",
+    "ngu_hanh": "Mộc",
+    "ngu_hanh_en": "Wood",
+    "nguon": "tinh-toan",
+    "thu_tu": "4"
+  },
+  {
+    "chi": "Thìn",
+    "con_giap": "Rồng",
+    "ghi_chu": "",
+    "id": "5",
+    "khung_gio": "7h-9h",
+    "ngu_hanh": "Thổ",
+    "ngu_hanh_en": "Earth",
+    "nguon": "tinh-toan",
+    "thu_tu": "5"
+  },
+  {
+    "chi": "Tỵ",
+    "con_giap": "Rắn",
+    "ghi_chu": "",
+    "id": "6",
+    "khung_gio": "9h-11h",
+    "ngu_hanh": "Hỏa",
+    "ngu_hanh_en": "Fire",
+    "nguon": "tinh-toan",
+    "thu_tu": "6"
+  },
+  {
+    "chi": "Ngọ",
+    "con_giap": "Ngựa",
+    "ghi_chu": "",
+    "id": "7",
+    "khung_gio": "11h-13h",
+    "ngu_hanh": "Hỏa",
+    "ngu_hanh_en": "Fire",
+    "nguon": "tinh-toan",
+    "thu_tu": "7"
+  },
+  {
+    "chi": "Mùi",
+    "con_giap": "Dê",
+    "ghi_chu": "",
+    "id": "8",
+    "khung_gio": "13h-15h",
+    "ngu_hanh": "Thổ",
+    "ngu_hanh_en": "Earth",
+    "nguon": "tinh-toan",
+    "thu_tu": "8"
+  },
+  {
+    "chi": "Thân",
+    "con_giap": "Khỉ",
+    "ghi_chu": "",
+    "id": "9",
+    "khung_gio": "15h-17h",
+    "ngu_hanh": "Kim",
+    "ngu_hanh_en": "Metal",
+    "nguon": "tinh-toan",
+    "thu_tu": "9"
+  },
+  {
+    "chi": "Dậu",
+    "con_giap": "Gà",
+    "ghi_chu": "",
+    "id": "10",
+    "khung_gio": "17h-19h",
+    "ngu_hanh": "Kim",
+    "ngu_hanh_en": "Metal",
+    "nguon": "tinh-toan",
+    "thu_tu": "10"
+  },
+  {
+    "chi": "Tuất",
+    "con_giap": "Chó",
+    "ghi_chu": "",
+    "id": "11",
+    "khung_gio": "19h-21h",
+    "ngu_hanh": "Thổ",
+    "ngu_hanh_en": "Earth",
+    "nguon": "tinh-toan",
+    "thu_tu": "11"
+  },
+  {
+    "chi": "Hợi",
+    "con_giap": "Lợn",
+    "ghi_chu": "",
+    "id": "12",
+    "khung_gio": "21h-23h",
+    "ngu_hanh": "Thủy",
+    "ngu_hanh_en": "Water",
+    "nguon": "tinh-toan",
+    "thu_tu": "12"
+  }
+]

@@ -1,0 +1,93 @@
+{
+  "slug": "gio-hoang-dao-60-ngay",
+  "ten": "Giờ hoàng đạo theo 60 ngày can chi",
+  "ten_en": "Auspicious hours across the sixty-day stem-branch cycle",
+  "ten_zh": "六十日干支的黄道吉时表",
+  "mo_ta": "Mười hai khung giờ của từng ngày trong vòng sáu mươi ngày can chi, cho biết khung nào là giờ hoàng đạo. Sáu mươi nhân mười hai là bảy trăm hai mươi dòng, tức đủ một chu kỳ.",
+  "mo_ta_en": "The twelve double-hours of each day across the sixty-day stem-branch cycle, marking which are auspicious. Sixty times twelve is seven hundred and twenty rows, one full cycle.",
+  "mo_ta_zh": "六十日干支循环中每一日的十二个时辰，标明哪些是黄道吉时。六十乘十二得七百二十行，正好一个完整循环。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-20",
+  "so_dong": 720,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "can_chi_ngay",
+      "kieu": "string",
+      "moTa": "Can chi của ngày, sáu mươi giá trị",
+      "moTaEn": "Sexagenary cycle of the day, sixty values",
+      "moTaZh": "日的干支，六十个值"
+    },
+    {
+      "ten": "chi_ngay",
+      "kieu": "string",
+      "moTa": "Riêng chi của ngày, tức thứ quyết định bảng giờ",
+      "moTaEn": "Earthly branch of the day only, i.e. the one that determines the hour table",
+      "moTaZh": "仅日的地支，即决定时辰表者"
+    },
+    {
+      "ten": "chi_gio",
+      "kieu": "string",
+      "moTa": "Chi của khung giờ",
+      "moTaEn": "Earthly branch of the time slot",
+      "moTaZh": "时辰的地支"
+    },
+    {
+      "ten": "khung_gio",
+      "kieu": "string",
+      "moTa": "Khung giờ theo đồng hồ 24 giờ",
+      "moTaEn": "Time slot in 24-hour clock",
+      "moTaZh": "24小时制的时辰段"
+    },
+    {
+      "ten": "hoang_dao",
+      "kieu": "string",
+      "moTa": "co khi khung giờ này là giờ hoàng đạo",
+      "moTaEn": "co when this time slot is a hoang dao hour, khong otherwise",
+      "moTaZh": "co 表示此时辰为黄道吉时，khong 表示不是"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Lịch vạn niên"
+  ],
+  "ghi_chu_chung": "Giờ hoàng đạo chỉ phụ thuộc CHI của ngày, nên vòng lặp thật sự là mười hai ngày chứ không phải sáu mươi. Bảng vẫn trải đủ sáu mươi can chi để tra thẳng được từ can chi ngày mà không phải tự tách lấy chi. Khung giờ theo quy ước giờ Việt Nam hiện hành, giờ Tý là 23 giờ tới 1 giờ; một số bản lịch cũ đặt giờ Tý từ 0 giờ tới 2 giờ và khi ấy toàn bộ bảng lệch đi một khung.",
+  "ghi_chu_chung_en": "Auspicious hours depend only on the BRANCH of the day, so the real cycle is twelve days, not sixty. The table still spans all sixty stem-branch days so it can be looked up directly without first extracting the branch. The hour ranges follow the current Vietnamese convention where the hour of the Rat runs 23:00 to 01:00; some older almanacs place it at 00:00 to 02:00, which shifts the whole table by one slot.",
+  "ghi_chu_chung_zh": "黄道吉时只取决于日的地支，因此真正的循环是十二天而非六十天。本表仍铺满六十个干支，以便直接按日干支查询而不必先取出地支。时辰范围按越南现行惯例，子时为 23 时至次日 1 时；部分旧历书把子时定为 0 时至 2 时，那样整张表会错开一格。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/gio-hoang-dao",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Giờ hoàng đạo theo 60 ngày can chi. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/gio-hoang-dao-60-ngay.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Auspicious hours across the sixty-day stem-branch cycle. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/gio-hoang-dao-60-ngay.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}

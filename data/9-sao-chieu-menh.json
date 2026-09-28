@@ -1,0 +1,92 @@
+[
+  {
+    "dien_giai": "La Hầu là sao xấu, chủ về thị phi, tiếng oan, dễ gặp chuyện không hay liên quan giấy tờ/pháp lý. Năm hạn La Hầu nên cẩn trọng lời ăn tiếng nói, tránh ký kết vội vàng.",
+    "ghi_chu": "",
+    "id": "1",
+    "nguon": "tinh-toan",
+    "phan_loai": "xau",
+    "ten_sao": "La Hầu",
+    "tuoi_mu_nam": "1; 10; 19; 28; 37; 46; 55; 64; 73; 82; 91; 100",
+    "tuoi_mu_nu": "6; 15; 24; 33; 42; 51; 60; 69; 78; 87; 96"
+  },
+  {
+    "dien_giai": "Thổ Tú là sao trung bình thiên hướng xấu, chủ về đất đai, nhà cửa, sức khỏe. Năm hạn Thổ Tú nên cẩn trọng khi động thổ, sửa nhà và chú ý sức khỏe.",
+    "ghi_chu": "",
+    "id": "2",
+    "nguon": "tinh-toan",
+    "phan_loai": "trung_binh",
+    "ten_sao": "Thổ Tú",
+    "tuoi_mu_nam": "2; 11; 20; 29; 38; 47; 56; 65; 74; 83; 92",
+    "tuoi_mu_nu": "5; 14; 23; 32; 41; 50; 59; 68; 77; 86; 95"
+  },
+  {
+    "dien_giai": "Thủy Diệu là sao trung bình, chủ về tài chính, dễ hao tốn tiền bạc, cần cẩn trọng khi đi lại đường sông nước. Năm hạn Thủy Diệu nên chi tiêu thận trọng hơn.",
+    "ghi_chu": "",
+    "id": "3",
+    "nguon": "tinh-toan",
+    "phan_loai": "trung_binh",
+    "ten_sao": "Thủy Diệu",
+    "tuoi_mu_nam": "3; 12; 21; 30; 39; 48; 57; 66; 75; 84; 93",
+    "tuoi_mu_nu": "9; 18; 27; 36; 45; 54; 63; 72; 81; 90; 99"
+  },
+  {
+    "dien_giai": "Thái Bạch là sao xấu nổi tiếng nhất trong Cửu Diệu - dân gian có câu \"Thái Bạch quét sạch cửa nhà\" - chủ về hao tài, mất mát tiền bạc. Năm hạn Thái Bạch nên đặc biệt cẩn trọng khi đầu tư, cho vay, ký kết lớn.",
+    "ghi_chu": "",
+    "id": "4",
+    "nguon": "tinh-toan",
+    "phan_loai": "xau",
+    "ten_sao": "Thái Bạch",
+    "tuoi_mu_nam": "4; 13; 22; 31; 40; 49; 58; 67; 76; 85; 94",
+    "tuoi_mu_nu": "8; 17; 26; 35; 44; 53; 62; 71; 80; 89; 98"
+  },
+  {
+    "dien_giai": "Thái Dương là sao tốt, chủ về danh tiếng, công danh, quý nhân - theo quan niệm dân gian đặc biệt thuận lợi cho nam giới. Năm hạn Thái Dương thường thuận lợi cho sự nghiệp, thăng tiến.",
+    "ghi_chu": "",
+    "id": "5",
+    "nguon": "tinh-toan",
+    "phan_loai": "tot",
+    "ten_sao": "Thái Dương",
+    "tuoi_mu_nam": "5; 14; 23; 32; 41; 50; 59; 68; 77; 86; 95",
+    "tuoi_mu_nu": "7; 16; 25; 34; 43; 52; 61; 70; 79; 88; 97"
+  },
+  {
+    "dien_giai": "Vân Hớn là sao trung bình thiên hướng xấu, chủ về dễ nóng giận, cãi vã, va chạm nhỏ. Năm hạn Vân Hớn nên giữ bình tĩnh, cẩn trọng khi lái xe.",
+    "ghi_chu": "",
+    "id": "6",
+    "nguon": "tinh-toan",
+    "phan_loai": "trung_binh",
+    "ten_sao": "Vân Hớn",
+    "tuoi_mu_nam": "6; 15; 24; 33; 42; 51; 60; 69; 78; 87; 96",
+    "tuoi_mu_nu": "2; 11; 20; 29; 38; 47; 56; 65; 74; 83; 92"
+  },
+  {
+    "dien_giai": "Kế Đô là sao xấu, cùng nhóm với La Hầu, chủ về thị phi, hao tài, tai ương bất ngờ. Năm hạn Kế Đô nên thận trọng trong giao tiếp và tài chính.",
+    "ghi_chu": "",
+    "id": "7",
+    "nguon": "tinh-toan",
+    "phan_loai": "xau",
+    "ten_sao": "Kế Đô",
+    "tuoi_mu_nam": "7; 16; 25; 34; 43; 52; 61; 70; 79; 88; 97",
+    "tuoi_mu_nu": "1; 10; 19; 28; 37; 46; 55; 64; 73; 82; 91; 100"
+  },
+  {
+    "dien_giai": "Thái Âm là sao tốt, chủ về may mắn nhẹ nhàng, tình cảm, gia đạo - theo quan niệm dân gian đặc biệt thuận lợi cho nữ giới. Năm hạn Thái Âm thường êm đềm, thuận lợi cho chuyện gia đình, tình cảm.",
+    "ghi_chu": "",
+    "id": "8",
+    "nguon": "tinh-toan",
+    "phan_loai": "tot",
+    "ten_sao": "Thái Âm",
+    "tuoi_mu_nam": "8; 17; 26; 35; 44; 53; 62; 71; 80; 89; 98",
+    "tuoi_mu_nu": "4; 13; 22; 31; 40; 49; 58; 67; 76; 85; 94"
+  },
+  {
+    "dien_giai": "Mộc Đức là sao tốt, chủ về phúc lộc, quý nhân phù trợ, bình an. Năm hạn Mộc Đức thường là năm may mắn, ít biến cố.",
+    "ghi_chu": "",
+    "id": "9",
+    "nguon": "tinh-toan",
+    "phan_loai": "tot",
+    "ten_sao": "Mộc Đức",
+    "tuoi_mu_nam": "9; 18; 27; 36; 45; 54; 63; 72; 81; 90; 99",
+    "tuoi_mu_nu": "3; 12; 21; 30; 39; 48; 57; 66; 75; 84; 93"
+  }
+]

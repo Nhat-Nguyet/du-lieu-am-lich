@@ -1,0 +1,114 @@
+{
+  "slug": "60-hoa-giap",
+  "ten": "Bảng 60 Hoa Giáp",
+  "ten_en": "Sexagenary cycle table (60 Hoa Giap)",
+  "ten_zh": "六十甲子表",
+  "mo_ta": "Đủ 60 cặp Can Chi kèm ngũ hành nạp âm, tên nạp âm và các năm âm lịch tương ứng trong khoảng 1924 tới 2043.",
+  "mo_ta_en": "All 60 stem-branch pairs with their Na Yin five-element attribution and the lunar years they cover between 1924 and 2043.",
+  "mo_ta_zh": "完整六十组干支，附纳音五行、纳音名称，以及 1924 至 2043 年间对应的农历年份。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-16",
+  "so_dong": 60,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "thu_tu",
+      "kieu": "int",
+      "moTa": "Vị trí trong vòng 60, Giáp Tý là 1 và Quý Hợi là 60",
+      "moTaEn": "Position in the 60-cycle, with Jiazi as 1 and Guihai as 60",
+      "moTaZh": "六十甲子中的位置, 甲子为 1, 癸亥为 60"
+    },
+    {
+      "ten": "can_chi",
+      "kieu": "string",
+      "moTa": "Cặp Can Chi đầy đủ, ví dụ Giáp Tý",
+      "moTaEn": "Full stem-branch pair, e.g. Jiazi",
+      "moTaZh": "完整干支对, 如甲子"
+    },
+    {
+      "ten": "can",
+      "kieu": "string",
+      "moTa": "Thiên Can",
+      "moTaEn": "Heavenly stem",
+      "moTaZh": "天干"
+    },
+    {
+      "ten": "chi",
+      "kieu": "string",
+      "moTa": "Địa Chi",
+      "moTaEn": "Earthly branch",
+      "moTaZh": "地支"
+    },
+    {
+      "ten": "con_giap",
+      "kieu": "string",
+      "moTa": "Con giáp ứng với Địa Chi",
+      "moTaEn": "Zodiac animal corresponding to the earthly branch",
+      "moTaZh": "地支对应的生肖"
+    },
+    {
+      "ten": "ngu_hanh_nap_am",
+      "kieu": "string",
+      "moTa": "Ngũ hành theo nạp âm",
+      "moTaEn": "Five elements according to nayin",
+      "moTaZh": "纳音五行"
+    },
+    {
+      "ten": "ten_nap_am",
+      "kieu": "string",
+      "moTa": "Tên nạp âm, ví dụ Hải Trung Kim",
+      "moTaEn": "Nayin name, e.g. Haizhong Jin",
+      "moTaZh": "纳音名称, 如海中金"
+    },
+    {
+      "ten": "cac_nam",
+      "kieu": "string",
+      "moTa": "Các năm âm lịch mang cặp này, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Lunar years carrying this pair, separated by semicolons",
+      "moTaZh": "带有该干支对的农历年份, 以分号分隔"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Can Chi của năm tính theo năm ÂM LỊCH. Cột cac_nam liệt kê năm âm lịch trong khoảng 1924 tới 2043, chốt cứng để tệp không tự đổi theo năm hiện tại.",
+  "ghi_chu_chung_en": "A year's Can Chi follows the LUNAR year. The cac_nam column lists lunar years between 1924 and 2043, a fixed range so the file does not rewrite itself as the current year moves.",
+  "ghi_chu_chung_zh": "年份干支按农历年计算。cac_nam 一列列出 1924 至 2043 年间的农历年，写定不动，使文件不随当前年份改变。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/bang/60-hoa-giap",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Bảng 60 Hoa Giáp. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/60-hoa-giap.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Sexagenary cycle table (60 Hoa Giap). Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/60-hoa-giap.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mo_hinh": [],
+  "quy_uoc": [
+    "doi-nam"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "slug": "moc-tiet-khi-1900-2100",
+  "ten": "Mốc bắt đầu 24 tiết khí, 1900 tới 2100",
+  "ten_en": "Start moments of the 24 solar terms, 1900 to 2100",
+  "ten_zh": "二十四节气交节时刻，1900 至 2100",
+  "mo_ta": "Thời điểm bắt đầu từng tiết khí trong 201 năm, tính theo giờ Việt Nam, kèm kinh độ mặt trời của mốc và cờ đánh dấu những mốc rơi sát nửa đêm.",
+  "mo_ta_en": "The start moment of each solar term across 201 years in Vietnam time, with the solar longitude of the mark and a flag for moments falling close to midnight.",
+  "mo_ta_zh": "201 年间每个节气的起始时刻，按越南时间计，附该节气对应的太阳黄经，以及落在午夜前后的时刻标记。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.2.1",
+  "cap_nhat": "2026-09-28",
+  "so_dong": 4824,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "nam",
+      "kieu": "int",
+      "moTa": "Năm dương lịch",
+      "moTaEn": "Solar year",
+      "moTaZh": "公历年"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên tiết khí",
+      "moTaEn": "Name of the solar term",
+      "moTaZh": "节气名称"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên tiết khí, tiếng Anh",
+      "moTaEn": "Name of the solar term, in English",
+      "moTaZh": "节气名称，英文"
+    },
+    {
+      "ten": "kinh_do",
+      "kieu": "int",
+      "moTa": "Kinh độ mặt trời tại mốc, tính bằng độ",
+      "moTaEn": "Solar longitude at the mark, in degrees",
+      "moTaZh": "该标记点的太阳黄经，以度计"
+    },
+    {
+      "ten": "ngay_bat_dau",
+      "kieu": "string",
+      "moTa": "Ngày bắt đầu, dạng YYYY-MM-DD, giờ Việt Nam",
+      "moTaEn": "Start date, format YYYY-MM-DD, Vietnam time",
+      "moTaZh": "开始日期，格式 YYYY-MM-DD，越南时间"
+    },
+    {
+      "ten": "gio",
+      "kieu": "int",
+      "moTa": "Giờ trong ngày, 0 tới 23",
+      "moTaEn": "Hour of the day, 0 to 23",
+      "moTaZh": "一天中的时辰，0到23"
+    },
+    {
+      "ten": "phut",
+      "kieu": "int",
+      "moTa": "Phút, 0 tới 59",
+      "moTaEn": "Minute, 0 to 59",
+      "moTaZh": "分钟，0到59"
+    },
+    {
+      "ten": "sat_nua_dem",
+      "kieu": "string",
+      "moTa": "co khi mốc cách nửa đêm dưới ba mươi phút, tức sai số có thể đổi cả ngày; phía trước nửa đêm tính cả mốc đúng 23:30 (phut_toi_nua_dem từ -30 tới 29)",
+      "moTaEn": "co when the mark is less than thirty minutes from midnight, meaning the error can change the whole day, khong otherwise; before midnight a mark at exactly 23:30 also counts (phut_toi_nua_dem from -30 to 29)",
+      "moTaZh": "co 表示距午夜不足三十分钟，即误差可能改变整日，khong 表示不是；午夜之前恰为 23:30 的时刻也计入（phut_toi_nua_dem 为 -30 至 29）"
+    },
+    {
+      "ten": "phut_toi_nua_dem",
+      "kieu": "int",
+      "moTa": "Khoảng cách có dấu từ mốc tới nửa đêm gần nhất, tính bằng phút: dương là sau nửa đêm đầu ngày ngay_bat_dau, âm là trước nửa đêm cuối ngày ấy",
+      "moTaEn": "Signed distance from the mark to the nearest midnight, in minutes: positive is after the midnight opening ngay_bat_dau, negative is before the midnight closing that day",
+      "moTaZh": "该时刻距最近午夜的有符号分钟数：正值为 ngay_bat_dau 当日开始的午夜之后，负值为该日结束的午夜之前"
+    },
+    {
+      "ten": "lech_so_voi_imcce_phut",
+      "kieu": "float",
+      "moTa": "Giờ của bộ này trừ giờ IMCCE (Đài Thiên văn Paris, lịch thiên văn INPOP), tính bằng phút, một chữ số thập phân; âm là sớm hơn thiên văn",
+      "moTaEn": "This dataset's time minus the IMCCE time (Paris Observatory, INPOP ephemeris), in minutes, one decimal place; negative means earlier than the astronomical value",
+      "moTaZh": "本数据集时刻减 IMCCE（巴黎天文台 INPOP 星历）时刻，以分钟计，保留一位小数；负值表示早于天文值"
+    },
+    {
+      "ten": "sai_so_uoc_phut",
+      "kieu": "int",
+      "moTa": "Biên sai số của mô hình, phút: phép kiểm chéo ép mọi mốc 1900 tới 2100 lệch IMCCE không quá số này (đo thực sớm nhất 14, muộn nhất 9)",
+      "moTaEn": "Error bound of the model, in minutes: the cross-check requires every mark from 1900 to 2100 to be within this of IMCCE (measured: at most 14 early, 9 late)",
+      "moTaZh": "模型误差上限（分钟）：交叉核对要求 1900 至 2100 年每个时刻与 IMCCE 相差不超过此数（实测最多偏早 14、偏晚 9）"
+    },
+    {
+      "ten": "rui_ro_bien",
+      "kieu": "string",
+      "moTa": "Rủi ro ngày bắt đầu bị lệch vì sai số: cao khi cách nửa đêm dưới sai_so_uoc_phut, trung-binh ở phần còn lại của dải sat_nua_dem, thap ở mọi mốc khác",
+      "moTaEn": "Risk that the start date is off because of the error: cao when less than sai_so_uoc_phut from midnight, trung-binh for the rest of the sat_nua_dem band, thap for every other mark",
+      "moTaZh": "因误差导致起始日期偏差的风险：距午夜不足 sai_so_uoc_phut 为 cao，sat_nua_dem 区间内其余为 trung-binh，其余时刻为 thap"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "SAI SỐ ĐO ĐƯỢC: SỚM TRUNG BÌNH 3,2 PHÚT, NHIỀU NHẤT 14 PHÚT so với giá trị thiên văn. Đối chiếu ngày 27/09/2026 trên cả 4.824 mốc năm 1900 tới 2100 với kinh độ biểu kiến của mặt trời theo lịch thiên văn INPOP của IMCCE (Đài Thiên văn Paris), và 804 mốc phân chí với USNO: mốc của bộ này sớm nhất 14 phút, muộn nhất 9 phút, gần bốn phần năm số mốc sớm. Bản 1.0.0 sớm trung bình 8,4 phút, nhiều nhất 20 phút (đo trên 148 mốc năm 2024 tới 2030); bản 1.1.0 thêm hiệu chỉnh quang sai, chương động và ΔT; bản 1.1.1 chỉ đổi nguồn đối chiếu, dữ liệu không đổi; bản 1.2.0 thêm bốn cột sai số theo từng mốc, mô tả ở cuối ghi chú này. Ngày bắt đầu tiết khí khớp 4.814 trên 4.824 mốc; 10 mốc lệch ngày đều cách nửa đêm dưới 15 phút. Phần sai số còn lại là do mô hình vị trí mặt trời của lõi tính dùng chuỗi rút gọn, đủ cho việc xác định NGÀY của tiết khí nhưng chưa đủ để gọi là chính xác tới phút. Cột sat_nua_dem đánh dấu những mốc cách nửa đêm dưới ba mươi phút: ở đúng những dòng ấy, sai số trên có thể đổi cả NGÀY bắt đầu tiết khí, nên đừng dùng chúng để chốt việc mà không đối lại nguồn thiên văn. Giờ ghi theo múi giờ Việt Nam UTC+7. Mốc là lúc kinh độ mặt trời chạm đúng bội số của 15 độ, tìm bằng phép chia đôi khoảng tới khi còn dưới một phút. Mỗi dòng mang độ lệch của chính nó: lech_so_voi_imcce_phut là giờ của bộ này trừ giờ IMCCE (âm là sớm), nên cộng ngược lại là ra giờ thiên văn tới khoảng một phút; phut_toi_nua_dem là khoảng cách có dấu tới nửa đêm gần nhất; sai_so_uoc_phut là biên sai số 15 phút mà phép kiểm chéo ép trên mọi mốc; rui_ro_bien là cao khi mốc cách nửa đêm dưới 15 phút (sai số có thể đổi ngày), trung-binh ở phần còn lại của dải sat_nua_dem (tới 30 phút), thap ở mọi mốc khác.",
+  "ghi_chu_chung_en": "MEASURED ERROR: 3.2 MINUTES EARLY ON AVERAGE, 14 MINUTES AT MOST relative to astronomical values. Checked on 27 September 2026 over all 4,824 marks from 1900 to 2100 against the Sun's apparent longitude from the INPOP ephemeris of IMCCE (Paris Observatory), and over 804 equinox and solstice marks against USNO: the marks here are at most 14 minutes early and 9 minutes late, and close to four in five are early. Version 1.0.0 was 8.4 minutes early on average and 20 at most (measured over 148 marks from 2024 to 2030); version 1.1.0 adds aberration, nutation and ΔT; version 1.1.1 only changes the reference source, the data is unchanged; version 1.2.0 adds four per-mark error columns, described at the end of this note. Start dates match for 4,814 of the 4,824 marks; the 10 that differ by a day are all less than 15 minutes from midnight. The remaining error is because the engine's solar position model uses a truncated series, good enough to fix the DAY of a term but not enough to call this minute-accurate. The sat_nua_dem column flags moments within thirty minutes of midnight: on exactly those rows the error above can shift the starting DAY, so do not settle anything on them without checking an astronomical source. Times are Vietnam time, UTC+7. The mark is the instant solar longitude reaches an exact multiple of 15 degrees, found by bisection down to under one minute. Each row carries its own error: lech_so_voi_imcce_phut is this dataset's time minus the IMCCE time (negative means early), so subtracting it gives the astronomical time to about a minute; phut_toi_nua_dem is the signed distance to the nearest midnight; sai_so_uoc_phut is the 15-minute error bound the cross-check enforces on every mark; rui_ro_bien is cao when the mark is less than 15 minutes from midnight (the error can change the day), trung-binh for the rest of the sat_nua_dem band (up to 30 minutes), and thap for every other mark.",
+  "ghi_chu_chung_zh": "实测误差：平均偏早 3.2 分钟，最多 14 分钟。2026 年 9 月 27 日以巴黎天文台 IMCCE 的 INPOP 星历太阳视黄经比对 1900 至 2100 年全部 4,824 个时刻，并以美国海军天文台比对 804 个二分二至时刻：本数据集的时刻最多偏早 14 分钟、偏晚 9 分钟，近五分之四偏早。1.0.0 版平均偏早 8.4 分钟，最多 20 分钟（以 2024 至 2030 年 148 个时刻测得）；1.1.0 版加入光行差、章动与 ΔT 修正；1.1.1 版只更换比对来源，数据不变；1.2.0 版新增四列逐时刻误差，说明见本注末尾。4,824 个节气起始日期中 4,814 个一致，相差一天的 10 个均距午夜不足 15 分钟。其余误差是因为引擎的太阳位置模型采用截断级数，足以确定节气所在的日期，但还不足以称为精确到分。sat_nua_dem 一列标出距午夜不足三十分钟的时刻：恰恰在这些行上，上述误差可能改变节气起始的日期，因此不要在未核对天文数据的情况下据此定事。时间为越南时间 UTC+7。交节时刻指太阳黄经正好到达 15 度整数倍的瞬间，用二分法求到一分钟以内。每行附其自身误差：lech_so_voi_imcce_phut 为本数据集时刻减 IMCCE 时刻（负值为偏早），反减即得约一分钟精度的天文时刻；phut_toi_nua_dem 为距最近午夜的有符号分钟数；sai_so_uoc_phut 为交叉核对对每个时刻强制的 15 分钟误差上限；rui_ro_bien 在距午夜不足 15 分钟时为 cao（误差可能改变日期），sat_nua_dem 区间内其余部分（至 30 分钟）为 trung-binh，其余时刻为 thap。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/du-lieu/24-tiet-khi",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Mốc bắt đầu 24 tiết khí, 1900 tới 2100. Phiên bản 1.2.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/moc-tiet-khi-1900-2100.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Start moments of the 24 solar terms, 1900 to 2100. Version 1.2.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/moc-tiet-khi-1900-2100.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "tinh-toan",
+  "nguon_goc_du_lieu_mo_ta": "Giá trị do lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hoặc số học; không chép từ bảng in sẵn nào.",
+  "nguon_goc_du_lieu_mo_ta_en": "Values computed by the site's engine with astronomical, calendrical or arithmetic algorithms; not copied from any printed table.",
+  "nguon_goc_du_lieu_mo_ta_zh": "数值由本站推算引擎以天文、历法或算术算法算出，未抄自任何印刷表格。",
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "mo_hinh": [
+    "tiet-khi-meeus-c25-bieu-kien-v2"
+  ],
+  "quy_uoc": [
+    "mui-gio",
+    "tiet-khi"
+  ],
+  "ho_so_mo_hinh": [
+    {
+      "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+      "phien_ban": "2.0.0",
+      "loai": "tiet-khi",
+      "ten": "Giờ giao 24 tiết khí",
+      "ten_en": "Solar term moments",
+      "ten_zh": "二十四节气交节时刻",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "lich_thien_van": "meeus-c25-rut-gon: Meeus, Astronomical Algorithms chương 25, kinh độ Mặt Trời theo phương trình tâm ba số hạng (chuỗi rút gọn, độ chính xác chừng 0,01 độ), không phải VSOP87 đầy đủ",
+      "quang_sai_do": -0.00569,
+      "chuong_dong": "chuong_dong_do = -0.00478 * sin(Ω), Ω = 125.04 - 1934.136 T (độ), T tính bằng thế kỷ Julius từ J2000 theo giờ TT",
+      "delta_t": "espenak-meeus-2006: đa thức ΔT = TT - UT theo từng khoảng năm của Espenak và Meeus (NASA, 2006), lấy ở giữa năm dương lịch",
+      "cach_giai": "chia-doi",
+      "nguong_dung_giai_phut": 1,
+      "dung_sai_phut": 15,
+      "doi_chieu": [
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        },
+        {
+          "nguon": "U.S. Naval Observatory, Astronomical Applications API (seasons)",
+          "url": "https://aa.usno.navy.mil/api/seasons",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/usno_phan_chi_1900_2100.tsv",
+          "sha256": "ef70a6694d2764f13f8409b2dade5fb87ade9161d0fdccc683b6993f472d8419",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 804,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "ghi_chu": "Mốc là lúc kinh độ biểu kiến của Mặt Trời chạm đúng bội số của 15 độ, tìm bằng phép chia đôi, làm tròn tới phút theo giờ Việt Nam. Đo 27/09/2026 trên 4.824 mốc: sớm trung bình 3,2 phút, sớm nhất 14 phút, muộn nhất 9 phút so với IMCCE.",
+      "ghi_chu_en": "A moment is when the Sun's apparent longitude reaches an exact multiple of 15 degrees, found by bisection and rounded to the minute in Vietnam time. Measured on 27 September 2026 over 4,824 moments: 3.2 minutes early on average, at most 14 minutes early and 9 minutes late relative to IMCCE.",
+      "ghi_chu_zh": "交节时刻指太阳视黄经正好到达 15 度整数倍的瞬间，以二分法求得，按越南时间取整到分钟。2026 年 9 月 27 日以 4,824 个时刻测得：与 IMCCE 相比平均偏早 3.2 分钟，最多偏早 14 分钟、偏晚 9 分钟。"
+    }
+  ]
+}

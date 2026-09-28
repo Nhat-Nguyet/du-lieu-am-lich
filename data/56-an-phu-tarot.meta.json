@@ -1,0 +1,107 @@
+{
+  "slug": "56-an-phu-tarot",
+  "ten": "56 lá Ẩn Phụ Tarot",
+  "ten_en": "The 56 Minor Arcana cards",
+  "ten_zh": "塔罗小阿尔克那 56 张",
+  "mo_ta": "Bộ Minor Arcana đủ bốn chất, kèm tên Việt và Anh, từ khoá, nghĩa xuôi và nghĩa ngược. Ghép với bộ 22 lá Ẩn Chính đã có thì thành bộ 78 lá đầy đủ.",
+  "mo_ta_en": "The complete Minor Arcana across four suits, with Vietnamese and English names, keywords, upright and reversed meanings. Together with the existing 22 Major Arcana it makes the full 78-card deck.",
+  "mo_ta_zh": "小阿尔克那四个花色全套，附越南语与英语牌名、关键词、正位与逆位含义。与已有的 22 张大阿尔克那合起来即为完整的 78 张牌。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.0.0",
+  "cap_nhat": "2026-09-21",
+  "so_dong": 56,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "chat",
+      "kieu": "string",
+      "moTa": "Chất bài: wands, cups, swords hoặc pentacles",
+      "moTaEn": "Suit: wands, cups, swords or pentacles",
+      "moTaZh": "花色：权杖、圣杯、宝剑或星币"
+    },
+    {
+      "ten": "so",
+      "kieu": "int",
+      "moTa": "Số lá trong chất, 1 tới 14; 11 tới 14 là quân bài",
+      "moTaEn": "Rank within the suit, 1 to 14; 11 to 14 are court cards",
+      "moTaZh": "花色内的序号，1 至 14；11 至 14 为宫廷牌"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên lá bài tiếng Việt",
+      "moTaEn": "Card name in Vietnamese",
+      "moTaZh": "牌名，越南语"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên lá bài tiếng Anh",
+      "moTaEn": "Card name in English",
+      "moTaZh": "牌名，英语"
+    },
+    {
+      "ten": "tu_khoa",
+      "kieu": "string",
+      "moTa": "Từ khoá của lá, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Keywords, separated by semicolons",
+      "moTaZh": "关键词，以分号分隔"
+    },
+    {
+      "ten": "nghia_xuoi",
+      "kieu": "string",
+      "moTa": "Nghĩa khi lá nằm xuôi",
+      "moTaEn": "Upright meaning",
+      "moTaZh": "正位含义"
+    },
+    {
+      "ten": "nghia_nguoc",
+      "kieu": "string",
+      "moTa": "Nghĩa khi lá nằm ngược",
+      "moTaEn": "Reversed meaning",
+      "moTaZh": "逆位含义"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Thư tịch gốc của dòng, hoặc tinh-toan nếu là giá trị engine tính ra",
+      "moTaEn": "Source text for this row, or tinh-toan when the value is computed"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Rider-Waite-Smith"
+  ],
+  "ghi_chu_chung": "PHÁT HÀNH BỘ NÀY VÌ BỘ THIẾU THÌ KHÔNG AI DẪN. Hai mươi hai lá Ẩn Chính một mình không dùng được cho một lượt trải bài thật, nên một bên muốn dùng lại phải đi tìm năm mươi sáu lá kia ở nguồn khác, và khi ấy họ dẫn nguồn kia chứ không dẫn ở đây. Nghĩa lá theo hệ Rider-Waite-Smith, hệ phổ biến nhất ở Việt Nam. Tên quân bài trong tiếng Việt chưa có chuẩn chung: bộ này dùng Cận Vệ, Hiệp Sĩ, Nữ Hoàng, Vua cho bốn quân, trong khi nhiều nơi gọi Page là Thị Đồng hay Hoàng Tử. Cột so ghi 1 tới 14, trong đó 11 tới 14 là bốn quân bài.",
+  "ghi_chu_chung_en": "THIS IS PUBLISHED BECAUSE AN INCOMPLETE DECK GETS NO CITATIONS. The twenty-two Major Arcana alone cannot carry a real reading, so anyone wanting to reuse them has to find the other fifty-six elsewhere, and then they cite that source rather than this one. Meanings follow Rider-Waite-Smith, the most common system in Vietnam. Vietnamese names for the court cards have no agreed standard: this set uses Cận Vệ, Hiệp Sĩ, Nữ Hoàng and Vua, while many places render Page as Thị Đồng or Hoàng Tử. The so column runs 1 to 14, where 11 to 14 are the four court cards.",
+  "ghi_chu_chung_zh": "发布这一套，是因为残缺的牌组无人引用。单有二十二张大阿尔克那无法完成一次真正的牌阵，想要复用的人只能到别处去找另外五十六张，届时他们引用的就是别处而不是这里。牌义依据韦特体系，这是越南最通行的体系。越南语的宫廷牌名尚无统一标准：本套采用 Cận Vệ、Hiệp Sĩ、Nữ Hoàng、Vua 四称，而许多地方把 Page 译作 Thị Đồng 或 Hoàng Tử。so 一列为 1 至 14，其中 11 至 14 是四张宫廷牌。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/tarot",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). 56 lá Ẩn Phụ Tarot. Phiên bản 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/56-an-phu-tarot.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). The 56 Minor Arcana cards. Version 1.0.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/56-an-phu-tarot.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "chep-tu-nguon",
+  "nguon_goc_du_lieu_mo_ta": "Bảng tra chép từ thư tịch hoặc hệ thống gốc nêu ở nguon_thu_tich và cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "A lookup table copied from the source texts or systems named in nguon_thu_tich and the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "查表录自 nguon_thu_tich 及 nguon 列所列的原始典籍或体系。",
+  "mo_hinh": [],
+  "quy_uoc": []
+}
