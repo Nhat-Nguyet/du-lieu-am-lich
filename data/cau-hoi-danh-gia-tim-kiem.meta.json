@@ -1,0 +1,281 @@
+{
+  "slug": "cau-hoi-danh-gia-tim-kiem",
+  "ten": "Bộ câu hỏi đánh giá ô tìm kiếm",
+  "ten_en": "Retrieval evaluation set for Vietnamese folk belief and calendar",
+  "ten_zh": "越南民间信仰与历法检索评测题集",
+  "mo_ta": "1.194 câu hỏi bằng tiếng Việt, tiếng Anh và tiếng Trung, kèm slug bài trả lời đúng khi có. Dùng để đo thứ hạng của ô tìm kiếm, không phải để đọc. Ba nhóm: câu hỏi rút từ khối hỏi đáp trong bài (có đáp án đúng), nhu cầu tìm kiếm thật thu từ internet (không có đáp án), và tên tiện ích.",
+  "mo_ta_en": "1,194 questions in Vietnamese, English and Chinese, each with the slug of the article that answers it where one exists. Built to measure search ranking, not to be read. Three groups: questions taken from in-article FAQ blocks (with a gold answer), real search demand collected from the web (no gold answer), and tool names.",
+  "mo_ta_zh": "1194 道越南语、英语和中文问题，凡有正确答案者均附上对应文章的 slug。用于衡量站内搜索的排序质量，不是供阅读的内容。分三组：取自文章内问答块的问题（有标准答案）、从网络收集的真实搜索需求（无标准答案）、以及工具名称。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.2.0",
+  "cap_nhat": "2026-09-30",
+  "so_dong": 1194,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "hoi",
+      "kieu": "string",
+      "moTa": "Câu hỏi, giữ nguyên văn kể cả lỗi chính tả và cách viết tắt của người tìm",
+      "moTaEn": "The question, kept verbatim including the searcher's typos and abbreviations",
+      "moTaZh": "问题原文，保留搜索者的错别字与缩写",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ngon_ngu",
+      "kieu": "string",
+      "moTa": "Mã ngôn ngữ: vi, en hoặc zh",
+      "moTaEn": "Language code: vi, en or zh",
+      "moTaZh": "语言代码：vi、en 或 zh",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "nhom",
+      "kieu": "string",
+      "moTa": "Nguồn của câu: tri-thuc (rút từ khối hỏi đáp trong bài), nhu-cau-that (nhu cầu tìm kiếm thật), tien-ich (tên tiện ích)",
+      "moTaEn": "Where the question came from: tri-thuc (from in-article FAQ blocks), nhu-cau-that (real search demand), tien-ich (tool names)",
+      "moTaZh": "问题来源：tri-thuc（取自文章内问答块）、nhu-cau-that（真实搜索需求）、tien-ich（工具名称）",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "chu_de",
+      "kieu": "string",
+      "moTa": "Chủ đề của bài trả lời, rỗng khi câu không có đáp án đúng",
+      "moTaEn": "Topic of the answering article, empty when the question has no gold answer",
+      "moTaZh": "作答文章的主题；问题无标准答案时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "bai_dung",
+      "kieu": "string",
+      "moTa": "Slug bài trả lời đúng, rỗng khi không có. Ghép với https://nhatnguyet.org/kien-thuc/bai-viet/ ra địa chỉ đầy đủ",
+      "moTaEn": "Slug of the article that answers the question, empty when there is none. Prefix with https://nhatnguyet.org/kien-thuc/bai-viet/ for the full URL",
+      "moTaZh": "作答文章的 slug，没有则留空。加上前缀 https://nhatnguyet.org/kien-thuc/bai-viet/ 即为完整网址",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "tien_ich",
+      "kieu": "string",
+      "moTa": "Đường dẫn tiện ích đúng, rỗng khi câu không nhắm vào tiện ích nào",
+      "moTaEn": "Path of the correct tool, empty when the question does not target a tool",
+      "moTaZh": "对应工具的路径；问题未指向任何工具时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Loại nguồn của dòng, một hay nhiều phần ngăn bằng dấu chấm phẩy, mỗi phần là tinh-toan (lõi tính ra), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (quy ước của một truyền thống hay một hệ hiện đại), van-ban (kèm tác phẩm sau dấu hai chấm) hoặc bien-tap (kèm chi tiết); chi tiết tĩnh cũng ở nguon_chi_tiet của meta, và hai bộ lớn nhất chỉ ghi ở đó; cột nào thuộc phần nào xem loai_bang_chung của từng cột trong meta",
+      "moTaEn": "Kind of source for this row, one or more parts separated by semicolons, each being tinh-toan (computed by the engine), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (convention of a tradition or of a modern system), van-ban (with the work after a colon) or bien-tap (with details); static details are also in the metadata nguon_chi_tiet, and the two largest datasets give them only there; which column belongs to which part is given by each column's loai_bang_chung in the metadata",
+      "moTaZh": "该行的来源类别，一个或多个部分，以分号分隔，每部分为 tinh-toan（引擎推算）、quy-uoc-truyen-thong、quy-uoc-he-hien-dai（传统或现代体系的约定）、van-ban（冒号后为著作）或 bien-tap（附说明）；固定说明亦见元数据 nguon_chi_tiet，两个最大的数据集只在那里给出；各列属于哪一部分，见元数据中每列的 loai_bang_chung"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not",
+      "moTaZh": "各流派在该行的分歧之处；没有则留空"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Bộ này KHÔNG chứa thân bài và KHÔNG chứa câu trả lời. Nó chứa câu hỏi, mã ngôn ngữ và slug bài đúng, tức một đường dẫn công khai. 517 câu nhóm tri-thuc là dòng câu hỏi lấy từ khối hỏi đáp trong bài, nên chữ ấy do bài viết sinh ra; phần mang giá trị của bài là câu trả lời, và nó không nằm ở đây. Đếm theo đáp án: 517 câu có slug bài đúng, 370 câu có đường dẫn tiện ích đúng, và 307 câu KHÔNG có đáp án nào. Nhóm ba trăm lẻ bảy ấy thu từ nhu cầu tìm kiếm thật nên không bài nào được gán sẵn; chúng dùng để đo tỉ lệ trả về rỗng chứ không đo thứ hạng.",
+  "ghi_chu_chung_en": "This set contains NO article bodies and NO answers. It holds the question, a language code, and the slug of the correct article, which is a public URL. The 517 questions in the tri-thuc group are question lines taken from in-article FAQ blocks, so that wording originates in the articles; what carries an article's value is the answer, and it is not here. By gold label: 517 questions carry an article slug, 370 carry a tool path, and 307 carry neither. Those 307 were collected from real search demand so no article is assigned; they measure the empty-result rate rather than ranking.",
+  "ghi_chu_chung_zh": "本数据集不含正文，也不含答案。它只包含问题、语言代码，以及正确文章的 slug，即一个公开网址。tri-thuc 组的 517 道问题取自文章内的问答块，因此这些文字源自文章；文章的价值在于答案，而答案不在这里。按标准答案统计：517 道带有文章 slug，370 道带有工具路径，307 道两者皆无。这 307 道收集自真实搜索需求，因此未指定文章；它们用于衡量空结果率，而非排序质量。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/du-lieu",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Bộ câu hỏi đánh giá ô tìm kiếm. Phiên bản 1.2.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/cau-hoi-danh-gia-tim-kiem.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Retrieval evaluation set for Vietnamese folk belief and calendar. Version 1.2.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/cau-hoi-danh-gia-tim-kiem.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "bien-tap",
+  "nguon_goc_du_lieu_mo_ta": "Nội dung do Nhật Nguyệt tuyển chọn và biên tập; nguồn của từng dòng ghi ở cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "Content selected and edited by Nhật Nguyệt; each row's source is in the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "内容由 Nhật Nguyệt 选编；各行来源见 nguon 列。",
+  "mo_hinh": [],
+  "quy_uoc": [],
+  "vai_tro": "danh-gia",
+  "khong_phai_tri_thuc": true,
+  "vai_tro_mo_ta": "Bộ dùng để ĐÁNH GIÁ, không phải nội dung tri thức: đây là câu hỏi đo chất lượng ô tìm kiếm của site, kèm đáp án đúng biết trước. Câu hỏi và đáp án không phải lời khẳng định của site về chủ đề được hỏi.",
+  "vai_tro_mo_ta_en": "An EVALUATION dataset, not knowledge content: these are questions used to measure the site's search box, with known correct answers. The questions and answers are not the site's claims about the topics asked.",
+  "vai_tro_mo_ta_zh": "评测类数据集，并非知识内容：这些是用来衡量本站搜索框的问题，附预先已知的正确答案。问题与答案并不是本站对所问主题的论断。",
+  "thay_doi_gan_nhat": {
+    "phien_ban": "1.2.0",
+    "ngay": "2026-09-30",
+    "loai": "provenance",
+    "mo_ta": "Cột nguon đổi từ bien-tap sang danh-gia, loại mới của từ vựng nguon (tương đương evaluation): mỗi dòng là mục đo, không phải tri thức; các cột khác không đổi. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+    "mo_ta_en": "The nguon column changes from bien-tap to danh-gia, a new kind in the nguon vocabulary (equivalent: evaluation): each row is a measurement item, not knowledge; the other columns are unchanged. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+    "mo_ta_zh": "nguon 列由 bien-tap 改为 danh-gia，即 nguon 词表的新类别（对应 evaluation）：每行为测量条目而非知识；其余各列不变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。"
+  },
+  "loai_bo": "danh-gia",
+  "loai_bo_tuong_duong": "evaluation",
+  "loai_bang_chung": [
+    "D"
+  ],
+  "danh_muc_loai_bang_chung": [
+    {
+      "ma": "A",
+      "ten": "tai-tinh-duoc",
+      "mo_ta": "Tái tính được: thuật toán thiên văn, lịch pháp hay số học cho ra giá trị, ai có thuật toán là tính lại được, và lõi tính đã đối chiếu với nguồn độc lập khi có (hồ sơ mô hình).",
+      "mo_ta_en": "Recomputable: an astronomical, calendrical or arithmetic algorithm yields the value, anyone with the algorithm can recompute it, and the engine has been checked against independent sources where they exist (model profile).",
+      "mo_ta_zh": "可重算：数值由天文、历法或算术算法得出，掌握算法者可自行重算；凡有独立来源处，引擎均已对照（见模型档案）。"
+    },
+    {
+      "ma": "B",
+      "ten": "kiem-bang-van-ban",
+      "mo_ta": "Kiểm bằng văn bản nguồn: giá trị đối chiếu được với một văn bản cụ thể nêu ở cột nguon (tác phẩm, quyển, bản), và test của site đã đối chiếu.",
+      "mo_ta_en": "Checked against a source text: the value can be compared with a specific text named in the nguon column (work, juan, edition), and the site's tests make that comparison.",
+      "mo_ta_zh": "以原典核对：数值可与 nguon 列所列的具体文本（著作、卷、版本）对照，本站测试已作对照。"
+    },
+    {
+      "ma": "C",
+      "ten": "quy-uoc",
+      "mo_ta": "Quy ước của một truyền thống hay một hệ hiện đại: đúng theo quy ước ấy, không đúng hay sai theo nghĩa thực nghiệm; chỗ các phái khác nhau ghi ở bộ diem-bat-dong-giua-cac-phai.",
+      "mo_ta_en": "Convention of a tradition or of a modern system: correct by that convention, neither true nor false in an empirical sense; where schools differ is recorded in the diem-bat-dong-giua-cac-phai dataset.",
+      "mo_ta_zh": "某一传统或现代体系的约定：按该约定为准，不存在经验意义上的真假；各派分歧记于 diem-bat-dong-giua-cac-phai 数据集。"
+    },
+    {
+      "ma": "D",
+      "ten": "bien-tap-van-hoa",
+      "mo_ta": "Biên tập văn hoá: Nhật Nguyệt tuyển chọn, tóm tắt hay ghi lại từ bài viết, kho lịch lễ hội, hay bộ câu hỏi của chính site.",
+      "mo_ta_en": "Cultural editing: selected, summarised or recorded by Nhật Nguyệt from the site's articles, festival store or question set.",
+      "mo_ta_zh": "文化编辑：由 Nhật Nguyệt 从本站文章、节庆库或问题集中选取、概括或记录。"
+    },
+    {
+      "ma": "E",
+      "ten": "dien-giai",
+      "mo_ta": "Diễn giải: lời giải nghĩa, từ khoá hay luận do site viết theo một truyền thống; không kiểm được đúng sai, đọc như lời của site.",
+      "mo_ta_en": "Interpretation: explanations, keywords or readings written by the site within a tradition; not verifiable, read them as the site's words.",
+      "mo_ta_zh": "解读：本站依某一传统撰写的释义、关键词或论述；无从验证真假，应视为本站的说法。"
+    }
+  ],
+  "tu_vung_nguon": [
+    "tinh-toan",
+    "suy-ra",
+    "quy-uoc-truyen-thong",
+    "quy-uoc-he-hien-dai",
+    "van-ban",
+    "bien-tap",
+    "tham-chieu-ngoai",
+    "danh-gia"
+  ],
+  "phu_thuoc_bo": [],
+  "mo_hinh_bac_cau": [],
+  "danh_muc_tu_vung_nguon": [
+    {
+      "ma": "tinh-toan",
+      "tuong_duong_en": "computed",
+      "mo_ta": "Lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hay số học.",
+      "mo_ta_en": "Computed by the site's engine with an astronomical, calendrical or arithmetic algorithm.",
+      "mo_ta_zh": "由本站推算引擎以天文、历法或算术算法算出。"
+    },
+    {
+      "ma": "suy-ra",
+      "tuong_duong_en": "derived",
+      "mo_ta": "Quy tắc tra truyền thống áp lên giá trị tính được, cho ra giá trị không sách nào in sẵn.",
+      "mo_ta_en": "A traditional lookup rule applied to a computed value, giving a value no book prints as such.",
+      "mo_ta_zh": "将传统查法套用于推算所得的数值，得出书中并无现成印本的数值。"
+    },
+    {
+      "ma": "quy-uoc-truyen-thong",
+      "tuong_duong_en": "traditional_mapping",
+      "mo_ta": "Quy ước của một truyền thống: bảng gán hay phép tra truyền lại, đúng theo quy ước ấy.",
+      "mo_ta_en": "A convention of a tradition: an inherited mapping or lookup, correct by that convention.",
+      "mo_ta_zh": "传统约定：流传下来的对应或查法，以该约定为准。"
+    },
+    {
+      "ma": "quy-uoc-he-hien-dai",
+      "tuong_duong_en": "modern_system_convention",
+      "mo_ta": "Quy ước của một hệ hiện đại (Tarot Rider-Waite-Smith, thần số học), không phải truyền thống cổ.",
+      "mo_ta_en": "A convention of a modern system (Rider-Waite-Smith Tarot, numerology), not of an ancient tradition.",
+      "mo_ta_zh": "现代体系（韦特塔罗、数字命理）的约定，而非古代传统。"
+    },
+    {
+      "ma": "van-ban",
+      "tuong_duong_en": "textual_source",
+      "mo_ta": "Chép hay đối chiếu với một văn bản cụ thể, nêu tên sau dấu hai chấm hoặc ở nguon_chi_tiet.",
+      "mo_ta_en": "Copied from or checked against a specific text, named after the colon or in nguon_chi_tiet.",
+      "mo_ta_zh": "录自或对照某一具体文本，名称见冒号之后或 nguon_chi_tiet。"
+    },
+    {
+      "ma": "bien-tap",
+      "tuong_duong_en": "editorial",
+      "mo_ta": "Nhật Nguyệt tuyển chọn, tóm tắt, ghi lại hay viết.",
+      "mo_ta_en": "Selected, summarised, recorded or written by Nhật Nguyệt.",
+      "mo_ta_zh": "由 Nhật Nguyệt 选取、概括、记录或撰写。"
+    },
+    {
+      "ma": "tham-chieu-ngoai",
+      "tuong_duong_en": "external_reference",
+      "mo_ta": "Dữ liệu tham chiếu của một cơ quan bên ngoài (IMCCE, USNO, NASA) dùng để đối chiếu, có băm tệp ở sổ nguồn.",
+      "mo_ta_en": "Reference data from an outside institution (IMCCE, USNO, NASA) used for cross-checking, with the file hash in the source register.",
+      "mo_ta_zh": "外部机构（IMCCE、USNO、NASA）的参考数据，用于对照，文件哈希见来源登记册。"
+    },
+    {
+      "ma": "danh-gia",
+      "tuong_duong_en": "evaluation",
+      "mo_ta": "Mục dùng để đo một hệ thống của site, không phải lời khẳng định tri thức.",
+      "mo_ta_en": "An item used to measure one of the site's systems, not a knowledge claim.",
+      "mo_ta_zh": "用于衡量本站某一系统的条目，并非知识性论断。"
+    }
+  ],
+  "danh_muc_epistemic_status": [
+    {
+      "ma": "verifiable",
+      "loai_bang_chung": "A",
+      "ten": "kiểm chứng được",
+      "mo_ta": "Kiểm lại được bằng thuật toán hay đo đạc độc lập; sai số (nếu có) ghi ở hồ sơ mô hình.",
+      "mo_ta_en": "Can be rechecked by an algorithm or an independent measurement; any error margin is in the model profile.",
+      "mo_ta_zh": "可用算法或独立测量复核；误差（如有）见模型档案。"
+    },
+    {
+      "ma": "textually_attested",
+      "loai_bang_chung": "B",
+      "ten": "có trong văn bản",
+      "mo_ta": "Đúng theo nghĩa khớp văn bản nguồn đã nêu, không theo nghĩa thực nghiệm.",
+      "mo_ta_en": "True in the sense of matching the named source text, not in an empirical sense.",
+      "mo_ta_zh": "其真是指与所列原典相符，而非经验意义上的真。"
+    },
+    {
+      "ma": "conventional",
+      "loai_bang_chung": "C",
+      "ten": "quy ước",
+      "mo_ta": "Đúng theo một quy ước; các phái có thể quy ước khác (bộ diem-bat-dong-giua-cac-phai).",
+      "mo_ta_en": "Correct by a convention; other schools may follow another (dataset diem-bat-dong-giua-cac-phai).",
+      "mo_ta_zh": "依某一约定为准；其他流派可能另有约定（数据集 diem-bat-dong-giua-cac-phai）。"
+    },
+    {
+      "ma": "editorial",
+      "loai_bang_chung": "D",
+      "ten": "biên tập",
+      "mo_ta": "Nhật Nguyệt ghi lại hay tuyển chọn; đúng sai tuỳ nguồn của từng dòng.",
+      "mo_ta_en": "Recorded or selected by Nhật Nguyệt; accuracy depends on each row's source.",
+      "mo_ta_zh": "由 Nhật Nguyệt 记录或选取；正确与否取决于各行来源。"
+    },
+    {
+      "ma": "interpretive",
+      "loai_bang_chung": "E",
+      "ten": "diễn giải",
+      "mo_ta": "Lời diễn giải trong một hệ niềm tin; không kiểm được đúng sai, không phải phát biểu khoa học.",
+      "mo_ta_en": "An interpretation within a belief system; not verifiable, not a scientific claim.",
+      "mo_ta_zh": "某一信仰体系内的解读；无从验证真假，并非科学论断。"
+    }
+  ],
+  "source_ids": [],
+  "rule_ids": []
+}

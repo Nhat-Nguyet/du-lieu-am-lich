@@ -1,0 +1,790 @@
+{
+  "slug": "lich-am-duong-1900-2100",
+  "ten": "Lịch âm dương 1900 tới 2100",
+  "ten_en": "Vietnamese lunisolar calendar, 1900 to 2100",
+  "ten_zh": "越南阴阳历 1900 至 2100",
+  "mo_ta": "Mỗi ngày dương lịch từ 1900 tới 2100 kèm ngày âm lịch, tháng nhuận, can chi ngày và năm, tiết khí đang trong và trực của ngày.",
+  "mo_ta_en": "Every solar day from 1900 to 2100 with its lunar date, leap month flag, day and year stem-branch, the solar term in force and the day officer.",
+  "mo_ta_zh": "1900 至 2100 年每一个公历日，附农历日期、闰月标记、日干支与年干支、当时所处节气，以及当日建除十二值。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.2.1",
+  "cap_nhat": "2026-09-30",
+  "so_dong": 73414,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "ngay_duong",
+      "kieu": "string",
+      "moTa": "Ngày dương lịch, dạng YYYY-MM-DD",
+      "moTaEn": "Solar date in YYYY-MM-DD format",
+      "moTaZh": "公历日期，格式为 YYYY-MM-DD",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "ngay_am",
+      "kieu": "int",
+      "moTa": "Ngày trong tháng âm lịch",
+      "moTaEn": "Day in the lunar month",
+      "moTaZh": "农历月中的日",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "thang_am",
+      "kieu": "int",
+      "moTa": "Tháng âm lịch",
+      "moTaEn": "Lunar month",
+      "moTaZh": "农历月",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "nam_am",
+      "kieu": "int",
+      "moTa": "Năm âm lịch",
+      "moTaEn": "Lunar year",
+      "moTaZh": "农历年",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "thang_nhuan",
+      "kieu": "string",
+      "moTa": "co khi tháng âm này là tháng nhuận, khong khi không",
+      "moTaEn": "co when this lunar month is a leap month, khong when not",
+      "moTaZh": "co 表示此农历月为闰月，khong 表示不是",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "can_chi_ngay",
+      "kieu": "string",
+      "moTa": "Can chi của ngày",
+      "moTaEn": "Sexagenary cycle of the day",
+      "moTaZh": "日的干支",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable",
+      "suy_tu": [
+        "ngay_duong"
+      ],
+      "chu_ky": 60,
+      "chu_ky_theo": "ngay_duong"
+    },
+    {
+      "ten": "can_chi_nam",
+      "kieu": "string",
+      "moTa": "Can chi của năm âm lịch",
+      "moTaEn": "Sexagenary cycle of the lunar year",
+      "moTaZh": "农历年的干支",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable",
+      "suy_tu": [
+        "nam_am"
+      ]
+    },
+    {
+      "ten": "tiet_khi",
+      "kieu": "string",
+      "moTa": "Tiết khí đang có hiệu lực lúc 12 giờ trưa ngày đó, giờ Việt Nam (không phải lúc 0 giờ): ngày giao tiết sau 12 giờ trưa vẫn ghi tiết cũ; xem tiet_khi_giao_trong_ngay",
+      "moTaEn": "Solar term in effect at 12:00 noon on that day, Vietnam time (not at 00:00): a day whose term begins after noon still shows the previous term; see tiet_khi_giao_trong_ngay",
+      "moTaZh": "当日越南时间正午12时所处的节气（并非0时）：正午之后才交节的那一天仍记前一节气；见 tiet_khi_giao_trong_ngay",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "truc",
+      "kieu": "string",
+      "moTa": "Trực của ngày trong vòng thập nhị trực",
+      "moTaEn": "Day officer within the twelve day officers cycle",
+      "moTaZh": "日建于十二建除中的值日",
+      "loai_bang_chung": "C",
+      "epistemic_status": "conventional"
+    },
+    {
+      "ten": "ngay_hoang_dao",
+      "kieu": "string",
+      "moTa": "co khi vị thần trực nhật thuộc sáu vị hoàng đạo",
+      "moTaEn": "co when the day deity belongs to the six hoang dao deities, khong otherwise",
+      "moTaZh": "co 表示值日神属于六位黄道神，khong 表示不属于",
+      "loai_bang_chung": "C",
+      "epistemic_status": "conventional"
+    },
+    {
+      "ten": "nhi_thap_bat_tu",
+      "kieu": "string",
+      "moTa": "Sao trong vòng hai mươi tám sao của ngày",
+      "moTaEn": "Star within the twenty eight mansions for the day",
+      "moTaZh": "当日二十八宿中的星宿",
+      "loai_bang_chung": "C",
+      "epistemic_status": "conventional",
+      "suy_tu": [
+        "ngay_duong"
+      ],
+      "chu_ky": 28,
+      "chu_ky_theo": "ngay_duong"
+    },
+    {
+      "ten": "tiet_khi_giao_trong_ngay",
+      "kieu": "string",
+      "moTa": "Tên tiết khí bắt đầu trong ngày ấy, từ 0 giờ tới trước 24 giờ giờ Việt Nam; rỗng nếu không có tiết nào bắt đầu",
+      "moTaEn": "Name of the solar term that begins on that day, from 00:00 up to 24:00 Vietnam time; empty when no term begins",
+      "moTaZh": "当日（越南时间0时至24时前）开始的节气名称；当日无交节则留空",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "gio_giao_tiet",
+      "kieu": "string",
+      "moTa": "Giờ tiết khí ấy bắt đầu, dạng HH:MM giờ Việt Nam; rỗng nếu không có tiết nào bắt đầu. Sai số tới 14 phút, xem bộ moc-tiet-khi-1900-2100",
+      "moTaEn": "Time that term begins, HH:MM Vietnam time; empty when no term begins. Error up to 14 minutes, see the moc-tiet-khi-1900-2100 dataset",
+      "moTaZh": "该节气开始的时刻，格式 HH:MM，越南时间；当日无交节则留空。误差最多 14 分钟，见 moc-tiet-khi-1900-2100 数据集",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Loại nguồn của dòng, một hay nhiều phần ngăn bằng dấu chấm phẩy, mỗi phần là tinh-toan (lõi tính ra), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (quy ước của một truyền thống hay một hệ hiện đại), van-ban (kèm tác phẩm sau dấu hai chấm) hoặc bien-tap (kèm chi tiết); chi tiết tĩnh cũng ở nguon_chi_tiet của meta, và hai bộ lớn nhất chỉ ghi ở đó; cột nào thuộc phần nào xem loai_bang_chung của từng cột trong meta",
+      "moTaEn": "Kind of source for this row, one or more parts separated by semicolons, each being tinh-toan (computed by the engine), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (convention of a tradition or of a modern system), van-ban (with the work after a colon) or bien-tap (with details); static details are also in the metadata nguon_chi_tiet, and the two largest datasets give them only there; which column belongs to which part is given by each column's loai_bang_chung in the metadata",
+      "moTaZh": "该行的来源类别，一个或多个部分，以分号分隔，每部分为 tinh-toan（引擎推算）、quy-uoc-truyen-thong、quy-uoc-he-hien-dai（传统或现代体系的约定）、van-ban（冒号后为著作）或 bien-tap（附说明）；固定说明亦见元数据 nguon_chi_tiet，两个最大的数据集只在那里给出；各列属于哪一部分，见元数据中每列的 loai_bang_chung"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not",
+      "moTaZh": "各流派在该行的分歧之处；没有则留空"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Toàn bộ bảng là giá trị lõi tính sinh ra, không chép từ cuốn lịch nào. Âm lịch tính theo múi giờ UTC+7, tức quy ước lịch Việt Nam; cùng một ngày dương có thể rơi vào ngày âm khác nếu tính theo UTC+8 của lịch Trung Quốc, và chênh lệch ấy có thật ở những ngày sát điểm sóc. Can chi ngày đếm liên tục theo số ngày Julius nên không phụ thuộc múi giờ. Tiết khí tính theo kinh độ mặt trời, lấy tiết đang có hiệu lực lúc 12 giờ trưa ngày đó, giờ Việt Nam: ngày giao tiết mà giờ giao sau 12 giờ trưa thì cột tiet_khi của chính ngày ấy vẫn là tiết cũ. Muốn biết ngày nào có tiết bắt đầu và bắt đầu lúc mấy giờ thì đọc hai cột tiet_khi_giao_trong_ngay và gio_giao_tiet, lấy từ cùng lõi tính với bộ moc-tiet-khi-1900-2100 (sai số tới 14 phút, xem bộ ấy). Cột nhị thập bát tú dùng mốc 21/09/2026 là sao Tâm, tra từ lịch vạn niên. Mốc ấy tự kiểm được: vòng hai mươi tám sao khoá cứng với tuần bảy ngày vì 28 chia hết cho 7, mỗi sao ứng một diệu và diệu ấy ứng một thứ cố định, nên sai mốc một ngày là lệch luôn cả bảng thất diệu. Đã kiểm suốt mười một năm không lệch dòng nào. Cố ý KHÔNG khai tốt xấu và con vật của từng sao: các nguồn bất đồng nhiều ở hai mục ấy, và một bảng tốt xấu chép nhầm thì người đọc đem đi chọn ngày cưới.",
+  "ghi_chu_chung_en": "The whole table is generated by the engine, not copied from any almanac. The lunar date follows UTC+7, the Vietnamese convention; the same solar day can fall on a different lunar day under the UTC+8 Chinese convention, and that difference is real around new moon. The day stem-branch counts continuously from the Julian day number, so it does not depend on the time zone. The solar term is the one in force at 12:00 noon Vietnam time on that day: on a day whose term begins after noon, that day's tiet_khi column still shows the previous term. To see which days a term begins on and at what time, read the tiet_khi_giao_trong_ngay and gio_giao_tiet columns, taken from the same engine as the moc-tiet-khi-1900-2100 dataset (error up to 14 minutes, see that dataset). The lunar mansion column uses the anchor of 21 September 2026 being the mansion Tam, taken from an almanac. That anchor checks itself: the twenty-eight mansion cycle is locked to the seven-day week because 28 divides by 7, each mansion belongs to one of the seven luminaries and each luminary to a fixed weekday, so an anchor off by one day shifts the whole luminary table. Verified across eleven years with no drift. The auspicious or inauspicious rating and the animal of each mansion are deliberately NOT included: sources disagree widely on both, and a mis-copied rating is something a reader takes away to choose a wedding date.",
+  "ghi_chu_chung_zh": "整张表由推算引擎生成，不抄自任何历书。农历按 UTC+7 计算，即越南的惯例；同一个公历日在中国 UTC+8 的算法下可能落在不同的农历日，朔日前后这种差异确实存在。日干支按儒略日连续计数，与时区无关。节气取该日越南时间正午12时所处的那一个：交节时刻在正午之后的那一天，其 tiet_khi 一列仍是前一节气。要知道哪一天交节、几点交节，请看 tiet_khi_giao_trong_ngay 与 gio_giao_tiet 两列，与 moc-tiet-khi-1900-2100 数据集同一推算引擎（误差最多 14 分钟，见该数据集）。二十八宿一列以 2026 年 9 月 21 日为心宿作为起算点，取自历书。这个起算点可以自我校验：二十八宿与七日周严格锁定，因为 28 能被 7 整除，每宿配一曜，每曜又配固定的星期，起算点错一天，整张七曜表就会错位。已连续核对十一年未见偏差。各宿的吉凶与配兽有意未收：各家来源在这两项上分歧很大，而一张抄错的吉凶表，读者是要拿去择婚期的。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/lich-am",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Lịch âm dương 1900 tới 2100. Phiên bản 1.2.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/lich-am-duong-1900-2100.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese lunisolar calendar, 1900 to 2100. Version 1.2.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/lich-am-duong-1900-2100.csv",
+  "co_parquet": true,
+  "nguon_goc_du_lieu": "tinh-toan",
+  "nguon_goc_du_lieu_mo_ta": "Giá trị do lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hoặc số học; không chép từ bảng in sẵn nào.",
+  "nguon_goc_du_lieu_mo_ta_en": "Values computed by the site's engine with astronomical, calendrical or arithmetic algorithms; not copied from any printed table.",
+  "nguon_goc_du_lieu_mo_ta_zh": "数值由本站推算引擎以天文、历法或算术算法算出，未抄自任何印刷表格。",
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "mo_hinh": [
+    "lich-am-ho-ngoc-duc-utc7-v1",
+    "tiet-khi-meeus-c25-bieu-kien-v2"
+  ],
+  "quy_uoc": [
+    "doi-nam",
+    "doi-thang",
+    "mui-gio",
+    "ranh-gioi-ngay",
+    "thang-nhuan",
+    "tiet-khi",
+    "truc-theo-loi-lich-van-nien"
+  ],
+  "ho_so_mo_hinh": [
+    {
+      "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+      "phien_ban": "1.2.0",
+      "loai": "lich-am",
+      "ten": "Lịch âm Việt Nam",
+      "ten_en": "Vietnamese lunisolar calendar",
+      "ten_zh": "越南农历",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "diem_soc": "ho-ngoc-duc-newmoon: chuỗi rút gọn của Meeus trong thuật toán Hồ Ngọc Đức, kèm hiệu chỉnh ΔT đa thức riêng của thuật toán",
+      "trung_khi": "ho-ngoc-duc-sunlongitude: kinh độ hình học của Mặt Trời (phương trình tâm ba số hạng), xét lúc 0 giờ ngày sóc theo giờ địa phương, chia 30 độ",
+      "mung_mot": "ngay-chua-diem-soc-theo-gio-dia-phuong",
+      "thang_muoi_mot": "thang-chua-dong-chi",
+      "quy_tac_thang_nhuan": "thang-dau-tien-khong-chua-trung-khi-sau-thang-11-khi-giua-hai-thang-11-co-13-thang",
+      "chinh_sach_mui_gio": "co-dinh-utc7",
+      "dung_lai_mui_gio_lich_su": false,
+      "mo_ta_mui_gio": "UTC+7 là quy ước tính của site, áp như nhau cho mọi năm. Đây không phải tái dựng múi giờ lịch sử: lịch Việt Nam từng in theo UTC+8 ở một số năm, và ở những năm ấy ngày mùng một hay ngày giao tiết theo lịch in có thể lệch một ngày so với kết quả của mô hình này.",
+      "mo_ta_mui_gio_en": "UTC+7 is the site's computing convention, applied the same way to every year. It is not a reconstruction of historical time zones: Vietnamese calendars were printed on UTC+8 in some years, and in those years the first day of a month or the day of a solar term in the printed calendar can differ by one day from this model's result.",
+      "mo_ta_mui_gio_zh": "UTC+7 是本站的推算约定，所有年份一律适用。这不是对历史时区的复原：越南历书在部分年份曾按 UTC+8 印行，在这些年份，印本历书的初一或交节日期可能与本模型的结果相差一天。",
+      "doi_chieu": [
+        {
+          "nguon": "NASA GSFC, Fred Espenak, Six Millennium Catalog of Phases of the Moon",
+          "url": "https://eclipse.gsfc.nasa.gov/phase/phasecat.html",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/nasa_soc_1901_2100.tsv",
+          "sha256": "9d934604558f1528b01c849d52ef2fac409fe6960f74590cdfc8e8a9d5e9fb12",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 2474,
+          "dung_sai_phut": 5,
+          "test": "TestKiemCheoDiemSocNASA"
+        },
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "kiem_dinh": [
+        {
+          "ma": "diem-soc-nasa",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "NASA",
+          "co_mau": 2474,
+          "don_vi": "phut",
+          "dung_sai": 5,
+          "mae": 1.1,
+          "rmse": 1.3,
+          "trung_vi": 0.9,
+          "p95": 2.5,
+          "p99": 3.1,
+          "max": 3.9,
+          "lech": 0.9,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoDiemSocNASA",
+          "mo_ta": "Điểm sóc của lõi tính trừ điểm sóc NASA trên 2.474 lần sóc 1901 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's new moon minus NASA's over 2,474 new moons from 1901 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1901 至 2100 年 2,474 次朔，引擎朔时减 NASA 朔时，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "thang-am-dung-lai",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "NASA;IMCCE",
+          "co_mau": 2461,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 2,
+          "test": "TestKiemCheoLichAmDungLai",
+          "mo_ta": "Lịch âm UTC+7 dựng lại chỉ từ điểm sóc NASA và trung khí IMCCE theo quy tắc lịch (mùng 1 là ngày chứa sóc, tháng 11 chứa Đông chí, tháng nhuận là tháng đầu không chứa trung khí), 2.461 tháng từ 12/1901 tới 11/2100; so mùng 1, số tháng và cờ nhuận của lõi tính. 2 tháng khác, đều do điểm sóc rơi sát nửa đêm, kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "A UTC+7 lunar calendar rebuilt only from NASA new moons and IMCCE principal terms by the calendar rules (day 1 holds the new moon, month 11 holds the winter solstice, the leap month is the first without a principal term), 2,461 months from 12/1901 to 11/2100; the engine's first days, month numbers and leap flags are compared. 2 months differ, each because the new moon falls close to midnight, listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "仅以 NASA 朔与 IMCCE 中气，按历法规则（含朔之日为初一，含冬至之月为十一月，闰月为其后首个无中气之月）重建 UTC+7 农历，自 1901 年 12 月至 2100 年 11 月共 2,461 个月；逐月比较引擎的初一、月序与闰月标记。2 个月不同，皆因朔接近午夜，列于 ngoai-le-doi-chieu.csv。"
+        }
+      ],
+      "ghi_chu": "Thuật toán Hồ Ngọc Đức, múi giờ UTC+7 cho mọi năm, kể cả những năm lịch in ở Việt Nam còn theo UTC+8. Đối chiếu 27/09/2026: điểm sóc lệch NASA trung bình 0,9 phút, nhiều nhất 3,9 phút trên 2.474 lần sóc; 2.459 trên 2.461 tháng âm 1901 tới 2100 dựng lại từ sóc NASA và trung khí IMCCE khớp, hai tháng lệch có sóc sát nửa đêm.",
+      "ghi_chu_en": "Hồ Ngọc Đức's algorithm, UTC+7 for every year, including years when Vietnamese almanacs still printed UTC+8. Checked on 27 September 2026: new moons differ from NASA by 0.9 minutes on average and 3.9 at most over 2,474 new moons; 2,459 of 2,461 lunar months from 1901 to 2100 rebuilt from NASA new moons and IMCCE principal terms match, the two that differ having a new moon close to midnight.",
+      "ghi_chu_zh": "采用胡玉德算法，所有年份一律按 UTC+7，包括越南历书当年仍按 UTC+8 印行的年份。2026 年 9 月 27 日比对：2,474 次朔与 NASA 平均相差 0.9 分钟，最多 3.9 分钟；以 NASA 朔与 IMCCE 中气重建的 1901 至 2100 年 2,461 个农历月中 2,459 个一致，其余两个月的朔接近午夜。"
+    },
+    {
+      "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+      "phien_ban": "2.2.0",
+      "loai": "tiet-khi",
+      "ten": "Giờ giao 24 tiết khí",
+      "ten_en": "Solar term moments",
+      "ten_zh": "二十四节气交节时刻",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "lich_thien_van": "meeus-c25-rut-gon: Meeus, Astronomical Algorithms chương 25, kinh độ Mặt Trời theo phương trình tâm ba số hạng (chuỗi rút gọn, độ chính xác chừng 0,01 độ), không phải VSOP87 đầy đủ",
+      "quang_sai_do": -0.00569,
+      "chuong_dong": "chuong_dong_do = -0.00478 * sin(Ω), Ω = 125.04 - 1934.136 T (độ), T tính bằng thế kỷ Julius từ J2000 theo giờ TT",
+      "delta_t": "espenak-meeus-2006: đa thức ΔT = TT - UT theo từng khoảng năm của Espenak và Meeus (NASA, 2006), lấy ở giữa năm dương lịch",
+      "cach_giai": "chia-doi",
+      "nguong_dung_giai_phut": 1,
+      "dung_sai_phut": 15,
+      "thong_ke_sai_so": [
+        {
+          "nguon": "IMCCE",
+          "ten_nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "so_moc": 4824,
+          "dinh_nghia": "loi_tinh - nguon",
+          "mae_phut": 4.2,
+          "rmse_phut": 5.1,
+          "trung_vi_tuyet_doi_phut": 3.7,
+          "p95_tuyet_doi_phut": 9.7,
+          "p99_tuyet_doi_phut": 12.3,
+          "lech_trung_binh_phut": -3.2,
+          "nho_nhat_phut": -14.4,
+          "lon_nhat_phut": 9,
+          "so_moc_som": 3758,
+          "phan_bo": [
+            {
+              "tu_phut": -16,
+              "den_phut": -14,
+              "so_moc": 8
+            },
+            {
+              "tu_phut": -14,
+              "den_phut": -12,
+              "so_moc": 53
+            },
+            {
+              "tu_phut": -12,
+              "den_phut": -10,
+              "so_moc": 138
+            },
+            {
+              "tu_phut": -10,
+              "den_phut": -8,
+              "so_moc": 397
+            },
+            {
+              "tu_phut": -8,
+              "den_phut": -6,
+              "so_moc": 603
+            },
+            {
+              "tu_phut": -6,
+              "den_phut": -4,
+              "so_moc": 845
+            },
+            {
+              "tu_phut": -4,
+              "den_phut": -2,
+              "so_moc": 893
+            },
+            {
+              "tu_phut": -2,
+              "den_phut": 0,
+              "so_moc": 821
+            },
+            {
+              "tu_phut": 0,
+              "den_phut": 2,
+              "so_moc": 544
+            },
+            {
+              "tu_phut": 2,
+              "den_phut": 4,
+              "so_moc": 338
+            },
+            {
+              "tu_phut": 4,
+              "den_phut": 6,
+              "so_moc": 126
+            },
+            {
+              "tu_phut": 6,
+              "den_phut": 8,
+              "so_moc": 52
+            },
+            {
+              "tu_phut": 8,
+              "den_phut": 10,
+              "so_moc": 6
+            },
+            {
+              "tu_phut": 10,
+              "den_phut": 12,
+              "so_moc": 0
+            },
+            {
+              "tu_phut": 12,
+              "den_phut": 14,
+              "so_moc": 0
+            },
+            {
+              "tu_phut": 14,
+              "den_phut": 16,
+              "so_moc": 0
+            }
+          ]
+        },
+        {
+          "nguon": "USNO",
+          "ten_nguon": "U.S. Naval Observatory, Astronomical Applications API (seasons)",
+          "so_moc": 804,
+          "dinh_nghia": "loi_tinh - nguon",
+          "mae_phut": 4.3,
+          "rmse_phut": 5.3,
+          "trung_vi_tuyet_doi_phut": 4,
+          "p95_tuyet_doi_phut": 10,
+          "p99_tuyet_doi_phut": 12,
+          "lech_trung_binh_phut": -3.3,
+          "nho_nhat_phut": -13,
+          "lon_nhat_phut": 9,
+          "so_moc_som": 608,
+          "phan_bo": [
+            {
+              "tu_phut": -16,
+              "den_phut": -14,
+              "so_moc": 0
+            },
+            {
+              "tu_phut": -14,
+              "den_phut": -12,
+              "so_moc": 2
+            },
+            {
+              "tu_phut": -12,
+              "den_phut": -10,
+              "so_moc": 21
+            },
+            {
+              "tu_phut": -10,
+              "den_phut": -8,
+              "so_moc": 70
+            },
+            {
+              "tu_phut": -8,
+              "den_phut": -6,
+              "so_moc": 92
+            },
+            {
+              "tu_phut": -6,
+              "den_phut": -4,
+              "so_moc": 127
+            },
+            {
+              "tu_phut": -4,
+              "den_phut": -2,
+              "so_moc": 149
+            },
+            {
+              "tu_phut": -2,
+              "den_phut": 0,
+              "so_moc": 147
+            },
+            {
+              "tu_phut": 0,
+              "den_phut": 2,
+              "so_moc": 94
+            },
+            {
+              "tu_phut": 2,
+              "den_phut": 4,
+              "so_moc": 56
+            },
+            {
+              "tu_phut": 4,
+              "den_phut": 6,
+              "so_moc": 32
+            },
+            {
+              "tu_phut": 6,
+              "den_phut": 8,
+              "so_moc": 12
+            },
+            {
+              "tu_phut": 8,
+              "den_phut": 10,
+              "so_moc": 2
+            },
+            {
+              "tu_phut": 10,
+              "den_phut": 12,
+              "so_moc": 0
+            },
+            {
+              "tu_phut": 12,
+              "den_phut": 14,
+              "so_moc": 0
+            },
+            {
+              "tu_phut": 14,
+              "den_phut": 16,
+              "so_moc": 0
+            }
+          ]
+        }
+      ],
+      "doi_chieu": [
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        },
+        {
+          "nguon": "U.S. Naval Observatory, Astronomical Applications API (seasons)",
+          "url": "https://aa.usno.navy.mil/api/seasons",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/usno_phan_chi_1900_2100.tsv",
+          "sha256": "ef70a6694d2764f13f8409b2dade5fb87ade9161d0fdccc683b6993f472d8419",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 804,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "kiem_dinh": [
+        {
+          "ma": "gio-giao-tiet-imcce",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "IMCCE",
+          "co_mau": 4824,
+          "don_vi": "phut",
+          "dung_sai": 15,
+          "mae": 4.2,
+          "rmse": 5.1,
+          "trung_vi": 3.7,
+          "p95": 9.7,
+          "p99": 12.3,
+          "max": 14.4,
+          "lech": -3.2,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoGioTietKhi",
+          "mo_ta": "Giờ giao tiết của lõi tính trừ giờ IMCCE trên 4.824 mốc 1900 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's solar term moment minus the IMCCE moment over 4,824 moments from 1900 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1900 至 2100 年 4,824 个时刻，引擎交节时刻减 IMCCE 时刻，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "gio-giao-tiet-usno",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "USNO",
+          "co_mau": 804,
+          "don_vi": "phut",
+          "dung_sai": 15,
+          "mae": 4.3,
+          "rmse": 5.3,
+          "trung_vi": 4,
+          "p95": 10,
+          "p99": 12,
+          "max": 13,
+          "lech": -3.3,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoGioTietKhi",
+          "mo_ta": "Giờ giao tiết của lõi tính trừ giờ USNO trên 804 mốc 1900 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's solar term moment minus the USNO moment over 804 moments from 1900 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1900 至 2100 年 804 个时刻，引擎交节时刻减 USNO 时刻，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "ngay-giao-tiet-imcce",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "IMCCE",
+          "co_mau": 4824,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 10,
+          "test": "TestKiemCheoNgayTietKhiIMCCE",
+          "mo_ta": "Ngày giao tiết theo giờ Việt Nam của lõi tính so với ngày chứa mốc IMCCE, 4.824 mốc; 10 mốc khác ngày, mọi mốc ấy cách nửa đêm dưới 15 phút và được kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "The engine's solar term date in Vietnam time against the date containing the IMCCE moment, 4,824 moments; 10 fall on a different date, all within 15 minutes of midnight, and each is listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "按越南时间比较引擎的交节日期与 IMCCE 时刻所在日期，共 4,824 个时刻；10 个日期不同，均距午夜不足 15 分钟，逐一列于 ngoai-le-doi-chieu.csv。"
+        },
+        {
+          "ma": "ngay-giao-tiet-usno",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "USNO",
+          "co_mau": 804,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 4,
+          "test": "TestKiemDinhNgayGiaoTietUSNO",
+          "mo_ta": "Ngày giao tiết theo giờ Việt Nam của lõi tính so với ngày chứa mốc USNO, 804 mốc; 4 mốc khác ngày, mọi mốc ấy cách nửa đêm dưới 15 phút và được kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "The engine's solar term date in Vietnam time against the date containing the USNO moment, 804 moments; 4 fall on a different date, all within 15 minutes of midnight, and each is listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "按越南时间比较引擎的交节日期与 USNO 时刻所在日期，共 804 个时刻；4 个日期不同，均距午夜不足 15 分钟，逐一列于 ngoai-le-doi-chieu.csv。"
+        }
+      ],
+      "ghi_chu": "Mốc là lúc kinh độ biểu kiến của Mặt Trời chạm đúng bội số của 15 độ, tìm bằng phép chia đôi, làm tròn tới phút theo giờ Việt Nam. Đo 27/09/2026 trên 4.824 mốc: sớm trung bình 3,2 phút, sớm nhất 14 phút, muộn nhất 9 phút so với IMCCE.",
+      "ghi_chu_en": "A moment is when the Sun's apparent longitude reaches an exact multiple of 15 degrees, found by bisection and rounded to the minute in Vietnam time. Measured on 27 September 2026 over 4,824 moments: 3.2 minutes early on average, at most 14 minutes early and 9 minutes late relative to IMCCE.",
+      "ghi_chu_zh": "交节时刻指太阳视黄经正好到达 15 度整数倍的瞬间，以二分法求得，按越南时间取整到分钟。2026 年 9 月 27 日以 4,824 个时刻测得：与 IMCCE 相比平均偏早 3.2 分钟，最多偏早 14 分钟、偏晚 9 分钟。"
+    }
+  ],
+  "vai_tro": "tri-thuc",
+  "vai_tro_mo_ta": "Bộ ghi lại tri thức: lịch pháp, bảng tra hay nội dung biên tập, dùng lại được như nguồn tham chiếu (trong giới hạn sử dụng đã nêu).",
+  "vai_tro_mo_ta_en": "A knowledge dataset: calendrical values, lookup tables or edited content, reusable as a reference (within the stated limits of use).",
+  "vai_tro_mo_ta_zh": "知识类数据集：历法数值、查表或编辑内容，可作为参考资料转用（以所列使用限制为限）。",
+  "thay_doi_gan_nhat": {
+    "phien_ban": "1.2.1",
+    "ngay": "2026-09-30",
+    "loai": "documentation",
+    "mo_ta": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào. Tệp Parquet mang metadata khoá giá trị: slug, phiên bản, băm khuôn cột, giấy phép.",
+    "mo_ta_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte. The Parquet file carries key-value metadata: slug, version, column schema hash, licence.",
+    "mo_ta_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。Parquet 文件带有键值元数据：slug、版本、列结构哈希、许可协议。"
+  },
+  "loai_bo": "tinh-toan",
+  "loai_bo_tuong_duong": "computed",
+  "loai_bang_chung": [
+    "A",
+    "C"
+  ],
+  "danh_muc_loai_bang_chung": [
+    {
+      "ma": "A",
+      "ten": "tai-tinh-duoc",
+      "mo_ta": "Tái tính được: thuật toán thiên văn, lịch pháp hay số học cho ra giá trị, ai có thuật toán là tính lại được, và lõi tính đã đối chiếu với nguồn độc lập khi có (hồ sơ mô hình).",
+      "mo_ta_en": "Recomputable: an astronomical, calendrical or arithmetic algorithm yields the value, anyone with the algorithm can recompute it, and the engine has been checked against independent sources where they exist (model profile).",
+      "mo_ta_zh": "可重算：数值由天文、历法或算术算法得出，掌握算法者可自行重算；凡有独立来源处，引擎均已对照（见模型档案）。"
+    },
+    {
+      "ma": "B",
+      "ten": "kiem-bang-van-ban",
+      "mo_ta": "Kiểm bằng văn bản nguồn: giá trị đối chiếu được với một văn bản cụ thể nêu ở cột nguon (tác phẩm, quyển, bản), và test của site đã đối chiếu.",
+      "mo_ta_en": "Checked against a source text: the value can be compared with a specific text named in the nguon column (work, juan, edition), and the site's tests make that comparison.",
+      "mo_ta_zh": "以原典核对：数值可与 nguon 列所列的具体文本（著作、卷、版本）对照，本站测试已作对照。"
+    },
+    {
+      "ma": "C",
+      "ten": "quy-uoc",
+      "mo_ta": "Quy ước của một truyền thống hay một hệ hiện đại: đúng theo quy ước ấy, không đúng hay sai theo nghĩa thực nghiệm; chỗ các phái khác nhau ghi ở bộ diem-bat-dong-giua-cac-phai.",
+      "mo_ta_en": "Convention of a tradition or of a modern system: correct by that convention, neither true nor false in an empirical sense; where schools differ is recorded in the diem-bat-dong-giua-cac-phai dataset.",
+      "mo_ta_zh": "某一传统或现代体系的约定：按该约定为准，不存在经验意义上的真假；各派分歧记于 diem-bat-dong-giua-cac-phai 数据集。"
+    },
+    {
+      "ma": "D",
+      "ten": "bien-tap-van-hoa",
+      "mo_ta": "Biên tập văn hoá: Nhật Nguyệt tuyển chọn, tóm tắt hay ghi lại từ bài viết, kho lịch lễ hội, hay bộ câu hỏi của chính site.",
+      "mo_ta_en": "Cultural editing: selected, summarised or recorded by Nhật Nguyệt from the site's articles, festival store or question set.",
+      "mo_ta_zh": "文化编辑：由 Nhật Nguyệt 从本站文章、节庆库或问题集中选取、概括或记录。"
+    },
+    {
+      "ma": "E",
+      "ten": "dien-giai",
+      "mo_ta": "Diễn giải: lời giải nghĩa, từ khoá hay luận do site viết theo một truyền thống; không kiểm được đúng sai, đọc như lời của site.",
+      "mo_ta_en": "Interpretation: explanations, keywords or readings written by the site within a tradition; not verifiable, read them as the site's words.",
+      "mo_ta_zh": "解读：本站依某一传统撰写的释义、关键词或论述；无从验证真假，应视为本站的说法。"
+    }
+  ],
+  "tu_vung_nguon": [
+    "tinh-toan",
+    "suy-ra",
+    "quy-uoc-truyen-thong",
+    "quy-uoc-he-hien-dai",
+    "van-ban",
+    "bien-tap",
+    "tham-chieu-ngoai",
+    "danh-gia"
+  ],
+  "phu_thuoc_bo": [
+    "12-truc",
+    "moc-tiet-khi-1900-2100"
+  ],
+  "mo_hinh_bac_cau": [
+    "lich-am-ho-ngoc-duc-utc7-v1",
+    "tiet-khi-meeus-c25-bieu-kien-v2"
+  ],
+  "nguon_chi_tiet": {
+    "quy-uoc-truyen-thong": "truc, ngay_hoang_dao, nhi_thap_bat_tu"
+  },
+  "danh_muc_tu_vung_nguon": [
+    {
+      "ma": "tinh-toan",
+      "tuong_duong_en": "computed",
+      "mo_ta": "Lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hay số học.",
+      "mo_ta_en": "Computed by the site's engine with an astronomical, calendrical or arithmetic algorithm.",
+      "mo_ta_zh": "由本站推算引擎以天文、历法或算术算法算出。"
+    },
+    {
+      "ma": "suy-ra",
+      "tuong_duong_en": "derived",
+      "mo_ta": "Quy tắc tra truyền thống áp lên giá trị tính được, cho ra giá trị không sách nào in sẵn.",
+      "mo_ta_en": "A traditional lookup rule applied to a computed value, giving a value no book prints as such.",
+      "mo_ta_zh": "将传统查法套用于推算所得的数值，得出书中并无现成印本的数值。"
+    },
+    {
+      "ma": "quy-uoc-truyen-thong",
+      "tuong_duong_en": "traditional_mapping",
+      "mo_ta": "Quy ước của một truyền thống: bảng gán hay phép tra truyền lại, đúng theo quy ước ấy.",
+      "mo_ta_en": "A convention of a tradition: an inherited mapping or lookup, correct by that convention.",
+      "mo_ta_zh": "传统约定：流传下来的对应或查法，以该约定为准。"
+    },
+    {
+      "ma": "quy-uoc-he-hien-dai",
+      "tuong_duong_en": "modern_system_convention",
+      "mo_ta": "Quy ước của một hệ hiện đại (Tarot Rider-Waite-Smith, thần số học), không phải truyền thống cổ.",
+      "mo_ta_en": "A convention of a modern system (Rider-Waite-Smith Tarot, numerology), not of an ancient tradition.",
+      "mo_ta_zh": "现代体系（韦特塔罗、数字命理）的约定，而非古代传统。"
+    },
+    {
+      "ma": "van-ban",
+      "tuong_duong_en": "textual_source",
+      "mo_ta": "Chép hay đối chiếu với một văn bản cụ thể, nêu tên sau dấu hai chấm hoặc ở nguon_chi_tiet.",
+      "mo_ta_en": "Copied from or checked against a specific text, named after the colon or in nguon_chi_tiet.",
+      "mo_ta_zh": "录自或对照某一具体文本，名称见冒号之后或 nguon_chi_tiet。"
+    },
+    {
+      "ma": "bien-tap",
+      "tuong_duong_en": "editorial",
+      "mo_ta": "Nhật Nguyệt tuyển chọn, tóm tắt, ghi lại hay viết.",
+      "mo_ta_en": "Selected, summarised, recorded or written by Nhật Nguyệt.",
+      "mo_ta_zh": "由 Nhật Nguyệt 选取、概括、记录或撰写。"
+    },
+    {
+      "ma": "tham-chieu-ngoai",
+      "tuong_duong_en": "external_reference",
+      "mo_ta": "Dữ liệu tham chiếu của một cơ quan bên ngoài (IMCCE, USNO, NASA) dùng để đối chiếu, có băm tệp ở sổ nguồn.",
+      "mo_ta_en": "Reference data from an outside institution (IMCCE, USNO, NASA) used for cross-checking, with the file hash in the source register.",
+      "mo_ta_zh": "外部机构（IMCCE、USNO、NASA）的参考数据，用于对照，文件哈希见来源登记册。"
+    },
+    {
+      "ma": "danh-gia",
+      "tuong_duong_en": "evaluation",
+      "mo_ta": "Mục dùng để đo một hệ thống của site, không phải lời khẳng định tri thức.",
+      "mo_ta_en": "An item used to measure one of the site's systems, not a knowledge claim.",
+      "mo_ta_zh": "用于衡量本站某一系统的条目，并非知识性论断。"
+    }
+  ],
+  "danh_muc_epistemic_status": [
+    {
+      "ma": "verifiable",
+      "loai_bang_chung": "A",
+      "ten": "kiểm chứng được",
+      "mo_ta": "Kiểm lại được bằng thuật toán hay đo đạc độc lập; sai số (nếu có) ghi ở hồ sơ mô hình.",
+      "mo_ta_en": "Can be rechecked by an algorithm or an independent measurement; any error margin is in the model profile.",
+      "mo_ta_zh": "可用算法或独立测量复核；误差（如有）见模型档案。"
+    },
+    {
+      "ma": "textually_attested",
+      "loai_bang_chung": "B",
+      "ten": "có trong văn bản",
+      "mo_ta": "Đúng theo nghĩa khớp văn bản nguồn đã nêu, không theo nghĩa thực nghiệm.",
+      "mo_ta_en": "True in the sense of matching the named source text, not in an empirical sense.",
+      "mo_ta_zh": "其真是指与所列原典相符，而非经验意义上的真。"
+    },
+    {
+      "ma": "conventional",
+      "loai_bang_chung": "C",
+      "ten": "quy ước",
+      "mo_ta": "Đúng theo một quy ước; các phái có thể quy ước khác (bộ diem-bat-dong-giua-cac-phai).",
+      "mo_ta_en": "Correct by a convention; other schools may follow another (dataset diem-bat-dong-giua-cac-phai).",
+      "mo_ta_zh": "依某一约定为准；其他流派可能另有约定（数据集 diem-bat-dong-giua-cac-phai）。"
+    },
+    {
+      "ma": "editorial",
+      "loai_bang_chung": "D",
+      "ten": "biên tập",
+      "mo_ta": "Nhật Nguyệt ghi lại hay tuyển chọn; đúng sai tuỳ nguồn của từng dòng.",
+      "mo_ta_en": "Recorded or selected by Nhật Nguyệt; accuracy depends on each row's source.",
+      "mo_ta_zh": "由 Nhật Nguyệt 记录或选取；正确与否取决于各行来源。"
+    },
+    {
+      "ma": "interpretive",
+      "loai_bang_chung": "E",
+      "ten": "diễn giải",
+      "mo_ta": "Lời diễn giải trong một hệ niềm tin; không kiểm được đúng sai, không phải phát biểu khoa học.",
+      "mo_ta_en": "An interpretation within a belief system; not verifiable, not a scientific claim.",
+      "mo_ta_zh": "某一信仰体系内的解读；无从验证真假，并非科学论断。"
+    }
+  ],
+  "source_ids": [
+    "src.espenak-meeus.delta-t-2006",
+    "src.ho-ngoc-duc.lich-am",
+    "src.imcce.miriade",
+    "src.meeus.astronomical-algorithms",
+    "src.nasa.phasecat",
+    "src.usno.seasons"
+  ],
+  "rule_ids": [
+    "rule.day.boundary",
+    "rule.lunar.leap-month",
+    "rule.lunar.month-11-winter-solstice",
+    "rule.lunar.new-moon-day",
+    "rule.lunar.utc7",
+    "rule.month.solar-term-month",
+    "rule.solar-term.apparent-longitude",
+    "rule.year.boundary"
+  ]
+}
