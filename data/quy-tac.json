@@ -1,0 +1,402 @@
+{
+  "phien_ban_khuon": "1.0.0",
+  "ghi_chu": "Mỗi luật có mã ổn định, loại, phiên bản riêng và bam_noi_dung (băm loại, giá trị, mô tả tiếng Việt, mã quy ước). Mô tả luật lịch pháp rút từ quy ước lịch pháp của lõi tính; gia_tri đọc từ hồ sơ mô hình. Meta mỗi bộ trỏ rule_ids; source_ids trỏ sổ nguồn nguon-thu-tich.csv.",
+  "ghi_chu_en": "Each rule has a stable code, a type, its own version and bam_noi_dung (a hash of the type, value, Vietnamese description and convention code). Calendar rule descriptions are taken from the engine's calendar conventions; gia_tri is read from the model profile. Each dataset's metadata points to rule_ids; source_ids point to the source register nguon-thu-tich.csv.",
+  "ghi_chu_zh": "每条规则有稳定代码、类型、独立版本和 bam_noi_dung（类型、取值、越南语描述与约定代码的哈希）。历法规则的描述取自推算引擎的历法约定；gia_tri 读自模型档案。各数据集元数据以 rule_ids 指向本册；source_ids 指向来源登记册 nguon-thu-tich.csv。",
+  "danh_muc_loai": [
+    {
+      "ma": "luat-tinh",
+      "mo_ta": "Luật tính: phép mọi bản lịch cùng hệ phải theo, không có lối khác chính đáng (định nghĩa tiết khí, tháng nhuận, thứ tự quẻ theo nguồn).",
+      "mo_ta_en": "Computation rule: a procedure every calendar of the same system must follow, with no legitimate alternative (definition of solar terms, leap months, hexagram order from the source).",
+      "mo_ta_zh": "推算规则：同一体系的各家历法都须遵循、没有正当替代做法的步骤（节气定义、闰月、依原书的卦序）。"
+    },
+    {
+      "ma": "quy-uoc",
+      "mo_ta": "Quy ước: chỗ có lối khác chính đáng và site chọn một; lối khác ghi ở bộ diem-bat-dong-giua-cac-phai hay ở mục lịch pháp cùng mã.",
+      "mo_ta_en": "Convention: a point with a legitimate alternative where the site picks one; the alternative is recorded in the diem-bat-dong-giua-cac-phai dataset or the calendar entry with the same code.",
+      "mo_ta_zh": "约定：存在正当替代做法、由本站择一之处；另一做法记于 diem-bat-dong-giua-cac-phai 数据集或同代码的历法条目。"
+    }
+  ],
+  "quy_tac": [
+    {
+      "rule_id": "rule.birth-time.clock",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Giờ sinh là giờ nào",
+      "ten_en": "Which clock the birth time uses",
+      "ten_zh": "出生时间用哪种时间",
+      "mo_ta": "Giờ đồng hồ theo giờ Việt Nam UTC+7, dùng nguyên như người dùng nhập. Site không đổi sang giờ Mặt Trời thật theo kinh độ nơi sinh.",
+      "mo_ta_en": "Clock time in Vietnam time, UTC+7, used exactly as entered. The site does not convert to true solar time for the birthplace longitude.",
+      "mo_ta_zh": "按越南时间 UTC+7 的钟表时间，照用户输入使用。本站不按出生地经度换算真太阳时。",
+      "gia_tri": "",
+      "bam_noi_dung": "2f73e61dcc270f3e",
+      "ma_quy_uoc": "gio-sinh",
+      "mo_hinh": [],
+      "source_ids": [],
+      "bo": [],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.day.boundary",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Ngày đổi lúc nào",
+      "ten_en": "When the day turns over",
+      "ten_zh": "何时换日",
+      "mo_ta": "Trang lịch ngày, can chi ngày, trực, thần ngày và giờ hoàng đạo theo ngày dân dụng, đổi lúc 0h giờ Việt Nam. Riêng lá số Bát Tự đổi trụ ngày lúc 23h, đầu giờ Tý, theo cách của phần lớn sách Tử Bình: sinh từ 23h00 thì lấy can chi của ngày hôm sau, không tách Tý sớm và Tý muộn. Lá số Tử Vi lấy ngày âm của đúng ngày dương đã nhập, kể cả khi chọn giờ Tý. Vì thế với người sinh từ 23h tới 0h, hai lá số có thể dựa trên hai ngày khác nhau.",
+      "mo_ta_en": "The daily calendar page, the day's stem and branch, day officer, day god and auspicious hours follow the civil date, which turns at 00:00 Vietnam time. The Four Pillars chart alone turns the day pillar at 23:00, the start of the Tý hour, as in most Tử Bình texts: a birth from 23:00 takes the next day's stem and branch, with no split into early and late Tý. The Tử Vi chart takes the lunar date of exactly the Gregorian date entered, even when the Tý hour is chosen. So for a birth between 23:00 and midnight the two charts can rest on different days.",
+      "mo_ta_zh": "每日历页、日干支、建除、值日神与黄道时辰均按民用日，越南时间 0 时换日。唯八字排盘依多数子平书的做法，以 23 时（子时之初）换日柱：23 时起出生即取次日干支，不分早子时、晚子时。紫微斗数排盘取所输入公历日期对应的农历日，选子时亦然。因此 23 时至 0 时出生者，两种命盘可能依据不同的日子。",
+      "gia_tri": "",
+      "bam_noi_dung": "946bae1ab6ba3c46",
+      "ma_quy_uoc": "ranh-gioi-ngay",
+      "mo_hinh": [],
+      "source_ids": [],
+      "bo": [
+        "lich-am-duong-1900-2100",
+        "ngay-ky-dan-gian-2026-2035",
+        "que-ngay-quai-khi-1900-2100"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.guaqi.cardinal-hexagrams",
+      "loai": "luat-tinh",
+      "phien_ban": "1.0.0",
+      "ten": "Bốn quẻ tứ chính",
+      "ten_en": "The four cardinal hexagrams",
+      "ten_zh": "四正卦",
+      "mo_ta": "Khảm, Chấn, Ly, Đoài không trị ngày; mỗi hào ứng một tiết khí, khởi từ hào sơ quẻ Khảm ở Đông chí.",
+      "mo_ta_en": "Kan, Zhen, Li and Dui rule no days; each line corresponds to one solar term, starting with the first line of Kan at the winter solstice.",
+      "mo_ta_zh": "坎、震、离、兑不值日；每爻主一节气，自冬至坎卦初爻起。",
+      "gia_tri": "so=[29 51 30 58]; cach_xu_ly=khong-tri-ngay-moi-hao-mot-tiet-khi; khoi=hao-so-que-kham-tai-dong-chi",
+      "bam_noi_dung": "bd70252e800e6168",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "source_ids": [
+        "src.tan-duong-thu.q27a"
+      ],
+      "bo": [
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.guaqi.mengxi",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Lối Mạnh Hỷ",
+      "ten_en": "The Meng Xi reading",
+      "ten_zh": "孟喜之说",
+      "mo_ta": "Sáu mươi quẻ đều dài 6 ngày 7 phần (8.766 phút), khởi Trung Phu ở Đông chí; lối Kinh Phòng rút bốn quẻ Di, Tấn, Tỉnh, Đại Súc.",
+      "mo_ta_en": "All sixty hexagrams last 6 days 7 parts (8,766 minutes), starting with Inner Truth at the winter solstice; the Jing Fang reading shortens Nourishment, Progress, The Well and Great Taming.",
+      "mo_ta_zh": "六十卦皆六日七分（8,766 分钟），冬至起中孚；京房之说将颐、晋、井、大畜缩短。",
+      "gia_tri": "truyen_thong=manh-hy; do_dai_que_phut=8766",
+      "bam_noi_dung": "9439c1c8ee22f03b",
+      "ma_quy_uoc": "quai-khi-loi-manh-hy",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "source_ids": [
+        "src.khong-dinh-dat.chu-dich-chinh-nghia",
+        "src.tan-duong-thu.q27a"
+      ],
+      "bo": [
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.guaqi.noon",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Quẻ của ngày lấy lúc trưa",
+      "ten_en": "The day's hexagram is taken at noon",
+      "ten_zh": "当日之卦取正午",
+      "mo_ta": "Quẻ của một ngày là quẻ đang trị lúc 12 giờ trưa giờ Việt Nam; vị trí là phần nguyên của số phút từ Đông chí chia độ dài một quẻ.",
+      "mo_ta_en": "A day's hexagram is the one in force at 12:00 noon Vietnam time; the position is the integer part of the minutes since the solstice divided by the length of one hexagram.",
+      "mo_ta_zh": "当日之卦为越南时间正午 12 时所值之卦；卦位为自冬至起分钟数除以一卦长度的整数部分。",
+      "gia_tri": "thoi_diem_dai_dien=12:00; cach_lam_tron=floor",
+      "bam_noi_dung": "86775ed404e30afc",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "source_ids": [],
+      "bo": [
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.guaqi.order-sixty",
+      "loai": "luat-tinh",
+      "phien_ban": "1.0.0",
+      "ten": "Thứ tự sáu mươi quẻ",
+      "ten_en": "Order of the sixty hexagrams",
+      "ten_zh": "六十卦次序",
+      "mo_ta": "Thứ tự luân trị theo bảng phát liễm thuật của lịch Đại Diễn; giá trị là số King Wen từ quẻ thứ nhất tới quẻ thứ sáu mươi.",
+      "mo_ta_en": "The ruling order from the fa lian shu table of the Dayan calendar; the value lists King Wen numbers from the first to the sixtieth hexagram.",
+      "mo_ta_zh": "依大衍历发敛术之表的轮值次序；取值为第一至第六十卦的文王卦序号。",
+      "gia_tri": "61,24,3,15,38,46,19,62,4,42,53,11,5,17,35,40,34,16,6,18,49,43,56,7,8,9,1,14,37,48,31,44,50,55,59,10,33,32,60,13,41,12,57,45,26,22,20,54,25,36,47,23,52,63,21,28,2,64,39,27",
+      "bam_noi_dung": "409537e9cf5d1e5b",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "source_ids": [
+        "src.tan-duong-thu.q28a"
+      ],
+      "bo": [
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.guaqi.remainder-top-line",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Phần dư thuộc hào thượng",
+      "ten_en": "The remainder goes to the top line",
+      "ten_zh": "余分归上爻",
+      "mo_ta": "Phần dư 7/80 ngày sau sáu hào của mỗi quẻ tính vào hào thượng; nguồn không nói, đây là lựa chọn của site.",
+      "mo_ta_en": "The 7/80-day remainder after the six lines of each hexagram goes to the top line; the sources are silent, this is the site's choice.",
+      "mo_ta_zh": "每卦六爻之后八十分日之七的余分归入上爻；原书未言，此为本站之选择。",
+      "gia_tri": "phan_du=hao-thuong",
+      "bam_noi_dung": "5f05c8200f1f296d",
+      "ma_quy_uoc": "quai-khi-phan-du-hao-thuong",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "source_ids": [],
+      "bo": [
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.guaqi.true-solstice-anchor",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Neo ở Đông chí thật",
+      "ten_en": "Anchored at the true winter solstice",
+      "ten_zh": "以真冬至为锚",
+      "mo_ta": "Vòng sáu mươi quẻ đếm đều từ thời điểm Đông chí thiên văn của từng năm và đặt lại ở Đông chí năm sau, nên quẻ 60 bị cắt; lịch xưa dùng khí bình quân.",
+      "mo_ta_en": "The sixty-hexagram cycle is counted evenly from each year's astronomical winter solstice and reset at the next one, so hexagram 60 is cut short; old calendars used mean solar terms.",
+      "mo_ta_zh": "六十卦自每年天文冬至时刻起匀数，至次年冬至重新起算，故第 60 卦被截短；古历用平气。",
+      "gia_tri": "neo=dong-chi-thuc-moi-nam; dat_lai_chu_ky=cat-que-60-tai-dong-chi",
+      "bam_noi_dung": "1d1ad523cc69e761",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "source_ids": [],
+      "bo": [
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.lunar.leap-month",
+      "loai": "luat-tinh",
+      "phien_ban": "1.0.0",
+      "ten": "Tháng nhuận",
+      "ten_en": "Leap months",
+      "ten_zh": "闰月",
+      "mo_ta": "Giữa hai tháng 11 (tháng chứa Đông Chí) mà có 13 lần sóc thì tháng đầu tiên không chứa trung khí là tháng nhuận, mang số của tháng liền trước. Trung khí xét theo giờ UTC+7. Đối chiếu với lịch dựng lại theo đúng quy tắc này từ điểm sóc của NASA và trung khí của IMCCE: 2.459 trên 2.461 tháng âm từ 1901 tới 2100 khớp, đủ cả 73 tháng nhuận; hai tháng còn lại, bắt đầu 9/12/2072 và 19/10/2085, có điểm sóc rơi trong vòng một phút quanh nửa đêm nên mùng 1 của site lệch một ngày. Lá số Tử Vi an sao theo số tháng, coi tháng nhuận như tháng thường cùng số.",
+      "mo_ta_en": "When 13 new moons fall between two months 11 (the month holding the winter solstice), the first month without a principal term is the leap month and takes the number of the month before it. Principal terms are judged in UTC+7. Checked against a calendar rebuilt by this same rule from NASA new-moon times and IMCCE principal terms: 2,459 of the 2,461 lunar months from 1901 to 2100 match, including all 73 leap months; in the other two, starting 9 December 2072 and 19 October 2085, the new moon falls within a minute of midnight and the site's day 1 is one day off. The Tử Vi chart places stars by month number and treats a leap month like the regular month of that number.",
+      "mo_ta_zh": "两个十一月（含冬至之月）之间若有十三次合朔，则第一个不含中气的月份为闰月，沿用前一月的月序。中气按 UTC+7 判定。按此规则以 NASA 合朔时刻及 IMCCE 中气重建农历对照：1901 至 2100 年 2,461 个农历月中 2,459 个一致，73 个闰月全部一致；其余两个月始于 2072 年 12 月 9 日和 2085 年 10 月 19 日，合朔落在午夜前后一分钟以内，本站初一相差一天。紫微斗数按月序安星，闰月按同序的正月处理。",
+      "gia_tri": "thang-dau-tien-khong-chua-trung-khi-sau-thang-11-khi-giua-hai-thang-11-co-13-thang",
+      "bam_noi_dung": "1b552d73de9e9746",
+      "ma_quy_uoc": "thang-nhuan",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1"
+      ],
+      "source_ids": [
+        "src.ho-ngoc-duc.lich-am",
+        "src.imcce.miriade",
+        "src.nasa.phasecat"
+      ],
+      "bo": [
+        "le-hoi-quy-doi-ngay-duong",
+        "lich-am-duong-1900-2100",
+        "ngay-ky-dan-gian-2026-2035"
+      ],
+      "kiem_dinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1/diem-soc-nasa",
+        "lich-am-ho-ngoc-duc-utc7-v1/thang-am-dung-lai"
+      ]
+    },
+    {
+      "rule_id": "rule.lunar.month-11-winter-solstice",
+      "loai": "luat-tinh",
+      "phien_ban": "1.0.0",
+      "ten": "Tháng 11 âm",
+      "ten_en": "Lunar month 11",
+      "ten_zh": "农历十一月",
+      "mo_ta": "Tháng 11 âm là tháng chứa Đông chí; hai tháng 11 liên tiếp làm mốc để xét năm nhuận.",
+      "mo_ta_en": "Lunar month 11 is the month containing the winter solstice; two consecutive months 11 bound the check for a leap year.",
+      "mo_ta_zh": "农历十一月为含冬至之月；以相邻两个十一月为界判定闰年。",
+      "gia_tri": "thang-chua-dong-chi",
+      "bam_noi_dung": "fd3501a06c5e34c5",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1"
+      ],
+      "source_ids": [
+        "src.ho-ngoc-duc.lich-am",
+        "src.imcce.miriade"
+      ],
+      "bo": [
+        "le-hoi-quy-doi-ngay-duong",
+        "lich-am-duong-1900-2100",
+        "ngay-ky-dan-gian-2026-2035"
+      ],
+      "kiem_dinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1/thang-am-dung-lai"
+      ]
+    },
+    {
+      "rule_id": "rule.lunar.new-moon-day",
+      "loai": "luat-tinh",
+      "phien_ban": "1.0.0",
+      "ten": "Ngày mùng một",
+      "ten_en": "Day 1 of the month",
+      "ten_zh": "初一",
+      "mo_ta": "Ngày mùng một của tháng âm là ngày chứa điểm sóc, xét theo giờ địa phương.",
+      "mo_ta_en": "Day 1 of a lunar month is the day containing the new moon, in local time.",
+      "mo_ta_zh": "农历每月初一为含合朔时刻之日，按当地时间判定。",
+      "gia_tri": "ngay-chua-diem-soc-theo-gio-dia-phuong",
+      "bam_noi_dung": "fd96410d1e861a33",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1"
+      ],
+      "source_ids": [
+        "src.ho-ngoc-duc.lich-am",
+        "src.nasa.phasecat"
+      ],
+      "bo": [
+        "le-hoi-quy-doi-ngay-duong",
+        "lich-am-duong-1900-2100",
+        "ngay-ky-dan-gian-2026-2035"
+      ],
+      "kiem_dinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1/diem-soc-nasa",
+        "lich-am-ho-ngoc-duc-utc7-v1/thang-am-dung-lai"
+      ]
+    },
+    {
+      "rule_id": "rule.lunar.utc7",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Múi giờ tính lịch",
+      "ten_en": "Time zone of the calendar",
+      "ten_zh": "历法时区",
+      "mo_ta": "Mọi năm đều tính theo UTC+7 (giờ Hà Nội), kể cả những năm lịch Việt Nam còn in theo UTC+8; site không đổi múi giờ theo năm hay theo miền. Vì thế từ 1950 tới 2050, Tết của site khác Tết Trung Quốc (UTC+8) ở các năm 1965, 1968, 1969, 1985, 2007 và 2030.",
+      "mo_ta_en": "Every year is computed in UTC+7 (Hanoi time), including years when Vietnamese calendars were still printed in UTC+8; the site does not switch time zones by year or by region. As a result, between 1950 and 2050 the site's Tết differs from Chinese New Year (UTC+8) in 1965, 1968, 1969, 1985, 2007 and 2030.",
+      "mo_ta_zh": "所有年份均按 UTC+7（河内时间）计算，包括越南历书仍按 UTC+8 编印的年份；本站不按年份或地区更换时区。因此 1950 至 2050 年间，本站的春节在 1965、1968、1969、1985、2007、2030 年与中国春节（UTC+8）不同。",
+      "gia_tri": "mui_gio=Asia/Ho_Chi_Minh; utc_offset_gio=7; chinh_sach_mui_gio=co-dinh-utc7",
+      "bam_noi_dung": "d53c8a323297b094",
+      "ma_quy_uoc": "mui-gio",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1",
+        "quai-khi-manh-hy-6-ngay-7-phan-v1",
+        "tiet-khi-meeus-c25-bieu-kien-v2"
+      ],
+      "source_ids": [],
+      "bo": [
+        "24-tiet-khi",
+        "bien-cung-hoang-dao-1950-2050",
+        "gio-hoang-dao-60-ngay",
+        "le-hoi-quy-doi-ngay-duong",
+        "le-hoi-viet-nam",
+        "lich-am-duong-1900-2100",
+        "moc-tiet-khi-1900-2100",
+        "ngay-ky-dan-gian-2026-2035",
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.month.solar-term-month",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Tháng đổi lúc nào",
+      "ten_en": "When the month turns over",
+      "ten_zh": "何时换月",
+      "mo_ta": "Tháng âm (dòng Âm lịch) đổi ở ngày sóc. Tháng của Bát Tự, và nguyệt kiến dùng tính trực và thần ngày, là tháng theo tiết: đổi ở 12 tiết (Lập Xuân, Kinh Trập, Thanh Minh...), mỗi tháng 30° kinh độ, tháng Dần bắt đầu ở Lập Xuân; can tháng theo Ngũ Hổ Độn.",
+      "mo_ta_en": "The lunar month (the Lunar date row) turns at the new moon. The Four Pillars month, and the month branch used for the day officer and day god, is the solar-term month: it turns at the 12 sectional terms (Lập Xuân, Kinh Trập, Thanh Minh...), 30° of longitude each, with the Dần month starting at Lập Xuân; its stem follows the Five Tigers rule.",
+      "mo_ta_zh": "农历月（「农历」一栏）于朔日换月。八字之月，以及推算建除、值日神所用的月建，为节气月：于十二节（立春、惊蛰、清明……）换月，每月黄经 30°，寅月始于立春；月干按五虎遁。",
+      "gia_tri": "",
+      "bam_noi_dung": "06485cf7167249fd",
+      "ma_quy_uoc": "doi-thang",
+      "mo_hinh": [],
+      "source_ids": [],
+      "bo": [
+        "lich-am-duong-1900-2100"
+      ],
+      "kiem_dinh": []
+    },
+    {
+      "rule_id": "rule.solar-term.apparent-longitude",
+      "loai": "luat-tinh",
+      "phien_ban": "1.0.0",
+      "ten": "Mốc tiết khí tính thế nào",
+      "ten_en": "How solar-term moments are computed",
+      "ten_zh": "节气时刻如何计算",
+      "mo_ta": "Kinh độ biểu kiến của Mặt Trời theo công thức rút gọn của Jean Meeus, có quang sai, chương động và ΔT; mốc giao tiết tìm bằng chia đôi tới dưới một phút, theo giờ Việt Nam. Đối chiếu 4.824 mốc năm 1900 tới 2100 với lịch thiên văn INPOP của IMCCE (Đài Thiên văn Paris) và giờ phân, chí của Đài Thiên văn Hải quân Mỹ: sớm trung bình 3 phút, lệch nhiều nhất 14 phút. Ngày giao tiết khớp 4.814 trên 4.824 mốc; 10 mốc lệch ngày đều rơi trong vòng 15 phút quanh nửa đêm.",
+      "mo_ta_en": "The Sun's apparent longitude from Jean Meeus's short formula, with aberration, nutation and ΔT; each term's moment is found by bisection to within a minute, in Vietnam time. Against the INPOP ephemeris of IMCCE (Paris Observatory) for 4,824 moments from 1900 to 2100, and the US Naval Observatory for equinoxes and solstices: 3 minutes early on average, 14 minutes at most. Term dates match for 4,814 of the 4,824 moments; the 10 that differ all fall within 15 minutes of midnight.",
+      "mo_ta_zh": "太阳视黄经采用 Jean Meeus 简化公式，含光行差、章动与 ΔT；交节时刻以二分法求至一分钟以内，按越南时间。与巴黎天文台 IMCCE 的 INPOP 星历 1900 至 2100 年共 4,824 个时刻及美国海军天文台二分二至时刻对照：平均早 3 分钟，最大差 14 分钟。交节日期 4,824 个中 4,814 个一致，其余 10 个均在午夜前后 15 分钟以内。",
+      "gia_tri": "lich_thien_van=meeus-c25-rut-gon; cach_giai=chia-doi; delta_t=espenak-meeus-2006",
+      "bam_noi_dung": "e37a12e95015c17c",
+      "ma_quy_uoc": "tiet-khi",
+      "mo_hinh": [
+        "tiet-khi-meeus-c25-bieu-kien-v2"
+      ],
+      "source_ids": [
+        "src.espenak-meeus.delta-t-2006",
+        "src.imcce.miriade",
+        "src.meeus.astronomical-algorithms",
+        "src.usno.seasons"
+      ],
+      "bo": [
+        "24-tiet-khi",
+        "bien-cung-hoang-dao-1950-2050",
+        "lich-am-duong-1900-2100",
+        "moc-tiet-khi-1900-2100",
+        "que-ngay-quai-khi-1900-2100",
+        "thu-tu-60-que-quai-khi"
+      ],
+      "kiem_dinh": [
+        "tiet-khi-meeus-c25-bieu-kien-v2/gio-giao-tiet-imcce",
+        "tiet-khi-meeus-c25-bieu-kien-v2/gio-giao-tiet-usno",
+        "tiet-khi-meeus-c25-bieu-kien-v2/ngay-giao-tiet-imcce",
+        "tiet-khi-meeus-c25-bieu-kien-v2/ngay-giao-tiet-usno"
+      ]
+    },
+    {
+      "rule_id": "rule.year.boundary",
+      "loai": "quy-uoc",
+      "phien_ban": "1.0.0",
+      "ten": "Năm đổi lúc nào",
+      "ten_en": "When the year turns over",
+      "ten_zh": "何时换年",
+      "mo_ta": "Năm âm lịch (dòng Năm âm lịch, lá số Tử Vi, tuổi âm) đổi ở mùng 1 Tết. Năm của Bát Tự, và của trực, thần ngày, đổi ở Lập Xuân, khi kinh độ Mặt Trời tới 315°, khoảng ngày 4 tháng 2.",
+      "mo_ta_en": "The lunar year (the Lunar year row, the Tử Vi chart, lunar age) turns at Tết, day 1 of month 1. The Four Pillars year, and the one behind the day officer and day god, turns at Lập Xuân, when the Sun reaches longitude 315°, around 4 February.",
+      "mo_ta_zh": "农历年（「农历年」一栏、紫微斗数、虚岁）于正月初一换年。八字之年，以及建除、值日神所依之年，于立春（太阳黄经 315°，约 2 月 4 日）换年。",
+      "gia_tri": "",
+      "bam_noi_dung": "f7da9b2e26867cdf",
+      "ma_quy_uoc": "doi-nam",
+      "mo_hinh": [],
+      "source_ids": [],
+      "bo": [
+        "60-hoa-giap",
+        "lich-am-duong-1900-2100"
+      ],
+      "kiem_dinh": []
+    }
+  ]
+}

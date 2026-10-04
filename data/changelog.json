@@ -1,0 +1,2654 @@
+{
+  "phien_ban_khuon": "1.0.0",
+  "ghi_chu": "Mọi phiên bản của mọi bộ, cũ trước mới sau. Phiên bản trước 30/09/2026 dựng từ lịch sử git (ngày là ngày commit, nguon_so_lieu git), số dòng phiên bản đầu từ CHANGELOG.md của kho GitHub; không biết thì null hay khong-ro. Từ 30/09/2026, phiên bản mới được so với CSV của lượt trước theo id trên các cột chung (nguon_so_lieu so-sanh-csv); luot là báo cáo ảnh hưởng của từng lượt phát hành.",
+  "ghi_chu_en": "Every version of every dataset, oldest first. Versions before 30 September 2026 are rebuilt from the git history (the date is the commit date, nguon_so_lieu git), with first-version row counts from the GitHub repository's CHANGELOG.md; unknown values are null or khong-ro. From 30 September 2026, each new version is compared with the previous release's CSV by id over the shared columns (nguon_so_lieu so-sanh-csv); luot is the impact report of each release.",
+  "ghi_chu_zh": "所有数据集的所有版本，按时间由旧到新。2026 年 9 月 30 日之前的版本据 git 历史重建（日期为提交日期，nguon_so_lieu 为 git），首版行数取自 GitHub 仓库的 CHANGELOG.md；未知者记为 null 或 khong-ro。自 2026 年 9 月 30 日起，每个新版本按 id 在共有列上与上一次发布的 CSV 比较（nguon_so_lieu 为 so-sanh-csv）；luot 为每次发布的影响报告。",
+  "danh_muc_loai": [
+    "data",
+    "schema",
+    "model",
+    "source",
+    "provenance",
+    "documentation",
+    "phat-hanh-dau",
+    "khong-ro"
+  ],
+  "bo": [
+    {
+      "slug": "10-thien-can",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 10,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 10,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "12-con-giap-hop-khac",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 144,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi. Ghi chú chung nói rõ Tứ Hành Xung theo nhóm bốn và thứ tự xét quan hệ.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged. The general note now states that the four-way clash follows groups of four, and the order in which relations are checked.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。总说明写明四行冲按四支一组，以及关系的判断顺序。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 144,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "12-dia-chi",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 12,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 12,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "12-truc",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "52668643",
+          "so_dong": 12,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 12,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.2.0",
+          "ngay": "2026-10-04",
+          "loai": "data",
+          "ly_do": "Bỏ các mục y tế khỏi nen_lam và nen_tranh: \"Chữa bệnh\" của trực Trừ (giữ \"Giải quyết việc tồn\"), \"Uống thuốc, chữa bệnh\" của trực Mãn, \"Chữa bệnh nặng, cắt bỏ dứt khoát\" của trực Phá, \"Chữa bệnh, phẫu thuật\" của trực Bế; không thay bằng mục khác. Bốn dòng đổi, số dòng không đổi.",
+          "ly_do_en": "Removes the medical items from nen_lam and nen_tranh: \"Chữa bệnh\" (treating illness) of the Trừ officer (keeping \"Giải quyết việc tồn\"), \"Uống thuốc, chữa bệnh\" of Mãn, \"Chữa bệnh nặng, cắt bỏ dứt khoát\" of Phá, \"Chữa bệnh, phẫu thuật\" of Bế; nothing replaces them. Four rows change, the row count does not.",
+          "ly_do_zh": "从 nen_lam 与 nen_tranh 中删去医疗事项：除日的「Chữa bệnh」（治病，保留「Giải quyết việc tồn」）、满日的「Uống thuốc, chữa bệnh」、破日的「Chữa bệnh nặng, cắt bỏ dứt khoát」、闭日的「Chữa bệnh, phẫu thuật」，未以其他事项替代。四行有变，行数不变。",
+          "so_dong": 12,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 4,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "22-an-chinh-tarot",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 22,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 22,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "24-tiet-khi",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "52668643",
+          "so_dong": 384,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.0.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.0.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.2",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi. Hồ sơ mô hình tiết khí (2.1.0) thêm thong_ke_sai_so.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged. The solar term model profile (2.1.0) adds thong_ke_sai_so.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。节气模型档案（2.1.0）新增 thong_ke_sai_so。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 384,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "56-an-phu-tarot",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "19bd261c",
+          "so_dong": 56,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 56,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "60-hoa-giap",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 60,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 60,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "64-que-kinh-dich",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 64,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-27",
+          "loai": "documentation",
+          "ly_do": "Chỉ thêm câu trỏ sang hai bộ Quái khí; dữ liệu không đổi.",
+          "ly_do_en": "Only adds a pointer to the two Gua Qi datasets; the data is unchanged.",
+          "ly_do_zh": "仅新增指向两个卦气数据集的说明；数据未变。",
+          "commit": "15395b80",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.0.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.2",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 64,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "9-sao-chieu-menh",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 9,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 9,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.2.0",
+          "ngay": "2026-10-04",
+          "loai": "data",
+          "ly_do": "dien_giai của sao Thổ Tú bỏ phần sức khoẻ (\"chủ về đất đai, nhà cửa, sức khỏe\" thành \"chủ về đất đai, nhà cửa\"; bỏ \"và chú ý sức khỏe\"). Một dòng đổi, số dòng không đổi.",
+          "ly_do_en": "The dien_giai of the Thổ Tú star drops the health part (\"land, housing, health\" becomes \"land, housing\"; \"and pay attention to health\" is removed). One row changes, the row count does not.",
+          "ly_do_zh": "土宿星的 dien_giai 删去健康部分（「主田土、房宅与健康」改为「主田土、房宅」，并删去「多留意身体」）。一行有变，行数不变。",
+          "so_dong": 9,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 1,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "bien-cung-hoang-dao-1950-2050",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "19bd261c",
+          "so_dong": 1212,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-26",
+          "loai": "model",
+          "ly_do": "Mô hình tiết khí thêm quang sai, chương động, ΔT; ghi sai số đo lại.",
+          "ly_do_en": "The solar term model adds aberration, nutation and ΔT; the measured error is recorded again.",
+          "ly_do_zh": "节气模型加入光行差、章动与 ΔT；重新记录实测误差。",
+          "commit": "9eb92baf",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-27",
+          "loai": "source",
+          "ly_do": "Kiểm chéo lịch pháp bằng NASA, IMCCE, USNO thay bảng Hồng Kông.",
+          "ly_do_en": "Calendar cross-checks switch to NASA, IMCCE and USNO instead of a Hong Kong table.",
+          "ly_do_zh": "历法对照改用 NASA、IMCCE、USNO，不再用香港的表。",
+          "commit": "16a696a2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.1.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.2",
+          "moi": "1.1.3",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.0.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.3",
+          "moi": "1.1.4",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình tiết khí (2.1.0) thêm thong_ke_sai_so: MAE, RMSE, trung vị, P95, P99, lệch trung bình, nhỏ nhất, lớn nhất và phân bố so với IMCCE và USNO; meta thêm loai_bo, loai_bang_chung, suy_tu, phu_thuoc_bo, mo_hinh_bac_cau; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The solar term model profile (2.1.0) adds thong_ke_sai_so: MAE, RMSE, median, P95, P99, mean bias, minimum, maximum and the distribution against IMCCE and USNO; metadata adds loai_bo, loai_bang_chung, suy_tu, phu_thuoc_bo, mo_hinh_bac_cau; the data is unchanged byte for byte.",
+          "ly_do_zh": "节气模型档案（2.1.0）新增 thong_ke_sai_so：与 IMCCE、USNO 相比的 MAE、RMSE、中位数、P95、P99、平均偏差、最小值、最大值及分布；元数据新增 loai_bo、loai_bang_chung、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau；数据逐字节未变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.4",
+          "moi": "1.1.5",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 1212,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "cau-hoi-danh-gia-tim-kiem",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "d19cfbf2",
+          "so_dong": 1194,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro danh-gia và cờ khong_phai_tri_thuc: đây là câu hỏi đo ô tìm kiếm, không phải nội dung tri thức; thêm thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro danh-gia and the khong_phai_tri_thuc flag: these are questions for measuring the search box, not knowledge content; adds thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro danh-gia 与 khong_phai_tri_thuc 标记：这些是衡量搜索框的问题，并非知识内容；新增 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.2.0",
+          "ngay": "2026-09-30",
+          "loai": "provenance",
+          "ly_do": "Cột nguon đổi từ bien-tap sang danh-gia, loại mới của từ vựng nguon (tương đương evaluation): mỗi dòng là mục đo, không phải tri thức; các cột khác không đổi. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The nguon column changes from bien-tap to danh-gia, a new kind in the nguon vocabulary (equivalent: evaluation): each row is a measurement item, not knowledge; the other columns are unchanged. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "nguon 列由 bien-tap 改为 danh-gia，即 nguon 词表的新类别（对应 evaluation）：每行为测量条目而非知识；其余各列不变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 1194,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 1194,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "chu-sang-so-than-so-hoc",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "19bd261c",
+          "so_dong": 33,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 33,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "cung-phi-bat-trach",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "45a5ba61",
+          "so_dong": 120,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-21",
+          "loai": "khong-ro",
+          "ly_do": "Không rõ: lịch sử git chỉ ghi phiên bản đổi, không ghi đổi gì.",
+          "ly_do_en": "Unknown: the git history records the version change but not what changed.",
+          "ly_do_zh": "不详：git 历史只记录了版本变更，未记录变更内容。",
+          "commit": "19bd261c",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.2.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 400,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "diem-bat-dong-giua-cac-phai",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "eca7f629",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-27",
+          "loai": "source",
+          "ly_do": "Kiểm chéo lịch pháp bằng NASA, IMCCE, USNO thay bảng Hồng Kông.",
+          "ly_do_en": "Calendar cross-checks switch to NASA, IMCCE and USNO instead of a Hong Kong table.",
+          "ly_do_zh": "历法对照改用 NASA、IMCCE、USNO，不再用香港的表。",
+          "commit": "16a696a2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột ma_quy_uoc.",
+          "ly_do_en": "Adds the ma_quy_uoc column.",
+          "ly_do_zh": "新增 ma_quy_uoc 列。",
+          "commit": "a1e39605",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột pham_vi và bo_anh_huong (tính từ khai báo trong mã); thêm bảy dòng: Tứ Hành Xung theo nhóm bốn, hai quy ước Quái khí, bốn quy ước lịch pháp rút từ QuyUocLichPhap; cột nguon theo từ vựng mới; meta thêm loai_bo, loai_bang_chung, phu_thuoc_bo.",
+          "ly_do_en": "Adds the pham_vi and bo_anh_huong columns (computed from declarations in code); adds seven rows: the four-way clash by groups of four, two Gua Qi conventions, four calendar conventions taken from QuyUocLichPhap; the nguon column follows the new vocabulary; metadata adds loai_bo, loai_bang_chung, phu_thuoc_bo.",
+          "ly_do_zh": "新增 pham_vi 与 bo_anh_huong 两列（由代码中的声明算出）；新增七行：按四支一组的四行冲、两项卦气约定、四项取自 QuyUocLichPhap 的历法约定；nguon 列改用新词表；元数据新增 loai_bo、loai_bang_chung、phu_thuoc_bo。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.3.0",
+          "ngay": "2026-09-30",
+          "loai": "schema",
+          "ly_do": "Thêm cột pham_vi_en, pham_vi_zh, surveyed_sources, surveyed_schools (kèm _en, _zh), last_reviewed, coverage_limit (kèm _en, _zh); cột bo_anh_huong của hai dòng mui-gio thêm gio-hoang-dao-60-ngay và le-hoi-viet-nam. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Adds the columns pham_vi_en, pham_vi_zh, surveyed_sources, surveyed_schools (with _en, _zh), last_reviewed, coverage_limit (with _en, _zh); the bo_anh_huong column of the two mui-gio rows adds gio-hoang-dao-60-ngay and le-hoi-viet-nam. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "新增 pham_vi_en、pham_vi_zh、surveyed_sources、surveyed_schools（及 _en、_zh）、last_reviewed、coverage_limit（及 _en、_zh）各列；两条 mui-gio 行的 bo_anh_huong 列新增 gio-hoang-dao-60-ngay 与 le-hoi-viet-nam。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 27,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 2,
+          "cot_them": [
+            "pham_vi_en",
+            "pham_vi_zh",
+            "surveyed_sources",
+            "surveyed_schools",
+            "surveyed_schools_en",
+            "surveyed_schools_zh",
+            "last_reviewed",
+            "coverage_limit",
+            "coverage_limit_en",
+            "coverage_limit_zh"
+          ],
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        },
+        {
+          "cu": "1.3.0",
+          "moi": "1.3.1",
+          "ngay": "2026-10-04",
+          "loai": "documentation",
+          "ly_do": "Soát lại theo 12-truc 1.2.0 và 9-sao-chieu-menh 1.2.0 (hai bộ bỏ mục y tế); không dòng nào rút từ phần đã đổi, dữ liệu không đổi byte nào.",
+          "ly_do_en": "Re-checked against 12-truc 1.2.0 and 9-sao-chieu-menh 1.2.0 (both drop medical items); no row draws on the changed parts, and the data is unchanged byte for byte.",
+          "ly_do_zh": "按 12-truc 1.2.0 与 9-sao-chieu-menh 1.2.0（两者删去医疗事项）重新核对；没有一行取自改动部分，数据逐字节未变。",
+          "so_dong": 27,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "gio-hoang-dao-60-ngay",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-20",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "e9da6f7e",
+          "so_dong": 720,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "provenance",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào. Meta khai mui_gio Asia/Ho_Chi_Minh và quy ước mui-gio.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte. Metadata declares mui_gio Asia/Ho_Chi_Minh and the mui-gio convention.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。元数据声明 mui_gio 为 Asia/Ho_Chi_Minh 及 mui-gio 约定。",
+          "so_dong": 720,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "hoa-giap-ghep-cheo",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "b724f6bb",
+          "so_dong": 3600,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 3600,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-quy-doi-ngay-duong",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "19bd261c",
+          "so_dong": 240,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-26",
+          "loai": "data",
+          "ly_do": "Thêm 51 lễ (40 lễ âm, dương cố định, 11 lễ cuối 2026) sau khi quy đổi ngày âm bằng lõi tính.",
+          "ly_do_en": "Adds 51 festivals (40 with fixed lunar or solar dates, 11 in late 2026), lunar dates converted by the engine.",
+          "ly_do_zh": "新增 51 个节庆（40 个农历或公历固定日期，11 个 2026 年底节庆），农历日期由推算引擎换算。",
+          "commit": "c9b57857",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-27",
+          "loai": "data",
+          "ly_do": "Sửa 8 lễ trong kho lịch (năm công nhận, phường, địa danh mới).",
+          "ly_do_en": "Corrects 8 festivals in the calendar store (year of recognition, ward, new place names).",
+          "ly_do_zh": "修正节庆库中 8 个节庆（认定年份、坊、新地名）。",
+          "commit": "f7348f4c",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.1.2",
+          "ngay": "2026-09-28",
+          "loai": "data",
+          "ly_do": "Chùa Hương nay ở xã Hương Sơn, Hà Nội (sau sắp xếp 1/7/2025).",
+          "ly_do_en": "Hương Pagoda is now in Hương Sơn commune, Hanoi (after the 1 July 2025 reorganisation).",
+          "ly_do_zh": "香寺现属河内香山社（2025 年 7 月 1 日调整后）。",
+          "commit": "60d5ac45",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.2",
+          "moi": "1.1.3",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.3",
+          "moi": "1.1.4",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình lịch âm (1.1.0) thêm chính sách múi giờ: UTC+7 cố định cho mọi năm, không dựng lại múi giờ lịch sử; meta thêm vai_tro và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The lunar calendar model profile (1.1.0) adds its time zone policy: fixed UTC+7 for every year, no reconstruction of historical time zones; metadata adds vai_tro and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "农历模型档案（1.1.0）新增时区政策：所有年份固定 UTC+7，不复原历史时区；元数据新增 vai_tro 与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.4",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.1.1"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.2.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Kiểm chéo vét cạn với lịch âm tìm ra hai loại dòng ghi ngày không có thật, nay bỏ: lễ ngày 30 âm ở năm tháng ấy chỉ có 29 ngày (trước đây rơi vào mùng 1 tháng sau mà vẫn ghi 30), và lễ 29/2 ở năm không nhuận. Kho lễ hội hạt giống trong mã không có lễ nào như vậy; dữ liệu chỉ đổi khi kho có lễ như thế. Cột nam nay mô tả đúng điều nó ghi: năm âm lịch với lễ ghi ngày âm. Hồ sơ mô hình lịch âm 1.2.0 thêm kiem_dinh. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "An exhaustive cross-check against the lunar calendar found two kinds of row carrying a date that does not exist, now dropped: a festival on lunar day 30 in a year when that month has 29 days (it used to land on day 1 of the next month while still saying 30), and a 29 February festival in a non-leap year. The seed festival store in the code has none; the data changes only where the store holds such a festival. The nam column now describes what it holds: the lunar year for lunar-dated festivals. The lunar calendar model profile 1.2.0 adds kiem_dinh. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "与农历的穷举交叉检验发现两类记载不存在日期的行，现已删除：该月只有 29 日之年的农历三十节庆（此前落在下月初一却仍记三十），以及非闰年的 2 月 29 日节庆。代码内置的节庆种子库并无此类节庆；仅当节庆库含有此类节庆时数据才会变化。nam 列的说明现与所记相符：按农历定日者为农历年。农历模型档案 1.2.0 新增 kiem_dinh。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 790,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-tin-nguong-theo-dan-toc",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "b82ad8a5",
+          "so_dong": 187,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 187,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-viet-nam",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "52668643",
+          "so_dong": 48,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-25",
+          "loai": "schema",
+          "ly_do": "Lễ nhiều ngày và lịch ban tổ chức công bố theo từng năm (thêm cột ngay_truoc, ngay_sau, lich_cong_bo); thêm 24 lễ.",
+          "ly_do_en": "Multi-day festivals and organisers' yearly announced dates (adds ngay_truoc, ngay_sau, lich_cong_bo); adds 24 festivals.",
+          "ly_do_zh": "多日节庆与主办方每年公布的日期（新增 ngay_truoc、ngay_sau、lich_cong_bo 列）；新增 24 个节庆。",
+          "commit": "a9128441",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.2.0",
+          "ngay": "2026-09-26",
+          "loai": "data",
+          "ly_do": "Thêm 51 lễ (40 lễ âm, dương cố định, 11 lễ cuối 2026) sau khi quy đổi ngày âm bằng lõi tính.",
+          "ly_do_en": "Adds 51 festivals (40 with fixed lunar or solar dates, 11 in late 2026), lunar dates converted by the engine.",
+          "ly_do_zh": "新增 51 个节庆（40 个农历或公历固定日期，11 个 2026 年底节庆），农历日期由推算引擎换算。",
+          "commit": "c9b57857",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.2.1",
+          "ngay": "2026-09-27",
+          "loai": "data",
+          "ly_do": "Sửa 8 lễ trong kho lịch (năm công nhận, phường, địa danh mới).",
+          "ly_do_en": "Corrects 8 festivals in the calendar store (year of recognition, ward, new place names).",
+          "ly_do_zh": "修正节庆库中 8 个节庆（认定年份、坊、新地名）。",
+          "commit": "f7348f4c",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.1",
+          "moi": "1.2.2",
+          "ngay": "2026-09-28",
+          "loai": "data",
+          "ly_do": "Chùa Hương nay ở xã Hương Sơn, Hà Nội (sau sắp xếp 1/7/2025).",
+          "ly_do_en": "Hương Pagoda is now in Hương Sơn commune, Hanoi (after the 1 July 2025 reorganisation).",
+          "ly_do_zh": "香寺现属河内香山社（2025 年 7 月 1 日调整后）。",
+          "commit": "60d5ac45",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.2",
+          "moi": "1.2.3",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Thêm tên và mô tả tiếng Trung của bộ.",
+          "ly_do_en": "Adds the dataset's Chinese name and description.",
+          "ly_do_zh": "新增数据集的中文名称与描述。",
+          "commit": "dbe60ba8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.3",
+          "moi": "1.2.4",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.4",
+          "moi": "1.2.5",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau；数据逐字节未变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.5",
+          "moi": "1.3.0",
+          "ngay": "2026-09-30",
+          "loai": "schema",
+          "ly_do": "Thêm cột pham_vi, loai_ngay_chuan, can_cu_phan_loai, chỉ gán khi suy chắc được từ kho (ngày nghỉ lễ, địa điểm toàn quốc, mọi nơi tổ chức cùng một tỉnh), còn lại để trống chờ người nhập; meta thêm mui_gio và danh_muc_ma. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Adds the columns pham_vi, loai_ngay_chuan and can_cu_phan_loai, filled only where the store allows a certain inference (public holiday, nationwide location, every venue in one province) and otherwise left empty for an editor; metadata adds mui_gio and danh_muc_ma. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "新增 pham_vi、loai_ngay_chuan、can_cu_phan_loai 三列，仅在节庆库可确定推断时填写（法定假日、地点为全国、所有举办地同属一省），其余留空待编辑填写；元数据新增 mui_gio 与 danh_muc_ma。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 197,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "cot_them": [
+            "pham_vi",
+            "loai_ngay_chuan",
+            "can_cu_phan_loai"
+          ],
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        },
+        {
+          "cu": "1.3.0",
+          "moi": "1.3.1",
+          "ngay": "2026-10-01",
+          "loai": "documentation",
+          "ly_do": "Meta thêm bản tiếng Trung của ghi chú chung (trước đó chỉ có tiếng Việt và tiếng Anh); dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds the Chinese version of the general note (previously only Vietnamese and English); the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据补上总说明的中文版（此前只有越南文与英文）；数据逐字节未变。",
+          "so_dong": 197,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "lich-am-duong-1900-2100",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-20",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "e9da6f7e",
+          "so_dong": 73414,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-27",
+          "loai": "data",
+          "ly_do": "Tiết khí của ngày lấy lúc 12 giờ trưa, không phải 0 giờ.",
+          "ly_do_en": "The day's solar term is taken at 12:00 noon, not 00:00.",
+          "ly_do_zh": "当日节气取正午 12 时，而非 0 时。",
+          "commit": "18356c0b",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột tiet_khi_giao_trong_ngay và gio_giao_tiet.",
+          "ly_do_en": "Adds the tiet_khi_giao_trong_ngay and gio_giao_tiet columns.",
+          "ly_do_zh": "新增 tiet_khi_giao_trong_ngay 与 gio_giao_tiet 两列。",
+          "commit": "a1e39605",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.1.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình lịch âm (1.1.0) thêm chính sách múi giờ: UTC+7 cố định cho mọi năm, không dựng lại múi giờ lịch sử; meta thêm vai_tro và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The lunar calendar model profile (1.1.0) adds its time zone policy: fixed UTC+7 for every year, no reconstruction of historical time zones; metadata adds vai_tro and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "农历模型档案（1.1.0）新增时区政策：所有年份固定 UTC+7，不复原历史时区；元数据新增 vai_tro 与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.0.0"
+            },
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.2",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "data",
+          "ly_do": "Sửa hai dòng ghi ngày âm là 0 (mùng 0): 2054-05-07 nay là 30/3, 2062-04-09 nay là ngày cuối tháng 2; lỗi của phép tìm tháng chứa ngày khi ngày ấy nằm ngay trước hôm sóc, sửa ở lõi tính (mô hình lịch âm 1.1.1). Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi. Hồ sơ mô hình tiết khí (2.1.0) thêm thong_ke_sai_so.",
+          "ly_do_en": "Fixes two rows that gave lunar day 0: 2054-05-07 is now 3/30 and 2062-04-09 the last day of month 2; the bug was in finding the month containing a day that falls just before a new moon, fixed in the engine (lunar model 1.1.1). The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged. The solar term model profile (2.1.0) adds thong_ke_sai_so.",
+          "ly_do_zh": "修正两行农历日为 0（初零）的错误：2054-05-07 现为三月三十，2062-04-09 现为二月最后一日；错误出在查找紧邻合朔日之前那一天所属的月份，已在引擎中修正（农历模型 1.1.1）。nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。节气模型档案（2.1.0）新增 thong_ke_sai_so。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.1.0"
+            },
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.1.1"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.2.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào. Tệp Parquet mang metadata khoá giá trị: slug, phiên bản, băm khuôn cột, giấy phép.",
+          "ly_do_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte. The Parquet file carries key-value metadata: slug, version, column schema hash, licence.",
+          "ly_do_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。Parquet 文件带有键值元数据：slug、版本、列结构哈希、许可协议。",
+          "so_dong": 73414,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.2.0"
+            },
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        },
+        {
+          "cu": "1.2.1",
+          "moi": "1.2.2",
+          "ngay": "2026-10-04",
+          "loai": "documentation",
+          "ly_do": "Soát lại theo 12-truc 1.2.0 (bỏ mục y tế); cột truc chỉ mang tên trực nên dữ liệu không đổi byte nào.",
+          "ly_do_en": "Re-checked against 12-truc 1.2.0 (medical items dropped); the truc column carries only the officer's name, so the data is unchanged byte for byte.",
+          "ly_do_zh": "按 12-truc 1.2.0（删去医疗事项）重新核对；truc 列只记值日名称，数据逐字节未变。",
+          "so_dong": 73414,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "moc-tiet-khi-1900-2100",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "b724f6bb",
+          "so_dong": 4824,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-26",
+          "loai": "model",
+          "ly_do": "Mô hình tiết khí thêm quang sai, chương động, ΔT; ghi sai số đo lại.",
+          "ly_do_en": "The solar term model adds aberration, nutation and ΔT; the measured error is recorded again.",
+          "ly_do_zh": "节气模型加入光行差、章动与 ΔT；重新记录实测误差。",
+          "commit": "9eb92baf",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-27",
+          "loai": "source",
+          "ly_do": "Kiểm chéo lịch pháp bằng NASA, IMCCE, USNO thay bảng Hồng Kông.",
+          "ly_do_en": "Calendar cross-checks switch to NASA, IMCCE and USNO instead of a Hong Kong table.",
+          "ly_do_zh": "历法对照改用 NASA、IMCCE、USNO，不再用香港的表。",
+          "commit": "16a696a2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột sai số từng mốc so với IMCCE và khoảng cách tới nửa đêm.",
+          "ly_do_en": "Adds per-moment error columns against IMCCE and the distance to midnight.",
+          "ly_do_zh": "新增各时刻相对 IMCCE 的误差列及距午夜的分钟数。",
+          "commit": "a1e39605",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.2.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.1",
+          "moi": "1.2.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.0.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.2",
+          "moi": "1.2.3",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình tiết khí (2.1.0) thêm thong_ke_sai_so: MAE, RMSE, trung vị, P95, P99, lệch trung bình, nhỏ nhất, lớn nhất và phân bố so với IMCCE và USNO; meta thêm loai_bo, loai_bang_chung, suy_tu, phu_thuoc_bo, mo_hinh_bac_cau; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The solar term model profile (2.1.0) adds thong_ke_sai_so: MAE, RMSE, median, P95, P99, mean bias, minimum, maximum and the distribution against IMCCE and USNO; metadata adds loai_bo, loai_bang_chung, suy_tu, phu_thuoc_bo, mo_hinh_bac_cau; the data is unchanged byte for byte.",
+          "ly_do_zh": "节气模型档案（2.1.0）新增 thong_ke_sai_so：与 IMCCE、USNO 相比的 MAE、RMSE、中位数、P95、P99、平均偏差、最小值、最大值及分布；元数据新增 loai_bo、loai_bang_chung、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau；数据逐字节未变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.3",
+          "moi": "1.2.4",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 4824,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "ngay-ky-dan-gian-2026-2035",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-21",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "b724f6bb",
+          "so_dong": 3652,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.0.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình lịch âm (1.1.0) thêm chính sách múi giờ: UTC+7 cố định cho mọi năm, không dựng lại múi giờ lịch sử; meta thêm vai_tro và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The lunar calendar model profile (1.1.0) adds its time zone policy: fixed UTC+7 for every year, no reconstruction of historical time zones; metadata adds vai_tro and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "农历模型档案（1.1.0）新增时区政策：所有年份固定 UTC+7，不复原历史时区；元数据新增 vai_tro 与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.2",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.1.1"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 3652,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+              "phien_ban": "1.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "que-ngay-quai-khi-1900-2100",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-27",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "15395b80",
+          "so_dong": 73414,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột mo_hinh.",
+          "ly_do_en": "Adds the mo_hinh column.",
+          "ly_do_zh": "新增 mo_hinh 列。",
+          "commit": "a1e39605",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.1.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình Quái khí (1.1.0) thêm chu kỳ danh nghĩa 525.960 phút cùng chu kỳ thực và phần cắt của quẻ 60 đo 1900 tới 2100; meta thêm vai_tro và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The Gua Qi model profile (1.1.0) adds the nominal 525,960-minute cycle together with the actual cycle and the cut of hexagram 60 measured 1900 to 2100; metadata adds vai_tro and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "卦气模型档案（1.1.0）新增名义周期 525,960 分钟，以及 1900 至 2100 年实测的实际周期与第 60 卦截去的分钟数；元数据新增 vai_tro 与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.0.0"
+            },
+            {
+              "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+              "phien_ban": "1.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.2",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi. Hồ sơ mô hình tiết khí (2.1.0) thêm thong_ke_sai_so.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged. The solar term model profile (2.1.0) adds thong_ke_sai_so.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。节气模型档案（2.1.0）新增 thong_ke_sai_so。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.2.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào. Tệp Parquet mang metadata khoá giá trị: slug, phiên bản, băm khuôn cột, giấy phép.",
+          "ly_do_en": "The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte. The Parquet file carries key-value metadata: slug, version, column schema hash, licence.",
+          "ly_do_zh": "模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。Parquet 文件带有键值元数据：slug、版本、列结构哈希、许可协议。",
+          "so_dong": 73414,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+              "phien_ban": "1.2.0"
+            },
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "tam-tai-kim-lau-hoang-oc",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-20",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "e9da6f7e",
+          "so_dong": 2201,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 2201,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.2.0",
+          "ngay": "2026-10-04",
+          "loai": "data",
+          "ly_do": "Lời của cung Hoang Ốc Tam Địa Sát bỏ câu gắn với đau ốm, nay là \"Cung xấu, dân gian kiêng làm nhà vào tuổi này.\"; không nội dung y tế. Một giá trị đổi, số dòng không đổi.",
+          "ly_do_en": "The Hoang Ốc house Tam Địa Sát drops the sentence linking it to illness; it now reads that folk custom avoids building a house at this age. No medical content. One value changes, the row count does not.",
+          "ly_do_zh": "黄屋「三地煞」宫删去与病痛相关的句子，改为民间忌在此年龄建房；不含医疗内容。一个值有变，行数不变。",
+          "so_dong": 2201,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 2201,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "thu-tu-60-que-quai-khi",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-27",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "15395b80",
+          "so_dong": 60,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột nguyen_van_nguon và hieu_dinh (hiệu đính 史 thành 夬).",
+          "ly_do_en": "Adds the nguyen_van_nguon and hieu_dinh columns (the 史 to 夬 emendation).",
+          "ly_do_zh": "新增 nguyen_van_nguon 与 hieu_dinh 两列（「史」校改为「夬」）。",
+          "commit": "a1e39605",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm hồ sơ mô hình máy đọc được (ho_so_mo_hinh) và danh mục mã hiệu đính; dữ liệu không đổi.",
+          "ly_do_en": "Metadata adds the machine-readable model profile (ho_so_mo_hinh) and the emendation code list; the data is unchanged.",
+          "ly_do_zh": "元数据新增机器可读的模型档案（ho_so_mo_hinh）与校勘代码表；数据未变。",
+          "commit": "a3d77ea8",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.1",
+          "moi": "1.1.2",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Hồ sơ mô hình Quái khí (1.1.0) thêm chu kỳ danh nghĩa 525.960 phút cùng chu kỳ thực và phần cắt của quẻ 60 đo 1900 tới 2100; meta thêm vai_tro và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "The Gua Qi model profile (1.1.0) adds the nominal 525,960-minute cycle together with the actual cycle and the cut of hexagram 60 measured 1900 to 2100; metadata adds vai_tro and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "卦气模型档案（1.1.0）新增名义周期 525,960 分钟，以及 1900 至 2100 年实测的实际周期与第 60 卦截去的分钟数；元数据新增 vai_tro 与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.0.0"
+            },
+            {
+              "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+              "phien_ban": "1.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.2",
+          "moi": "1.2.0",
+          "ngay": "2026-09-28",
+          "loai": "schema",
+          "ly_do": "Thêm cột ly_do_hieu_dinh (mã lý do máy đọc được) và vi_tri_nguon (quyển, bảng, tháng khí); cột nguon theo từ vựng mới (van-ban: Tân Đường thư, quyển 28 thượng); hồ sơ mô hình tiết khí 2.1.0; meta thêm loai_bo, loai_bang_chung, suy_tu, phu_thuoc_bo, mo_hinh_bac_cau.",
+          "ly_do_en": "Adds the ly_do_hieu_dinh column (machine-readable reason code) and vi_tri_nguon (juan, table, solar month); the nguon column follows the new vocabulary (van-ban: Tân Đường thư, juan 28A); solar term model profile 2.1.0; metadata adds loai_bo, loai_bang_chung, suy_tu, phu_thuoc_bo, mo_hinh_bac_cau.",
+          "ly_do_zh": "新增 ly_do_hieu_dinh 列（可机读的理由代码）与 vi_tri_nguon 列（卷、表、月气）；nguon 列改用新词表（van-ban: 新唐书卷二十八上）；节气模型档案 2.1.0；元数据新增 loai_bo、loai_bang_chung、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.1.0"
+            }
+          ],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.2.0",
+          "moi": "1.3.1",
+          "ngay": "2026-09-30",
+          "loai": "schema",
+          "ly_do": "Thêm cột vi_tri_nguon_en, vi_tri_nguon_zh; meta thêm nhat_ky_hieu_dinh (gốc, sửa, lý do, nguồn, người, ngày của hiệu đính 史 thành 夬). Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào. Hồ sơ mô hình (tiết khí 2.2.0, lịch âm 1.2.0, Quái khí 1.2.0) thêm kiem_dinh theo khuôn chung: trạng thái, tham chiếu, cỡ mẫu, dung sai, MAE, RMSE, trung vị, P95, P99, lớn nhất, lệch, số ngoại lệ; từng ngoại lệ kê ở tệp kèm ngoai-le-doi-chieu.csv, mọi phép kiểm của mọi bộ ở kiem-dinh.csv. Dữ liệu không đổi byte nào.",
+          "ly_do_en": "Adds the columns vi_tri_nguon_en and vi_tri_nguon_zh; metadata adds nhat_ky_hieu_dinh (original, emended reading, reason, source, person and date of the 史 to 夬 emendation). Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte. The model profiles (solar terms 2.2.0, lunar calendar 1.2.0, Gua Qi 1.2.0) add kiem_dinh in a common layout: status, reference, sample size, tolerance, MAE, RMSE, median, P95, P99, maximum, bias, number of exceptions; each exception is listed in the companion file ngoai-le-doi-chieu.csv, and every check of every dataset in kiem-dinh.csv. The data is unchanged byte for byte.",
+          "ly_do_zh": "新增 vi_tri_nguon_en、vi_tri_nguon_zh 两列；元数据新增 nhat_ky_hieu_dinh（「史」校改为「夬」的原文、改文、理由、来源、校改人与日期）。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。模型档案（节气 2.2.0、农历 1.2.0、卦气 1.2.0）新增通用格式的 kiem_dinh：状态、参照、样本量、容差、MAE、RMSE、中位数、P95、P99、最大值、偏差、例外数；每个例外逐行列于附带文件 ngoai-le-doi-chieu.csv，所有数据集的所有检验列于 kiem-dinh.csv。数据逐字节未变。",
+          "so_dong": 60,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "cot_them": [
+            "vi_tri_nguon_en",
+            "vi_tri_nguon_zh"
+          ],
+          "mo_hinh_anh_huong": [
+            {
+              "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+              "phien_ban": "1.2.0"
+            },
+            {
+              "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+              "phien_ban": "2.2.0"
+            }
+          ],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    },
+    {
+      "slug": "thuoc-lo-ban",
+      "phien_ban": [
+        {
+          "cu": "",
+          "moi": "1.0.0",
+          "ngay": "2026-09-16",
+          "loai": "phat-hanh-dau",
+          "ly_do": "Phát hành lần đầu.",
+          "ly_do_en": "First release.",
+          "ly_do_zh": "首次发布。",
+          "commit": "52668643",
+          "so_dong": 26,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.0",
+          "moi": "1.0.1",
+          "ngay": "2026-09-28",
+          "loai": "documentation",
+          "ly_do": "Meta thêm vai_tro (tri thức hay đánh giá) và thay_doi_gan_nhat; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds vai_tro (knowledge or evaluation) and thay_doi_gan_nhat; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 vai_tro（知识或评测）与 thay_doi_gan_nhat；数据逐字节未变。",
+          "commit": "710ddc69",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.0.1",
+          "moi": "1.1.0",
+          "ngay": "2026-09-28",
+          "loai": "provenance",
+          "ly_do": "Cột nguon theo từ vựng đóng mới (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), sinh từ loại bằng chứng của các cột: bảng tra quy ước không còn ghi tinh-toan, và tên chung chung như Lịch vạn niên không còn đứng như một tác phẩm. Meta thêm loai_bo, loai_bang_chung (cả bộ và từng cột), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. Các cột khác không đổi.",
+          "ly_do_en": "The nguon column follows a new closed vocabulary (tinh-toan, quy-uoc-truyen-thong, quy-uoc-he-hien-dai, van-ban, bien-tap), generated from the evidence type of the columns: convention tables no longer say tinh-toan, and generic names such as Lịch vạn niên no longer stand as if they were a single work. Metadata adds loai_bo, loai_bang_chung (per dataset and per column), suy_tu, phu_thuoc_bo, mo_hinh_bac_cau. The other columns are unchanged.",
+          "ly_do_zh": "nguon 列改用新的封闭词表（tinh-toan、quy-uoc-truyen-thong、quy-uoc-he-hien-dai、van-ban、bien-tap），由各列的证据类型生成：约定性查表不再标 tinh-toan，“万年历”这类泛称也不再当作一部著作。元数据新增 loai_bo、loai_bang_chung（整个数据集及每一列）、suy_tu、phu_thuoc_bo、mo_hinh_bac_cau。其余各列不变。",
+          "commit": "2080bad2",
+          "so_dong": null,
+          "dong_them": null,
+          "dong_bot": null,
+          "dong_doi": null,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "git"
+        },
+        {
+          "cu": "1.1.0",
+          "moi": "1.1.1",
+          "ngay": "2026-09-30",
+          "loai": "documentation",
+          "ly_do": "Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+          "ly_do_en": "Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+          "ly_do_zh": "元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。",
+          "so_dong": 26,
+          "dong_them": 0,
+          "dong_bot": 0,
+          "dong_doi": 0,
+          "mo_hinh_anh_huong": [],
+          "nguon_so_lieu": "so-sanh-csv"
+        }
+      ]
+    }
+  ],
+  "luot": [
+    {
+      "so_voi_ma_phat_hanh": "2026.09.28-7ddf4e62",
+      "ngay": "2026-09-30",
+      "mo_hinh_doi": [
+        {
+          "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+          "cu": "1.1.1",
+          "moi": "1.2.0"
+        },
+        {
+          "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+          "cu": "1.1.0",
+          "moi": "1.2.0"
+        },
+        {
+          "ma": "tiet-khi-meeus-c25-bieu-kien-v2",
+          "cu": "2.1.0",
+          "moi": "2.2.0"
+        }
+      ],
+      "so_bo_doi": 27,
+      "bo_doi": [
+        "10-thien-can",
+        "12-con-giap-hop-khac",
+        "12-dia-chi",
+        "12-truc",
+        "22-an-chinh-tarot",
+        "24-tiet-khi",
+        "56-an-phu-tarot",
+        "60-hoa-giap",
+        "64-que-kinh-dich",
+        "9-sao-chieu-menh",
+        "bien-cung-hoang-dao-1950-2050",
+        "cau-hoi-danh-gia-tim-kiem",
+        "chu-sang-so-than-so-hoc",
+        "cung-phi-bat-trach",
+        "diem-bat-dong-giua-cac-phai",
+        "gio-hoang-dao-60-ngay",
+        "hoa-giap-ghep-cheo",
+        "le-hoi-quy-doi-ngay-duong",
+        "le-hoi-tin-nguong-theo-dan-toc",
+        "le-hoi-viet-nam",
+        "lich-am-duong-1900-2100",
+        "moc-tiet-khi-1900-2100",
+        "ngay-ky-dan-gian-2026-2035",
+        "que-ngay-quai-khi-1900-2100",
+        "tam-tai-kim-lau-hoang-oc",
+        "thu-tu-60-que-quai-khi",
+        "thuoc-lo-ban"
+      ],
+      "so_dong_them": 0,
+      "so_dong_bot": 0,
+      "so_dong_doi": 1196,
+      "so_ngay_doi": 0,
+      "so_ca_vuot_nua_dem": 0
+    },
+    {
+      "so_voi_ma_phat_hanh": "2026.09.30-7cfaa47f",
+      "ngay": "2026-10-04",
+      "mo_hinh_doi": [],
+      "so_bo_doi": 6,
+      "bo_doi": [
+        "12-truc",
+        "9-sao-chieu-menh",
+        "diem-bat-dong-giua-cac-phai",
+        "le-hoi-viet-nam",
+        "lich-am-duong-1900-2100",
+        "tam-tai-kim-lau-hoang-oc"
+      ],
+      "so_dong_them": 0,
+      "so_dong_bot": 0,
+      "so_dong_doi": 2206,
+      "so_ngay_doi": 0,
+      "so_ca_vuot_nua_dem": 0
+    }
+  ]
+}

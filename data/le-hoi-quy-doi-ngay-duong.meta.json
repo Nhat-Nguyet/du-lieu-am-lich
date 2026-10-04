@@ -1,0 +1,405 @@
+{
+  "slug": "le-hoi-quy-doi-ngay-duong",
+  "ten": "Lễ hội Việt Nam quy đổi sang ngày dương, 2026 tới 2030",
+  "ten_en": "Vietnamese festivals mapped to solar dates, 2026 to 2030",
+  "ten_zh": "越南节庆对照公历日期，2026 至 2030",
+  "mo_ta": "Ngày dương lịch thật của từng lễ hội trong năm năm, kèm thứ trong tuần. Lễ hội âm lịch rơi vào ngày dương khác nhau mỗi năm, và bảng này tính sẵn phần ấy.",
+  "mo_ta_en": "The actual solar date of each festival across five years, with the weekday. Lunar festivals land on a different solar date every year, and this table works that out in advance.",
+  "mo_ta_zh": "五年间每个节庆的实际公历日期，附星期。农历节庆每年落在不同的公历日，本表已预先算好。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.2.1",
+  "cap_nhat": "2026-09-30",
+  "so_dong": 790,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "le_hoi",
+      "kieu": "string",
+      "moTa": "Tên lễ hội",
+      "moTaEn": "Festival name",
+      "moTaZh": "节庆名称",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "le_hoi_en",
+      "kieu": "string",
+      "moTa": "Tên lễ hội tiếng Anh",
+      "moTaEn": "Festival name in English",
+      "moTaZh": "节庆名称，英语",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "nam",
+      "kieu": "int",
+      "moTa": "Năm của dịp: năm âm lịch với lễ ghi ngày âm (lễ tháng Chạp năm N rơi vào đầu năm dương N+1), năm dương lịch với lễ ghi ngày dương",
+      "moTaEn": "Year of the occasion: the lunar year for lunar-dated festivals (a festival in the twelfth month of year N falls early in solar year N+1), the solar year for solar-dated ones",
+      "moTaZh": "该节庆所属年份：按农历定日者为农历年（农历 N 年腊月的节庆落在公历 N+1 年初），按公历定日者为公历年",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "ngay_duong",
+      "kieu": "string",
+      "moTa": "Ngày dương lịch của dịp ấy trong năm này, dạng YYYY-MM-DD",
+      "moTaEn": "Solar date of the occasion that year, YYYY-MM-DD",
+      "moTaZh": "该年此节庆的公历日期，YYYY-MM-DD",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "thu",
+      "kieu": "string",
+      "moTa": "Thứ trong tuần của ngày ấy",
+      "moTaEn": "Weekday of that date",
+      "moTaZh": "该日的星期",
+      "loai_bang_chung": "A",
+      "epistemic_status": "verifiable"
+    },
+    {
+      "ten": "loai_ngay",
+      "kieu": "string",
+      "moTa": "lunar khi lễ ghi theo ngày âm, solar khi ghi theo ngày dương cố định",
+      "moTaEn": "lunar when the festival is dated by the lunar calendar, solar when fixed on a solar date",
+      "moTaZh": "按农历定日为 lunar，固定公历日为 solar",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ngay_am",
+      "kieu": "string",
+      "moTa": "Ngày âm lịch cố định của dịp, dạng ngày/tháng; rỗng với lễ ghi ngày dương",
+      "moTaEn": "Fixed lunar date as day/month; empty for solar-dated festivals",
+      "moTaZh": "固定的农历日期，格式为日/月；公历定日的节庆此列为空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ngay_nghi",
+      "kieu": "string",
+      "moTa": "co khi đây là ngày nghỉ lễ chính thức",
+      "moTaEn": "co when this is an official public holiday",
+      "moTaZh": "co 表示此为法定节假日",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Loại nguồn của dòng, một hay nhiều phần ngăn bằng dấu chấm phẩy, mỗi phần là tinh-toan (lõi tính ra), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (quy ước của một truyền thống hay một hệ hiện đại), van-ban (kèm tác phẩm sau dấu hai chấm) hoặc bien-tap (kèm chi tiết); chi tiết tĩnh cũng ở nguon_chi_tiet của meta, và hai bộ lớn nhất chỉ ghi ở đó; cột nào thuộc phần nào xem loai_bang_chung của từng cột trong meta",
+      "moTaEn": "Kind of source for this row, one or more parts separated by semicolons, each being tinh-toan (computed by the engine), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (convention of a tradition or of a modern system), van-ban (with the work after a colon) or bien-tap (with details); static details are also in the metadata nguon_chi_tiet, and the two largest datasets give them only there; which column belongs to which part is given by each column's loai_bang_chung in the metadata",
+      "moTaZh": "该行的来源类别，一个或多个部分，以分号分隔，每部分为 tinh-toan（引擎推算）、quy-uoc-truyen-thong、quy-uoc-he-hien-dai（传统或现代体系的约定）、van-ban（冒号后为著作）或 bien-tap（附说明）；固定说明亦见元数据 nguon_chi_tiet，两个最大的数据集只在那里给出；各列属于哪一部分，见元数据中每列的 loai_bang_chung"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not",
+      "moTaZh": "各流派在该行的分歧之处；没有则留空"
+    }
+  ],
+  "nguon_thu_tich": [],
+  "ghi_chu_chung": "Phần DANH MỤC lễ hội là dữ liệu biên tập, phần NGÀY DƯƠNG là giá trị lõi tính quy đổi, nên hai nửa của bảng này có độ tin cậy khác nhau và cột nguon ghi rõ điều đó. Lễ hội ghi ngày dương cố định thì ngày ấy giữ nguyên mọi năm; lễ hội ghi ngày âm thì quy đổi theo múi giờ UTC+7. Tháng nhuận: lễ hội rơi vào một tháng âm có nhuận thì bảng lấy tháng CHÍNH, không lấy tháng nhuận, đúng cách phần lớn nơi tổ chức. BẢNG CHƯA CÓ TỈNH VÀ TOẠ ĐỘ: kho lễ hội hiện không lưu hai trường ấy, và bịa ra toạ độ cho một lễ hội là nói sai chỗ người ta sắp đi tới. Đó là việc nhập nội dung, không phải việc tính, nên nó chờ ban biên tập chứ không chờ mã.",
+  "ghi_chu_chung_en": "The festival LIST is editorial data while the SOLAR DATE is computed by the engine, so the two halves of this table carry different confidence and the nguon column says which is which. Festivals with a fixed solar date keep that date every year; festivals on a lunar date are converted at UTC+7. Leap months: a festival falling in a lunar month that has a leap twin is placed in the MAIN month, not the leap one, as most places observe it. THE TABLE HAS NO PROVINCE OR COORDINATES: the festival store does not hold those fields, and inventing a coordinate for a festival is telling someone the wrong place to travel to. That is content entry, not computation, so it waits on the editors rather than on code.",
+  "ghi_chu_chung_zh": "节庆名录属于编辑数据，公历日期则由推算引擎生成，因此本表两半的可信度并不相同，nguon 一列已注明各自属于哪一类。固定公历日的节庆每年日期不变；按农历定日的节庆按 UTC+7 换算。闰月：若节庆所在的农历月有闰月，本表取正月份而非闰月，这与多数地方的办法一致。本表没有省份与坐标：节庆库目前不存这两个字段，而为一个节庆编造坐标，等于把人指到错的地方去。那是内容录入而非计算，因此要等编辑部，不是等代码。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/tien-ich/lich-le-hoi",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Lễ hội Việt Nam quy đổi sang ngày dương, 2026 tới 2030. Phiên bản 1.2.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Vietnamese festivals mapped to solar dates, 2026 to 2030. Version 1.2.1. CC-BY-4.0. https://nhatnguyet.org/du-lieu/le-hoi-quy-doi-ngay-duong.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "suy-ra",
+  "nguon_goc_du_lieu_mo_ta": "Quy tắc tra chép từ nguồn truyền thống, được lõi tính áp lên ngày, năm hay can chi tính được để ra một bảng không sách nào in sẵn.",
+  "nguon_goc_du_lieu_mo_ta_en": "Traditional lookup rules applied by the engine to computed dates, years or stem-branch pairs, producing a table no book prints as such.",
+  "nguon_goc_du_lieu_mo_ta_zh": "由推算引擎将录自传统来源的查法规则套用于推算所得的日期、年份或干支，得出书中并无现成印本的表。",
+  "mui_gio": "Asia/Ho_Chi_Minh",
+  "mo_hinh": [
+    "lich-am-ho-ngoc-duc-utc7-v1"
+  ],
+  "quy_uoc": [
+    "le-hoi-ngay-pho-bien-nhat",
+    "mui-gio",
+    "thang-nhuan"
+  ],
+  "ho_so_mo_hinh": [
+    {
+      "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+      "phien_ban": "1.2.0",
+      "loai": "lich-am",
+      "ten": "Lịch âm Việt Nam",
+      "ten_en": "Vietnamese lunisolar calendar",
+      "ten_zh": "越南农历",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "diem_soc": "ho-ngoc-duc-newmoon: chuỗi rút gọn của Meeus trong thuật toán Hồ Ngọc Đức, kèm hiệu chỉnh ΔT đa thức riêng của thuật toán",
+      "trung_khi": "ho-ngoc-duc-sunlongitude: kinh độ hình học của Mặt Trời (phương trình tâm ba số hạng), xét lúc 0 giờ ngày sóc theo giờ địa phương, chia 30 độ",
+      "mung_mot": "ngay-chua-diem-soc-theo-gio-dia-phuong",
+      "thang_muoi_mot": "thang-chua-dong-chi",
+      "quy_tac_thang_nhuan": "thang-dau-tien-khong-chua-trung-khi-sau-thang-11-khi-giua-hai-thang-11-co-13-thang",
+      "chinh_sach_mui_gio": "co-dinh-utc7",
+      "dung_lai_mui_gio_lich_su": false,
+      "mo_ta_mui_gio": "UTC+7 là quy ước tính của site, áp như nhau cho mọi năm. Đây không phải tái dựng múi giờ lịch sử: lịch Việt Nam từng in theo UTC+8 ở một số năm, và ở những năm ấy ngày mùng một hay ngày giao tiết theo lịch in có thể lệch một ngày so với kết quả của mô hình này.",
+      "mo_ta_mui_gio_en": "UTC+7 is the site's computing convention, applied the same way to every year. It is not a reconstruction of historical time zones: Vietnamese calendars were printed on UTC+8 in some years, and in those years the first day of a month or the day of a solar term in the printed calendar can differ by one day from this model's result.",
+      "mo_ta_mui_gio_zh": "UTC+7 是本站的推算约定，所有年份一律适用。这不是对历史时区的复原：越南历书在部分年份曾按 UTC+8 印行，在这些年份，印本历书的初一或交节日期可能与本模型的结果相差一天。",
+      "doi_chieu": [
+        {
+          "nguon": "NASA GSFC, Fred Espenak, Six Millennium Catalog of Phases of the Moon",
+          "url": "https://eclipse.gsfc.nasa.gov/phase/phasecat.html",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/nasa_soc_1901_2100.tsv",
+          "sha256": "9d934604558f1528b01c849d52ef2fac409fe6960f74590cdfc8e8a9d5e9fb12",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 2474,
+          "dung_sai_phut": 5,
+          "test": "TestKiemCheoDiemSocNASA"
+        },
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 15,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "kiem_dinh": [
+        {
+          "ma": "diem-soc-nasa",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "NASA",
+          "co_mau": 2474,
+          "don_vi": "phut",
+          "dung_sai": 5,
+          "mae": 1.1,
+          "rmse": 1.3,
+          "trung_vi": 0.9,
+          "p95": 2.5,
+          "p99": 3.1,
+          "max": 3.9,
+          "lech": 0.9,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoDiemSocNASA",
+          "mo_ta": "Điểm sóc của lõi tính trừ điểm sóc NASA trên 2.474 lần sóc 1901 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's new moon minus NASA's over 2,474 new moons from 1901 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1901 至 2100 年 2,474 次朔，引擎朔时减 NASA 朔时，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "thang-am-dung-lai",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "NASA;IMCCE",
+          "co_mau": 2461,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 2,
+          "test": "TestKiemCheoLichAmDungLai",
+          "mo_ta": "Lịch âm UTC+7 dựng lại chỉ từ điểm sóc NASA và trung khí IMCCE theo quy tắc lịch (mùng 1 là ngày chứa sóc, tháng 11 chứa Đông chí, tháng nhuận là tháng đầu không chứa trung khí), 2.461 tháng từ 12/1901 tới 11/2100; so mùng 1, số tháng và cờ nhuận của lõi tính. 2 tháng khác, đều do điểm sóc rơi sát nửa đêm, kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "A UTC+7 lunar calendar rebuilt only from NASA new moons and IMCCE principal terms by the calendar rules (day 1 holds the new moon, month 11 holds the winter solstice, the leap month is the first without a principal term), 2,461 months from 12/1901 to 11/2100; the engine's first days, month numbers and leap flags are compared. 2 months differ, each because the new moon falls close to midnight, listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "仅以 NASA 朔与 IMCCE 中气，按历法规则（含朔之日为初一，含冬至之月为十一月，闰月为其后首个无中气之月）重建 UTC+7 农历，自 1901 年 12 月至 2100 年 11 月共 2,461 个月；逐月比较引擎的初一、月序与闰月标记。2 个月不同，皆因朔接近午夜，列于 ngoai-le-doi-chieu.csv。"
+        }
+      ],
+      "ghi_chu": "Thuật toán Hồ Ngọc Đức, múi giờ UTC+7 cho mọi năm, kể cả những năm lịch in ở Việt Nam còn theo UTC+8. Đối chiếu 27/09/2026: điểm sóc lệch NASA trung bình 0,9 phút, nhiều nhất 3,9 phút trên 2.474 lần sóc; 2.459 trên 2.461 tháng âm 1901 tới 2100 dựng lại từ sóc NASA và trung khí IMCCE khớp, hai tháng lệch có sóc sát nửa đêm.",
+      "ghi_chu_en": "Hồ Ngọc Đức's algorithm, UTC+7 for every year, including years when Vietnamese almanacs still printed UTC+8. Checked on 27 September 2026: new moons differ from NASA by 0.9 minutes on average and 3.9 at most over 2,474 new moons; 2,459 of 2,461 lunar months from 1901 to 2100 rebuilt from NASA new moons and IMCCE principal terms match, the two that differ having a new moon close to midnight.",
+      "ghi_chu_zh": "采用胡玉德算法，所有年份一律按 UTC+7，包括越南历书当年仍按 UTC+8 印行的年份。2026 年 9 月 27 日比对：2,474 次朔与 NASA 平均相差 0.9 分钟，最多 3.9 分钟；以 NASA 朔与 IMCCE 中气重建的 1901 至 2100 年 2,461 个农历月中 2,459 个一致，其余两个月的朔接近午夜。"
+    }
+  ],
+  "vai_tro": "tri-thuc",
+  "vai_tro_mo_ta": "Bộ ghi lại tri thức: lịch pháp, bảng tra hay nội dung biên tập, dùng lại được như nguồn tham chiếu (trong giới hạn sử dụng đã nêu).",
+  "vai_tro_mo_ta_en": "A knowledge dataset: calendrical values, lookup tables or edited content, reusable as a reference (within the stated limits of use).",
+  "vai_tro_mo_ta_zh": "知识类数据集：历法数值、查表或编辑内容，可作为参考资料转用（以所列使用限制为限）。",
+  "thay_doi_gan_nhat": {
+    "phien_ban": "1.2.1",
+    "ngay": "2026-09-30",
+    "loai": "documentation",
+    "mo_ta": "Kiểm chéo vét cạn với lịch âm tìm ra hai loại dòng ghi ngày không có thật, nay bỏ: lễ ngày 30 âm ở năm tháng ấy chỉ có 29 ngày (trước đây rơi vào mùng 1 tháng sau mà vẫn ghi 30), và lễ 29/2 ở năm không nhuận. Kho lễ hội hạt giống trong mã không có lễ nào như vậy; dữ liệu chỉ đổi khi kho có lễ như thế. Cột nam nay mô tả đúng điều nó ghi: năm âm lịch với lễ ghi ngày âm. Hồ sơ mô hình lịch âm 1.2.0 thêm kiem_dinh. Meta thêm source_ids (sổ nguồn nguon-thu-tich.csv), rule_ids (sổ luật quy-tac.json), danh_muc_tu_vung_nguon (tám loại của cột nguon kèm từ tương đương tiếng Anh), epistemic_status của từng cột và danh_muc_epistemic_status; dữ liệu không đổi byte nào.",
+    "mo_ta_en": "An exhaustive cross-check against the lunar calendar found two kinds of row carrying a date that does not exist, now dropped: a festival on lunar day 30 in a year when that month has 29 days (it used to land on day 1 of the next month while still saying 30), and a 29 February festival in a non-leap year. The seed festival store in the code has none; the data changes only where the store holds such a festival. The nam column now describes what it holds: the lunar year for lunar-dated festivals. The lunar calendar model profile 1.2.0 adds kiem_dinh. Metadata adds source_ids (source register nguon-thu-tich.csv), rule_ids (rule register quy-tac.json), danh_muc_tu_vung_nguon (the eight kinds of the nguon column with their English equivalents), a per-column epistemic_status and danh_muc_epistemic_status; the data is unchanged byte for byte.",
+    "mo_ta_zh": "与农历的穷举交叉检验发现两类记载不存在日期的行，现已删除：该月只有 29 日之年的农历三十节庆（此前落在下月初一却仍记三十），以及非闰年的 2 月 29 日节庆。代码内置的节庆种子库并无此类节庆；仅当节庆库含有此类节庆时数据才会变化。nam 列的说明现与所记相符：按农历定日者为农历年。农历模型档案 1.2.0 新增 kiem_dinh。元数据新增 source_ids（来源登记册 nguon-thu-tich.csv）、rule_ids（规则登记册 quy-tac.json）、danh_muc_tu_vung_nguon（nguon 列的八种类别及英文对应词）、每列的 epistemic_status 与 danh_muc_epistemic_status；数据逐字节未变。"
+  },
+  "loai_bo": "doi-chieu-he",
+  "loai_bo_tuong_duong": "crosswalk",
+  "loai_bang_chung": [
+    "A",
+    "D"
+  ],
+  "danh_muc_loai_bang_chung": [
+    {
+      "ma": "A",
+      "ten": "tai-tinh-duoc",
+      "mo_ta": "Tái tính được: thuật toán thiên văn, lịch pháp hay số học cho ra giá trị, ai có thuật toán là tính lại được, và lõi tính đã đối chiếu với nguồn độc lập khi có (hồ sơ mô hình).",
+      "mo_ta_en": "Recomputable: an astronomical, calendrical or arithmetic algorithm yields the value, anyone with the algorithm can recompute it, and the engine has been checked against independent sources where they exist (model profile).",
+      "mo_ta_zh": "可重算：数值由天文、历法或算术算法得出，掌握算法者可自行重算；凡有独立来源处，引擎均已对照（见模型档案）。"
+    },
+    {
+      "ma": "B",
+      "ten": "kiem-bang-van-ban",
+      "mo_ta": "Kiểm bằng văn bản nguồn: giá trị đối chiếu được với một văn bản cụ thể nêu ở cột nguon (tác phẩm, quyển, bản), và test của site đã đối chiếu.",
+      "mo_ta_en": "Checked against a source text: the value can be compared with a specific text named in the nguon column (work, juan, edition), and the site's tests make that comparison.",
+      "mo_ta_zh": "以原典核对：数值可与 nguon 列所列的具体文本（著作、卷、版本）对照，本站测试已作对照。"
+    },
+    {
+      "ma": "C",
+      "ten": "quy-uoc",
+      "mo_ta": "Quy ước của một truyền thống hay một hệ hiện đại: đúng theo quy ước ấy, không đúng hay sai theo nghĩa thực nghiệm; chỗ các phái khác nhau ghi ở bộ diem-bat-dong-giua-cac-phai.",
+      "mo_ta_en": "Convention of a tradition or of a modern system: correct by that convention, neither true nor false in an empirical sense; where schools differ is recorded in the diem-bat-dong-giua-cac-phai dataset.",
+      "mo_ta_zh": "某一传统或现代体系的约定：按该约定为准，不存在经验意义上的真假；各派分歧记于 diem-bat-dong-giua-cac-phai 数据集。"
+    },
+    {
+      "ma": "D",
+      "ten": "bien-tap-van-hoa",
+      "mo_ta": "Biên tập văn hoá: Nhật Nguyệt tuyển chọn, tóm tắt hay ghi lại từ bài viết, kho lịch lễ hội, hay bộ câu hỏi của chính site.",
+      "mo_ta_en": "Cultural editing: selected, summarised or recorded by Nhật Nguyệt from the site's articles, festival store or question set.",
+      "mo_ta_zh": "文化编辑：由 Nhật Nguyệt 从本站文章、节庆库或问题集中选取、概括或记录。"
+    },
+    {
+      "ma": "E",
+      "ten": "dien-giai",
+      "mo_ta": "Diễn giải: lời giải nghĩa, từ khoá hay luận do site viết theo một truyền thống; không kiểm được đúng sai, đọc như lời của site.",
+      "mo_ta_en": "Interpretation: explanations, keywords or readings written by the site within a tradition; not verifiable, read them as the site's words.",
+      "mo_ta_zh": "解读：本站依某一传统撰写的释义、关键词或论述；无从验证真假，应视为本站的说法。"
+    }
+  ],
+  "tu_vung_nguon": [
+    "tinh-toan",
+    "suy-ra",
+    "quy-uoc-truyen-thong",
+    "quy-uoc-he-hien-dai",
+    "van-ban",
+    "bien-tap",
+    "tham-chieu-ngoai",
+    "danh-gia"
+  ],
+  "phu_thuoc_bo": [
+    "le-hoi-viet-nam",
+    "lich-am-duong-1900-2100"
+  ],
+  "mo_hinh_bac_cau": [
+    "lich-am-ho-ngoc-duc-utc7-v1"
+  ],
+  "danh_muc_tu_vung_nguon": [
+    {
+      "ma": "tinh-toan",
+      "tuong_duong_en": "computed",
+      "mo_ta": "Lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hay số học.",
+      "mo_ta_en": "Computed by the site's engine with an astronomical, calendrical or arithmetic algorithm.",
+      "mo_ta_zh": "由本站推算引擎以天文、历法或算术算法算出。"
+    },
+    {
+      "ma": "suy-ra",
+      "tuong_duong_en": "derived",
+      "mo_ta": "Quy tắc tra truyền thống áp lên giá trị tính được, cho ra giá trị không sách nào in sẵn.",
+      "mo_ta_en": "A traditional lookup rule applied to a computed value, giving a value no book prints as such.",
+      "mo_ta_zh": "将传统查法套用于推算所得的数值，得出书中并无现成印本的数值。"
+    },
+    {
+      "ma": "quy-uoc-truyen-thong",
+      "tuong_duong_en": "traditional_mapping",
+      "mo_ta": "Quy ước của một truyền thống: bảng gán hay phép tra truyền lại, đúng theo quy ước ấy.",
+      "mo_ta_en": "A convention of a tradition: an inherited mapping or lookup, correct by that convention.",
+      "mo_ta_zh": "传统约定：流传下来的对应或查法，以该约定为准。"
+    },
+    {
+      "ma": "quy-uoc-he-hien-dai",
+      "tuong_duong_en": "modern_system_convention",
+      "mo_ta": "Quy ước của một hệ hiện đại (Tarot Rider-Waite-Smith, thần số học), không phải truyền thống cổ.",
+      "mo_ta_en": "A convention of a modern system (Rider-Waite-Smith Tarot, numerology), not of an ancient tradition.",
+      "mo_ta_zh": "现代体系（韦特塔罗、数字命理）的约定，而非古代传统。"
+    },
+    {
+      "ma": "van-ban",
+      "tuong_duong_en": "textual_source",
+      "mo_ta": "Chép hay đối chiếu với một văn bản cụ thể, nêu tên sau dấu hai chấm hoặc ở nguon_chi_tiet.",
+      "mo_ta_en": "Copied from or checked against a specific text, named after the colon or in nguon_chi_tiet.",
+      "mo_ta_zh": "录自或对照某一具体文本，名称见冒号之后或 nguon_chi_tiet。"
+    },
+    {
+      "ma": "bien-tap",
+      "tuong_duong_en": "editorial",
+      "mo_ta": "Nhật Nguyệt tuyển chọn, tóm tắt, ghi lại hay viết.",
+      "mo_ta_en": "Selected, summarised, recorded or written by Nhật Nguyệt.",
+      "mo_ta_zh": "由 Nhật Nguyệt 选取、概括、记录或撰写。"
+    },
+    {
+      "ma": "tham-chieu-ngoai",
+      "tuong_duong_en": "external_reference",
+      "mo_ta": "Dữ liệu tham chiếu của một cơ quan bên ngoài (IMCCE, USNO, NASA) dùng để đối chiếu, có băm tệp ở sổ nguồn.",
+      "mo_ta_en": "Reference data from an outside institution (IMCCE, USNO, NASA) used for cross-checking, with the file hash in the source register.",
+      "mo_ta_zh": "外部机构（IMCCE、USNO、NASA）的参考数据，用于对照，文件哈希见来源登记册。"
+    },
+    {
+      "ma": "danh-gia",
+      "tuong_duong_en": "evaluation",
+      "mo_ta": "Mục dùng để đo một hệ thống của site, không phải lời khẳng định tri thức.",
+      "mo_ta_en": "An item used to measure one of the site's systems, not a knowledge claim.",
+      "mo_ta_zh": "用于衡量本站某一系统的条目，并非知识性论断。"
+    }
+  ],
+  "danh_muc_epistemic_status": [
+    {
+      "ma": "verifiable",
+      "loai_bang_chung": "A",
+      "ten": "kiểm chứng được",
+      "mo_ta": "Kiểm lại được bằng thuật toán hay đo đạc độc lập; sai số (nếu có) ghi ở hồ sơ mô hình.",
+      "mo_ta_en": "Can be rechecked by an algorithm or an independent measurement; any error margin is in the model profile.",
+      "mo_ta_zh": "可用算法或独立测量复核；误差（如有）见模型档案。"
+    },
+    {
+      "ma": "textually_attested",
+      "loai_bang_chung": "B",
+      "ten": "có trong văn bản",
+      "mo_ta": "Đúng theo nghĩa khớp văn bản nguồn đã nêu, không theo nghĩa thực nghiệm.",
+      "mo_ta_en": "True in the sense of matching the named source text, not in an empirical sense.",
+      "mo_ta_zh": "其真是指与所列原典相符，而非经验意义上的真。"
+    },
+    {
+      "ma": "conventional",
+      "loai_bang_chung": "C",
+      "ten": "quy ước",
+      "mo_ta": "Đúng theo một quy ước; các phái có thể quy ước khác (bộ diem-bat-dong-giua-cac-phai).",
+      "mo_ta_en": "Correct by a convention; other schools may follow another (dataset diem-bat-dong-giua-cac-phai).",
+      "mo_ta_zh": "依某一约定为准；其他流派可能另有约定（数据集 diem-bat-dong-giua-cac-phai）。"
+    },
+    {
+      "ma": "editorial",
+      "loai_bang_chung": "D",
+      "ten": "biên tập",
+      "mo_ta": "Nhật Nguyệt ghi lại hay tuyển chọn; đúng sai tuỳ nguồn của từng dòng.",
+      "mo_ta_en": "Recorded or selected by Nhật Nguyệt; accuracy depends on each row's source.",
+      "mo_ta_zh": "由 Nhật Nguyệt 记录或选取；正确与否取决于各行来源。"
+    },
+    {
+      "ma": "interpretive",
+      "loai_bang_chung": "E",
+      "ten": "diễn giải",
+      "mo_ta": "Lời diễn giải trong một hệ niềm tin; không kiểm được đúng sai, không phải phát biểu khoa học.",
+      "mo_ta_en": "An interpretation within a belief system; not verifiable, not a scientific claim.",
+      "mo_ta_zh": "某一信仰体系内的解读；无从验证真假，并非科学论断。"
+    }
+  ],
+  "source_ids": [
+    "src.ho-ngoc-duc.lich-am",
+    "src.imcce.miriade",
+    "src.nasa.phasecat"
+  ],
+  "rule_ids": [
+    "rule.lunar.leap-month",
+    "rule.lunar.month-11-winter-solstice",
+    "rule.lunar.new-moon-day",
+    "rule.lunar.utc7"
+  ]
+}
