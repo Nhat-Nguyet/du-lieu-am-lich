@@ -1,0 +1,1583 @@
+{
+  "slug": "loai-le-cung-viet-nam",
+  "ten": "Loại lễ cúng Việt Nam",
+  "ten_en": "Types of Vietnamese offering rites",
+  "ten_zh": "越南祭礼类别",
+  "mo_ta": "155 loại lễ cúng của người Việt Nam chia 15 nhóm, từ gia tiên, giỗ chạp, Tết, tiết lễ trong năm tới tang ma, đình đền phủ và lễ của các dân tộc; mỗi lễ kèm tên khác, thời điểm, đối tượng cúng, mô tả ngắn, các trục phân loại (chu kỳ, không gian, đối tượng thờ, truyền thống, dân tộc, vùng văn hoá), ngày lễ có cấu trúc và đoạn phong tục có nguồn. Là bảng khoá của các bộ văn cúng và phong tục lễ cúng của Nhật Nguyệt.",
+  "mo_ta_en": "155 types of Vietnamese offering rites in 15 groups, from ancestor and death-anniversary rites, Tết and the festivals of the year to funerals, communal houses and temples, and the rites of ethnic communities; each with alternative names, timing, recipients, a short description, classification axes (cycle, social setting, beings worshipped, tradition, ethnic group, cultural region), a structured date and sourced passages on its customs. It is the key table for Nhật Nguyệt's datasets on offering prayers and rite customs.",
+  "mo_ta_zh": "越南 155 种祭礼，分为 15 组，涵盖祭祖与忌日、春节、岁时节令、丧葬、亭庙府祠以及各民族的祭礼；每种附别名、时间、祭祀对象、简短说明、分类轴（周期、社会空间、供奉对象、传统、民族、文化区）、结构化的礼日以及有来源的风俗段落。本表是 Nhật Nguyệt 各祭文与祭礼风俗数据集的主键表。",
+  "giay_phep": "CC-BY-4.0",
+  "giay_phep_url": "https://creativecommons.org/licenses/by/4.0/",
+  "phien_ban": "1.5.0",
+  "cap_nhat": "2026-10-19",
+  "so_dong": 155,
+  "cot": [
+    {
+      "ten": "id",
+      "kieu": "string",
+      "moTa": "Định danh ổn định của dòng, không đổi giữa các phiên bản",
+      "moTaEn": "Stable row identifier, unchanged across versions",
+      "moTaZh": "行的稳定标识符, 各版本间不变"
+    },
+    {
+      "ten": "nhom",
+      "kieu": "string",
+      "moTa": "Mã nhóm lễ (15 nhóm), nhãn ở danh_muc_ma",
+      "moTaEn": "Rite group code (15 groups); labels under danh_muc_ma",
+      "moTaZh": "礼类分组代码（15 组），标签见 danh_muc_ma",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "muc",
+      "kieu": "string",
+      "moTa": "thuong-ngay: lễ một gia đình hay gặp trong năm và trong đời; dac-biet: lễ làng, đình đền phủ, lễ của các dân tộc, lễ nghề, khoa cúng",
+      "moTaEn": "thuong-ngay: rites a household commonly meets through the year and through life; dac-biet: village, temple, ethnic, trade and specialist rites",
+      "moTaZh": "thuong-ngay：家庭一年及一生中常见的祭礼；dac-biet：村社、庙宇、各民族、行业及科仪类祭礼",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ten",
+      "kieu": "string",
+      "moTa": "Tên lễ tiếng Việt",
+      "moTaEn": "Vietnamese name of the rite",
+      "moTaZh": "礼的越南文名称",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ten_en",
+      "kieu": "string",
+      "moTa": "Tên lễ bản Anh, do máy dịch, chưa có người soát; rỗng khi chưa dịch",
+      "moTaEn": "English name of the rite; empty where not yet translated",
+      "moTaZh": "礼的英文名称；尚未翻译时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ten_zh",
+      "kieu": "string",
+      "moTa": "Tên lễ bản Trung, do máy dịch, chưa có người soát; rỗng khi chưa dịch",
+      "moTaEn": "Chinese name of the rite; empty where not yet translated",
+      "moTaZh": "礼的中文名称；尚未翻译时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ten_khac",
+      "kieu": "string",
+      "moTa": "Tên gọi khác người ta dùng để tìm lễ này, ngăn bằng dấu chấm phẩy",
+      "moTaEn": "Other Vietnamese names people use to look this rite up, separated by semicolons",
+      "moTaZh": "人们查找此礼时使用的其他越南文名称，以分号分隔",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "thoi_diem",
+      "kieu": "string",
+      "moTa": "Lễ làm vào lúc nào",
+      "moTaEn": "When the rite is performed",
+      "moTaZh": "行礼的时间",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "thoi_diem_en",
+      "kieu": "string",
+      "moTa": "Bản tiếng Anh của cột thoi_diem, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "English version of the thoi_diem column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "thoi_diem 列的英文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "thoi_diem_zh",
+      "kieu": "string",
+      "moTa": "Bản tiếng Trung giản thể của cột thoi_diem, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "Simplified Chinese version of the thoi_diem column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "thoi_diem 列的简体中文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "doi_tuong",
+      "kieu": "string",
+      "moTa": "Lễ cúng ai",
+      "moTaEn": "To whom the offering is made",
+      "moTaZh": "祭祀的对象",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "doi_tuong_en",
+      "kieu": "string",
+      "moTa": "Bản tiếng Anh của cột doi_tuong, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "English version of the doi_tuong column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "doi_tuong 列的英文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "doi_tuong_zh",
+      "kieu": "string",
+      "moTa": "Bản tiếng Trung giản thể của cột doi_tuong, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "Simplified Chinese version of the doi_tuong column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "doi_tuong 列的简体中文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "mo_ta",
+      "kieu": "string",
+      "moTa": "Hai tới ba câu về lễ, viết bằng lời của quan niệm",
+      "moTaEn": "Two or three sentences on the rite, worded as the tradition's own view",
+      "moTaZh": "两三句说明，以民间观念的口吻撰写",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "mo_ta_en",
+      "kieu": "string",
+      "moTa": "Mô tả bản Anh, do máy dịch, chưa có người soát; rỗng khi chưa dịch",
+      "moTaEn": "English description; empty where not yet translated",
+      "moTaZh": "英文说明；尚未翻译时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "mo_ta_zh",
+      "kieu": "string",
+      "moTa": "Mô tả bản Trung, do máy dịch, chưa có người soát; rỗng khi chưa dịch",
+      "moTaEn": "Chinese description; empty where not yet translated",
+      "moTaZh": "中文说明；尚未翻译时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "so_bai_van",
+      "kieu": "int",
+      "moTa": "Số bài văn của lễ này (theo lễ chính) trong bộ van-cung-viet-nam",
+      "moTaEn": "Number of prayer texts for this rite (as main rite) in the van-cung-viet-nam dataset",
+      "moTaZh": "van-cung-viet-nam 数据集中以此礼为主要礼类的祭文篇数",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "so_nghi_thuc",
+      "kieu": "int",
+      "moTa": "Số dòng nghi thức của lễ này (theo lễ chính) trong bộ nghi-thuc-cung-viet-nam",
+      "moTaEn": "Number of procedure rows for this rite (as main rite) in the nghi-thuc-cung-viet-nam dataset",
+      "moTaZh": "nghi-thuc-cung-viet-nam 数据集中以此礼为主要礼类的仪轨行数",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "trang",
+      "kieu": "string",
+      "moTa": "Địa chỉ trang của lễ trên nhatnguyet.org",
+      "moTaEn": "Address of the rite's page on nhatnguyet.org",
+      "moTaZh": "该礼在 nhatnguyet.org 上的页面网址",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "trang_phong_tuc",
+      "kieu": "string",
+      "moTa": "Địa chỉ trang phong tục của lễ trên nhatnguyet.org (mâm cúng, ngày giờ, nghi thức, kiêng kỵ, hỏi đáp)",
+      "moTaEn": "Address of the rite's customs page on nhatnguyet.org (offerings, dates, steps, things to avoid, questions and answers)",
+      "moTaZh": "该礼在 nhatnguyet.org 上的风俗页面网址（供品、日期、仪式、禁忌、问答）",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "chu_ky",
+      "kieu": "string",
+      "moTa": "Lễ lặp theo nhịp nào (ngày, sóc vọng, tháng, năm, nhiều năm, vòng đời, mùa vụ, sự kiện); nhiều mã ngăn bằng dấu chấm phẩy, nhãn ở danh_muc_ma",
+      "moTaEn": "The rhythm on which the rite recurs (day, new and full moon, month, year, several years, life cycle, farming season, event); several codes separated by semicolons, labels under danh_muc_ma",
+      "moTaZh": "该礼重复的节律（日、朔望、月、年、数年、人生阶段、农时、事件）；多个代码以分号分隔，标签见 danh_muc_ma",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "khong_gian",
+      "kieu": "string",
+      "moTa": "Không gian xã hội chính của lễ (cá nhân, gia đình, dòng họ, làng bản, vùng mường, cơ sở tôn giáo, nơi làm ăn, quốc gia), một mã",
+      "moTaEn": "The rite's main social setting (individual, household, lineage, village, regional domain, religious site, workplace, nation), one code",
+      "moTaZh": "该礼的主要社会空间（个人、家庭、宗族、村寨、地域、宗教场所、营生之所、国家），一个代码",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "doi_tuong_tho",
+      "kieu": "string",
+      "moTa": "Các đối tượng được khấn trong lễ, theo cột doi_tuong; nhiều mã ngăn bằng dấu chấm phẩy",
+      "moTaEn": "The beings addressed in the rite, following the doi_tuong column; several codes separated by semicolons",
+      "moTaZh": "礼中祷告的对象，依 doi_tuong 列；多个代码以分号分隔",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "truyen_thong",
+      "kieu": "string",
+      "moTa": "Các truyền thống tín ngưỡng, tôn giáo của lễ, rút từ bài văn và nghi thức có lễ là loại chính; lễ của tộc người thiểu số dùng tin-nguong-ban-dia; nhiều mã ngăn bằng dấu chấm phẩy",
+      "moTaEn": "The belief and religious traditions of the rite, drawn from the prayers and procedures whose main rite it is; rites of ethnic minorities use tin-nguong-ban-dia (indigenous belief); several codes separated by semicolons",
+      "moTaZh": "该礼所属的信仰与宗教传统，取自以此礼为主要礼类的祭文与仪轨；少数民族的礼用 tin-nguong-ban-dia（本土信仰）；多个代码以分号分隔",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "dan_toc",
+      "kieu": "string",
+      "moTa": "Các dân tộc có lễ, mã theo Danh mục các thành phần dân tộc Việt Nam năm 1979 (01 là người Kinh); nhiều mã ngăn bằng dấu chấm phẩy, nhãn ở danh_muc_ma",
+      "moTaEn": "The ethnic groups that hold the rite, coded by the 1979 List of Ethnic Groups of Vietnam (01 is Kinh); several codes separated by semicolons, labels under danh_muc_ma",
+      "moTaZh": "举行此礼的民族，代码依越南 1979 年民族成分名录（01 为京族）；多个代码以分号分隔，标签见 danh_muc_ma",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "vung_van_hoa",
+      "kieu": "string",
+      "moTa": "Vùng văn hoá theo bảy vùng của Ngô Đức Thịnh, chỉ ghi khi nguồn hay mô tả nói rõ lễ thuộc vùng; rỗng với lễ có ở cả nước",
+      "moTaEn": "Cultural region in Ngô Đức Thịnh's seven-region scheme, recorded only when a source or the description ties the rite to a region; empty for rites found nationwide",
+      "moTaZh": "依吴德盛七大文化区划分的文化区，仅当来源或说明明言该礼属某区时记录；全国皆有的礼留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_he",
+      "kieu": "string",
+      "moTa": "Hệ lịch của ngày lễ (âm, dương, tiết khí, mùa vụ, lịch Khơ-me, lịch Chăm, theo sự kiện); rỗng khi chưa ghi lịch có cấu trúc",
+      "moTaEn": "Calendar system of the rite's date (lunar, solar, solar term, farming season, Khmer calendar, Cham calendar, by event); empty where no structured date is recorded",
+      "moTaZh": "礼日所用历法（农历、公历、节气、农时、高棉历、占历、依事件）；未记录结构化日期时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_thang",
+      "kieu": "string",
+      "moTa": "Tháng của lễ trong hệ lịch ở lich_he (1 tới 12), nhiều tháng ngăn bằng dấu chấm phẩy; rỗng khi lễ làm hằng tháng hay nguồn không nêu một tháng",
+      "moTaEn": "Month of the rite in the lich_he calendar (1 to 12), several months separated by semicolons; empty when the rite is monthly or the sources name no single month",
+      "moTaZh": "该礼在 lich_he 历法中的月份（1 至 12），多个月份以分号分隔；每月举行或来源未指明月份时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_ngay",
+      "kieu": "string",
+      "moTa": "Ngày trong tháng, nhiều ngày ngăn bằng dấu chấm phẩy; rỗng khi nguồn không nêu một ngày (như tất niên: 30 hay 29 tháng Chạp)",
+      "moTaEn": "Day of the month, several days separated by semicolons; empty when the sources name no single day (such as the year-end rite: the 30th or 29th of the twelfth month)",
+      "moTaZh": "月内日期，多个日期以分号分隔；来源未指明某一日时留空（如岁末礼：腊月三十或二十九）",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_nhuan",
+      "kieu": "string",
+      "moTa": "Năm có tháng nhuận thì làm lễ ra sao; chỉ cho lễ âm lịch, nguon-khong-noi khi nguồn không nói",
+      "moTaEn": "What is done in a year with a leap month; lunar-calendar rites only, nguon-khong-noi when the sources do not say",
+      "moTaZh": "有闰月之年如何行礼；仅适用于农历礼，来源未说明时为 nguon-khong-noi",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_chu_ky_nam",
+      "kieu": "int",
+      "moTa": "Mấy năm làm một lần; rỗng khi không ghi",
+      "moTaEn": "Every how many years the rite is held; empty when not recorded",
+      "moTaZh": "每几年举行一次；未记录时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_mo_ta",
+      "kieu": "string",
+      "moTa": "Ngày lễ nói bằng lời khi không viết được bằng tháng, ngày (tiết khí, lịch Khơ-me, lịch Chăm, theo sự kiện)",
+      "moTaEn": "The rite's date in words where it cannot be given as month and day (solar term, Khmer or Cham calendar, by event)",
+      "moTaZh": "无法以月、日表示时，以文字说明的礼日（节气、高棉历、占历、依事件）",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_mo_ta_en",
+      "kieu": "string",
+      "moTa": "Bản tiếng Anh của cột lich_mo_ta, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "English version of the lich_mo_ta column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "lich_mo_ta 列的英文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_mo_ta_zh",
+      "kieu": "string",
+      "moTa": "Bản tiếng Trung giản thể của cột lich_mo_ta, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "Simplified Chinese version of the lich_mo_ta column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "lich_mo_ta 列的简体中文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_theo_vung",
+      "kieu": "string",
+      "moTa": "Ngày lệch theo vùng: mỗi mục là mã vùng, dấu hai chấm, rồi lời theo nguồn; các mục ngăn bằng dấu gạch đứng",
+      "moTaEn": "Regional variation of the date: each item is a region code, a colon, then the wording from the sources; items separated by a vertical bar",
+      "moTaZh": "因地区而异的日期：每项为地区代码、冒号及来源所述；各项以竖线分隔",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_theo_vung_en",
+      "kieu": "string",
+      "moTa": "Bản tiếng Anh của cột lich_theo_vung, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "English version of the lich_theo_vung column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "lich_theo_vung 列的英文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "lich_theo_vung_zh",
+      "kieu": "string",
+      "moTa": "Bản tiếng Trung giản thể của cột lich_theo_vung, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "Simplified Chinese version of the lich_theo_vung column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "lich_theo_vung 列的简体中文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "phong_tuc",
+      "kieu": "string",
+      "moTa": "Một tới ba đoạn về ý nghĩa, nguồn gốc của lễ theo nguồn, viết bằng lời của quan niệm; các đoạn ngăn bằng dấu gạch đứng",
+      "moTaEn": "One to three passages on the meaning and origin of the rite according to the sources, worded as the tradition's own view; passages separated by a vertical bar",
+      "moTaZh": "一至三段据来源所述的礼之意义与由来，以民间观念的口吻撰写；各段以竖线分隔",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "phong_tuc_en",
+      "kieu": "string",
+      "moTa": "Bản tiếng Anh của cột phong_tuc, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "English version of the phong_tuc column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "phong_tuc 列的英文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "phong_tuc_zh",
+      "kieu": "string",
+      "moTa": "Bản tiếng Trung giản thể của cột phong_tuc, do máy dịch, chưa có người soát; rỗng khi chưa có bản dịch",
+      "moTaEn": "Simplified Chinese version of the phong_tuc column, machine translated and not yet reviewed; empty where there is no translation yet",
+      "moTaZh": "phong_tuc 列的简体中文版，机器翻译，尚未经人工校对；暂无译文时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "phong_tuc_nguon_url",
+      "kieu": "string",
+      "moTa": "Địa chỉ các trang nguồn của cột phong_tuc, ngăn bằng dấu chấm phẩy; không gồm trang nguồn của văn sưu tầm không nêu nguồn",
+      "moTaEn": "Addresses of the source pages for the phong_tuc column, separated by semicolons; source pages of collected texts whose source is not named are left out",
+      "moTaZh": "phong_tuc 列各来源网页网址，以分号分隔；不含不注明来源的采集文本之来源网页",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "phong_tuc_nguon_sach",
+      "kieu": "string",
+      "moTa": "Sách in mà cột phong_tuc thuật lại dữ kiện (tác giả, năm, tên sách, nơi in), không có địa chỉ trên mạng; nhiều sách ngăn bằng hai dấu gạch đứng; rỗng khi đoạn phong tục chỉ dẫn trang web",
+      "moTaEn": "Printed books whose facts the phong_tuc column retells (author, year, title, publisher), with no web address; several books separated by a double vertical bar; empty when the passages cite only web pages",
+      "moTaZh": "phong_tuc 列所转述内容出自的印刷书籍（作者、年份、书名、出版地），无网址；多部书以双竖线分隔；风俗段落只引网页时留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "trang_thai_thuc_hanh",
+      "kieu": "string",
+      "moTa": "Lễ còn được làm thế nào (đang thực hành, phục dựng, mai một, đã thay đổi); khong-ro khi nguồn không nói",
+      "moTaEn": "Whether the rite is still practised (in practice, revived, fading, changed); khong-ro when the sources do not say",
+      "moTaZh": "该礼的实践状况（仍在实践、复兴、式微、已变化）；来源未说明时为 khong-ro",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "han_che_cong_bo",
+      "kieu": "string",
+      "moTa": "Mức công bố: cong-khai; chi-mo-ta-chung và khong-ro (chưa có nguồn công bố cho phép tả chi tiết) thì bộ nghi-thuc-cung-viet-nam không mang trình tự của lễ; noi-bo-cong-dong chỉ còn tên, chu kỳ, cộng đồng",
+      "moTaEn": "Disclosure level: cong-khai (public); for chi-mo-ta-chung and khong-ro (no published source yet allows a detailed account) the nghi-thuc-cung-viet-nam dataset carries no order of steps for the rite; noi-bo-cong-dong keeps only name, cycle and community",
+      "moTaZh": "公开程度：cong-khai（公开）；chi-mo-ta-chung 与 khong-ro（尚无允许详述的公开来源）时，nghi-thuc-cung-viet-nam 数据集不载该礼的步骤；noi-bo-cong-dong 只保留名称、周期与社群",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "le_lich",
+      "kieu": "string",
+      "moTa": "Slug của lễ trong kho lịch lễ hội của site, khi khớp chắc tên có dấu; rỗng khi không",
+      "moTaEn": "Slug of the rite in the site's festival calendar, where the accented name matches with certainty; otherwise empty",
+      "moTaZh": "该礼在本站节庆日历中的 slug，仅当越南文名称确定相符时填写；否则留空",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "trang_thai_soat",
+      "kieu": "string",
+      "moTa": "da-soat: dòng đã qua lượt soát (soat_boi, ngay_soat); da-thu-thap: đã thu thập, các trục phân loại là đề xuất của máy và bảng ghi tay của biên tập, chưa qua phiếu soát",
+      "moTaEn": "da-soat: the row has been reviewed (soat_boi, ngay_soat); da-thu-thap: collected, and its classification axes are proposals by script and by editorial tables, not yet reviewed",
+      "moTaZh": "da-soat：该行已审核（见 soat_boi、ngay_soat）；da-thu-thap：已采集，其分类轴为程序与编辑表格的提议，尚未审核",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "soat_boi",
+      "kieu": "string",
+      "moTa": "Ai soát dòng; nhat-nguyet là lượt tự duyệt của Nhật Nguyệt theo phiếu soát: mỗi dữ kiện có nguồn đã mở và câu nguồn đọc lại khớp",
+      "moTaEn": "Who reviewed the row; nhat-nguyet is Nhật Nguyệt's own review against its checklist: every fact has a source that was opened and whose wording was re-read to match",
+      "moTaZh": "审核者；nhat-nguyet 指 Nhật Nguyệt 按审核清单自行审核：每项事实均有已打开的来源，且已复读来源原文核对",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "ngay_soat",
+      "kieu": "string",
+      "moTa": "Ngày soát, dạng YYYY-MM-DD",
+      "moTaEn": "Review date, YYYY-MM-DD",
+      "moTaZh": "审核日期，格式 YYYY-MM-DD",
+      "loai_bang_chung": "D",
+      "epistemic_status": "editorial"
+    },
+    {
+      "ten": "nguon",
+      "kieu": "string",
+      "moTa": "Loại nguồn của dòng, một hay nhiều phần ngăn bằng dấu chấm phẩy, mỗi phần là tinh-toan (lõi tính ra), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (quy ước của một truyền thống hay một hệ hiện đại), van-ban (kèm tác phẩm sau dấu hai chấm) hoặc bien-tap (kèm chi tiết); chi tiết tĩnh cũng ở nguon_chi_tiet của meta, và hai bộ lớn nhất chỉ ghi ở đó; cột nào thuộc phần nào xem loai_bang_chung của từng cột trong meta",
+      "moTaEn": "Kind of source for this row, one or more parts separated by semicolons, each being tinh-toan (computed by the engine), quy-uoc-truyen-thong, quy-uoc-he-hien-dai (convention of a tradition or of a modern system), van-ban (with the work after a colon) or bien-tap (with details); static details are also in the metadata nguon_chi_tiet, and the two largest datasets give them only there; which column belongs to which part is given by each column's loai_bang_chung in the metadata",
+      "moTaZh": "该行的来源类别，一个或多个部分，以分号分隔，每部分为 tinh-toan（引擎推算）、quy-uoc-truyen-thong、quy-uoc-he-hien-dai（传统或现代体系的约定）、van-ban（冒号后为著作）或 bien-tap（附说明）；固定说明亦见元数据 nguon_chi_tiet，两个最大的数据集只在那里给出；各列属于哪一部分，见元数据中每列的 loai_bang_chung"
+    },
+    {
+      "ten": "ghi_chu",
+      "kieu": "string",
+      "moTa": "Điểm các trường phái bất đồng ở dòng này, rỗng nếu không có",
+      "moTaEn": "Where the schools disagree on this row; empty when they do not",
+      "moTaZh": "各流派在该行的分歧之处；没有则留空"
+    }
+  ],
+  "nguon_thu_tich": [
+    "Bộ sưu tầm văn cúng và lễ nghi cúng Việt Nam của Nhật Nguyệt"
+  ],
+  "ghi_chu_chung": "Văn cúng là tín ngưỡng và phong tục; bộ này ghi lại để tra cứu, chữ mô tả viết bằng lời của quan niệm (theo tục, trong dân gian) và không hứa kết quả nào. Danh sách loại lễ do Nhật Nguyệt lập từ hai lượt khảo sát ngày 13/10/2026; cột thoi_diem, doi_tuong, mo_ta do Nhật Nguyệt viết lại từ các trang nguồn của lễ. Từ bản 1.4.0 (khuôn bộ gốc 2.0.0) bảng mang các trục phân loại, ngày lễ có cấu trúc và đoạn phong tục. Ở dòng chưa da-soat (cột trang_thai_soat), các trục là đề xuất của máy và bảng ghi tay của biên tập, chưa qua phiếu soát; dòng da-soat đã qua lượt tự duyệt của Nhật Nguyệt (soat_boi, ngay_soat). Ngày âm ở cột lich_* khớp lời của cột thoi_diem; mỗi nơi mỗi khác thì chỉ ghi tháng chung hay để trống, chỗ lệch theo vùng ở lich_theo_vung. Các cột đuôi _en, _zh là bản dịch của máy, đã qua cửa kiểm bằng máy (giữ đủ con số và ô điền, không sót câu tiếng Việt, không lệch thuật ngữ đã biết) nhưng chưa có người soát; còn 0 ô bản Anh và 0 ô bản Trung để trống vì chưa có bản dịch đạt cửa, không điền tạm tiếng Việt. Lời khấn trích trong ngoặc kép giữ tiếng Việt ở mọi bản. Nhãn của cột mã ở danh_muc_ma của tệp meta cũng do máy dịch, chưa có người soát.",
+  "ghi_chu_chung_en": "These prayers belong to folk belief and custom; the dataset records them for reference, descriptions are worded as the tradition's own view and promise no outcome. The list of rite types was drawn up by Nhật Nguyệt from two surveys on 13 October 2026; the thoi_diem, doi_tuong and mo_ta columns were rewritten by Nhật Nguyệt from the rite's source pages. From version 1.4.0 (source schema 2.0.0) the table carries classification axes, a structured date and passages on customs. In rows not yet da-soat (trang_thai_soat column) the axes are proposals by script and by editorial tables and have not been reviewed; da-soat rows have passed Nhật Nguyệt's own review (soat_boi, ngay_soat). Lunar dates in the lich_* columns match the wording of the thoi_diem column; where practice varies by place only the shared month is given or the cells are left empty, with regional differences in lich_theo_vung. Columns ending in _en and _zh are machine translations that passed automated checks (numbers and fill-in slots kept, no leftover Vietnamese sentences, no known mistranslated terms) but have not been reviewed by a person; 0 English cells and 0 Chinese cells are still empty because no translation passed the checks, and Vietnamese is never used as a stand-in. Prayer wording quoted in double quotes stays in Vietnamese in every version. Labels of code columns under danh_muc_ma in the metadata file are also machine translated and unreviewed.",
+  "ghi_chu_chung_zh": "祭文属于信仰与风俗；本数据集仅供查考，说明文字以民间观念的口吻撰写，不承诺任何效验。礼类清单由 Nhật Nguyệt 据 2026 年 10 月 13 日的两次调查整理；thoi_diem、doi_tuong、mo_ta 三列由 Nhật Nguyệt 据各礼的来源网页改写。自 1.4.0 版（源数据格式 2.0.0）起，本表载有分类轴、结构化礼日与风俗段落。trang_thai_soat 列尚非 da-soat 的行，其分类轴为程序与编辑表格的提议，尚未审核；da-soat 的行已通过 Nhật Nguyệt 的自行审核（见 soat_boi、ngay_soat）。lich_* 各列的农历日期与 thoi_diem 列文字相符；各地做法不一时只记共同的月份或留空，地区差异见 lich_theo_vung。以 _en、_zh 结尾的各列为机器翻译，已通过机器检查（数字与占位符齐全、无残留越南文句子、无已知误译术语），但尚未经人工校对；仍有 0 个英文单元格与 0 个中文单元格留空，因尚无通过检查的译文，且不以越南文暂代。双引号内引用的祷词在各版本中均保留越南文。元数据文件 danh_muc_ma 中代码列的标签同为机器翻译，尚未校对。",
+  "ghi_nguon_yeu_cau": "Nguồn: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_en": "Source: Nhật Nguyệt (nhatnguyet.org), CC BY 4.0",
+  "ghi_nguon_yeu_cau_zh": "来源：Nhật Nguyệt (nhatnguyet.org)，CC BY 4.0",
+  "trang": "/van-cung",
+  "ma_hoa": "UTF-8 không BOM",
+  "gioi_han_su_dung": "Bộ dữ liệu này ghi lại quy ước văn hoá và lịch pháp, không phải phát biểu khoa học. Nó dùng được cho nghiên cứu văn hoá, xử lý ngôn ngữ và ứng dụng lịch. Nó không dùng để dự đoán sự kiện, đánh giá con người, hay ra quyết định ảnh hưởng tới ai.",
+  "gioi_han_su_dung_en": "This dataset records cultural and calendrical conventions, not scientific claims. It is suitable for cultural research, NLP, and calendar applications. It is not intended for predicting events, evaluating people, or making decisions that affect anyone.",
+  "gioi_han_su_dung_zh": "本数据集记录的是文化与历法约定，而非科学论断。它适用于文化研究、自然语言处理和历法应用，不用于预测事件、评价他人，或作出影响任何人的决定。",
+  "trich_dan": "Nhật Nguyệt (2026). Loại lễ cúng Việt Nam. Phiên bản 1.5.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/loai-le-cung-viet-nam.csv",
+  "trich_dan_en": "Nhật Nguyệt (2026). Types of Vietnamese offering rites. Version 1.5.0. CC-BY-4.0. https://nhatnguyet.org/du-lieu/loai-le-cung-viet-nam.csv",
+  "co_parquet": false,
+  "nguon_goc_du_lieu": "bien-tap",
+  "nguon_goc_du_lieu_mo_ta": "Nội dung do Nhật Nguyệt tuyển chọn và biên tập; nguồn của từng dòng ghi ở cột nguon.",
+  "nguon_goc_du_lieu_mo_ta_en": "Content selected and edited by Nhật Nguyệt; each row's source is in the nguon column.",
+  "nguon_goc_du_lieu_mo_ta_zh": "内容由 Nhật Nguyệt 选编；各行来源见 nguon 列。",
+  "mo_hinh": [],
+  "quy_uoc": [],
+  "vai_tro": "tri-thuc",
+  "vai_tro_mo_ta": "Bộ ghi lại tri thức: lịch pháp, bảng tra hay nội dung biên tập, dùng lại được như nguồn tham chiếu (trong giới hạn sử dụng đã nêu).",
+  "vai_tro_mo_ta_en": "A knowledge dataset: calendrical values, lookup tables or edited content, reusable as a reference (within the stated limits of use).",
+  "vai_tro_mo_ta_zh": "知识类数据集：历法数值、查表或编辑内容，可作为参考资料转用（以所列使用限制为限）。",
+  "thay_doi_gan_nhat": {
+    "phien_ban": "1.5.0",
+    "ngay": "2026-10-19",
+    "loai": "data",
+    "mo_ta": "Theo khuôn bộ gốc 2.1.0: thêm 5 lễ (giỗ hậu, chạm ngõ, tơ hồng và hợp cẩn, thờ thần sao tại gia, mát nhà và trấn trạch; 150 lên 155 dòng) và đoạn phong tục cho 15 lễ đã có, phần lớn thuật lại từ sách in. Thêm cột phong_tuc_nguon_sach: tên sách in làm nguồn của cột phong_tuc, không có địa chỉ trên mạng.",
+    "mo_ta_en": "Following source schema 2.1.0: 5 rites added (giỗ hậu, chạm ngõ, tơ hồng and hợp cẩn, household worship of the star deities, mát nhà and trấn trạch; 150 to 155 rows) and customs passages for 15 existing rites, mostly retold from printed books. Adds the phong_tuc_nguon_sach column: titles of the printed books behind the phong_tuc column, which have no web address.",
+    "mo_ta_zh": "依源数据格式 2.1.0：新增 5 种礼（后忌、提亲、祭红丝与合卺、家中奉祀星神、安宅与镇宅；由 150 行增至 155 行），并为 15 种已有的礼补充风俗段落，多数转述自印刷书籍。新增 phong_tuc_nguon_sach 列：phong_tuc 列所依据的印刷书籍书名，这些书没有网址。"
+  },
+  "loai_bo": "bien-tap",
+  "loai_bo_tuong_duong": "editorial",
+  "loai_bang_chung": [
+    "D"
+  ],
+  "danh_muc_loai_bang_chung": [
+    {
+      "ma": "A",
+      "ten": "tai-tinh-duoc",
+      "mo_ta": "Tái tính được: thuật toán thiên văn, lịch pháp hay số học cho ra giá trị, ai có thuật toán là tính lại được, và lõi tính đã đối chiếu với nguồn độc lập khi có (hồ sơ mô hình).",
+      "mo_ta_en": "Recomputable: an astronomical, calendrical or arithmetic algorithm yields the value, anyone with the algorithm can recompute it, and the engine has been checked against independent sources where they exist (model profile).",
+      "mo_ta_zh": "可重算：数值由天文、历法或算术算法得出，掌握算法者可自行重算；凡有独立来源处，引擎均已对照（见模型档案）。"
+    },
+    {
+      "ma": "B",
+      "ten": "kiem-bang-van-ban",
+      "mo_ta": "Kiểm bằng văn bản nguồn: giá trị đối chiếu được với một văn bản cụ thể nêu ở cột nguon (tác phẩm, quyển, bản), và test của site đã đối chiếu.",
+      "mo_ta_en": "Checked against a source text: the value can be compared with a specific text named in the nguon column (work, juan, edition), and the site's tests make that comparison.",
+      "mo_ta_zh": "以原典核对：数值可与 nguon 列所列的具体文本（著作、卷、版本）对照，本站测试已作对照。"
+    },
+    {
+      "ma": "C",
+      "ten": "quy-uoc",
+      "mo_ta": "Quy ước của một truyền thống hay một hệ hiện đại: đúng theo quy ước ấy, không đúng hay sai theo nghĩa thực nghiệm; chỗ các phái khác nhau ghi ở bộ diem-bat-dong-giua-cac-phai.",
+      "mo_ta_en": "Convention of a tradition or of a modern system: correct by that convention, neither true nor false in an empirical sense; where schools differ is recorded in the diem-bat-dong-giua-cac-phai dataset.",
+      "mo_ta_zh": "某一传统或现代体系的约定：按该约定为准，不存在经验意义上的真假；各派分歧记于 diem-bat-dong-giua-cac-phai 数据集。"
+    },
+    {
+      "ma": "D",
+      "ten": "bien-tap-van-hoa",
+      "mo_ta": "Biên tập văn hoá: Nhật Nguyệt tuyển chọn, tóm tắt hay ghi lại từ bài viết, kho lịch lễ hội, hay bộ câu hỏi của chính site.",
+      "mo_ta_en": "Cultural editing: selected, summarised or recorded by Nhật Nguyệt from the site's articles, festival store or question set.",
+      "mo_ta_zh": "文化编辑：由 Nhật Nguyệt 从本站文章、节庆库或问题集中选取、概括或记录。"
+    },
+    {
+      "ma": "E",
+      "ten": "dien-giai",
+      "mo_ta": "Diễn giải: lời giải nghĩa, từ khoá hay luận do site viết theo một truyền thống; không kiểm được đúng sai, đọc như lời của site.",
+      "mo_ta_en": "Interpretation: explanations, keywords or readings written by the site within a tradition; not verifiable, read them as the site's words.",
+      "mo_ta_zh": "解读：本站依某一传统撰写的释义、关键词或论述；无从验证真假，应视为本站的说法。"
+    }
+  ],
+  "tu_vung_nguon": [
+    "tinh-toan",
+    "suy-ra",
+    "quy-uoc-truyen-thong",
+    "quy-uoc-he-hien-dai",
+    "van-ban",
+    "bien-tap",
+    "tham-chieu-ngoai",
+    "danh-gia"
+  ],
+  "phu_thuoc_bo": [],
+  "mo_hinh_bac_cau": [],
+  "danh_muc_tu_vung_nguon": [
+    {
+      "ma": "tinh-toan",
+      "tuong_duong_en": "computed",
+      "mo_ta": "Lõi tính của site tính ra bằng thuật toán thiên văn, lịch pháp hay số học.",
+      "mo_ta_en": "Computed by the site's engine with an astronomical, calendrical or arithmetic algorithm.",
+      "mo_ta_zh": "由本站推算引擎以天文、历法或算术算法算出。"
+    },
+    {
+      "ma": "suy-ra",
+      "tuong_duong_en": "derived",
+      "mo_ta": "Quy tắc tra truyền thống áp lên giá trị tính được, cho ra giá trị không sách nào in sẵn.",
+      "mo_ta_en": "A traditional lookup rule applied to a computed value, giving a value no book prints as such.",
+      "mo_ta_zh": "将传统查法套用于推算所得的数值，得出书中并无现成印本的数值。"
+    },
+    {
+      "ma": "quy-uoc-truyen-thong",
+      "tuong_duong_en": "traditional_mapping",
+      "mo_ta": "Quy ước của một truyền thống: bảng gán hay phép tra truyền lại, đúng theo quy ước ấy.",
+      "mo_ta_en": "A convention of a tradition: an inherited mapping or lookup, correct by that convention.",
+      "mo_ta_zh": "传统约定：流传下来的对应或查法，以该约定为准。"
+    },
+    {
+      "ma": "quy-uoc-he-hien-dai",
+      "tuong_duong_en": "modern_system_convention",
+      "mo_ta": "Quy ước của một hệ hiện đại (Tarot Rider-Waite-Smith, thần số học), không phải truyền thống cổ.",
+      "mo_ta_en": "A convention of a modern system (Rider-Waite-Smith Tarot, numerology), not of an ancient tradition.",
+      "mo_ta_zh": "现代体系（韦特塔罗、数字命理）的约定，而非古代传统。"
+    },
+    {
+      "ma": "van-ban",
+      "tuong_duong_en": "textual_source",
+      "mo_ta": "Chép hay đối chiếu với một văn bản cụ thể, nêu tên sau dấu hai chấm hoặc ở nguon_chi_tiet.",
+      "mo_ta_en": "Copied from or checked against a specific text, named after the colon or in nguon_chi_tiet.",
+      "mo_ta_zh": "录自或对照某一具体文本，名称见冒号之后或 nguon_chi_tiet。"
+    },
+    {
+      "ma": "bien-tap",
+      "tuong_duong_en": "editorial",
+      "mo_ta": "Nhật Nguyệt tuyển chọn, tóm tắt, ghi lại hay viết.",
+      "mo_ta_en": "Selected, summarised, recorded or written by Nhật Nguyệt.",
+      "mo_ta_zh": "由 Nhật Nguyệt 选取、概括、记录或撰写。"
+    },
+    {
+      "ma": "tham-chieu-ngoai",
+      "tuong_duong_en": "external_reference",
+      "mo_ta": "Dữ liệu tham chiếu của một cơ quan bên ngoài (IMCCE, USNO, NASA) dùng để đối chiếu, có băm tệp ở sổ nguồn.",
+      "mo_ta_en": "Reference data from an outside institution (IMCCE, USNO, NASA) used for cross-checking, with the file hash in the source register.",
+      "mo_ta_zh": "外部机构（IMCCE、USNO、NASA）的参考数据，用于对照，文件哈希见来源登记册。"
+    },
+    {
+      "ma": "danh-gia",
+      "tuong_duong_en": "evaluation",
+      "mo_ta": "Mục dùng để đo một hệ thống của site, không phải lời khẳng định tri thức.",
+      "mo_ta_en": "An item used to measure one of the site's systems, not a knowledge claim.",
+      "mo_ta_zh": "用于衡量本站某一系统的条目，并非知识性论断。"
+    }
+  ],
+  "danh_muc_epistemic_status": [
+    {
+      "ma": "verifiable",
+      "loai_bang_chung": "A",
+      "ten": "kiểm chứng được",
+      "mo_ta": "Kiểm lại được bằng thuật toán hay đo đạc độc lập; sai số (nếu có) ghi ở hồ sơ mô hình.",
+      "mo_ta_en": "Can be rechecked by an algorithm or an independent measurement; any error margin is in the model profile.",
+      "mo_ta_zh": "可用算法或独立测量复核；误差（如有）见模型档案。"
+    },
+    {
+      "ma": "textually_attested",
+      "loai_bang_chung": "B",
+      "ten": "có trong văn bản",
+      "mo_ta": "Đúng theo nghĩa khớp văn bản nguồn đã nêu, không theo nghĩa thực nghiệm.",
+      "mo_ta_en": "True in the sense of matching the named source text, not in an empirical sense.",
+      "mo_ta_zh": "其真是指与所列原典相符，而非经验意义上的真。"
+    },
+    {
+      "ma": "conventional",
+      "loai_bang_chung": "C",
+      "ten": "quy ước",
+      "mo_ta": "Đúng theo một quy ước; các phái có thể quy ước khác (bộ diem-bat-dong-giua-cac-phai).",
+      "mo_ta_en": "Correct by a convention; other schools may follow another (dataset diem-bat-dong-giua-cac-phai).",
+      "mo_ta_zh": "依某一约定为准；其他流派可能另有约定（数据集 diem-bat-dong-giua-cac-phai）。"
+    },
+    {
+      "ma": "editorial",
+      "loai_bang_chung": "D",
+      "ten": "biên tập",
+      "mo_ta": "Nhật Nguyệt ghi lại hay tuyển chọn; đúng sai tuỳ nguồn của từng dòng.",
+      "mo_ta_en": "Recorded or selected by Nhật Nguyệt; accuracy depends on each row's source.",
+      "mo_ta_zh": "由 Nhật Nguyệt 记录或选取；正确与否取决于各行来源。"
+    },
+    {
+      "ma": "interpretive",
+      "loai_bang_chung": "E",
+      "ten": "diễn giải",
+      "mo_ta": "Lời diễn giải trong một hệ niềm tin; không kiểm được đúng sai, không phải phát biểu khoa học.",
+      "mo_ta_en": "An interpretation within a belief system; not verifiable, not a scientific claim.",
+      "mo_ta_zh": "某一信仰体系内的解读；无从验证真假，并非科学论断。"
+    }
+  ],
+  "source_ids": [
+    "src.nhat-nguyet.suu-tap-van-cung"
+  ],
+  "rule_ids": [],
+  "danh_muc_ma": {
+    "chu_ky": [
+      {
+        "ma": "ngay",
+        "mo_ta": "Hằng ngày",
+        "mo_ta_en": "Daily",
+        "mo_ta_zh": "每日"
+      },
+      {
+        "ma": "soc-vong",
+        "mo_ta": "Mùng một và ngày rằm (sóc vọng)",
+        "mo_ta_en": "First and fifteenth days of the lunar month",
+        "mo_ta_zh": "朔望（初一、十五）"
+      },
+      {
+        "ma": "thang",
+        "mo_ta": "Hằng tháng, vào ngày khác mùng một và rằm",
+        "mo_ta_en": "Monthly, on days other than the first and fifteenth",
+        "mo_ta_zh": "每月朔望以外的日子"
+      },
+      {
+        "ma": "nam",
+        "mo_ta": "Hằng năm",
+        "mo_ta_en": "Yearly",
+        "mo_ta_zh": "每年"
+      },
+      {
+        "ma": "nhieu-nam",
+        "mo_ta": "Vài năm một lần",
+        "mo_ta_en": "Once every few years",
+        "mo_ta_zh": "数年一次"
+      },
+      {
+        "ma": "vong-doi",
+        "mo_ta": "Theo vòng đời (sinh, cưới, tang, giỗ đầu)",
+        "mo_ta_en": "Life cycle (birth, marriage, death, first death anniversary)",
+        "mo_ta_zh": "人生礼仪（出生、婚嫁、丧葬、首个忌日）"
+      },
+      {
+        "ma": "mua-vu",
+        "mo_ta": "Theo mùa vụ",
+        "mo_ta_en": "Farming season",
+        "mo_ta_zh": "随农时"
+      },
+      {
+        "ma": "su-kien",
+        "mo_ta": "Khi có việc",
+        "mo_ta_en": "When an occasion arises",
+        "mo_ta_zh": "遇事而行"
+      }
+    ],
+    "dan_toc": [
+      {
+        "ma": "01",
+        "mo_ta": "Kinh",
+        "mo_ta_en": "Kinh",
+        "mo_ta_zh": "京族"
+      },
+      {
+        "ma": "02",
+        "mo_ta": "Tày",
+        "mo_ta_en": "Tày",
+        "mo_ta_zh": "岱依族"
+      },
+      {
+        "ma": "03",
+        "mo_ta": "Thái",
+        "mo_ta_en": "Thái",
+        "mo_ta_zh": "泰族"
+      },
+      {
+        "ma": "04",
+        "mo_ta": "Hoa",
+        "mo_ta_en": "Hoa",
+        "mo_ta_zh": "华族"
+      },
+      {
+        "ma": "05",
+        "mo_ta": "Khơ-me",
+        "mo_ta_en": "Khơ-me",
+        "mo_ta_zh": "高棉族"
+      },
+      {
+        "ma": "06",
+        "mo_ta": "Mường",
+        "mo_ta_en": "Mường",
+        "mo_ta_zh": "芒族"
+      },
+      {
+        "ma": "07",
+        "mo_ta": "Nùng",
+        "mo_ta_en": "Nùng",
+        "mo_ta_zh": "侬族"
+      },
+      {
+        "ma": "08",
+        "mo_ta": "Mông",
+        "mo_ta_en": "Mông",
+        "mo_ta_zh": "赫蒙族"
+      },
+      {
+        "ma": "09",
+        "mo_ta": "Dao",
+        "mo_ta_en": "Dao",
+        "mo_ta_zh": "瑶族"
+      },
+      {
+        "ma": "10",
+        "mo_ta": "Gia-rai",
+        "mo_ta_en": "Gia-rai",
+        "mo_ta_zh": "嘉莱族"
+      },
+      {
+        "ma": "11",
+        "mo_ta": "Ngái",
+        "mo_ta_en": "Ngái",
+        "mo_ta_zh": "艾族"
+      },
+      {
+        "ma": "12",
+        "mo_ta": "Ê-đê",
+        "mo_ta_en": "Ê-đê",
+        "mo_ta_zh": "埃地族"
+      },
+      {
+        "ma": "13",
+        "mo_ta": "Ba-na",
+        "mo_ta_en": "Ba-na",
+        "mo_ta_zh": "巴拿族"
+      },
+      {
+        "ma": "14",
+        "mo_ta": "Xơ-đăng",
+        "mo_ta_en": "Xơ-đăng",
+        "mo_ta_zh": "色当族"
+      },
+      {
+        "ma": "15",
+        "mo_ta": "Sán Chay",
+        "mo_ta_en": "Sán Chay",
+        "mo_ta_zh": "山泽族"
+      },
+      {
+        "ma": "16",
+        "mo_ta": "Cơ-ho",
+        "mo_ta_en": "Cơ-ho",
+        "mo_ta_zh": "格贺族"
+      },
+      {
+        "ma": "17",
+        "mo_ta": "Chăm",
+        "mo_ta_en": "Chăm",
+        "mo_ta_zh": "占族"
+      },
+      {
+        "ma": "18",
+        "mo_ta": "Sán Dìu",
+        "mo_ta_en": "Sán Dìu",
+        "mo_ta_zh": "山由族"
+      },
+      {
+        "ma": "19",
+        "mo_ta": "Hrê",
+        "mo_ta_en": "Hrê",
+        "mo_ta_zh": "赫耶族"
+      },
+      {
+        "ma": "20",
+        "mo_ta": "Mnông",
+        "mo_ta_en": "Mnông",
+        "mo_ta_zh": "墨侬族"
+      },
+      {
+        "ma": "21",
+        "mo_ta": "Ra-glai",
+        "mo_ta_en": "Ra-glai",
+        "mo_ta_zh": "拉格莱族"
+      },
+      {
+        "ma": "22",
+        "mo_ta": "Xtiêng",
+        "mo_ta_en": "Xtiêng",
+        "mo_ta_zh": "斯丁族"
+      },
+      {
+        "ma": "23",
+        "mo_ta": "Bru-Vân Kiều",
+        "mo_ta_en": "Bru-Vân Kiều",
+        "mo_ta_zh": "布鲁-云乔族"
+      },
+      {
+        "ma": "24",
+        "mo_ta": "Thổ",
+        "mo_ta_en": "Thổ",
+        "mo_ta_zh": "土族"
+      },
+      {
+        "ma": "25",
+        "mo_ta": "Giáy",
+        "mo_ta_en": "Giáy",
+        "mo_ta_zh": "热依族"
+      },
+      {
+        "ma": "26",
+        "mo_ta": "Cơ-tu",
+        "mo_ta_en": "Cơ-tu",
+        "mo_ta_zh": "戈都族"
+      },
+      {
+        "ma": "27",
+        "mo_ta": "Gié-Triêng",
+        "mo_ta_en": "Gié-Triêng",
+        "mo_ta_zh": "叶坚族"
+      },
+      {
+        "ma": "28",
+        "mo_ta": "Mạ",
+        "mo_ta_en": "Mạ",
+        "mo_ta_zh": "麻族"
+      },
+      {
+        "ma": "29",
+        "mo_ta": "Khơ-mú",
+        "mo_ta_en": "Khơ-mú",
+        "mo_ta_zh": "克木族"
+      },
+      {
+        "ma": "30",
+        "mo_ta": "Co",
+        "mo_ta_en": "Co",
+        "mo_ta_zh": "戈族"
+      },
+      {
+        "ma": "31",
+        "mo_ta": "Tà-ôi",
+        "mo_ta_en": "Tà-ôi",
+        "mo_ta_zh": "达渥族"
+      },
+      {
+        "ma": "32",
+        "mo_ta": "Chơ-ro",
+        "mo_ta_en": "Chơ-ro",
+        "mo_ta_zh": "遮罗族"
+      },
+      {
+        "ma": "33",
+        "mo_ta": "Kháng",
+        "mo_ta_en": "Kháng",
+        "mo_ta_zh": "抗族"
+      },
+      {
+        "ma": "34",
+        "mo_ta": "Xinh-mun",
+        "mo_ta_en": "Xinh-mun",
+        "mo_ta_zh": "欣门族"
+      },
+      {
+        "ma": "35",
+        "mo_ta": "Hà Nhì",
+        "mo_ta_en": "Hà Nhì",
+        "mo_ta_zh": "哈尼族"
+      },
+      {
+        "ma": "36",
+        "mo_ta": "Chu-ru",
+        "mo_ta_en": "Chu-ru",
+        "mo_ta_zh": "朱鲁族"
+      },
+      {
+        "ma": "37",
+        "mo_ta": "Lào",
+        "mo_ta_en": "Lào",
+        "mo_ta_zh": "佬族"
+      },
+      {
+        "ma": "38",
+        "mo_ta": "La Chí",
+        "mo_ta_en": "La Chí",
+        "mo_ta_zh": "拉基族"
+      },
+      {
+        "ma": "39",
+        "mo_ta": "La Ha",
+        "mo_ta_en": "La Ha",
+        "mo_ta_zh": "拉哈族"
+      },
+      {
+        "ma": "40",
+        "mo_ta": "Phù Lá",
+        "mo_ta_en": "Phù Lá",
+        "mo_ta_zh": "夫拉族"
+      },
+      {
+        "ma": "41",
+        "mo_ta": "La Hủ",
+        "mo_ta_en": "La Hủ",
+        "mo_ta_zh": "拉祜族"
+      },
+      {
+        "ma": "42",
+        "mo_ta": "Lự",
+        "mo_ta_en": "Lự",
+        "mo_ta_zh": "卢族"
+      },
+      {
+        "ma": "43",
+        "mo_ta": "Lô Lô",
+        "mo_ta_en": "Lô Lô",
+        "mo_ta_zh": "倮倮族"
+      },
+      {
+        "ma": "44",
+        "mo_ta": "Chứt",
+        "mo_ta_en": "Chứt",
+        "mo_ta_zh": "哲族"
+      },
+      {
+        "ma": "45",
+        "mo_ta": "Mảng",
+        "mo_ta_en": "Mảng",
+        "mo_ta_zh": "莽族"
+      },
+      {
+        "ma": "46",
+        "mo_ta": "Pà Thẻn",
+        "mo_ta_en": "Pà Thẻn",
+        "mo_ta_zh": "巴天族"
+      },
+      {
+        "ma": "47",
+        "mo_ta": "Cờ Lao",
+        "mo_ta_en": "Cờ Lao",
+        "mo_ta_zh": "仡佬族"
+      },
+      {
+        "ma": "48",
+        "mo_ta": "Cống",
+        "mo_ta_en": "Cống",
+        "mo_ta_zh": "贡族"
+      },
+      {
+        "ma": "49",
+        "mo_ta": "Bố Y",
+        "mo_ta_en": "Bố Y",
+        "mo_ta_zh": "布依族"
+      },
+      {
+        "ma": "50",
+        "mo_ta": "Si La",
+        "mo_ta_en": "Si La",
+        "mo_ta_zh": "西拉族"
+      },
+      {
+        "ma": "51",
+        "mo_ta": "Pu Péo",
+        "mo_ta_en": "Pu Péo",
+        "mo_ta_zh": "布标族"
+      },
+      {
+        "ma": "52",
+        "mo_ta": "Brâu",
+        "mo_ta_en": "Brâu",
+        "mo_ta_zh": "布娄族"
+      },
+      {
+        "ma": "53",
+        "mo_ta": "Ơ Đu",
+        "mo_ta_en": "Ơ Đu",
+        "mo_ta_zh": "俄都族"
+      },
+      {
+        "ma": "54",
+        "mo_ta": "Rơ-măm",
+        "mo_ta_en": "Rơ-măm",
+        "mo_ta_zh": "勒曼族"
+      }
+    ],
+    "doi_tuong_tho": [
+      {
+        "ma": "to-tien",
+        "mo_ta": "Tổ tiên, gia tiên, người đã khuất trong nhà",
+        "mo_ta_en": "Ancestors and departed family members",
+        "mo_ta_zh": "祖先与家中亡人"
+      },
+      {
+        "ma": "tho-cong-tho-dia",
+        "mo_ta": "Thổ Công, thần đất trong nhà",
+        "mo_ta_en": "Thổ Công (Earth God of the house)",
+        "mo_ta_zh": "土公（家宅土地神）"
+      },
+      {
+        "ma": "tao-quan",
+        "mo_ta": "Táo quân",
+        "mo_ta_en": "Táo quân (Kitchen Gods)",
+        "mo_ta_zh": "灶君"
+      },
+      {
+        "ma": "than-tai-tho-dia",
+        "mo_ta": "Thần Tài, Thổ Địa",
+        "mo_ta_en": "Thần Tài (God of Wealth) and Thổ Địa (Earth God)",
+        "mo_ta_zh": "财神与土地神"
+      },
+      {
+        "ma": "thanh-hoang",
+        "mo_ta": "Thành hoàng",
+        "mo_ta_en": "Thành hoàng (village tutelary deity)",
+        "mo_ta_zh": "城隍"
+      },
+      {
+        "ma": "nhan-than-co-cong",
+        "mo_ta": "Nhân thần có công (anh hùng, tổ nghề, người lập làng)",
+        "mo_ta_en": "Honoured historical figures (heroes, craft founders, village founders)",
+        "mo_ta_zh": "有功人神（英雄、行业祖师、开村先人）"
+      },
+      {
+        "ma": "than-tu-nhien",
+        "mo_ta": "Thần tự nhiên (trời, đất, núi, sông, rừng, nước, mưa, trăng)",
+        "mo_ta_en": "Nature deities (sky, earth, mountains, rivers, forests, water, rain, moon)",
+        "mo_ta_zh": "自然神（天、地、山、河、林、水、雨、月）"
+      },
+      {
+        "ma": "hon-lua",
+        "mo_ta": "Hồn lúa, hồn vía",
+        "mo_ta_en": "Rice soul and vital souls",
+        "mo_ta_zh": "稻魂与魂魄"
+      },
+      {
+        "ma": "yang",
+        "mo_ta": "Yang (các thần của Tây Nguyên)",
+        "mo_ta_en": "Yang (deities of the Central Highlands)",
+        "mo_ta_zh": "Yang（西原诸神）"
+      },
+      {
+        "ma": "ma-nha-ma-ban",
+        "mo_ta": "Ma nhà, ma bản, ma mường",
+        "mo_ta_en": "House, village and mường spirits",
+        "mo_ta_zh": "家神、寨神与勐神"
+      },
+      {
+        "ma": "mau",
+        "mo_ta": "Mẫu (Thánh Mẫu, Bà Chúa Xứ, Thiên Y A Na)",
+        "mo_ta_en": "Mother Goddesses (Thánh Mẫu, Bà Chúa Xứ, Thiên Y A Na)",
+        "mo_ta_zh": "母神（圣母、Bà Chúa Xứ、Thiên Y A Na）"
+      },
+      {
+        "ma": "phat-bo-tat",
+        "mo_ta": "Phật, Bồ Tát",
+        "mo_ta_en": "Buddhas and Bodhisattvas",
+        "mo_ta_zh": "佛与菩萨"
+      },
+      {
+        "ma": "ban-vuong",
+        "mo_ta": "Bàn Vương (thủy tổ của người Dao)",
+        "mo_ta_en": "Bàn Vương (ancestral king of the Dao)",
+        "mo_ta_zh": "盘王（瑶族始祖）"
+      },
+      {
+        "ma": "than-den-thap",
+        "mo_ta": "Thần, vua thờ ở đền tháp Chăm",
+        "mo_ta_en": "Deities and kings worshipped at Chăm temple towers",
+        "mo_ta_zh": "占族塔庙所祀神灵与王"
+      },
+      {
+        "ma": "co-hon",
+        "mo_ta": "Cô hồn",
+        "mo_ta_en": "Wandering spirits",
+        "mo_ta_zh": "孤魂"
+      },
+      {
+        "ma": "ba-mu-duc-ong",
+        "mo_ta": "Bà Mụ, Đức Ông (thần hộ sinh)",
+        "mo_ta_en": "Bà Mụ and Đức Ông (guardian deities of birth)",
+        "mo_ta_zh": "婆姐与德翁（护生神）"
+      },
+      {
+        "ma": "thien-hau-quan-cong",
+        "mo_ta": "Thiên Hậu, Quan Công",
+        "mo_ta_en": "Thiên Hậu and Quan Công",
+        "mo_ta_zh": "天后与关公"
+      },
+      {
+        "ma": "khac",
+        "mo_ta": "Đối tượng thờ khác (ghi ở mô tả)",
+        "mo_ta_en": "Other objects of worship (see description)",
+        "mo_ta_zh": "其他供奉对象（见说明）"
+      }
+    ],
+    "han_che_cong_bo": [
+      {
+        "ma": "cong-khai",
+        "mo_ta": "Công khai",
+        "mo_ta_en": "Public",
+        "mo_ta_zh": "公开"
+      },
+      {
+        "ma": "chi-mo-ta-chung",
+        "mo_ta": "Chỉ mô tả chung",
+        "mo_ta_en": "General description only",
+        "mo_ta_zh": "仅作概述"
+      },
+      {
+        "ma": "noi-bo-cong-dong",
+        "mo_ta": "Nội bộ cộng đồng (chỉ ghi tên, chu kỳ, cộng đồng)",
+        "mo_ta_en": "Kept within the community (name, cycle and community only)",
+        "mo_ta_zh": "社群内部（仅记名称、周期、社群）"
+      },
+      {
+        "ma": "khong-ro",
+        "mo_ta": "Chưa rõ",
+        "mo_ta_en": "Not known",
+        "mo_ta_zh": "不明"
+      }
+    ],
+    "khong_gian": [
+      {
+        "ma": "ca-nhan",
+        "mo_ta": "Cá nhân",
+        "mo_ta_en": "Individual",
+        "mo_ta_zh": "个人"
+      },
+      {
+        "ma": "gia-dinh",
+        "mo_ta": "Gia đình",
+        "mo_ta_en": "Household",
+        "mo_ta_zh": "家庭"
+      },
+      {
+        "ma": "dong-ho",
+        "mo_ta": "Dòng họ",
+        "mo_ta_en": "Lineage (clan)",
+        "mo_ta_zh": "宗族"
+      },
+      {
+        "ma": "lang-ban",
+        "mo_ta": "Làng, bản, buôn, phum sóc",
+        "mo_ta_en": "Village community (làng, bản, buôn, phum sóc)",
+        "mo_ta_zh": "村寨（làng、bản、buôn、phum sóc）"
+      },
+      {
+        "ma": "vung-muong",
+        "mo_ta": "Vùng, mường (nhiều làng)",
+        "mo_ta_en": "Region or mường (several villages)",
+        "mo_ta_zh": "地区与勐（跨村）"
+      },
+      {
+        "ma": "co-so-ton-giao",
+        "mo_ta": "Cơ sở tín ngưỡng, tôn giáo (chùa, đình, đền, phủ, tháp)",
+        "mo_ta_en": "Place of worship (pagoda, communal house, temple, shrine, tower)",
+        "mo_ta_zh": "信仰与宗教场所（寺、亭、祠、府、塔）"
+      },
+      {
+        "ma": "noi-lam-an",
+        "mo_ta": "Nơi làm ăn (cửa hàng, thuyền, ruộng, xưởng)",
+        "mo_ta_en": "Place of work (shop, boat, field, workshop)",
+        "mo_ta_zh": "营生之所（店铺、船、田、作坊）"
+      },
+      {
+        "ma": "quoc-gia",
+        "mo_ta": "Cả nước",
+        "mo_ta_en": "Nationwide",
+        "mo_ta_zh": "全国"
+      }
+    ],
+    "lich_he": [
+      {
+        "ma": "am",
+        "mo_ta": "Âm lịch",
+        "mo_ta_en": "Lunar calendar",
+        "mo_ta_zh": "农历"
+      },
+      {
+        "ma": "duong",
+        "mo_ta": "Dương lịch",
+        "mo_ta_en": "Gregorian calendar",
+        "mo_ta_zh": "公历"
+      },
+      {
+        "ma": "tiet-khi",
+        "mo_ta": "Theo tiết khí",
+        "mo_ta_en": "By solar term",
+        "mo_ta_zh": "按节气"
+      },
+      {
+        "ma": "mua-vu",
+        "mo_ta": "Theo mùa vụ",
+        "mo_ta_en": "By farming season",
+        "mo_ta_zh": "按农时"
+      },
+      {
+        "ma": "lich-khmer",
+        "mo_ta": "Lịch Khơ-me",
+        "mo_ta_en": "Khmer calendar",
+        "mo_ta_zh": "高棉历"
+      },
+      {
+        "ma": "lich-cham",
+        "mo_ta": "Lịch Chăm",
+        "mo_ta_en": "Chăm calendar",
+        "mo_ta_zh": "占历"
+      },
+      {
+        "ma": "theo-su-kien",
+        "mo_ta": "Tính từ một việc (ngày mất, ngày sinh, ngày dọn nhà)",
+        "mo_ta_en": "Counted from an event (death, birth, moving house)",
+        "mo_ta_zh": "按事计日（忌日、生日、迁居）"
+      }
+    ],
+    "lich_nhuan": [
+      {
+        "ma": "nhu-thang-thuong",
+        "mo_ta": "Tháng nhuận cũng làm như tháng thường",
+        "mo_ta_en": "Also held in a leap month",
+        "mo_ta_zh": "闰月照常举行"
+      },
+      {
+        "ma": "khong-cung-thang-nhuan",
+        "mo_ta": "Không làm lễ trong tháng nhuận",
+        "mo_ta_en": "Not held in a leap month",
+        "mo_ta_zh": "闰月不举行"
+      },
+      {
+        "ma": "nguon-khong-noi",
+        "mo_ta": "Nguồn không nói về tháng nhuận",
+        "mo_ta_en": "Sources say nothing about leap months",
+        "mo_ta_zh": "资料未提及闰月"
+      }
+    ],
+    "muc": [
+      {
+        "ma": "thuong-ngay",
+        "mo_ta": "Lễ thường ngày của gia đình",
+        "mo_ta_en": "Everyday household rites",
+        "mo_ta_zh": "家庭日常祭礼"
+      },
+      {
+        "ma": "dac-biet",
+        "mo_ta": "Lễ đặc biệt (lễ làng, đền phủ, dân tộc, nghề, khoa cúng)",
+        "mo_ta_en": "Special rites (village, temple, ethnic community, trade, full ritual manuals)",
+        "mo_ta_zh": "特殊祭礼（村社、祠府、民族、行业、科仪）"
+      }
+    ],
+    "nhom": [
+      {
+        "ma": "gia-tien-gio-chap",
+        "mo_ta": "Gia tiên, giỗ chạp",
+        "mo_ta_en": "Ancestors and death anniversaries",
+        "mo_ta_zh": "祖先与忌日"
+      },
+      {
+        "ma": "soc-vong",
+        "mo_ta": "Mùng một và ngày rằm",
+        "mo_ta_en": "First and fifteenth of the lunar month",
+        "mo_ta_zh": "初一与十五"
+      },
+      {
+        "ma": "tet-nguyen-dan",
+        "mo_ta": "Tết Nguyên đán",
+        "mo_ta_en": "Lunar New Year (Tết)",
+        "mo_ta_zh": "春节"
+      },
+      {
+        "ma": "tiet-le-trong-nam",
+        "mo_ta": "Tiết lễ trong năm",
+        "mo_ta_en": "Festivals through the year",
+        "mo_ta_zh": "岁时节令"
+      },
+      {
+        "ma": "than-linh-trong-nha",
+        "mo_ta": "Thần linh thờ trong nhà",
+        "mo_ta_en": "Household deities",
+        "mo_ta_zh": "家宅神灵"
+      },
+      {
+        "ma": "nha-cua-dat-dai",
+        "mo_ta": "Nhà cửa, đất đai",
+        "mo_ta_en": "House and land",
+        "mo_ta_zh": "房屋与土地"
+      },
+      {
+        "ma": "lam-an",
+        "mo_ta": "Làm ăn, buôn bán",
+        "mo_ta_en": "Work and trade",
+        "mo_ta_zh": "营生与买卖"
+      },
+      {
+        "ma": "vong-doi",
+        "mo_ta": "Vòng đời",
+        "mo_ta_en": "Life-cycle rites",
+        "mo_ta_zh": "人生礼俗"
+      },
+      {
+        "ma": "tang-ma",
+        "mo_ta": "Tang ma",
+        "mo_ta_en": "Funeral and mourning rites",
+        "mo_ta_zh": "丧葬"
+      },
+      {
+        "ma": "cau-an-giai-han",
+        "mo_ta": "Cầu an, giải hạn",
+        "mo_ta_en": "Cầu an, giải hạn (prayers for peace, rites to ward off misfortune)",
+        "mo_ta_zh": "祈安解厄"
+      },
+      {
+        "ma": "chua-dinh-den-phu",
+        "mo_ta": "Chùa, đình, đền, phủ",
+        "mo_ta_en": "Pagodas, communal houses, temples and shrines",
+        "mo_ta_zh": "寺、亭、祠、府"
+      },
+      {
+        "ma": "co-hon-thi-thuc",
+        "mo_ta": "Cô hồn, thí thực",
+        "mo_ta_en": "Offerings to wandering spirits",
+        "mo_ta_zh": "孤魂与施食"
+      },
+      {
+        "ma": "vung-mien-nghe-bien",
+        "mo_ta": "Lễ riêng của vùng miền, nghề biển",
+        "mo_ta_en": "Regional and fishing-community rites",
+        "mo_ta_zh": "地方与渔业礼俗"
+      },
+      {
+        "ma": "dan-toc-thieu-so",
+        "mo_ta": "Lễ của các dân tộc",
+        "mo_ta_en": "Rites of ethnic communities",
+        "mo_ta_zh": "各民族的礼俗"
+      },
+      {
+        "ma": "le-nong-nghiep-lang-xa",
+        "mo_ta": "Lễ nông nghiệp của làng, xóm",
+        "mo_ta_en": "Village farming rites",
+        "mo_ta_zh": "村社农事礼"
+      }
+    ],
+    "soat_boi": [
+      {
+        "ma": "nhat-nguyet",
+        "mo_ta": "Lượt tự duyệt của Nhật Nguyệt theo phiếu soát (PRD lễ cúng mục 7.3)",
+        "mo_ta_en": "Nhật Nguyệt's own review against its review checklist",
+        "mo_ta_zh": "Nhật Nguyệt 按审核清单自行审核"
+      }
+    ],
+    "trang_thai_soat": [
+      {
+        "ma": "chua-thu-thap",
+        "mo_ta": "Chưa thu thập",
+        "mo_ta_en": "Not collected yet",
+        "mo_ta_zh": "尚未收集"
+      },
+      {
+        "ma": "dang-thu-thap",
+        "mo_ta": "Đang thu thập",
+        "mo_ta_en": "Being collected",
+        "mo_ta_zh": "收集中"
+      },
+      {
+        "ma": "da-thu-thap",
+        "mo_ta": "Đã thu thập",
+        "mo_ta_en": "Collected",
+        "mo_ta_zh": "已收集"
+      },
+      {
+        "ma": "da-soat",
+        "mo_ta": "Đã có người soát",
+        "mo_ta_en": "Reviewed by a person",
+        "mo_ta_zh": "已人工核对"
+      }
+    ],
+    "trang_thai_thuc_hanh": [
+      {
+        "ma": "dang-thuc-hanh",
+        "mo_ta": "Đang thực hành",
+        "mo_ta_en": "Practised today",
+        "mo_ta_zh": "仍在实行"
+      },
+      {
+        "ma": "phuc-dung",
+        "mo_ta": "Được phục dựng",
+        "mo_ta_en": "Revived",
+        "mo_ta_zh": "已复原"
+      },
+      {
+        "ma": "mai-mot",
+        "mo_ta": "Ít còn thực hành, theo nguồn",
+        "mo_ta_en": "Rarely practised, according to sources",
+        "mo_ta_zh": "据资料已少有实行"
+      },
+      {
+        "ma": "da-thay-doi",
+        "mo_ta": "Cách làm đã thay đổi",
+        "mo_ta_en": "Practice has changed",
+        "mo_ta_zh": "做法已有改变"
+      },
+      {
+        "ma": "khong-ro",
+        "mo_ta": "Chưa rõ",
+        "mo_ta_en": "Not known",
+        "mo_ta_zh": "不明"
+      }
+    ],
+    "truyen_thong": [
+      {
+        "ma": "dan-gian",
+        "mo_ta": "Dân gian",
+        "mo_ta_en": "Folk practice",
+        "mo_ta_zh": "民间"
+      },
+      {
+        "ma": "phat-giao",
+        "mo_ta": "Phật giáo",
+        "mo_ta_en": "Buddhist",
+        "mo_ta_zh": "佛教"
+      },
+      {
+        "ma": "gia-le",
+        "mo_ta": "Gia lễ (nho gia)",
+        "mo_ta_en": "Family rites (Confucian gia lễ)",
+        "mo_ta_zh": "家礼（儒家）"
+      },
+      {
+        "ma": "tho-mau",
+        "mo_ta": "Thờ Mẫu, Tứ Phủ",
+        "mo_ta_en": "Mother Goddess worship (Tứ Phủ)",
+        "mo_ta_zh": "母神信仰（四府）"
+      },
+      {
+        "ma": "dinh-lang",
+        "mo_ta": "Tế lễ đình làng",
+        "mo_ta_en": "Village communal-house rites",
+        "mo_ta_zh": "村亭祭礼"
+      },
+      {
+        "ma": "phat-giao-hoa-hao",
+        "mo_ta": "Phật giáo Hòa Hảo",
+        "mo_ta_en": "Hòa Hảo Buddhism",
+        "mo_ta_zh": "和好佛教"
+      },
+      {
+        "ma": "phat-giao-nam-tong",
+        "mo_ta": "Phật giáo Nam tông Khơ-me",
+        "mo_ta_en": "Khmer Theravada Buddhism",
+        "mo_ta_zh": "高棉南传佛教"
+      },
+      {
+        "ma": "cham-ba-la-mon",
+        "mo_ta": "Lễ của người Chăm theo Bà la môn (Chăm Ahiêr)",
+        "mo_ta_en": "Cham Brahmanist tradition (Cham Ahiêr)",
+        "mo_ta_zh": "占族婆罗门教传统"
+      },
+      {
+        "ma": "cham-ba-ni",
+        "mo_ta": "Lễ của người Chăm Bà Ni (Chăm Awal)",
+        "mo_ta_en": "Cham Bani tradition (Cham Awal)",
+        "mo_ta_zh": "占族婆尼教传统"
+      },
+      {
+        "ma": "then",
+        "mo_ta": "Nghi lễ do thầy Then, thầy Tào, thầy Pựt làm (Tày, Nùng, Thái)",
+        "mo_ta_en": "Rites led by Then, Tào and Pựt masters (Tày, Nùng, Thái)",
+        "mo_ta_zh": "Then 师、道公、Pựt 师主持的仪式（岱依族、侬族、泰族）"
+      },
+      {
+        "ma": "cung-dinh",
+        "mo_ta": "Nghi lễ cung đình triều Nguyễn (được phục dựng)",
+        "mo_ta_en": "Nguyễn court ritual (re-enacted)",
+        "mo_ta_zh": "阮朝宫廷礼仪（复原）"
+      },
+      {
+        "ma": "hoi-giao",
+        "mo_ta": "Hồi giáo",
+        "mo_ta_en": "Islam",
+        "mo_ta_zh": "伊斯兰教"
+      },
+      {
+        "ma": "tin-nguong-ban-dia",
+        "mo_ta": "Tín ngưỡng bản địa của các tộc người",
+        "mo_ta_en": "Indigenous belief of an ethnic community",
+        "mo_ta_zh": "各民族本土信仰"
+      },
+      {
+        "ma": "khac",
+        "mo_ta": "Truyền thống khác (ghi ở ghi chú)",
+        "mo_ta_en": "Another tradition (see note)",
+        "mo_ta_zh": "其他传统（见备注）"
+      }
+    ],
+    "vung_van_hoa": [
+      {
+        "ma": "dong-bang-bac-bo",
+        "mo_ta": "Đồng bằng Bắc Bộ",
+        "mo_ta_en": "Northern Delta",
+        "mo_ta_zh": "北部平原"
+      },
+      {
+        "ma": "viet-bac",
+        "mo_ta": "Việt Bắc",
+        "mo_ta_en": "Việt Bắc (northern uplands)",
+        "mo_ta_zh": "越北"
+      },
+      {
+        "ma": "tay-bac-mien-nui-bac-trung-bo",
+        "mo_ta": "Tây Bắc và miền núi Bắc Trung Bộ",
+        "mo_ta_en": "Northwest and the North Central highlands",
+        "mo_ta_zh": "西北与北中部山区"
+      },
+      {
+        "ma": "duyen-hai-bac-trung-bo",
+        "mo_ta": "Duyên hải Bắc Trung Bộ",
+        "mo_ta_en": "North Central coast",
+        "mo_ta_zh": "北中部沿海"
+      },
+      {
+        "ma": "duyen-hai-trung-nam-trung-bo",
+        "mo_ta": "Duyên hải Trung và Nam Trung Bộ",
+        "mo_ta_en": "Central and South Central coast",
+        "mo_ta_zh": "中部与南中部沿海"
+      },
+      {
+        "ma": "truong-son-tay-nguyen",
+        "mo_ta": "Trường Sơn, Tây Nguyên",
+        "mo_ta_en": "Trường Sơn and the Central Highlands",
+        "mo_ta_zh": "长山与西原"
+      },
+      {
+        "ma": "nam-bo",
+        "mo_ta": "Nam Bộ",
+        "mo_ta_en": "Southern region (Nam Bộ)",
+        "mo_ta_zh": "南部"
+      }
+    ]
+  }
+}
