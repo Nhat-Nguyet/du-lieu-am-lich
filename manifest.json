@@ -1,0 +1,1767 @@
+{
+  "ma_phat_hanh": "2026.11.19-b5a44783",
+  "loai_ma": "phat-hanh-du-lieu",
+  "phien_ban_dong_co": "2.2.0",
+  "phien_ban_khuon": "1.3.0",
+  "sinh_luc": "2026-11-19T12:24:34Z",
+  "dung_tu": {
+    "commit_ma_nguon": "9b6ec55e4de049330810065c3845a43a18fb7f99",
+    "phien_ban_go": "go1.24.13",
+    "sha256_go_sum": "79491901908debf5b1639b79f050b58f64f758c90147c85e6311afba1f022a1e",
+    "lenh_sinh": "dulieujob -ra /data/du-lieu"
+  },
+  "so_bo": 33,
+  "mo_hinh": [
+    {
+      "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+      "phien_ban": "1.2.0",
+      "loai": "lich-am",
+      "ten": "Lịch âm Việt Nam",
+      "ten_en": "Vietnamese lunisolar calendar",
+      "ten_zh": "越南农历",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "diem_soc": "ho-ngoc-duc-newmoon: chuỗi rút gọn của Meeus trong thuật toán Hồ Ngọc Đức, kèm hiệu chỉnh ΔT đa thức riêng của thuật toán",
+      "trung_khi": "ho-ngoc-duc-sunlongitude: kinh độ hình học của Mặt Trời (phương trình tâm ba số hạng), xét lúc 0 giờ ngày sóc theo giờ địa phương, chia 30 độ",
+      "mung_mot": "ngay-chua-diem-soc-theo-gio-dia-phuong",
+      "thang_muoi_mot": "thang-chua-dong-chi",
+      "quy_tac_thang_nhuan": "thang-dau-tien-khong-chua-trung-khi-sau-thang-11-khi-giua-hai-thang-11-co-13-thang",
+      "chinh_sach_mui_gio": "co-dinh-utc7",
+      "dung_lai_mui_gio_lich_su": false,
+      "mo_ta_mui_gio": "UTC+7 là quy ước tính của site, áp như nhau cho mọi năm. Đây không phải tái dựng múi giờ lịch sử: lịch Việt Nam từng in theo UTC+8 ở một số năm, và ở những năm ấy ngày mùng một hay ngày giao tiết theo lịch in có thể lệch một ngày so với kết quả của mô hình này.",
+      "mo_ta_mui_gio_en": "UTC+7 is the site's computing convention, applied the same way to every year. It is not a reconstruction of historical time zones: Vietnamese calendars were printed on UTC+8 in some years, and in those years the first day of a month or the day of a solar term in the printed calendar can differ by one day from this model's result.",
+      "mo_ta_mui_gio_zh": "UTC+7 是本站的推算约定，所有年份一律适用。这不是对历史时区的复原：越南历书在部分年份曾按 UTC+8 印行，在这些年份，印本历书的初一或交节日期可能与本模型的结果相差一天。",
+      "doi_chieu": [
+        {
+          "nguon": "NASA GSFC, Fred Espenak, Six Millennium Catalog of Phases of the Moon",
+          "url": "https://eclipse.gsfc.nasa.gov/phase/phasecat.html",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/nasa_soc_1901_2100.tsv",
+          "sha256": "9d934604558f1528b01c849d52ef2fac409fe6960f74590cdfc8e8a9d5e9fb12",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 2474,
+          "dung_sai_phut": 5,
+          "test": "TestKiemCheoDiemSocNASA"
+        },
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 1,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "kiem_dinh": [
+        {
+          "ma": "diem-soc-nasa",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "NASA",
+          "co_mau": 2474,
+          "don_vi": "phut",
+          "dung_sai": 5,
+          "mae": 1.1,
+          "rmse": 1.3,
+          "trung_vi": 0.9,
+          "p95": 2.5,
+          "p99": 3.1,
+          "max": 3.9,
+          "lech": 0.9,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoDiemSocNASA",
+          "mo_ta": "Điểm sóc của lõi tính trừ điểm sóc NASA trên 2.474 lần sóc 1901 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's new moon minus NASA's over 2,474 new moons from 1901 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1901 至 2100 年 2,474 次朔，引擎朔时减 NASA 朔时，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "thang-am-dung-lai",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "NASA;IMCCE",
+          "co_mau": 2461,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 2,
+          "test": "TestKiemCheoLichAmDungLai",
+          "mo_ta": "Lịch âm UTC+7 dựng lại chỉ từ điểm sóc NASA và trung khí IMCCE theo quy tắc lịch (mùng 1 là ngày chứa sóc, tháng 11 chứa Đông chí, tháng nhuận là tháng đầu không chứa trung khí), 2.461 tháng từ 12/1901 tới 11/2100; so mùng 1, số tháng và cờ nhuận của lõi tính. 2 tháng khác, đều do điểm sóc rơi sát nửa đêm, kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "A UTC+7 lunar calendar rebuilt only from NASA new moons and IMCCE principal terms by the calendar rules (day 1 holds the new moon, month 11 holds the winter solstice, the leap month is the first without a principal term), 2,461 months from 12/1901 to 11/2100; the engine's first days, month numbers and leap flags are compared. 2 months differ, each because the new moon falls close to midnight, listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "仅以 NASA 朔与 IMCCE 中气，按历法规则（含朔之日为初一，含冬至之月为十一月，闰月为其后首个无中气之月）重建 UTC+7 农历，自 1901 年 12 月至 2100 年 11 月共 2,461 个月；逐月比较引擎的初一、月序与闰月标记。2 个月不同，皆因朔接近午夜，列于 ngoai-le-doi-chieu.csv。"
+        }
+      ],
+      "ghi_chu": "Thuật toán Hồ Ngọc Đức, múi giờ UTC+7 cho mọi năm, kể cả những năm lịch in ở Việt Nam còn theo UTC+8. Đối chiếu 27/09/2026: điểm sóc lệch NASA trung bình 0,9 phút, nhiều nhất 3,9 phút trên 2.474 lần sóc; 2.459 trên 2.461 tháng âm 1901 tới 2100 dựng lại từ sóc NASA và trung khí IMCCE khớp, hai tháng lệch có sóc sát nửa đêm.",
+      "ghi_chu_en": "Hồ Ngọc Đức's algorithm, UTC+7 for every year, including years when Vietnamese almanacs still printed UTC+8. Checked on 27 September 2026: new moons differ from NASA by 0.9 minutes on average and 3.9 at most over 2,474 new moons; 2,459 of 2,461 lunar months from 1901 to 2100 rebuilt from NASA new moons and IMCCE principal terms match, the two that differ having a new moon close to midnight.",
+      "ghi_chu_zh": "采用胡玉德算法，所有年份一律按 UTC+7，包括越南历书当年仍按 UTC+8 印行的年份。2026 年 9 月 27 日比对：2,474 次朔与 NASA 平均相差 0.9 分钟，最多 3.9 分钟；以 NASA 朔与 IMCCE 中气重建的 1901 至 2100 年 2,461 个农历月中 2,459 个一致，其余两个月的朔接近午夜。"
+    },
+    {
+      "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+      "phien_ban": "1.3.0",
+      "loai": "quai-khi",
+      "ten": "Quẻ trị ngày theo phép Quái khí",
+      "ten_en": "Daily hexagram by the Gua Qi method",
+      "ten_zh": "卦气值日卦",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [
+        "tiet-khi-vsop87d-bieu-kien-v3"
+      ],
+      "truyen_thong": "manh-hy",
+      "nguon_truyen_thong": [
+        "Tân Đường thư, quyển 28 thượng (Lịch chí 4 thượng), phát liễm thuật của lịch Đại Diễn",
+        "Tân Đường thư, quyển 27 thượng (Lịch chí 3 thượng), Quái nghị của Nhất Hạnh",
+        "Khổng Dĩnh Đạt, Chu Dịch chính nghĩa, lời sớ quẻ Phục (dẫn Dịch vĩ Kê Lãm Đồ)"
+      ],
+      "neo": "dong-chi-thuc-moi-nam",
+      "thoi_diem_dai_dien": "12:00",
+      "do_dai_que_phut": 8766,
+      "cach_lam_tron": "floor",
+      "phan_du": "hao-thuong",
+      "dat_lai_chu_ky": "cat-que-60-tai-dong-chi",
+      "que_tu_chinh": {
+        "so": [
+          29,
+          51,
+          30,
+          58
+        ],
+        "cach_xu_ly": "khong-tri-ngay-moi-hao-mot-tiet-khi",
+        "khoi": "hao-so-que-kham-tai-dong-chi"
+      },
+      "nguong_sat_giao_que_phut": 2,
+      "chu_ky_danh_nghia_phut": 525960,
+      "chu_ky_thuc_phut": {
+        "nho_nhat": 525938,
+        "lon_nhat": 525961,
+        "trung_binh": 525949.54,
+        "tu_nam": 1900,
+        "den_nam": 2100
+      },
+      "cat_que_60_phut": {
+        "nho_nhat": -1,
+        "lon_nhat": 22,
+        "trung_binh": 10.46,
+        "tu_nam": 1900,
+        "den_nam": 2100
+      },
+      "mo_ta_chu_ky": "525.960 phút (60 quẻ nhân 8.766 phút, tức 365,25 ngày) là tổng DANH NGHĨA của 60 đoạn, không phải độ dài một năm của mô hình. Chu kỳ thực đặt lại ở Đông chí thật mỗi năm: đo 1900 tới 2100, từ Đông chí tới Đông chí dài 525.938 tới 525.961 phút, trung bình 525.949,54 phút (khoảng 365,2427 ngày), nên quẻ 60 bị cắt -1 tới 22 phút, trung bình 10,46 phút.",
+      "mo_ta_chu_ky_en": "525,960 minutes (60 hexagrams times 8,766 minutes, i.e. 365.25 days) is the NOMINAL total of the 60 segments, not the length of the model's year. The actual cycle resets at the true winter solstice every year: measured 1900 to 2100, solstice to solstice runs 525,938 to 525,961 minutes, 525,949.54 on average (about 365.2427 days), so hexagram 60 is cut by -1 to 22 minutes, 10.46 on average.",
+      "mo_ta_chu_ky_zh": "525,960 分钟（60 卦乘 8,766 分钟，即 365.25 日）是 60 段的名义总长，并非模型一年的长度。实际周期每年在真实冬至重新起算：1900 至 2100 年实测，冬至到冬至为 525,938 至 525,961 分钟，平均 525,949.54 分钟（约 365.2427 日），因此第 60 卦被截去 -1 至 22 分钟，平均 10.46 分钟。",
+      "doi_chieu": [
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 1,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "kiem_dinh": [
+        {
+          "ma": "dong-chi-imcce",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "IMCCE",
+          "co_mau": 201,
+          "don_vi": "phut",
+          "dung_sai": 1,
+          "mae": 0.3,
+          "rmse": 0.3,
+          "trung_vi": 0.3,
+          "p95": 0.6,
+          "p99": 0.7,
+          "max": 0.7,
+          "lech": 0,
+          "so_ngoai_le": 0,
+          "test": "TestKiemDinhQuaiKhiIMCCE",
+          "mo_ta": "Đông chí là neo của phép Quái khí: giờ Đông chí của lõi tính trừ giờ IMCCE trên 201 năm 1900 tới 2100, tính bằng phút.",
+          "mo_ta_en": "The winter solstice anchors the Gua Qi method: the engine's solstice moment minus IMCCE's over 201 years from 1900 to 2100, in minutes.",
+          "mo_ta_zh": "冬至是卦气法的起点：1900 至 2100 年共 201 年，引擎冬至时刻减 IMCCE 冬至时刻，单位为分钟。"
+        },
+        {
+          "ma": "que-ngay-dung-lai-imcce",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "IMCCE",
+          "co_mau": 73058,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 2,
+          "test": "TestKiemDinhQuaiKhiIMCCE",
+          "mo_ta": "Quẻ của từng ngày từ 23/12/1900 tới 31/12/2100 dựng lại theo cùng phép Quái khí nhưng neo vào Đông chí IMCCE, 73.058 ngày; so thứ tự quẻ của lõi tính. 2 ngày khác quẻ, đều là ngày có chỗ giao quẻ cách 12 giờ trưa vài phút, kê ở ngoai-le-doi-chieu.csv kèm số ngày kéo theo mà ngày trong quẻ lệch một.",
+          "mo_ta_en": "The hexagram of every day from 23/12/1900 to 31/12/2100 rebuilt by the same Gua Qi method but anchored on the IMCCE winter solstice, 73,058 days; the engine's hexagram position is compared. 2 days differ, each a day whose hexagram change falls a few minutes from 12:00 noon, listed in ngoai-le-doi-chieu.csv with the following days whose day-within-hexagram is off by one.",
+          "mo_ta_zh": "自 1900 年 12 月 23 日至 2100 年 12 月 31 日，每日之卦按同一卦气法重建，但以 IMCCE 冬至为起点，共 73,058 日；逐日比较引擎的卦序。2 日卦不同，皆为换卦时刻距正午 12 时仅数分钟之日，列于 ngoai-le-doi-chieu.csv，并注明其后卦内日序差一的日数。"
+        }
+      ],
+      "ghi_chu": "Sáu mươi quẻ mỗi quẻ 6 ngày 7 phần (8.766 phút), đếm đều từ Đông chí thật mỗi năm, quẻ của ngày là quẻ đang trị lúc 12 giờ trưa giờ Việt Nam. Vị trí quẻ là phần nguyên của số phút từ Đông chí chia 8.766. Đông chí năm sau thường tới trước khi quẻ 60 hết phần nên quẻ 60 bị cắt (198 trên 201 năm 1900 tới 2100, nhiều nhất 22 phút); hai năm Đông chí tới muộn một phút và quẻ 60 được kéo dài một phút. Phần dư 7/80 ngày sau sáu hào tính vào hào thượng; nguồn không nói, đây là lựa chọn của site.",
+      "ghi_chu_en": "Sixty hexagrams of 6 days 7 parts each (8,766 minutes), counted evenly from the true winter solstice every year; the day's hexagram is the one in force at 12:00 noon Vietnam time. The position is the integer part of the minutes since the solstice divided by 8,766. The next solstice usually arrives before hexagram 60 runs its full share, so hexagram 60 is cut short (198 of 201 years from 1900 to 2100, by up to 22 minutes); in two years the solstice comes one minute late and hexagram 60 is extended by one minute. The 7/80-day remainder after six lines goes to the top line; the sources are silent, this is the site's choice.",
+      "ghi_chu_zh": "六十卦每卦六日七分（8,766 分钟），每年自真实冬至匀数；当日之卦为越南时间正午 12 时所值之卦。卦序为自冬至起分钟数除以 8,766 的整数部分。次年冬至通常在第 60 卦未满之前到来，故第 60 卦被截短（1900 至 2100 年 201 年中 198 年，最多 22 分钟）；有两年冬至晚到一分钟，第 60 卦延长一分钟。六爻之后八十分日之七的余分归入上爻；原书未言，此为本站之选择。"
+    },
+    {
+      "ma": "tiet-khi-vsop87d-bieu-kien-v3",
+      "phien_ban": "3.0.0",
+      "loai": "tiet-khi",
+      "ten": "Giờ giao 24 tiết khí",
+      "ten_en": "Solar term moments",
+      "ten_zh": "二十四节气交节时刻",
+      "mui_gio": "Asia/Ho_Chi_Minh",
+      "utc_offset_gio": 7,
+      "phu_thuoc": [],
+      "lich_thien_van": "vsop87d-rut-gon: VSOP87D của Trái Đất (Bretagnon và Francou 1988, IMCCE), giữ số hạng bậc τ^p có biên độ nhân 0,1^p từ 1e-7 radian (L 101 số hạng, R 7 số hạng), đổi sang địa tâm và hệ FK5 (-0,09033 giây cung) theo Meeus, Astronomical Algorithms chương 25 và 32",
+      "quang_sai_do": -0.005691611111111111,
+      "chuong_dong": "iau1980-meeus-bang-22a: Δψ theo IAU 1980, 63 số hạng (Meeus, Astronomical Algorithms chương 22, bảng 22.A), T tính bằng thế kỷ Julius từ J2000 theo giờ TT",
+      "delta_t": "espenak-meeus-2006: đa thức ΔT = TT - UT theo từng khoảng năm của Espenak và Meeus (NASA, 2006), lấy ở năm thập phân của chính thời điểm",
+      "cach_giai": "newton-toc-do-trung-binh",
+      "nguong_dung_giai_phut": 0.001,
+      "dung_sai_phut": 1,
+      "thong_ke_sai_so": [
+        {
+          "nguon": "IMCCE",
+          "ten_nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "so_moc": 4824,
+          "dinh_nghia": "loi_tinh - nguon",
+          "mae_phut": 0.3,
+          "rmse_phut": 0.3,
+          "trung_vi_tuyet_doi_phut": 0.3,
+          "p95_tuyet_doi_phut": 0.6,
+          "p99_tuyet_doi_phut": 0.7,
+          "lech_trung_binh_phut": 0,
+          "nho_nhat_phut": -0.9,
+          "lon_nhat_phut": 0.6,
+          "so_moc_som": 2565,
+          "phan_bo": [
+            {
+              "tu_phut": -1,
+              "den_phut": 0,
+              "so_moc": 2565
+            },
+            {
+              "tu_phut": 0,
+              "den_phut": 1,
+              "so_moc": 2259
+            }
+          ]
+        },
+        {
+          "nguon": "USNO",
+          "ten_nguon": "U.S. Naval Observatory, Astronomical Applications API (seasons)",
+          "so_moc": 804,
+          "dinh_nghia": "loi_tinh - nguon",
+          "mae_phut": 0.2,
+          "rmse_phut": 0.5,
+          "trung_vi_tuyet_doi_phut": 0,
+          "p95_tuyet_doi_phut": 1,
+          "p99_tuyet_doi_phut": 2,
+          "lech_trung_binh_phut": -0.1,
+          "nho_nhat_phut": -2,
+          "lon_nhat_phut": 1,
+          "so_moc_som": 135,
+          "phan_bo": [
+            {
+              "tu_phut": -2,
+              "den_phut": -1,
+              "so_moc": 17
+            },
+            {
+              "tu_phut": -1,
+              "den_phut": 0,
+              "so_moc": 118
+            },
+            {
+              "tu_phut": 0,
+              "den_phut": 1,
+              "so_moc": 634
+            },
+            {
+              "tu_phut": 1,
+              "den_phut": 2,
+              "so_moc": 35
+            }
+          ]
+        }
+      ],
+      "doi_chieu": [
+        {
+          "nguon": "IMCCE (Đài Thiên văn Paris), dịch vụ Miriade ephemcc, lý thuyết hành tinh INPOP",
+          "url": "https://ssp.imcce.fr/webservices/miriade/api/ephemcc.php",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/imcce_tiet_khi_1900_2100.tsv",
+          "sha256": "3f6fad729304ae8631ed2ef495f4867c56f5d1195de56c2eb3b2c45243c2b1da",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 4824,
+          "dung_sai_phut": 1,
+          "test": "TestKiemCheoGioTietKhi"
+        },
+        {
+          "nguon": "U.S. Naval Observatory, Astronomical Applications API (seasons)",
+          "url": "https://aa.usno.navy.mil/api/seasons",
+          "tep": "services/api/internal/coreengine/testdata/lichphap/usno_phan_chi_1900_2100.tsv",
+          "sha256": "ef70a6694d2764f13f8409b2dade5fb87ade9161d0fdccc683b6993f472d8419",
+          "ngay_truy_cap": "2026-09-27",
+          "so_moc": 804,
+          "dung_sai_phut": 2,
+          "test": "TestKiemCheoGioTietKhi"
+        }
+      ],
+      "kiem_dinh": [
+        {
+          "ma": "gio-giao-tiet-imcce",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "IMCCE",
+          "co_mau": 4824,
+          "don_vi": "phut",
+          "dung_sai": 1,
+          "mae": 0.3,
+          "rmse": 0.3,
+          "trung_vi": 0.3,
+          "p95": 0.6,
+          "p99": 0.7,
+          "max": 0.9,
+          "lech": 0,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoGioTietKhi",
+          "mo_ta": "Giờ giao tiết của lõi tính trừ giờ IMCCE trên 4.824 mốc 1900 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's solar term moment minus the IMCCE moment over 4,824 moments from 1900 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1900 至 2100 年 4,824 个时刻，引擎交节时刻减 IMCCE 时刻，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "gio-giao-tiet-usno",
+          "loai": "doi-chieu-so",
+          "trang_thai": "dat",
+          "tham_chieu": "USNO",
+          "co_mau": 804,
+          "don_vi": "phut",
+          "dung_sai": 2,
+          "mae": 0.2,
+          "rmse": 0.5,
+          "trung_vi": 0,
+          "p95": 1,
+          "p99": 2,
+          "max": 2,
+          "lech": -0.1,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoGioTietKhi",
+          "mo_ta": "Giờ giao tiết của lõi tính trừ giờ USNO trên 804 mốc 1900 tới 2100, tính bằng phút; âm là lõi tính sớm.",
+          "mo_ta_en": "The engine's solar term moment minus the USNO moment over 804 moments from 1900 to 2100, in minutes; negative means the engine is early.",
+          "mo_ta_zh": "1900 至 2100 年 804 个时刻，引擎交节时刻减 USNO 时刻，单位为分钟；负值表示引擎偏早。"
+        },
+        {
+          "ma": "ngay-giao-tiet-imcce",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat",
+          "tham_chieu": "IMCCE",
+          "co_mau": 4824,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 0,
+          "test": "TestKiemCheoNgayTietKhiIMCCE",
+          "mo_ta": "Ngày giao tiết theo giờ Việt Nam của lõi tính so với ngày chứa mốc IMCCE, 4.824 mốc; 0 mốc khác ngày, mọi mốc ấy cách nửa đêm không quá 1 phút và được kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "The engine's solar term date in Vietnam time against the date containing the IMCCE moment, 4,824 moments; 0 fall on a different date, all within 1 minutes of midnight, and each is listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "按越南时间比较引擎的交节日期与 IMCCE 时刻所在日期，共 4,824 个时刻；0 个日期不同，均距午夜不超过 1 分钟，逐一列于 ngoai-le-doi-chieu.csv。"
+        },
+        {
+          "ma": "ngay-giao-tiet-usno",
+          "loai": "doi-chieu-ngay",
+          "trang_thai": "dat-co-ngoai-le",
+          "tham_chieu": "USNO",
+          "co_mau": 804,
+          "don_vi": "ngay",
+          "dung_sai": 0,
+          "so_ngoai_le": 1,
+          "test": "TestKiemDinhNgayGiaoTietUSNO",
+          "mo_ta": "Ngày giao tiết theo giờ Việt Nam của lõi tính so với ngày chứa mốc USNO, 804 mốc; 1 mốc khác ngày, mọi mốc ấy cách nửa đêm không quá 2 phút và được kê ở ngoai-le-doi-chieu.csv.",
+          "mo_ta_en": "The engine's solar term date in Vietnam time against the date containing the USNO moment, 804 moments; 1 fall on a different date, all within 2 minutes of midnight, and each is listed in ngoai-le-doi-chieu.csv.",
+          "mo_ta_zh": "按越南时间比较引擎的交节日期与 USNO 时刻所在日期，共 804 个时刻；1 个日期不同，均距午夜不超过 2 分钟，逐一列于 ngoai-le-doi-chieu.csv。"
+        }
+      ],
+      "ghi_chu": "Mốc là lúc kinh độ biểu kiến của Mặt Trời chạm đúng bội số của 15 độ, giải bằng phép lặp Newton, làm tròn tới phút theo giờ Việt Nam (mốc trong nửa phút cuối của một ngày ghi 23:59 của ngày ấy). Đo 19/11/2026 trên 4.824 mốc 1900 tới 2100 so với IMCCE: lệch tuyệt đối trung bình 0,3 phút, sớm nhất 0,9 phút, muộn nhất 0,6 phút, mọi ngày giao tiết khớp. Bản trước (mô hình v2, tới 19/11/2026) sớm trung bình 3,2 phút, sớm nhất 14 phút.",
+      "ghi_chu_en": "A moment is when the Sun's apparent longitude reaches an exact multiple of 15 degrees, solved by Newton iteration and rounded to the minute in Vietnam time (a moment in the last half minute of a day is written 23:59 of that day). Measured on 19 November 2026 over 4,824 moments from 1900 to 2100 against IMCCE: mean absolute deviation 0.3 minutes, at most 0.9 minutes early and 0.6 minutes late, every solar term date matching. The previous version (model v2, until 19 November 2026) was 3.2 minutes early on average and up to 14 minutes early.",
+      "ghi_chu_zh": "交节时刻指太阳视黄经正好到达 15 度整数倍的瞬间，以牛顿迭代求得，按越南时间取整到分钟（落在一天最后半分钟内的时刻记为当日 23:59）。2026 年 11 月 19 日以 4,824 个时刻（1900 至 2100 年）与 IMCCE 比对：平均绝对偏差 0.3 分钟，最多偏早 0.9 分钟、偏晚 0.6 分钟，交节日期全部一致。上一版（模型 v2，至 2026 年 11 月 19 日）平均偏早 3.2 分钟，最多偏早 14 分钟。"
+    }
+  ],
+  "bo": [
+    {
+      "slug": "10-thien-can",
+      "phien_ban": "1.1.2",
+      "so_dong": 10,
+      "so_cot": 8,
+      "bam_khuon": "6c726102539a14d01ad35ab250553ef5e723260917de5f6d9d7ee5b07590559e",
+      "tep": [
+        {
+          "ten": "10-thien-can.csv",
+          "sha256": "b2bd2bab1e74bc6ff54d19ff6fd25ddbdc693947b8019887977426592e824233",
+          "kich_thuoc": 549
+        },
+        {
+          "ten": "10-thien-can.json",
+          "sha256": "8be15dd6cacc78c81a020e087a518b9b9bdd42084aeac8877386988fa258cafa",
+          "kich_thuoc": 1954
+        },
+        {
+          "ten": "10-thien-can.meta.json",
+          "sha256": "2e39ecc0abf5011a706d8789b86df6b142d6ddcb0d197152dfdf425d47e3d2c8",
+          "kich_thuoc": 16438
+        }
+      ]
+    },
+    {
+      "slug": "12-con-giap-hop-khac",
+      "phien_ban": "1.2.1",
+      "so_dong": 144,
+      "so_cot": 8,
+      "bam_khuon": "57b787d267916c6560a57fc55b261ef2c31f9472143ffb26c8d2699c5e6e8d86",
+      "tep": [
+        {
+          "ten": "12-con-giap-hop-khac.csv",
+          "sha256": "764ef9a785235ba1040537652b893a2ea3dcf1a2b8b9bb864d4ca72320630f1c",
+          "kich_thuoc": 19223
+        },
+        {
+          "ten": "12-con-giap-hop-khac.json",
+          "sha256": "38ef35fb63fefc610cef39df0b404aa693c535489248970d2eb3a3dcb03dc486",
+          "kich_thuoc": 40047
+        },
+        {
+          "ten": "12-con-giap-hop-khac.meta.json",
+          "sha256": "c900f37629191aa54352718d30927c0ad9daba15c530fa6b07c081a9b239e31e",
+          "kich_thuoc": 20232
+        }
+      ]
+    },
+    {
+      "slug": "12-dia-chi",
+      "phien_ban": "1.1.2",
+      "so_dong": 12,
+      "so_cot": 9,
+      "bam_khuon": "a1cb39bcc7a2a82f26d96fa78543702afde33747e7f0d2b72d1896e13da39fd0",
+      "tep": [
+        {
+          "ten": "12-dia-chi.csv",
+          "sha256": "ab5435e4fa841633406b33972a250a9e604e04bd0893225e02ccdeeea4911b2c",
+          "kich_thuoc": 836
+        },
+        {
+          "ten": "12-dia-chi.json",
+          "sha256": "f53d117b8517246b857b174cf2ad7f6991c122cc1dd748f680f796c6e7ab2ac4",
+          "kich_thuoc": 2761
+        },
+        {
+          "ten": "12-dia-chi.meta.json",
+          "sha256": "0f965b78546f32d0b01bd86201925705fb336f20560bdca74a02c3b24b12bb9d",
+          "kich_thuoc": 18042
+        }
+      ]
+    },
+    {
+      "slug": "12-truc",
+      "phien_ban": "1.2.1",
+      "so_dong": 12,
+      "so_cot": 9,
+      "bam_khuon": "c76001d0b5ada92ce54ee1aaf85acd557e7c5aa27c5cb5397ab5c31f95122862",
+      "tep": [
+        {
+          "ten": "12-truc.csv",
+          "sha256": "114cbec4117d1c2047a4069ca31b38b6f70887cd618cbf1b544b21e77157f8ba",
+          "kich_thuoc": 4739
+        },
+        {
+          "ten": "12-truc.json",
+          "sha256": "0fbf3572db9a6a5e5b759aff5deff59a02c5ebee3ffe11815f7482f97bf81fb6",
+          "kich_thuoc": 6481
+        },
+        {
+          "ten": "12-truc.meta.json",
+          "sha256": "c950f38b211af9a9e710bd281acf200a172ed7e61cb85fc322032ca5ac71896f",
+          "kich_thuoc": 18300
+        }
+      ]
+    },
+    {
+      "slug": "22-an-chinh-tarot",
+      "phien_ban": "1.1.2",
+      "so_dong": 22,
+      "so_cot": 10,
+      "bam_khuon": "1f879925be9cf8e2869a10ae74e58dd2f861d943333e8efce818dda0c3559968",
+      "tep": [
+        {
+          "ten": "22-an-chinh-tarot.csv",
+          "sha256": "b6cbb54992c154809b47894b3fd964af0934dcba1bb2ae950bd323e529d34f6c",
+          "kich_thuoc": 7498
+        },
+        {
+          "ten": "22-an-chinh-tarot.json",
+          "sha256": "41fa542f89d386e6a1597d70a44b3e37ba98345fdef1d06da45196c388b53859",
+          "kich_thuoc": 11450
+        },
+        {
+          "ten": "22-an-chinh-tarot.meta.json",
+          "sha256": "d8bee679dfae8b0fdb3cf41759f127c49df37a7618bbc9a5860810ff61fec402",
+          "kich_thuoc": 18136
+        }
+      ]
+    },
+    {
+      "slug": "24-tiet-khi",
+      "phien_ban": "1.2.0",
+      "so_dong": 384,
+      "so_cot": 10,
+      "bam_khuon": "b6c6891fe4a2ddee0e57ef195f1675fd1a638e574d407f1e06c1acb9cd25a2aa",
+      "mo_hinh": [
+        "tiet-khi-vsop87d-bieu-kien-v3"
+      ],
+      "tep": [
+        {
+          "ten": "24-tiet-khi.csv",
+          "sha256": "4cbd4d6e4d296ac63c142c0e422d77d05ed8ec0d4950fec229e0ba6a99aa9b4e",
+          "kich_thuoc": 51453
+        },
+        {
+          "ten": "24-tiet-khi.json",
+          "sha256": "612c6b42a525af6894aca772f68a872ef36cfe6bc9257af0960ee0ed6b7cd3c1",
+          "kich_thuoc": 122163
+        },
+        {
+          "ten": "24-tiet-khi.meta.json",
+          "sha256": "9a1a56beb84f01e3e9dd5946cb2b34d0cb9424eda0f5081b1f85d420749ed6b3",
+          "kich_thuoc": 30305
+        }
+      ]
+    },
+    {
+      "slug": "56-an-phu-tarot",
+      "phien_ban": "1.1.2",
+      "so_dong": 56,
+      "so_cot": 10,
+      "bam_khuon": "fbb9394fbfc195451224a6c4bb5ae8b04a4540c1445a2d741579a79f1067f3ef",
+      "tep": [
+        {
+          "ten": "56-an-phu-tarot.csv",
+          "sha256": "1d87143dc69901170d4a2c12d8dd10f0c66463145ef36f146cad6ed7089d4535",
+          "kich_thuoc": 20616
+        },
+        {
+          "ten": "56-an-phu-tarot.json",
+          "sha256": "e7adee92b285074f7db0e2b84dfeab56098d8adf4d31cf4ee65d91b071b8d07a",
+          "kich_thuoc": 30146
+        },
+        {
+          "ten": "56-an-phu-tarot.meta.json",
+          "sha256": "3ad4a69dbc513010627e1f215232c056a6c90d3ac2b4f98e1a9dd6e3491d4ea1",
+          "kich_thuoc": 19500
+        }
+      ]
+    },
+    {
+      "slug": "60-hoa-giap",
+      "phien_ban": "1.1.2",
+      "so_dong": 60,
+      "so_cot": 11,
+      "bam_khuon": "ad809453427ba8fa0f3180f01980d678e3dd16781d2ab57c3e9ad178ba60a5e9",
+      "tep": [
+        {
+          "ten": "60-hoa-giap.csv",
+          "sha256": "2551a94bcbab557e461a9c3cd4e46a2a663f9b03851752c1305dc6ec5ee4011d",
+          "kich_thuoc": 6203
+        },
+        {
+          "ten": "60-hoa-giap.json",
+          "sha256": "86dfec4658a7b4b3221402c2363f5775df93bc3c04c74eb5d3107a9bb5fea5e0",
+          "kich_thuoc": 18242
+        },
+        {
+          "ten": "60-hoa-giap.meta.json",
+          "sha256": "c3f530b2042dd55fb7478dfd2349be16c72e98161376f74598afb35ac42852f2",
+          "kich_thuoc": 18649
+        }
+      ]
+    },
+    {
+      "slug": "64-que-kinh-dich",
+      "phien_ban": "1.1.2",
+      "so_dong": 64,
+      "so_cot": 11,
+      "bam_khuon": "bb49f8d72b419852918d397b3b6211b8f7600bf69cc9c932532ea038dfc29a71",
+      "tep": [
+        {
+          "ten": "64-que-kinh-dich.csv",
+          "sha256": "d6e0cf6017d6101b09d5e661b07c70d68a9b525b60ab55f9588f4852f5f549a4",
+          "kich_thuoc": 24202
+        },
+        {
+          "ten": "64-que-kinh-dich.json",
+          "sha256": "1e8e8d245eaeda4c2ed4d428f1be0da51cf40482e0f3c4e072bd8c5e6cf45f5e",
+          "kich_thuoc": 35722
+        },
+        {
+          "ten": "64-que-kinh-dich.meta.json",
+          "sha256": "5ed56e852e8cbcf08d4255477cad68de35bccb8dc3a0b663dc1c56e42541b611",
+          "kich_thuoc": 19672
+        }
+      ]
+    },
+    {
+      "slug": "9-sao-chieu-menh",
+      "phien_ban": "1.2.1",
+      "so_dong": 9,
+      "so_cot": 8,
+      "bam_khuon": "86420f19efc157fbb03e57e4ae04d1fa0781ca2d55c2e83e8e9c1d1cf290a191",
+      "tep": [
+        {
+          "ten": "9-sao-chieu-menh.csv",
+          "sha256": "0961ba48ce2236ddf493c63b6066dd747498227c70849ab1c508793ce9deaad2",
+          "kich_thuoc": 3524
+        },
+        {
+          "ten": "9-sao-chieu-menh.json",
+          "sha256": "6856e2a294132fc63a82bb80b27e9b5b562674c22d60e44a72bc8a00f2f0a2cd",
+          "kich_thuoc": 4845
+        },
+        {
+          "ten": "9-sao-chieu-menh.meta.json",
+          "sha256": "798e74f83d12235837e17a430f6ac5c109fbac0f63de5cc503529317c82be04f",
+          "kich_thuoc": 17810
+        }
+      ]
+    },
+    {
+      "slug": "bien-cung-hoang-dao-1950-2050",
+      "phien_ban": "1.2.0",
+      "so_dong": 1212,
+      "so_cot": 11,
+      "bam_khuon": "b5cdb112e1ff505b063fb5402040d5fa1ac2b501808b17e4664f8d60cfadfefd",
+      "mo_hinh": [
+        "tiet-khi-vsop87d-bieu-kien-v3"
+      ],
+      "tep": [
+        {
+          "ten": "bien-cung-hoang-dao-1950-2050.csv",
+          "sha256": "c977309072049a8916727d09cecc523df31831dbd8718d0f70adf14397374677",
+          "kich_thuoc": 89826
+        },
+        {
+          "ten": "bien-cung-hoang-dao-1950-2050.json",
+          "sha256": "392d258359d92ec08242a11f38b3eee9182a380c727f32be6d0cf484dd110b1a",
+          "kich_thuoc": 329719
+        },
+        {
+          "ten": "bien-cung-hoang-dao-1950-2050.meta.json",
+          "sha256": "20fc0f2f002f49011b4818aa051291d20decca297eec1faa7dc89988bc3e71f2",
+          "kich_thuoc": 33002
+        }
+      ]
+    },
+    {
+      "slug": "cau-hoi-danh-gia-tim-kiem",
+      "phien_ban": "1.2.1",
+      "so_dong": 1194,
+      "so_cot": 9,
+      "bam_khuon": "c12b03ab3c515b8d793ef815606cb0f856c1ca47024a8464bbe086c4e3bd6407",
+      "tep": [
+        {
+          "ten": "cau-hoi-danh-gia-tim-kiem.csv",
+          "sha256": "e9eea928295fae355e6132cb308ad6877305973c82c8b6fab6ff24bb8b1370ce",
+          "kich_thuoc": 235693
+        },
+        {
+          "ten": "cau-hoi-danh-gia-tim-kiem.json",
+          "sha256": "6d56fe9845815f9e6aa5b998985c170b0c9f9c443d901fe8eae006a863500cdd",
+          "kich_thuoc": 423643
+        },
+        {
+          "ten": "cau-hoi-danh-gia-tim-kiem.meta.json",
+          "sha256": "ed1143d6e81679520ebfe7a8778c9280fa2eb185d53c51950324359fe7616935",
+          "kich_thuoc": 20896
+        }
+      ]
+    },
+    {
+      "slug": "chu-sang-so-than-so-hoc",
+      "phien_ban": "1.1.3",
+      "so_dong": 33,
+      "so_cot": 7,
+      "bam_khuon": "45d7af1239604b399dedd6db7d47bad4b1b98b837e6594e2b90604f6c26c7ca3",
+      "tep": [
+        {
+          "ten": "chu-sang-so-than-so-hoc.csv",
+          "sha256": "a2687e63b178b930f93165bcc8067d94f74b1621827661a3dc3d60d8b7bbdf5d",
+          "kich_thuoc": 3829
+        },
+        {
+          "ten": "chu-sang-so-than-so-hoc.json",
+          "sha256": "8ef2c9e11140598975dc49b4a3b586e09fdb31aa7bc4616f0dbe049f70a25d1d",
+          "kich_thuoc": 8026
+        },
+        {
+          "ten": "chu-sang-so-than-so-hoc.meta.json",
+          "sha256": "9ee261b1a8f5be3fadd28e61e9ccf81904d809a4f9a02ea287b8524b3e5887f5",
+          "kich_thuoc": 20103
+        }
+      ]
+    },
+    {
+      "slug": "cung-phi-bat-trach",
+      "phien_ban": "1.2.3",
+      "so_dong": 400,
+      "so_cot": 10,
+      "bam_khuon": "81a2fd72acef43aecc884dd143a4e0bc09beede0b24c3de360cf6f13566cdeaf",
+      "tep": [
+        {
+          "ten": "cung-phi-bat-trach.csv",
+          "sha256": "b865098afb063404f9c801702ab2cacdfaf3f7f0897f393fd7a10c87aa5856d0",
+          "kich_thuoc": 108615
+        },
+        {
+          "ten": "cung-phi-bat-trach.json",
+          "sha256": "2c31a7c46ea9e57a7221220188cac21d43af6eafefb96f16f19e24b01d3e2204",
+          "kich_thuoc": 185334
+        },
+        {
+          "ten": "cung-phi-bat-trach.meta.json",
+          "sha256": "98754355691c961bc81ad64983f86cd1e7c3a12188fc24cbe03de243231b6a96",
+          "kich_thuoc": 19266
+        }
+      ]
+    },
+    {
+      "slug": "diem-bat-dong-giua-cac-phai",
+      "phien_ban": "1.5.0",
+      "so_dong": 27,
+      "so_cot": 24,
+      "bam_khuon": "db05f969c953734dc3a905c2e9b984758cff1016c53bf1c94bb76b911160234a",
+      "tep": [
+        {
+          "ten": "diem-bat-dong-giua-cac-phai.csv",
+          "sha256": "5dce7a9d81bd0e246e4c2821e2e6402a726cd287eeb6efa42b9e6ef3617acb95",
+          "kich_thuoc": 39738
+        },
+        {
+          "ten": "diem-bat-dong-giua-cac-phai.json",
+          "sha256": "fee3bd2ae745c33091338e48ba192739ca485190e3e7aadab0c4a0292d480e48",
+          "kich_thuoc": 53109
+        },
+        {
+          "ten": "diem-bat-dong-giua-cac-phai.meta.json",
+          "sha256": "ca3a05db2e89e6f377c84372446e47d5e706a4a1f4cf8a2a58324b10dd985401",
+          "kich_thuoc": 27982
+        }
+      ]
+    },
+    {
+      "slug": "gio-hoang-dao-60-ngay",
+      "phien_ban": "1.1.2",
+      "so_dong": 720,
+      "so_cot": 8,
+      "bam_khuon": "9224d1cf823be322585ca5204d5c70b5a1c44ba15c33d6098a0eafe0ff76abb5",
+      "tep": [
+        {
+          "ten": "gio-hoang-dao-60-ngay.csv",
+          "sha256": "baaea2be7cb150e4613cc0b01dc26d46b093c8ca69d565d1d09af190173f0ef3",
+          "kich_thuoc": 60547
+        },
+        {
+          "ten": "gio-hoang-dao-60-ngay.json",
+          "sha256": "234809348687f191ee37abded17921d1a864170625695d05b1de662147975fd5",
+          "kich_thuoc": 172083
+        },
+        {
+          "ten": "gio-hoang-dao-60-ngay.meta.json",
+          "sha256": "3cdfefd3111cc672b46a5c9c5d8cae9212afe108fcec184cfc3829ca627fe8dc",
+          "kich_thuoc": 18998
+        }
+      ]
+    },
+    {
+      "slug": "hoa-giap-ghep-cheo",
+      "phien_ban": "1.1.3",
+      "so_dong": 3600,
+      "so_cot": 12,
+      "bam_khuon": "cf03d059dfa165b3d09386c96dc77131ed91e609e0f039d094215eea7a5dc957",
+      "tep": [
+        {
+          "ten": "hoa-giap-ghep-cheo.csv",
+          "sha256": "994a6a9420ef5b0e4ae3d288d28f1007a3779296cf639d85bc6a76f03600825b",
+          "kich_thuoc": 512633
+        },
+        {
+          "ten": "hoa-giap-ghep-cheo.json",
+          "sha256": "6b7e5de3531d789c28ebd08ed5722f1fa1b05c68e8ffe955cfc7af6121180d16",
+          "kich_thuoc": 1380123
+        },
+        {
+          "ten": "hoa-giap-ghep-cheo.meta.json",
+          "sha256": "a9b231eb23ccc22c95131f382c9a704f088ede4d34a04118fdeb573973f0a0ef",
+          "kich_thuoc": 21130
+        }
+      ]
+    },
+    {
+      "slug": "hoi-dap-le-cung",
+      "phien_ban": "1.0.3",
+      "so_dong": 158,
+      "so_cot": 16,
+      "bam_khuon": "2d5cb93f9023e1a54aa71eaac1687c02d9b38c464121f9bda8ff04c21ca787cd",
+      "tep": [
+        {
+          "ten": "hoi-dap-le-cung.csv",
+          "sha256": "7478442702d1f6774ff00f6717934e680685c4462fc1f311eeda5c96bd8ab98a",
+          "kich_thuoc": 223319
+        },
+        {
+          "ten": "hoi-dap-le-cung.json",
+          "sha256": "9bf85b191e7a4a9c2d8ae50c75c0bb132263d4ca9f9bf185cf78ed8aad7c9272",
+          "kich_thuoc": 269591
+        },
+        {
+          "ten": "hoi-dap-le-cung.meta.json",
+          "sha256": "4b28354aeede7c1b4ecb3bebb3868abe0e052449c1a9f0a31accde3ff0be4d32",
+          "kich_thuoc": 28698
+        }
+      ]
+    },
+    {
+      "slug": "kieng-ky-luu-y-le-cung",
+      "phien_ban": "1.0.3",
+      "so_dong": 132,
+      "so_cot": 22,
+      "bam_khuon": "7c2a70b3207f09c143351cf40722e62d6507b4cca4c54fa30635c9b09be242f4",
+      "tep": [
+        {
+          "ten": "kieng-ky-luu-y-le-cung.csv",
+          "sha256": "ea76eb14d194dddc34866ba6a322f98029451704dece5d4a2e07cfa152f8b5df",
+          "kich_thuoc": 101988
+        },
+        {
+          "ten": "kieng-ky-luu-y-le-cung.json",
+          "sha256": "7ba31a0587d9917fee5a839c84a6b3716f031a8cc3ab2e4c726c6eb45a2638e4",
+          "kich_thuoc": 155534
+        },
+        {
+          "ten": "kieng-ky-luu-y-le-cung.meta.json",
+          "sha256": "8a7488a31ef4f4d176b1f66a33a8e52d4cfbc7b06c5b6976d4af8c949e300f3f",
+          "kich_thuoc": 38329
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-quy-doi-ngay-duong",
+      "phien_ban": "1.5.0",
+      "so_dong": 820,
+      "so_cot": 14,
+      "bam_khuon": "907a838d9356e8e203bbcddd279cbab1075476427ba0b1142928e341712bbb97",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1"
+      ],
+      "tep": [
+        {
+          "ten": "le-hoi-quy-doi-ngay-duong.csv",
+          "sha256": "80c4b5d9f7da93d0f6fd3f7a9b966107bc12e7ee202604dccb2352990b6b242e",
+          "kich_thuoc": 164684
+        },
+        {
+          "ten": "le-hoi-quy-doi-ngay-duong.json",
+          "sha256": "7d062909dd69e1a42700fa68724c18c90856eb0f89119e0360c59f7dc3485184",
+          "kich_thuoc": 371832
+        },
+        {
+          "ten": "le-hoi-quy-doi-ngay-duong.meta.json",
+          "sha256": "1a442fda65b2e255b495d0b2ca796cbb5109b3d358571fddbf59e8a392622cea",
+          "kich_thuoc": 29036
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-tin-nguong-theo-dan-toc",
+      "phien_ban": "1.1.2",
+      "so_dong": 187,
+      "so_cot": 13,
+      "bam_khuon": "93f6a8f40a37871149b8694bdab9f8e8cde7aea1de716844e44ce55fcb3704e2",
+      "tep": [
+        {
+          "ten": "le-hoi-tin-nguong-theo-dan-toc.csv",
+          "sha256": "1f36c9629121089d96b4e858bc3c7b53dd8e9ead5987016ecfcc79952c51457d",
+          "kich_thuoc": 106475
+        },
+        {
+          "ten": "le-hoi-tin-nguong-theo-dan-toc.json",
+          "sha256": "c7a3692928601b79df8f27c5422882a3927e2620a169dd904bbce4291b5a0fc4",
+          "kich_thuoc": 152266
+        },
+        {
+          "ten": "le-hoi-tin-nguong-theo-dan-toc.meta.json",
+          "sha256": "c0f4d578d20e91484d511d44f8e89fe4422e2b6952ff447df6d856345ca7b385",
+          "kich_thuoc": 21808
+        }
+      ]
+    },
+    {
+      "slug": "le-hoi-viet-nam",
+      "phien_ban": "1.7.0",
+      "so_dong": 206,
+      "so_cot": 33,
+      "bam_khuon": "daa078ae0b0ca2044335bb39da4ec1effaf853de3300718ebdd94d3194201ac0",
+      "tep": [
+        {
+          "ten": "le-hoi-viet-nam.csv",
+          "sha256": "892573575de856b76dd2ccd70d7de2c174390fc430d21dfe7a4b6061941bb208",
+          "kich_thuoc": 237586
+        },
+        {
+          "ten": "le-hoi-viet-nam.json",
+          "sha256": "165fb09f4652ecebb399ed53a0adc082a7caf0dfdf7c79c2de7f9e15206d6072",
+          "kich_thuoc": 372827
+        },
+        {
+          "ten": "le-hoi-viet-nam.meta.json",
+          "sha256": "519d5e5e33be70e7e416e6e7be281ab21b003e9b75ba2861f5cf1ff7937f467a",
+          "kich_thuoc": 36240
+        }
+      ]
+    },
+    {
+      "slug": "le-vat-cung-viet-nam",
+      "phien_ban": "1.0.2",
+      "so_dong": 232,
+      "so_cot": 16,
+      "bam_khuon": "3adc9403a1005b0431344a84077e7becd9c62caa39c521edba7dd7f870288b69",
+      "tep": [
+        {
+          "ten": "le-vat-cung-viet-nam.csv",
+          "sha256": "7695d3db3e3714f97feb012bd418d1bde431535f470f3c79118d92296464b060",
+          "kich_thuoc": 53618
+        },
+        {
+          "ten": "le-vat-cung-viet-nam.json",
+          "sha256": "3e6956c8066849e156d6189ca1680722b84ebb844ba0c960c70e057519975f54",
+          "kich_thuoc": 123399
+        },
+        {
+          "ten": "le-vat-cung-viet-nam.meta.json",
+          "sha256": "452ce66face7e533b136b44462065cafa55575ce8ffda59c4b8cf1f87faf1472",
+          "kich_thuoc": 28488
+        }
+      ]
+    },
+    {
+      "slug": "lich-am-duong-1900-2100",
+      "phien_ban": "1.3.0",
+      "so_dong": 73414,
+      "so_cot": 16,
+      "bam_khuon": "380445a36b30bb7d471b92cc69a54d2c72265c73d7b74d24b66fd7f7cfccea61",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1",
+        "tiet-khi-vsop87d-bieu-kien-v3"
+      ],
+      "tep": [
+        {
+          "ten": "lich-am-duong-1900-2100.csv",
+          "sha256": "de0b73bd69bd2230df0bf7e8cfe36d6945203cbf56486be156c353e4b19e996a",
+          "kich_thuoc": 9124429
+        },
+        {
+          "ten": "lich-am-duong-1900-2100.json",
+          "sha256": "3179e9ad09490c7d0ea396d5f5a900a031560ddbb2d28395f7a012ccc94e5f51",
+          "kich_thuoc": 34158433
+        },
+        {
+          "ten": "lich-am-duong-1900-2100.meta.json",
+          "sha256": "4cf73a55d401b774743c4088b970f3fcd13aa1c1f022968cee0c6040503d47ff",
+          "kich_thuoc": 43192
+        },
+        {
+          "ten": "lich-am-duong-1900-2100.parquet",
+          "sha256": "db5ff9be813b3d390525d6d763bb9aaed456d40c56dfe3e698d14d219c963593",
+          "kich_thuoc": 158849
+        }
+      ]
+    },
+    {
+      "slug": "loai-le-cung-viet-nam",
+      "phien_ban": "1.6.1",
+      "so_dong": 155,
+      "so_cot": 50,
+      "bam_khuon": "3c565b5e051cc4a6c7b0ae21e15f56370ba69618c9c72fed2385715c0c631584",
+      "tep": [
+        {
+          "ten": "loai-le-cung-viet-nam.csv",
+          "sha256": "5bd78203b5a12dfa07cce26c126d7efe8bf2d0bec450619f0f6c5480d266a291",
+          "kich_thuoc": 440640
+        },
+        {
+          "ten": "loai-le-cung-viet-nam.json",
+          "sha256": "c139e5f3afb9b6895715d41048962c90d7acc9a55900cbde44919082b456ea99",
+          "kich_thuoc": 604179
+        },
+        {
+          "ten": "loai-le-cung-viet-nam.meta.json",
+          "sha256": "244af951d146b66467e0e4bd9cd24a4c3b1b27f1292830a5265cb8826e852e9b",
+          "kich_thuoc": 71093
+        }
+      ]
+    },
+    {
+      "slug": "moc-tiet-khi-1900-2100",
+      "phien_ban": "1.3.0",
+      "so_dong": 4824,
+      "so_cot": 15,
+      "bam_khuon": "63ca4e102d40cea0dee14f708f130e451633fb4da29f53b6f17bd61c83589dc1",
+      "mo_hinh": [
+        "tiet-khi-vsop87d-bieu-kien-v3"
+      ],
+      "tep": [
+        {
+          "ten": "moc-tiet-khi-1900-2100.csv",
+          "sha256": "d313534a19a25a2180f989aed4ea1029c8319a7281f21f8173334cce6219d810",
+          "kich_thuoc": 465672
+        },
+        {
+          "ten": "moc-tiet-khi-1900-2100.json",
+          "sha256": "e24deb6d8a43cce47a2e061be4b5ba134f26344f25cb338cfead33ec7c99e4cb",
+          "kich_thuoc": 1912703
+        },
+        {
+          "ten": "moc-tiet-khi-1900-2100.meta.json",
+          "sha256": "9fb48f3fe2ca0761d78c59f5226dd8b9e80a952c665069cffba3b593cda3d549",
+          "kich_thuoc": 38580
+        }
+      ]
+    },
+    {
+      "slug": "ngay-ky-dan-gian-2026-2035",
+      "phien_ban": "1.1.2",
+      "so_dong": 3652,
+      "so_cot": 15,
+      "bam_khuon": "0f6e6b029e5280c87479a1842ace82dad96f7c3c797982c9135f6dac63ca32f5",
+      "mo_hinh": [
+        "lich-am-ho-ngoc-duc-utc7-v1"
+      ],
+      "tep": [
+        {
+          "ten": "ngay-ky-dan-gian-2026-2035.csv",
+          "sha256": "984223d95490f0b0eea99ba9a2f04dc27ed3bb4f96982159b5a85d04ae2e40c9",
+          "kich_thuoc": 422486
+        },
+        {
+          "ten": "ngay-ky-dan-gian-2026-2035.json",
+          "sha256": "ae663b12483bae1085b4c6229bd9fc37635ecb00d43866a9a505b59c1fa19d9e",
+          "kich_thuoc": 1550806
+        },
+        {
+          "ten": "ngay-ky-dan-gian-2026-2035.meta.json",
+          "sha256": "fad17e376a96666e587b92413023b668ce22b57536e7ed39482eec5e0841d653",
+          "kich_thuoc": 30653
+        }
+      ]
+    },
+    {
+      "slug": "nghi-thuc-cung-viet-nam",
+      "phien_ban": "1.6.1",
+      "so_dong": 407,
+      "so_cot": 58,
+      "bam_khuon": "a6e4f7459bb553f6e42b755efd8e30235d2d63075eca6bdaabf360a6014c08ea",
+      "tep": [
+        {
+          "ten": "nghi-thuc-cung-viet-nam.csv",
+          "sha256": "7744762b28393c6f6c0ee12f15789a69372b3b027f2559ec95ceb24e8f6be569",
+          "kich_thuoc": 1301457
+        },
+        {
+          "ten": "nghi-thuc-cung-viet-nam.json",
+          "sha256": "2178dec18a83ff68d2339204cd2d7cfbbe6f9fe256901fb0ce89848d21a5f961",
+          "kich_thuoc": 1793685
+        },
+        {
+          "ten": "nghi-thuc-cung-viet-nam.meta.json",
+          "sha256": "6aefc254c02b6f54c35a00732725ec555c9d59fb31a08e2c4f0c29c1acc331eb",
+          "kich_thuoc": 81323
+        }
+      ]
+    },
+    {
+      "slug": "que-ngay-quai-khi-1900-2100",
+      "phien_ban": "1.3.0",
+      "so_dong": 73414,
+      "so_cot": 19,
+      "bam_khuon": "a06e20587f75222b75ab13b6a416ca781f512a200d3b0740587df88bb96b59ba",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1",
+        "tiet-khi-vsop87d-bieu-kien-v3"
+      ],
+      "tep": [
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.csv",
+          "sha256": "886a276d54f847ae634249e6b2ba9dcefe4031786ea5ed8c15a5f0b789403c58",
+          "kich_thuoc": 14826693
+        },
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.json",
+          "sha256": "6e58499d1205faf5230de103f83fe623343e5cf9dfbca8176998fb4418ed18e5",
+          "kich_thuoc": 44043176
+        },
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.meta.json",
+          "sha256": "6596532ace1b904f49efc2e19ba80988bfb075baf48005b78787551298102907",
+          "kich_thuoc": 54877
+        },
+        {
+          "ten": "que-ngay-quai-khi-1900-2100.parquet",
+          "sha256": "6b14320e80a247e7a2ae0ee53fa46968f8141b932b30f482e4fd5b94240dcc5d",
+          "kich_thuoc": 334287
+        }
+      ]
+    },
+    {
+      "slug": "tam-tai-kim-lau-hoang-oc",
+      "phien_ban": "1.2.1",
+      "so_dong": 2201,
+      "so_cot": 13,
+      "bam_khuon": "3c1806415167e29f2da1d55761b6a2d092caf22b564bcc58b2cec7f51a608185",
+      "tep": [
+        {
+          "ten": "tam-tai-kim-lau-hoang-oc.csv",
+          "sha256": "80241d44d8b8068b0d4fcdc4ad398163b5fda3a70f237233efd6bfe001ce46bb",
+          "kich_thuoc": 604279
+        },
+        {
+          "ten": "tam-tai-kim-lau-hoang-oc.json",
+          "sha256": "32957c70e7d79888d2afb881b0a6642c11812edbcbb0ca301be7059c00137cf5",
+          "kich_thuoc": 1207218
+        },
+        {
+          "ten": "tam-tai-kim-lau-hoang-oc.meta.json",
+          "sha256": "e5c95f730ffa459e7e6e0575c27d420e0b43b2c15bff430e246f5b683e6271f9",
+          "kich_thuoc": 21581
+        }
+      ]
+    },
+    {
+      "slug": "thu-tu-60-que-quai-khi",
+      "phien_ban": "1.4.0",
+      "so_dong": 60,
+      "so_cot": 19,
+      "bam_khuon": "654aa1738eb945305f28970032030b9d0d6b9dd83f50f9b0b78adb918c6b8f6e",
+      "mo_hinh": [
+        "quai-khi-manh-hy-6-ngay-7-phan-v1"
+      ],
+      "tep": [
+        {
+          "ten": "thu-tu-60-que-quai-khi.csv",
+          "sha256": "8eef1c25a1ee47cece9282cd44cbb359fcd6002bb25f906ac3f753367eee692b",
+          "kich_thuoc": 27437
+        },
+        {
+          "ten": "thu-tu-60-que-quai-khi.json",
+          "sha256": "3e8662be6ccde3db046619f5e76737b9d0d70cde678d61eb33628d211316b014",
+          "kich_thuoc": 50817
+        },
+        {
+          "ten": "thu-tu-60-que-quai-khi.meta.json",
+          "sha256": "11f089a8c8846b6bb87b3257d6d3d1ef7da4a8f29062700837d150e38d0ed982",
+          "kich_thuoc": 39325
+        }
+      ]
+    },
+    {
+      "slug": "thuoc-lo-ban",
+      "phien_ban": "1.2.1",
+      "so_dong": 26,
+      "so_cot": 15,
+      "bam_khuon": "e4924f5001a286bf249d450037d55c8dcb57896bbb953763b2ec1e87c35af0e3",
+      "tep": [
+        {
+          "ten": "thuoc-lo-ban.csv",
+          "sha256": "d1f0e358950cf734d84297291702df3a47defcb8f6d4dc6613620779d28eae56",
+          "kich_thuoc": 10122
+        },
+        {
+          "ten": "thuoc-lo-ban.json",
+          "sha256": "3da7007d369a1fb4714390bf87c3a2c6dc75f6148162aaab7f799a5ef10a06d2",
+          "kich_thuoc": 17025
+        },
+        {
+          "ten": "thuoc-lo-ban.meta.json",
+          "sha256": "6d18056efc27d9601cbff7cdfe6274c635d34a323c13911a2023e047dfc8c0a5",
+          "kich_thuoc": 20425
+        }
+      ]
+    },
+    {
+      "slug": "van-cung-viet-nam",
+      "phien_ban": "1.5.1",
+      "so_dong": 456,
+      "so_cot": 44,
+      "bam_khuon": "331c591eb11c960d59911684b1672c7df442e0489e9d6f857e016ad7cf888357",
+      "tep": [
+        {
+          "ten": "van-cung-viet-nam.csv",
+          "sha256": "8dfd5ef12ad9f2228d9efebd29b54972e06a048918f148928c6d56e7e16a51dd",
+          "kich_thuoc": 1910414
+        },
+        {
+          "ten": "van-cung-viet-nam.json",
+          "sha256": "4edc8d2dbcbc24dd2283ef9343549e7eabc64a6ddb8e9c25fcc17b777d01afca",
+          "kich_thuoc": 2302888
+        },
+        {
+          "ten": "van-cung-viet-nam.meta.json",
+          "sha256": "501ef13937b9f90a8a4c815d30bf9fc1d0186566f065afad374f188b4d29a14a",
+          "kich_thuoc": 87744
+        }
+      ]
+    }
+  ],
+  "tep_kem": [
+    {
+      "ten": "changelog.json",
+      "sha256": "ebd26fe24c62e74f1f5baf0fd884dae843b410b54e3549f2c91591d6d9e14b07",
+      "kich_thuoc": 265504
+    },
+    {
+      "ten": "kiem-dinh.csv",
+      "sha256": "e3082b4b22aefaa0c8409b4265510a735c54674982e766206485cd07af91b63c",
+      "kich_thuoc": 41508
+    },
+    {
+      "ten": "ngoai-le-doi-chieu.csv",
+      "sha256": "81dc531f2e952249cdce176b889a195f8f0a0327868f538ad9ca2c901befcaea",
+      "kich_thuoc": 9328
+    },
+    {
+      "ten": "nguon-thu-tich.csv",
+      "sha256": "873d3d3087cea49fe2508d7463a7ec64a1a658a57f0f54113f153a3ceb007016",
+      "kich_thuoc": 16818
+    },
+    {
+      "ten": "oracle.csv",
+      "sha256": "d122d1a9fabe5fd30c740d0724a4a9226190656a3046675ef60efad2e567a9a3",
+      "kich_thuoc": 6358851
+    },
+    {
+      "ten": "quy-tac.json",
+      "sha256": "e597421f28541c3190b0303e3e4020b97ac70beeb8af7bcf414f60efd0511d12",
+      "kich_thuoc": 24865
+    }
+  ],
+  "phu_thuoc": {
+    "ghi_chu": "Hai loại cạnh: dung_mo_hinh và mo_hinh_bac_cau (đổi mô hình thì bộ phải tăng phiên bản), phu_thuoc_bo (bộ dùng lại nội dung của bộ khác, không kéo mô hình theo). Sinh từ khai báo trong mã.",
+    "ghi_chu_en": "Two kinds of edge: dung_mo_hinh and mo_hinh_bac_cau (a model change requires a dataset version bump), phu_thuoc_bo (a dataset reuses another dataset's content, which does not carry models along). Generated from declarations in code.",
+    "mo_hinh": [
+      {
+        "ma": "lich-am-ho-ngoc-duc-utc7-v1",
+        "phien_ban": "1.2.0",
+        "phu_thuoc": [],
+        "bo_anh_huong": [
+          "le-hoi-quy-doi-ngay-duong",
+          "lich-am-duong-1900-2100",
+          "ngay-ky-dan-gian-2026-2035"
+        ],
+        "loai_canh": "mo_hinh_bac_cau"
+      },
+      {
+        "ma": "quai-khi-manh-hy-6-ngay-7-phan-v1",
+        "phien_ban": "1.3.0",
+        "phu_thuoc": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "bo_anh_huong": [
+          "que-ngay-quai-khi-1900-2100",
+          "thu-tu-60-que-quai-khi"
+        ],
+        "loai_canh": "mo_hinh_bac_cau"
+      },
+      {
+        "ma": "tiet-khi-vsop87d-bieu-kien-v3",
+        "phien_ban": "3.0.0",
+        "phu_thuoc": [],
+        "bo_anh_huong": [
+          "24-tiet-khi",
+          "bien-cung-hoang-dao-1950-2050",
+          "lich-am-duong-1900-2100",
+          "moc-tiet-khi-1900-2100",
+          "que-ngay-quai-khi-1900-2100",
+          "thu-tu-60-que-quai-khi"
+        ],
+        "loai_canh": "mo_hinh_bac_cau"
+      }
+    ],
+    "bo": [
+      {
+        "slug": "10-thien-can",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "12-con-giap-hop-khac",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "12-dia-chi"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "12-dia-chi"
+        ]
+      },
+      {
+        "slug": "12-dia-chi",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "12-truc",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "22-an-chinh-tarot",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "24-tiet-khi",
+        "dung_mo_hinh": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "mo_hinh_bac_cau": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "56-an-phu-tarot",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "60-hoa-giap",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "10-thien-can",
+          "12-dia-chi"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "10-thien-can",
+          "12-dia-chi"
+        ]
+      },
+      {
+        "slug": "64-que-kinh-dich",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "9-sao-chieu-menh",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "bien-cung-hoang-dao-1950-2050",
+        "dung_mo_hinh": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "mo_hinh_bac_cau": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "cau-hoi-danh-gia-tim-kiem",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "chu-sang-so-than-so-hoc",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "cung-phi-bat-trach",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "diem-bat-dong-giua-cac-phai",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "12-con-giap-hop-khac",
+          "12-dia-chi",
+          "12-truc",
+          "22-an-chinh-tarot",
+          "24-tiet-khi",
+          "60-hoa-giap",
+          "64-que-kinh-dich",
+          "9-sao-chieu-menh",
+          "bien-cung-hoang-dao-1950-2050",
+          "chu-sang-so-than-so-hoc",
+          "cung-phi-bat-trach",
+          "gio-hoang-dao-60-ngay",
+          "hoa-giap-ghep-cheo",
+          "le-hoi-quy-doi-ngay-duong",
+          "le-hoi-viet-nam",
+          "lich-am-duong-1900-2100",
+          "moc-tiet-khi-1900-2100",
+          "ngay-ky-dan-gian-2026-2035",
+          "que-ngay-quai-khi-1900-2100",
+          "tam-tai-kim-lau-hoang-oc",
+          "thu-tu-60-que-quai-khi",
+          "thuoc-lo-ban"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "10-thien-can",
+          "12-con-giap-hop-khac",
+          "12-dia-chi",
+          "12-truc",
+          "22-an-chinh-tarot",
+          "24-tiet-khi",
+          "60-hoa-giap",
+          "64-que-kinh-dich",
+          "9-sao-chieu-menh",
+          "bien-cung-hoang-dao-1950-2050",
+          "chu-sang-so-than-so-hoc",
+          "cung-phi-bat-trach",
+          "gio-hoang-dao-60-ngay",
+          "hoa-giap-ghep-cheo",
+          "le-hoi-quy-doi-ngay-duong",
+          "le-hoi-viet-nam",
+          "lich-am-duong-1900-2100",
+          "moc-tiet-khi-1900-2100",
+          "ngay-ky-dan-gian-2026-2035",
+          "que-ngay-quai-khi-1900-2100",
+          "tam-tai-kim-lau-hoang-oc",
+          "thu-tu-60-que-quai-khi",
+          "thuoc-lo-ban"
+        ]
+      },
+      {
+        "slug": "gio-hoang-dao-60-ngay",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "12-dia-chi"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "12-dia-chi"
+        ]
+      },
+      {
+        "slug": "hoa-giap-ghep-cheo",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "12-con-giap-hop-khac",
+          "60-hoa-giap"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "10-thien-can",
+          "12-con-giap-hop-khac",
+          "12-dia-chi",
+          "60-hoa-giap"
+        ]
+      },
+      {
+        "slug": "hoi-dap-le-cung",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "loai-le-cung-viet-nam"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "loai-le-cung-viet-nam"
+        ]
+      },
+      {
+        "slug": "kieng-ky-luu-y-le-cung",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "loai-le-cung-viet-nam",
+          "nghi-thuc-cung-viet-nam"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "le-vat-cung-viet-nam",
+          "loai-le-cung-viet-nam",
+          "nghi-thuc-cung-viet-nam"
+        ]
+      },
+      {
+        "slug": "le-hoi-quy-doi-ngay-duong",
+        "dung_mo_hinh": [
+          "lich-am-ho-ngoc-duc-utc7-v1"
+        ],
+        "mo_hinh_bac_cau": [
+          "lich-am-ho-ngoc-duc-utc7-v1"
+        ],
+        "phu_thuoc_bo": [
+          "le-hoi-viet-nam",
+          "lich-am-duong-1900-2100"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "12-truc",
+          "le-hoi-viet-nam",
+          "lich-am-duong-1900-2100",
+          "moc-tiet-khi-1900-2100"
+        ]
+      },
+      {
+        "slug": "le-hoi-tin-nguong-theo-dan-toc",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "le-hoi-viet-nam",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "le-vat-cung-viet-nam",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "lich-am-duong-1900-2100",
+        "dung_mo_hinh": [
+          "lich-am-ho-ngoc-duc-utc7-v1",
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "mo_hinh_bac_cau": [
+          "lich-am-ho-ngoc-duc-utc7-v1",
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "phu_thuoc_bo": [
+          "12-truc",
+          "moc-tiet-khi-1900-2100"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "12-truc",
+          "moc-tiet-khi-1900-2100"
+        ]
+      },
+      {
+        "slug": "loai-le-cung-viet-nam",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "moc-tiet-khi-1900-2100",
+        "dung_mo_hinh": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "mo_hinh_bac_cau": [
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "ngay-ky-dan-gian-2026-2035",
+        "dung_mo_hinh": [
+          "lich-am-ho-ngoc-duc-utc7-v1"
+        ],
+        "mo_hinh_bac_cau": [
+          "lich-am-ho-ngoc-duc-utc7-v1"
+        ],
+        "phu_thuoc_bo": [
+          "lich-am-duong-1900-2100"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "12-truc",
+          "lich-am-duong-1900-2100",
+          "moc-tiet-khi-1900-2100"
+        ]
+      },
+      {
+        "slug": "nghi-thuc-cung-viet-nam",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "le-vat-cung-viet-nam",
+          "loai-le-cung-viet-nam"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "le-vat-cung-viet-nam",
+          "loai-le-cung-viet-nam"
+        ]
+      },
+      {
+        "slug": "que-ngay-quai-khi-1900-2100",
+        "dung_mo_hinh": [
+          "quai-khi-manh-hy-6-ngay-7-phan-v1",
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "mo_hinh_bac_cau": [
+          "quai-khi-manh-hy-6-ngay-7-phan-v1",
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "phu_thuoc_bo": [
+          "64-que-kinh-dich",
+          "moc-tiet-khi-1900-2100",
+          "thu-tu-60-que-quai-khi"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "64-que-kinh-dich",
+          "moc-tiet-khi-1900-2100",
+          "thu-tu-60-que-quai-khi"
+        ]
+      },
+      {
+        "slug": "tam-tai-kim-lau-hoang-oc",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "12-dia-chi"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "12-dia-chi"
+        ]
+      },
+      {
+        "slug": "thu-tu-60-que-quai-khi",
+        "dung_mo_hinh": [
+          "quai-khi-manh-hy-6-ngay-7-phan-v1"
+        ],
+        "mo_hinh_bac_cau": [
+          "quai-khi-manh-hy-6-ngay-7-phan-v1",
+          "tiet-khi-vsop87d-bieu-kien-v3"
+        ],
+        "phu_thuoc_bo": [
+          "64-que-kinh-dich"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "64-que-kinh-dich"
+        ]
+      },
+      {
+        "slug": "thuoc-lo-ban",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [],
+        "phu_thuoc_bo_bac_cau": []
+      },
+      {
+        "slug": "van-cung-viet-nam",
+        "dung_mo_hinh": [],
+        "mo_hinh_bac_cau": [],
+        "phu_thuoc_bo": [
+          "loai-le-cung-viet-nam"
+        ],
+        "phu_thuoc_bo_bac_cau": [
+          "loai-le-cung-viet-nam"
+        ]
+      }
+    ]
+  },
+  "doi": {
+    "khai_niem": "10.5281/zenodo.23009396",
+    "url_khai_niem": "https://doi.org/10.5281/zenodo.23009396",
+    "api_phien_ban": "https://zenodo.org/api/records/23009396",
+    "cach_tim_phien_ban": "DOI khái niệm luôn trỏ bản mới nhất. Muốn trích đúng một bản: mỗi lượt phát hành được gắn tag release-\u003cma_phat_hanh\u003e và tạo GitHub Release ở kho Nhat-Nguyet/du-lieu-am-lich; Zenodo lưu Release ấy và cấp DOI phiên bản, có ở trang DOI khái niệm hay ở api_phien_ban (chuyển hướng sang bản ghi mới nhất; trường metadata.version là tên tag, links.versions kê mọi bản). Lượt phát hành sau ghi DOI của các lượt trước vào phien_ban_da_cap.",
+    "cach_tim_phien_ban_en": "The concept DOI always resolves to the latest release. To cite one exact release: every release is tagged release-\u003cma_phat_hanh\u003e and published as a GitHub Release of Nhat-Nguyet/du-lieu-am-lich; Zenodo archives that Release and mints a version DOI, listed on the concept DOI page or at api_phien_ban (redirects to the latest record; metadata.version holds the tag name, links.versions lists every version). The next release records the DOIs of earlier releases in phien_ban_da_cap.",
+    "cach_tim_phien_ban_zh": "概念 DOI 始终指向最新版本。如需引用某一确切版本：每次发布都打上 release-\u003cma_phat_hanh\u003e 标签，并在 Nhat-Nguyet/du-lieu-am-lich 仓库创建 GitHub Release；Zenodo 存档该 Release 并分配版本 DOI，可在概念 DOI 页面或 api_phien_ban（跳转至最新记录；metadata.version 为标签名，links.versions 列出所有版本）查到。下一次发布会把此前各次发布的 DOI 记入 phien_ban_da_cap。",
+    "phien_ban_da_cap": [
+      {
+        "ma_phat_hanh": "2026.10.21-9cbdce59",
+        "doi": "10.5281/zenodo.23527071",
+        "ngay": "2026-10-21"
+      },
+      {
+        "ma_phat_hanh": "2026.10.19-a7d33bc9",
+        "doi": "10.5281/zenodo.23472448",
+        "ngay": "2026-10-19"
+      },
+      {
+        "ma_phat_hanh": "2026.10.19-93f18ae5",
+        "doi": "10.5281/zenodo.23474810",
+        "ngay": "2026-10-19"
+      },
+      {
+        "ma_phat_hanh": "2026.10.17-211ee414",
+        "doi": "10.5281/zenodo.23444613",
+        "ngay": "2026-10-18"
+      },
+      {
+        "ma_phat_hanh": "2026.10.14-d08d23a5",
+        "doi": "10.5281/zenodo.23354751",
+        "ngay": "2026-10-14"
+      },
+      {
+        "ma_phat_hanh": "2026.10.13-73217aac",
+        "doi": "10.5281/zenodo.23345783",
+        "ngay": "2026-10-13"
+      },
+      {
+        "ma_phat_hanh": "2026.10.13-149df727",
+        "doi": "10.5281/zenodo.23347486",
+        "ngay": "2026-10-13"
+      },
+      {
+        "ma_phat_hanh": "2026.10.06-d7437bc3",
+        "doi": "10.5281/zenodo.23170154",
+        "ngay": "2026-10-05"
+      },
+      {
+        "ma_phat_hanh": "2026.10.04-549ccd18",
+        "doi": "10.5281/zenodo.23132891",
+        "ngay": "2026-10-04"
+      },
+      {
+        "ma_phat_hanh": "2026.10.04-01d7eec7",
+        "doi": "10.5281/zenodo.23133961",
+        "ngay": "2026-10-04"
+      },
+      {
+        "ma_phat_hanh": "2026.09.30-7cfaa47f",
+        "doi": "10.5281/zenodo.23065391",
+        "ngay": "2026-09-30"
+      },
+      {
+        "ma_phat_hanh": "2026.09.28-ce2df2b1",
+        "doi": "10.5281/zenodo.23009397",
+        "ngay": "2026-09-28"
+      },
+      {
+        "ma_phat_hanh": "2026.09.28-84cdd3ae",
+        "doi": "10.5281/zenodo.23010696",
+        "ngay": "2026-09-28"
+      },
+      {
+        "ma_phat_hanh": "2026.09.28-7ddf4e62",
+        "doi": "10.5281/zenodo.23021166",
+        "ngay": "2026-09-28"
+      }
+    ]
+  }
+}
